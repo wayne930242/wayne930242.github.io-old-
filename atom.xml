@@ -4,7 +4,7 @@
   <title><![CDATA[Wayneh and Coffee]]></title>
   <link href="http://wayneh.tw/atom.xml" rel="self"/>
   <link href="http://wayneh.tw/"/>
-  <updated>2014-08-27T11:42:11+08:00</updated>
+  <updated>2014-08-27T11:54:49+08:00</updated>
   <id>http://wayneh.tw/</id>
   <author>
     <name><![CDATA[洪偉]]></name>
@@ -78,44 +78,15 @@
 
 <h2>社群代辦事項清單：</h2>
 
-<ul>
-<li><ol>
+<ol>
 <li>找出能將社群分成團隊的方法</li>
-</ol>
-</li>
-<li><ol>
 <li>確保團隊間能夠清晰有效地溝通</li>
-</ol>
-</li>
-<li><ol>
 <li>吸引各種領域的貢獻者參與社群，並對我們的目標做出貢獻</li>
-</ol>
-</li>
-<li><ol>
-<li>確保團隊間能夠清晰有效地溝通</li>
-</ol>
-</li>
-<li><ol>
-<li>吸引各種領域的貢獻者參與社群，並對我們的目標做出貢獻</li>
-</ol>
-</li>
-<li><ol>
 <li>打造有益於大目標的環境</li>
-</ol>
-</li>
-<li><ol>
 <li>定義每個團隊的規模，並且幫助團隊成員理解那個規模</li>
-</ol>
-</li>
-<li><ol>
 <li>理解我們團隊之間合作的程度與範圍</li>
-</ol>
-</li>
-<li><ol>
 <li>鼓勵社群內的多元化與機會，訂立行為準則</li>
 </ol>
-</li>
-</ul>
 
 
 <h3>1. 找出能將社群分成團隊的方法</h3>
@@ -289,9 +260,9 @@
   
   <entry>
     <title type="html"><![CDATA[git 入門筆記]]></title>
-    <link href="http://wayneh.tw/blog/2014/08/07/git-tutorials/"/>
+    <link href="http://wayneh.tw/blog/2014/08/07/git-basic/"/>
     <updated>2014-08-07T13:31:52+08:00</updated>
-    <id>http://wayneh.tw/blog/2014/08/07/git-tutorials</id>
+    <id>http://wayneh.tw/blog/2014/08/07/git-basic</id>
     <content type="html"><![CDATA[<p><img src="http://i.imgur.com/XMtH3QZl.png" alt="git" /></p>
 
 <!-- more -->
