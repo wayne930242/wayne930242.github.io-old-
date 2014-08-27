@@ -5,14 +5,13 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Wayneh and Coffee</title>
+  <title>Git 入門筆記 - Wayneh and Coffee</title>
   <meta name="author" content="洪偉">
 
   
-  <meta name="description" content="原書資訊： 書名：《社群藝術》（第二版）
-作者：Jono Bacon
-譯者：Jedi &amp; Pluto
-出版日期：2012年12月21日 一、社群的根本原理 社群經營的核心，是互動、以及在互動中產生的歸屬，他的原理是一種特殊的經濟：社會經濟。在社會經濟中的資本是社會資本，是互動、尊敬、互信、 &hellip;">
+  <meta name="description" content="1. git repo git init
+git clone &lt;repo&gt;
+git config 2. git 結構的三個視角 2-1. 儲藏 2-2. 歷史 2-3. 遠端 3. 儲藏視角下的 git 操作 3-1. 工作區 git clean 3-2. 準備區 git add &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -21,7 +20,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://wayneh.tw">
+  <link rel="canonical" href="http://wayneh.tw/blog/2014/08/07/git-tutorials">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Wayneh and Coffee" type="application/atom+xml">
@@ -78,105 +77,12 @@
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2014/08/19/art-of-community/">Jono Bacon，《社群藝術》觀念摘要</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2014-08-19T22:16:53+08:00'><span class='date'><span class='date-month'>Aug</span> <span class='date-day'>19</span><span class='date-suffix'>th</span>, <span class='date-year'>2014</span></span> <span class='time'>10:16 pm</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><blockquote><p>原書資訊：</p>
-
-<ul>
-<li>書名：《社群藝術》（第二版）</li>
-<li>作者：Jono Bacon</li>
-<li>譯者：Jedi &amp; Pluto</li>
-<li>出版日期：2012年12月21日</li>
-</ul>
-</blockquote>
-
-<h1>一、社群的根本原理</h1>
-
-<p>社群經營的核心，是互動、以及在互動中產生的歸屬，他的原理是一種特殊的經濟：<strong>社會經濟</strong>。在社會經濟中的資本是<strong>社會資本</strong>，是互動、尊敬、互信、歸屬和共同相信的價值。其中，沒有<strong>歸屬</strong>，就沒有社群，歸屬是社群經營的一個核心目標。</p>
-
-<p>社會經濟中的程序和技術和一般經濟或許不同，但是基本原則（開放的溝通媒體、工具的易用性）沒有改變。</p>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2014/08/19/art-of-community/">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/08/11/12years/">十二年國教能教出國民數學素養嗎？</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2014-08-11T18:12:24+08:00'><span class='date'><span class='date-month'>Aug</span> <span class='date-day'>11</span><span class='date-suffix'>th</span>, <span class='date-year'>2014</span></span> <span class='time'>6:12 pm</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>【本文將刊載於<a href="http://www.lihpao.com/">台灣立報</a>】</p>
-
-<p>當十二年國教課綱草案發布以後，引起了數學學術界、教育界的<a href="http://www.math.ncku.edu.tw/petition/status.php">強烈反彈</a>。</p>
-
-<p>在我看來最有力的批評，是由「中華民國數學會」所共同提出的，其中包含丘成桐、林長壽、于靖等在內的知名數學家，我稱之為「數學的工具學科論」：他們認為十二年國教弄錯了數學教育的目的，只把數學當成是一種知識性的學科，而沒有把它當成是一種「工具學科」。</p>
-
-<p>先不論數學教育的目的是什麼，我們可以看到「只把數學當成是一種知識性的學科」的批評，初步來看，確實是能夠成立的，事實在於：語文教育（不管是英文還是國文）的必修學分數遠比數學要多；因為到了12年級，當數學已經成為「選修課」時，國文（含中國文化基本教材）、英文都依然有必修課。</p>
-
-<p>而除了數學之外，同樣被十二年國教編排為具有這樣的「彈性」的，只有自然科學與社會。</p>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2014/08/11/12years/">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/08/07/git-tutorials/">Git 入門筆記</a></h1>
+      <h1 class="entry-title">Git 入門筆記</h1>
     
     
       <p class="meta">
@@ -192,25 +98,160 @@
   </header>
 
 
-  <div class="entry-content"><p><img src="http://i.imgur.com/XMtH3QZl.png" alt="git" /></p>
+<div class="entry-content"><p><img src="http://i.imgur.com/XMtH3QZl.png" alt="git" /></p>
+
+<!-- more -->
+
+
+<h1>1. git repo</h1>
+
+<pre><code>git init
+git clone &lt;repo&gt;
+git config
+</code></pre>
+
+<h1>2. git 結構的三個視角</h1>
+
+<h2>2-1. 儲藏</h2>
+
+<h2>2-2. 歷史</h2>
+
+<h2>2-3. 遠端</h2>
+
+<h1>3. 儲藏視角下的 git 操作</h1>
+
+<h2>3-1. 工作區</h2>
+
+<pre><code>git clean
+</code></pre>
+
+<h2>3-2. 準備區</h2>
+
+<pre><code>git add
+git rm
+</code></pre>
+
+<h2>3-3. 提交 repo</h2>
+
+<pre><code>git commit
+git checkout --
+</code></pre>
+
+<h2>3-4. 查看現狀</h2>
+
+<pre><code>git status
+git log
+git diff
+</code></pre>
+
+<h1>4. 歷史視角下的 git 操作</h1>
+
+<pre><code>git branch
+</code></pre>
+
+<h2>4-1. checkout!</h2>
+
+<pre><code>git checkout
+</code></pre>
+
+<h2>4-2. 合併進來</h2>
+
+<pre><code>git merge
+</code></pre>
+
+<h2>4-3. 提交 repo 的其他方法</h2>
+
+<pre><code>git revert
+git reset
+</code></pre>
+
+<h2>4-4. 改寫歷史</h2>
+
+<pre><code>git rebase
+git commit --amend
+</code></pre>
+
+<h1>5. 遠端視角下的 git 操作</h1>
+
+<h2>5-1. 設定遠端</h2>
+
+<pre><code>git remote
+</code></pre>
+
+<h2>5-2. 接取遠端</h2>
+
+<pre><code>git fetch
+git pull
+</code></pre>
+
+<h2>5-3. 推上遠端</h2>
+
+<pre><code>git push
+</code></pre>
+
+<h1>6. 參考連結</h1>
+
+<ul>
+<li><a href="https://www.atlassian.com/git/">Atlassian git Tutorials</a></li>
+</ul>
 
 </div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2014/08/07/git-tutorials/">Read on &rarr;</a>
-    </footer>
-  
 
 
-    </article>
+  <footer>
+    <p class="meta">
+      
   
-  <div class="pagination">
+
+<span class="byline author vcard">Posted by <span class="fn">洪偉</span></span>
+
+      
+
+
+
+
+<time class='entry-date' datetime='2014-08-07T13:31:52+08:00'><span class='date'><span class='date-month'>Aug</span> <span class='date-day'>7</span><span class='date-suffix'>th</span>, <span class='date-year'>2014</span></span> <span class='time'>1:31 pm</span></time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/note/'>note</a>
+  
+</span>
+
+
+    </p>
     
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://wayneh.tw/blog/2014/08/07/git-tutorials/" data-via="wayne930242" data-counturl="http://wayneh.tw/blog/2014/08/07/git-tutorials/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
 </div>
+
+    
+    <p class="meta">
+      
+      
+        <a class="basic-alignment right" href="/blog/2014/08/11/12years/" title="Next Post: 十二年國教能教出國民數學素養嗎？">十二年國教能教出國民數學素養嗎？ &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
 <aside class="sidebar">
   
     
@@ -277,6 +318,7 @@ Included file 'asides/twitter.html' not found in _includes directory
   
 </aside>
 
+
     </div>
   </div>
   <footer role="contentinfo"><p>
@@ -291,7 +333,10 @@ Included file 'asides/twitter.html' not found in _includes directory
       var disqus_shortname = 'waynehtw';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://wayneh.tw/blog/2014/08/07/git-tutorials/';
+        var disqus_url = 'http://wayneh.tw/blog/2014/08/07/git-tutorials/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
