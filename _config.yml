@@ -2,12 +2,12 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://wayneh.tw
+title: Wayneh and Coffee
+subtitle: 偉恩與咖啡：哲學觀點
+author: 洪偉
 simple_search: https://www.google.com/search
-description:
+description: 我是洪偉 (Wayneh, WeiHung) ，這是一個哲學部落格。雖然是這樣，除了「推廣哲學」以外，我也會在這裡寫一些關於哲學應用的文章。哲學與文學、與各學科、與社會人生，甚至在實務方面的思索，都是偉恩與咖啡的主題之一。還有一些有的沒有的筆記。
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -19,7 +19,7 @@ date_format: "ordinal"
 subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
-email:
+email: wayne930242@gmail.com
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -51,7 +51,7 @@ titlecase: true       # Converts page and post titles to titlecase
 
 # list each of the sidebar modules you want to include, in the order you want them to appear.
 # To add custom asides, create files in /source/_includes/custom/asides/ and add them to the list like 'custom/asides/custom_aside_name.html'
-default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.html, asides/pinboard.html, asides/googleplus.html]
+default_asides: [asides/googleplus.html, asides/recent_posts.html, asides/github.html, asides/delicious.html, asides/pinboard.html, asides/twitter.html]
 
 # Each layout uses the default asides, but they can have their own asides instead. Simply uncomment the lines below
 # and add an array with the asides you want to use.
@@ -64,22 +64,22 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # ----------------------- #
 
 # Github repositories
-github_user:
+github_user: wayne930242
 github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:
+twitter_user: wayne930242
 twitter_tweet_button: true
 
 # Google +1
-google_plus_one: false
+google_plus_one: true
 google_plus_one_size: medium
 
 # Google Plus Profile
 # Hidden: No visible button, just add author information to search results
-googleplus_user:
+googleplus_user: +洪偉1017
 googleplus_hidden: false
 
 # Pinboard
@@ -91,11 +91,11 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
+disqus_short_name: waynehtw
 disqus_show_comment_count: false
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-42752284-1
 
 # Facebook Like
-facebook_like: false
+facebook_like: true
