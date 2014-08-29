@@ -5,13 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>git 入門筆記 - Wayneh and Coffee</title>
+  <title>About me - Wayneh and Coffee</title>
   <meta name="author" content="洪偉">
 
   
-  <meta name="description" content="1. git repo git init
-git clone &lt;repo&gt;
-git config 2. git 結構的三個視角 2-1. 儲藏 2-2. 歷史 2-3. 遠端 3. 儲藏視角下的 git 操作 3-1. 工作區 git clean 3-2. 準備區 git add &hellip;">
+  <meta name="description" content="About Me 我是洪偉，在2010年從清大數學系畢業，進入了清大哲學所後，從2011年開始經營老《偉恩與咖啡》部落格。作為一個哲學所的碩士生，希望在社會中，除了能推廣哲學理論或思考方法，也希望能表明「哲學是一個有用的學科」；在同年與所上同學一同創辦《清哲學——清大哲學共筆部落格》。 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -20,7 +18,7 @@ git config 2. git 結構的三個視角 2-1. 儲藏 2-2. 歷史 2-3. 遠端 3. �
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://wayneh.tw/blog/2014/08/07/git-basic/">
+  <link rel="canonical" href="http://wayneh.tw/about/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -80,17 +78,40 @@ git config 2. git 結構的三個視角 2-1. 儲藏 2-2. 歷史 2-3. 遠端 3. �
   <div id="main">
     <div id="content">
       <div>
-<article class="hentry" role="article">
+<article role="article">
   
   <header>
-    
-      
-        <h1 class="entry-title">Git 入門筆記</h1>
-      
-    
-    
+    <h1 class="entry-title">About Me</h1>
+    <p class="meta">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-08-29T14:06:00+08:00" pubdate data-updated="true"></time></p>
+  </header>
+  
+  <p>我是洪偉，在2010年從清大數學系畢業，進入了清大哲學所後，從2011年開始經營老《偉恩與咖啡》部落格。作為一個哲學所的碩士生，希望在社會中，除了能推廣哲學理論或思考方法，也希望能表明「哲學是一個有用的學科」；在同年與所上同學一同創辦《清哲學——清大哲學共筆部落格》。</p>
+
+<p>在2012年起，因為對社會議題寫了一些評論，開始接觸更多的社會事務。2013年，加入了《<a href="http://g0v.tw">g0v臨時政府</a>》。</p>
+
+<p>2014年時，我加入了<a href="https://www.facebook.com/WatchOutTW">沃草</a>擔任專案經理，目前負責的專案有「<a href="http://musou.tw/">國會無雙</a>」，以及尚未上線的「公民學院」</p>
+
+<p>2014年8月，老《偉恩與咖啡》部落格空間和資料庫都到期了，為了省錢與提供更好更快的閱讀體驗，我改用<a href="http://octopress.org/">Octopress</a>與<a href="https://github.com/">github</a>架了你現在看到的這個新部落格。</p>
+
+<p>如要聯絡我或提議合作，可以寄信給我 <a href="&#x6d;&#x61;&#x69;&#108;&#x74;&#111;&#x3a;&#119;&#x61;&#x79;&#110;&#101;&#x39;&#51;&#48;&#x32;&#x34;&#x32;&#64;&#x67;&#x6d;&#97;&#105;&#108;&#46;&#99;&#x6f;&#109;">&#119;&#x61;&#x79;&#x6e;&#101;&#57;&#x33;&#x30;&#50;&#52;&#50;&#64;&#103;&#109;&#97;&#x69;&#x6c;&#46;&#99;&#111;&#109;</a> ，或是進入我的 <a href="http://about.me/wayne930242">about.me</a>頁面。</p>
+
+  
+    <footer>
       <p class="meta">
         
+        
 
 
 
@@ -102,147 +123,13 @@ git config 2. git 結構的三個視角 2-1. 儲藏 2-2. 歷史 2-3. 遠端 3. �
   
 
 
-<time datetime="2014-08-07T13:31:52+08:00" pubdate data-updated="true"></time>
+<time datetime="2014-08-29T14:06:00+08:00" pubdate data-updated="true"></time>
         
       </p>
-    
-  </header>
-
-
-<div class="entry-content"><p><img src="http://i.imgur.com/XMtH3QZl.png" alt="git" /></p>
-
-<!-- more -->
-
-
-<h1>1. git repo</h1>
-
-<pre><code>git init
-git clone &lt;repo&gt;
-git config
-</code></pre>
-
-<h1>2. git 結構的三個視角</h1>
-
-<h2>2-1. 儲藏</h2>
-
-<h2>2-2. 歷史</h2>
-
-<h2>2-3. 遠端</h2>
-
-<h1>3. 儲藏視角下的 git 操作</h1>
-
-<h2>3-1. 工作區</h2>
-
-<pre><code>git clean
-</code></pre>
-
-<h2>3-2. 準備區</h2>
-
-<pre><code>git add
-git rm
-</code></pre>
-
-<h2>3-3. 提交 repo</h2>
-
-<pre><code>git commit
-git checkout --
-</code></pre>
-
-<h2>3-4. 查看現狀</h2>
-
-<pre><code>git status
-git log
-git diff
-</code></pre>
-
-<h1>4. 歷史視角下的 git 操作</h1>
-
-<pre><code>git branch
-</code></pre>
-
-<h2>4-1. checkout!</h2>
-
-<pre><code>git checkout
-</code></pre>
-
-<h2>4-2. 合併進來</h2>
-
-<pre><code>git merge
-</code></pre>
-
-<h2>4-3. 提交 repo 的其他方法</h2>
-
-<pre><code>git revert
-git reset
-</code></pre>
-
-<h2>4-4. 改寫歷史</h2>
-
-<pre><code>git rebase
-git commit --amend
-</code></pre>
-
-<h1>5. 遠端視角下的 git 操作</h1>
-
-<h2>5-1. 設定遠端</h2>
-
-<pre><code>git remote
-</code></pre>
-
-<h2>5-2. 接取遠端</h2>
-
-<pre><code>git fetch
-git pull
-</code></pre>
-
-<h2>5-3. 推上遠端</h2>
-
-<pre><code>git push
-</code></pre>
-
-<h1>6. 參考連結</h1>
-
-<ul>
-<li><a href="https://www.atlassian.com/git/">Atlassian git Tutorials</a></li>
-</ul>
-
-</div>
-
-
-  <footer>
-    <p class="meta">
       
+        <div class="sharing">
   
-
-<span class="byline author vcard">Posted by <span class="fn">洪偉</span></span>
-
-      
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-08-07T13:31:52+08:00" pubdate data-updated="true"></time>
-      
-
-<span class="categories">
-  
-    <a class='category' href='/blog/categories/note/'>note</a>
-  
-</span>
-
-
-    </p>
-    
-      <div class="sharing">
-  
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://wayneh.tw/blog/2014/08/07/git-basic/" data-via="wayne930242" data-counturl="http://wayneh.tw/blog/2014/08/07/git-basic/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://wayneh.tw/about/index.html" data-via="wayne930242" data-counturl="http://wayneh.tw/about/index.html" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -252,14 +139,9 @@ git pull
   
 </div>
 
-    
-    <p class="meta">
       
-      
-        <a class="basic-alignment right articlenav" href="/blog/2014/08/11/12years/" title="Next Post: 十二年國教能教出國民數學素養嗎？">十二年國教能教出國民數學素養嗎？ &raquo;</a>
-      
-    </p>
-  </footer>
+    </footer>
+  
 </article>
 
   <section>
@@ -373,8 +255,8 @@ git pull
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://wayneh.tw/blog/2014/08/07/git-basic/';
-        var disqus_url = 'http://wayneh.tw/blog/2014/08/07/git-basic/';
+        var disqus_identifier = 'http://wayneh.tw/about/index.html';
+        var disqus_url = 'http://wayneh.tw/about/index.html';
         var disqus_script = 'embed.js';
       
     (function () {
