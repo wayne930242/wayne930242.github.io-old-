@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "無神論是一種怎樣的宗教信仰？"
+title: "無神論是怎樣的信仰？"
 date: 2014-09-08 18:55:06 +0800
 comments: true
 categories: metaphysics
