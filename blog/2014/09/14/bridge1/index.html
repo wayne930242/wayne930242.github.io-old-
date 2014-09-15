@@ -5,13 +5,13 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>git 入門筆記 - Wayneh and Coffee</title>
+  <title>初學篇之一：怎樣是好合約？ - Wayneh and Coffee</title>
   <meta name="author" content="洪偉">
 
   
-  <meta name="description" content="1. git repo git init
-git clone &lt;repo&gt;
-git config 2. git 結構的三個視角 2-1. 儲藏 2-2. 歷史 2-3. 遠端 3. 儲藏視角下的 git 操作 3-1. 工作區 git clean 3-2. 準備區 git add &hellip;">
+  <meta name="description" content="你與對家手牌的強弱，不會決定比賽的輸贏。真正決定比賽輸贏的，是選擇合約以及打牌技巧。 打牌技巧決定你是否能完成或是擊垮合約，以及獲得額外的分數，但最關鍵和基礎的，是合約的選擇。 橋牌的合約分成四種： 部份合約：未成局的合約
+成局合約：3NT、4S、4H、5D、5C
+小滿貫合約：所有6線合約 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -20,7 +20,7 @@ git config 2. git 結構的三個視角 2-1. 儲藏 2-2. 歷史 2-3. 遠端 3. �
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://wayneh.tw/blog/2014/08/07/git-basic/">
+  <link rel="canonical" href="http://wayneh.tw/blog/2014/09/14/bridge1/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -85,7 +85,7 @@ git config 2. git 結構的三個視角 2-1. 儲藏 2-2. 歷史 2-3. 遠端 3. �
   <header>
     
       
-        <h1 class="entry-title">Git 入門筆記</h1>
+        <h1 class="entry-title">初學篇之一：怎樣是好合約？</h1>
       
     
     
@@ -102,110 +102,51 @@ git config 2. git 結構的三個視角 2-1. 儲藏 2-2. 歷史 2-3. 遠端 3. �
   
 
 
-<time datetime="2014-08-07T13:31:52+08:00" pubdate data-updated="true"></time>
+<time datetime="2014-09-14T12:06:11+08:00" pubdate data-updated="true"></time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p><img src="http://twbryce.com/wp-content/uploads/2014/06/github.jpg" alt="git" /></p>
+<div class="entry-content"><p>你與對家手牌的強弱，不會決定比賽的輸贏。真正決定比賽輸贏的，是<strong>選擇合約</strong>以及<strong>打牌技巧</strong>。</p>
 
-<!-- more -->
+<p>打牌技巧決定你是否能完成或是擊垮合約，以及獲得額外的分數，但最關鍵和基礎的，是<strong>合約的選擇</strong>。</p>
+
+<!--more-->
 
 
-<h1>1. git repo</h1>
-
-<pre><code>git init
-git clone &lt;repo&gt;
-git config
-</code></pre>
-
-<h1>2. git 結構的三個視角</h1>
-
-<h2>2-1. 儲藏</h2>
-
-<h2>2-2. 歷史</h2>
-
-<h2>2-3. 遠端</h2>
-
-<h1>3. 儲藏視角下的 git 操作</h1>
-
-<h2>3-1. 工作區</h2>
-
-<pre><code>git clean
-</code></pre>
-
-<h2>3-2. 準備區</h2>
-
-<pre><code>git add
-git rm
-</code></pre>
-
-<h2>3-3. 提交 repo</h2>
-
-<pre><code>git commit
-git checkout --
-</code></pre>
-
-<h2>3-4. 查看現狀</h2>
-
-<pre><code>git status
-git log
-git diff
-</code></pre>
-
-<h1>4. 歷史視角下的 git 操作</h1>
-
-<pre><code>git branch
-</code></pre>
-
-<h2>4-1. checkout!</h2>
-
-<pre><code>git checkout
-</code></pre>
-
-<h2>4-2. 合併進來</h2>
-
-<pre><code>git merge
-</code></pre>
-
-<h2>4-3. 提交 repo 的其他方法</h2>
-
-<pre><code>git revert
-git reset
-</code></pre>
-
-<h2>4-4. 改寫歷史</h2>
-
-<pre><code>git rebase
-git commit --amend
-</code></pre>
-
-<h1>5. 遠端視角下的 git 操作</h1>
-
-<h2>5-1. 設定遠端</h2>
-
-<pre><code>git remote
-</code></pre>
-
-<h2>5-2. 接取遠端</h2>
-
-<pre><code>git fetch
-git pull
-</code></pre>
-
-<h2>5-3. 推上遠端</h2>
-
-<pre><code>git push
-</code></pre>
-
-<h1>6. 參考連結</h1>
+<p>橋牌的合約分成四種：</p>
 
 <ul>
-<li><a href="https://www.atlassian.com/git/">Atlassian git Tutorials</a></li>
+<li><strong>部份合約</strong>：未成局的合約</li>
+<li><strong>成局合約</strong>：3NT、4S、4H、5D、5C</li>
+<li><strong>小滿貫合約</strong>：所有6線合約</li>
+<li><strong>大滿貫合約</strong>：所有7線合約</li>
 </ul>
 
+
+<p>以沒有身價的情況為例，完成部份合約的獎分是50分，成局合約是350分，小滿貫合約是850分，大滿貫合約則是1850分。</p>
+
+<p>為了約定和簡單入門，我們使用幾個方針來判斷究竟自己喊到的是不是好合約：</p>
+
+<ul>
+<li><strong>成局合約偏好</strong>：4S、4H 通常比 3NT 好打，3NT 通常比 5C、5D 好打</li>
+<li>用這樣的方式初步估計點力與合約（A=4p、K=3p、Q=2p、J=1p）
+
+<ul>
+<li><strong>4S、4H</strong>： 雙方合計 26 點以上，王牌配合</li>
+<li><strong>3NT</strong>： 雙方合計 26 點以上</li>
+<li><strong>5D、5C</strong>： 雙方合計 28 點以上王牌配合</li>
+<li><strong>6X</strong>： 最好合計有 34 點以上</li>
+<li><strong>7X</strong>： 最好合計有 37 點以上</li>
+</ul>
+</li>
+<li><strong>王8原則</strong>：所謂配合，指的是雙方共計拿到 8 張以上的王牌</li>
+</ul>
+
+
+<p>這是一些基本的原則，但現實的情況往往會複雜許多，但對於初學者來說，這些原則是極其重要的。</p>
 </div>
 
 
@@ -228,12 +169,12 @@ git pull
   
 
 
-<time datetime="2014-08-07T13:31:52+08:00" pubdate data-updated="true"></time>
+<time datetime="2014-09-14T12:06:11+08:00" pubdate data-updated="true"></time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/note/'>note</a>
+    <a class='category' href='/blog/categories/bridge/'>bridge</a>
   
 </span>
 
@@ -242,7 +183,7 @@ git pull
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://wayneh.tw/blog/2014/08/07/git-basic/" data-via="wayne930242" data-counturl="http://wayneh.tw/blog/2014/08/07/git-basic/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://wayneh.tw/blog/2014/09/14/bridge1/" data-via="wayne930242" data-counturl="http://wayneh.tw/blog/2014/09/14/bridge1/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -255,8 +196,8 @@ git pull
     
     <p class="meta">
       
+        <a class="basic-alignment left articlenav" href="/blog/2014/09/11/lucy-being/" title="Previous Post: 《露西》究竟有沒有問出存有問題？">&laquo; 《露西》究竟有沒有問出存有問題？</a>
       
-        <a class="basic-alignment right articlenav" href="/blog/2014/08/11/12years/" title="Next Post: 十二年國教能教出國民數學素養嗎？">十二年國教能教出國民數學素養嗎？ &raquo;</a>
       
     </p>
   </footer>
@@ -377,8 +318,8 @@ git pull
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://wayneh.tw/blog/2014/08/07/git-basic/';
-        var disqus_url = 'http://wayneh.tw/blog/2014/08/07/git-basic/';
+        var disqus_identifier = 'http://wayneh.tw/blog/2014/09/14/bridge1/';
+        var disqus_url = 'http://wayneh.tw/blog/2014/09/14/bridge1/';
         var disqus_script = 'embed.js';
       
     (function () {
