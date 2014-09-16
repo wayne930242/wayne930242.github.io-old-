@@ -4,7 +4,7 @@
   <title><![CDATA[Wayneh and Coffee]]></title>
   <link href="http://wayneh.tw/atom.xml" rel="self"/>
   <link href="http://wayneh.tw/"/>
-  <updated>2014-09-16T13:08:34+08:00</updated>
+  <updated>2014-09-16T13:13:13+08:00</updated>
   <id>http://wayneh.tw/</id>
   <author>
     <name><![CDATA[洪偉]]></name>
@@ -18,12 +18,21 @@
     <link href="http://wayneh.tw/blog/2014/09/16/bridge2/"/>
     <updated>2014-09-16T10:13:41+08:00</updated>
     <id>http://wayneh.tw/blog/2014/09/16/bridge2</id>
-    <content type="html"><![CDATA[<p><strong>制度</strong>是一套約定好的叫牌語言，以<strong>叫品</strong>和<strong>打牌</strong>作為訊號和同伴進行溝通。我們可能會使用自然叫品，或是<strong>人工特約</strong>。</p>
+    <content type="html"><![CDATA[<p><strong>制度</strong>是一套約定好的叫牌語言，以<strong>叫品</strong>和<strong>打牌</strong>作為訊號和同伴進行溝通。</p>
 
-<p>制度的約定不是<strong>暗號</strong>，我們有義務讓對手如我們一樣詳盡地知道我們約定的制度與所有訊號；同樣，對手也有這樣的義務。我們會使用幾種方式確保比賽的公平：
-* 在比賽前填寫好<a href="http://www.greatbridgelinks.com/gblSYS/"><strong>制度卡</strong></a>
-* 接受詢問，由叫牌者的對方進行說明
-* 如果同伴使用特約，必須要 &ldquo;alert!&rdquo; 對手</p>
+<p>我們可能會使用自然叫品，或是<strong>人工特約</strong>。</p>
+
+<!--more-->
+
+
+<p>制度的約定不是<strong>暗號</strong>，我們有義務讓對手如我們一樣詳盡地知道我們約定的制度與所有訊號；同樣，對手也有這樣的義務。我們會使用幾種方式確保比賽的公平：</p>
+
+<ul>
+<li>在比賽前填寫好<a href="http://www.greatbridgelinks.com/gblSYS/"><strong>制度卡</strong></a></li>
+<li>接受詢問，由叫牌者的對方進行說明</li>
+<li>如果同伴使用特約，必須要 &ldquo;alert!&rdquo; 對手</li>
+</ul>
+
 
 <p>如果你們約定了未公開的訊號作為「暗號」造成對手的損害，對手會叫裁判，由裁判來判斷這場比賽是否<strong>公平</strong>。</p>
 
@@ -31,18 +40,22 @@
 
 <hr />
 
-<p>在制度約定好以後，叫牌語言會有以下種類和目的，包含在全部叫牌過程中：
-* <strong>傳遞訊號</strong>：讓同伴知道他該知道與想知道的手牌資訊，包括張數、牌力
-* <strong>詢問</strong>：對於一些資訊感到好奇，希望對方透露給你
-* <strong>束叫</strong>：要打，建議結束叫牌
-* <strong>賭博</strong>：就是賭博，束叫，同伴牌不能太好
-* <strong>邀請</strong>：要對方狀況好的話加叫一下，狀況不好就 pass
-* <strong>Slam Try</strong>：通常是越過成局線位的叫品，想要嘗試滿貫
-* <strong>支持</strong>：表示王牌支持
-* <strong>阻塞</strong>：竄叫，通常是爛牌但有某花色牌組，為了阻擋對手決定好的合約
-* <strong>迫叫</strong>：強迫同伴叫牌，同伴不能 pass 這個叫品
-* <strong>平衡</strong>：如果你一旦 pass 就會決定合約，但你覺得打這樣的合約實在太虧，有時會在牌力不夠的情況下出來叫牌（需要考慮身價和分數）
-* <strong>詐叫</strong>：連同伴一起騙，偶爾會收到特殊的功效，但通常都沒有好下場</p>
+<p>在制度約定好以後，叫牌語言會有以下種類和目的，包含在全部叫牌過程中：</p>
+
+<ul>
+<li><strong>傳遞訊號</strong>：讓同伴知道他該知道與想知道的手牌資訊，包括張數、牌力</li>
+<li><strong>詢問</strong>：對於一些資訊感到好奇，希望對方透露給你</li>
+<li><strong>束叫</strong>：要打，建議結束叫牌</li>
+<li><strong>賭博</strong>：就是賭博，束叫，同伴牌不能太好</li>
+<li><strong>邀請</strong>：要對方狀況好的話加叫一下，狀況不好就 pass</li>
+<li><strong>Slam Try</strong>：通常是越過成局線位的叫品，想要嘗試滿貫</li>
+<li><strong>支持</strong>：表示王牌支持</li>
+<li><strong>阻塞</strong>：竄叫，通常是爛牌但有某花色牌組，為了阻擋對手決定好的合約</li>
+<li><strong>迫叫</strong>：強迫同伴叫牌，同伴不能 pass 這個叫品</li>
+<li><strong>平衡</strong>：如果你一旦 pass 就會決定合約，但你覺得打這樣的合約實在太虧，有時會在牌力不夠的情況下出來叫牌（需要考慮身價和分數）</li>
+<li><strong>詐叫</strong>：連同伴一起騙，偶爾會收到特殊的功效，但通常都沒有好下場</li>
+</ul>
+
 
 <hr />
 
