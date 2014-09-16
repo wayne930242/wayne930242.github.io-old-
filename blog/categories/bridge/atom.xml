@@ -4,7 +4,7 @@
   <title><![CDATA[Category: bridge | Wayneh and Coffee]]></title>
   <link href="http://wayneh.tw/blog/categories/bridge/atom.xml" rel="self"/>
   <link href="http://wayneh.tw/"/>
-  <updated>2014-09-15T18:37:19+08:00</updated>
+  <updated>2014-09-16T13:08:34+08:00</updated>
   <id>http://wayneh.tw/</id>
   <author>
     <name><![CDATA[洪偉]]></name>
@@ -14,56 +14,62 @@
 
   
   <entry>
-    <title type="html"><![CDATA[無廢話橋牌入門(1)：怎樣選擇合約？]]></title>
+    <title type="html"><![CDATA[無廢話橋牌入門(2)：淺談「制度」]]></title>
+    <link href="http://wayneh.tw/blog/2014/09/16/bridge2/"/>
+    <updated>2014-09-16T10:13:41+08:00</updated>
+    <id>http://wayneh.tw/blog/2014/09/16/bridge2</id>
+    <content type="html"><![CDATA[<p><strong>制度</strong>是一套約定好的叫牌語言，以<strong>叫品</strong>和<strong>打牌</strong>作為訊號和同伴進行溝通。我們可能會使用自然叫品，或是<strong>人工特約</strong>。</p>
+
+<p>制度的約定不是<strong>暗號</strong>，我們有義務讓對手如我們一樣詳盡地知道我們約定的制度與所有訊號；同樣，對手也有這樣的義務。我們會使用幾種方式確保比賽的公平：
+* 在比賽前填寫好<a href="http://www.greatbridgelinks.com/gblSYS/"><strong>制度卡</strong></a>
+* 接受詢問，由叫牌者的對方進行說明
+* 如果同伴使用特約，必須要 &ldquo;alert!&rdquo; 對手</p>
+
+<p>如果你們約定了未公開的訊號作為「暗號」造成對手的損害，對手會叫裁判，由裁判來判斷這場比賽是否<strong>公平</strong>。</p>
+
+<p>注意，非叫品之外可能傳遞的訊號都是犯規的，例如：<strong>長考</strong>、<strong>急促</strong>、語氣、表情、肢體動作、語言交換等。</p>
+
+<hr />
+
+<p>在制度約定好以後，叫牌語言會有以下種類和目的，包含在全部叫牌過程中：
+* <strong>傳遞訊號</strong>：讓同伴知道他該知道與想知道的手牌資訊，包括張數、牌力
+* <strong>詢問</strong>：對於一些資訊感到好奇，希望對方透露給你
+* <strong>束叫</strong>：要打，建議結束叫牌
+* <strong>賭博</strong>：就是賭博，束叫，同伴牌不能太好
+* <strong>邀請</strong>：要對方狀況好的話加叫一下，狀況不好就 pass
+* <strong>Slam Try</strong>：通常是越過成局線位的叫品，想要嘗試滿貫
+* <strong>支持</strong>：表示王牌支持
+* <strong>阻塞</strong>：竄叫，通常是爛牌但有某花色牌組，為了阻擋對手決定好的合約
+* <strong>迫叫</strong>：強迫同伴叫牌，同伴不能 pass 這個叫品
+* <strong>平衡</strong>：如果你一旦 pass 就會決定合約，但你覺得打這樣的合約實在太虧，有時會在牌力不夠的情況下出來叫牌（需要考慮身價和分數）
+* <strong>詐叫</strong>：連同伴一起騙，偶爾會收到特殊的功效，但通常都沒有好下場</p>
+
+<hr />
+
+<p>這個約定的方式，我們會紀錄在制度中，我們要先學的制度叫作「<strong>5-5-4-2自然制</strong>」。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[入門之一：合約的選擇]]></title>
     <link href="http://wayneh.tw/blog/2014/09/14/bridge1/"/>
     <updated>2014-09-14T12:06:11+08:00</updated>
     <id>http://wayneh.tw/blog/2014/09/14/bridge1</id>
-    <content type="html"><![CDATA[<blockquote><p>本系列是搭配沃草橋牌隊內訓的講義</p></blockquote>
-
-<p>你與對家手牌的強弱，不會決定比賽的輸贏。真正決定比賽輸贏的，是<strong>選擇合約</strong>以及<strong>打牌技巧</strong>。</p>
+    <content type="html"><![CDATA[<p>你與對家手牌的強弱，不會決定比賽的輸贏。真正決定比賽輸贏的，是<strong>選擇合約</strong>以及<strong>打牌技巧</strong>。</p>
 
 <p>打牌技巧決定你是否能完成或是擊垮合約，以及獲得額外的分數，但最關鍵和基礎的，是<strong>合約的選擇</strong>。</p>
-
-<!--more-->
-
-
-<hr />
 
 <p>橋牌的合約分成四種：</p>
 
 <ul>
-<li><strong>部份合約</strong>：未成局的合約</li>
-<li><strong>成局合約</strong>：3NT、4S、4H、5D、5C</li>
-<li><strong>小滿貫合約</strong>：所有6線合約</li>
-<li><strong>大滿貫合約</strong>：所有7線合約</li>
+<li>部份合約：未成局的合約</li>
+<li>成局合約：3NT、4S、4H、5D、5C</li>
+<li>小滿貫合約：所有6線合約</li>
+<li>大滿貫合約：所有7線合約</li>
 </ul>
 
 
 <p>以沒有身價的情況為例，完成部份合約的獎分是50分，成局合約是350分，小滿貫合約是850分，大滿貫合約則是1850分。</p>
-
-<hr />
-
-<p>為了約定和簡單入門，我們使用幾個方針來判斷究竟自己喊到的是不是好合約：</p>
-
-<ul>
-<li><strong>成局合約偏好</strong>：4S、4H 通常比 3NT 好打，3NT 通常比 5C、5D 好打</li>
-<li>用這樣的方式初步估計點力與合約（A=4p、K=3p、Q=2p、J=1p）
-
-<ul>
-<li><strong>4S、4H</strong>： 雙方合計 26 點以上，王牌配合</li>
-<li><strong>3NT</strong>： 雙方合計 26 點以上</li>
-<li><strong>5D、5C</strong>： 雙方合計 28 點以上王牌配合</li>
-<li><strong>6X</strong>： 最好合計有 34 點以上</li>
-<li><strong>7X</strong>： 最好合計有 37 點以上</li>
-</ul>
-</li>
-<li><strong>王8原則</strong>：所謂配合，指的是雙方共計拿到 8 張以上的王牌</li>
-</ul>
-
-
-<hr />
-
-<p>這是一些基本的原則，但現實的情況往往會複雜許多，這些情況我們會在遇到的時候加以介紹。</p>
 ]]></content>
   </entry>
   
