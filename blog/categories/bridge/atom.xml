@@ -4,7 +4,7 @@
   <title><![CDATA[Category: bridge | Wayneh and Coffee]]></title>
   <link href="http://wayneh.tw/blog/categories/bridge/atom.xml" rel="self"/>
   <link href="http://wayneh.tw/"/>
-  <updated>2014-09-23T12:21:27+08:00</updated>
+  <updated>2014-09-23T12:31:50+08:00</updated>
   <id>http://wayneh.tw/</id>
   <author>
     <name><![CDATA[洪偉]]></name>
@@ -49,7 +49,7 @@
 
 <h2>支持梅花</h2>
 
-<p>要支持 1C 的梅花，需要五張以上的梅花，並且沒有四張以上的高花（「限制性叫牌」代表由對方決定合約）：</p>
+<p>要支持 1C 的梅花，需要 5 張以上的梅花，並且沒有 4 張以上的高花（「限制性叫牌」代表由對方決定合約）：</p>
 
 <ul>
 <li><strong>2C</strong>：6p-9p，限制性叫牌</li>
@@ -61,7 +61,7 @@
 
 <h2>無王</h2>
 
-<p>答叫無王代表沒有四張方塊與高花可以介紹（在這種情況下，牌型一定是3334）：</p>
+<p>答叫無王代表沒有 4 張方塊與高花可以介紹（在這種情況下，牌型一定是3334）：</p>
 
 <ul>
 <li><strong>1NT</strong>：6p-10p</li>
@@ -75,9 +75,9 @@
 <p>叫出新花，代表迫叫一輪。</p>
 
 <ul>
-<li><strong>1D</strong>：6p+，一蓋一，保證四張</li>
-<li><strong>1H/1S</strong>：6p+，一蓋一，保證四張</li>
-<li><strong>2D/2H/2S</strong>：跳叫新花，迫叫成局，16p+，五張以上堅強牌組</li>
+<li><strong>1D</strong>：6p+，一蓋一，保證 4 張</li>
+<li><strong>1H/1S</strong>：6p+，一蓋一，保證 4 張</li>
+<li><strong>2D/2H/2S</strong>：跳叫新花，迫叫成局，16p+， 5 張以上堅強牌組</li>
 </ul>
 
 
@@ -102,7 +102,7 @@
 
 <h2>以「1C-1H」為例</h2>
 
-<p>你開叫 1C 後，同伴答叫 1H ，代表6點以上，有四張紅心。</p>
+<p>你開叫 1C 後，同伴答叫 1H ，代表6p以上，有 4 張紅心。</p>
 
 <p>之後可以有以下回應：</p>
 
@@ -110,7 +110,7 @@
 
 <hr />
 
-<p>四張紅心支持。</p>
+<p>4 張紅心支持。</p>
 
 <ul>
 <li><strong>2H</strong>：13p-16p，束叫</li>
@@ -123,7 +123,7 @@
 
 <hr />
 
-<p>沒有四張紅心支持，也沒有四張黑桃的平均排型。</p>
+<p>沒有 4 張紅心支持，也沒有 4 張黑桃的平均排型。</p>
 
 <ul>
 <li><strong>1NT</strong>：13p-15p，束叫</li>
@@ -140,9 +140,9 @@
 <p>真的有梅花張數。</p>
 
 <ul>
-<li><strong>2C</strong>：13p-15p，五張梅花以上</li>
-<li><strong>3C</strong>：16p-18p，六張梅花以上</li>
-<li><strong>4C</strong>：支持同伴花色，六張堅強梅花牌組</li>
+<li><strong>2C</strong>：13p-15p，5 張梅花以上</li>
+<li><strong>3C</strong>：16p-18p，6 張梅花以上</li>
+<li><strong>4C</strong>：支持同伴花色，6 張堅強梅花牌組</li>
 </ul>
 
 
@@ -153,7 +153,7 @@
 <p>至少迫叫一輪。</p>
 
 <ul>
-<li><strong>1S</strong>：四張黑桃</li>
+<li><strong>1S</strong>：4 張黑桃</li>
 <li><strong>2D</strong>：<strong>倒叫</strong>，16p以上，C-D 基本上是 5-4 分配
 
 <ul>
@@ -161,8 +161,8 @@
 <li>當你叫出倒叫以後，同伴的第二次叫牌只有 2NT 和 3C 可以 pass，其他都是迫叫</li>
 </ul>
 </li>
-<li><strong>2S</strong>：<strong>跳叫新花</strong>，四張黑桃，19p以上，迫叫成局</li>
-<li><strong>3D</strong>：<strong>跳叫新花</strong>，四張方塊，19p以上，迫叫成局，C-D 基本上是 5-4 分配</li>
+<li><strong>2S</strong>：<strong>跳叫新花</strong>，4 張黑桃，19p以上，迫叫成局</li>
+<li><strong>3D</strong>：<strong>跳叫新花</strong>，4 張方塊，19p以上，迫叫成局，C-D 基本上是 5-4 分配</li>
 <li><strong>3S/4D</strong>：<strong>Splinter 特約</strong>，支持同伴花色，叫出來的花色代表單張或缺門</li>
 </ul>
 
