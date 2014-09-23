@@ -4,7 +4,7 @@
   <title><![CDATA[Category: bridge | Wayneh and Coffee]]></title>
   <link href="http://wayneh.tw/blog/categories/bridge/atom.xml" rel="self"/>
   <link href="http://wayneh.tw/"/>
-  <updated>2014-09-17T17:55:22+08:00</updated>
+  <updated>2014-09-23T10:34:15+08:00</updated>
   <id>http://wayneh.tw/</id>
   <author>
     <name><![CDATA[洪偉]]></name>
@@ -12,6 +12,88 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[無廢話橋牌入門(3)：自然制1C開叫與答叫]]></title>
+    <link href="http://wayneh.tw/blog/2014/09/22/bridge3/"/>
+    <updated>2014-09-22T19:15:15+08:00</updated>
+    <id>http://wayneh.tw/blog/2014/09/22/bridge3</id>
+    <content type="html"><![CDATA[<p>開叫 1C 表示 13p-21p ，梅花只保證兩張以上，<strong>否定五張高花</strong>。</p>
+
+<!--more-->
+
+
+<h1>答叫</h1>
+
+<p>計算和複習一下，我們知道找成局合約的順序如下：</p>
+
+<ol>
+<li>如果你有 4 張以上高花，先找找看四線高花合約（雙方總和大於 26p，八隻王牌配合）。</li>
+<li>如果你沒有 4 張高花，牌型不太畸形，先找找看 3NT 合約（雙方總和大於 26p）。</li>
+<li>如果你沒有 4 張高花，拿到一串或兩串長低花，看看有沒有五線低花合約（雙方總和大於 28p，八隻王牌配合）。</li>
+</ol>
+
+
+<p>接下來是點力判斷。如果聽到你的同伴開叫 1C ，你有 6p 就不能 pass，因為你的同伴可能有 21 p。我們在心中，依據點力會進行計算（<code>highlight部分</code>是計算出來的結果）：</p>
+
+<ul>
+<li>如果你有 6p-9p ，<code>當對方有 19p-21p 可能有成局</code>。</li>
+<li>如果你有 10p-11p ，<code>當對方有 16p-19p 可能有成局</code>。</li>
+<li>如果你有 12p-13p ，<code>當對方有 13p-15p 可能有成局，當對方有 19p-21p 可能有小滿貫</code>。</li>
+<li>&hellip;</li>
+<li>etc.</li>
+</ul>
+
+
+<p>接下來，開始介紹各種叫品的意義。</p>
+
+<h2>支持梅花</h2>
+
+<p>要支持 1C 的梅花，需要五張以上的梅花，並且沒有四張以上的高花（「限制性叫牌」代表由對方決定合約）：</p>
+
+<ul>
+<li><strong>2C</strong>：6p-9p，限制性叫牌</li>
+<li><strong>3C</strong>：10p-11p，限制性叫牌</li>
+<li><strong>4C</strong>：半打半邀請，沒啥好叫的（不要有 7p）</li>
+<li><strong>5C</strong>：要打，沒啥好叫的</li>
+</ul>
+
+
+<h2>無王</h2>
+
+<p>答叫無王代表沒有四張方塊與高花可以介紹（在這種情況下，牌型一定是3334）：</p>
+
+<ul>
+<li><strong>1NT</strong>：6p-10p</li>
+<li><strong>2NT</strong>：11p-12p，邀請，要求對方如果不是最低線就要叫到成局</li>
+<li><strong>3NT</strong>：13p-15p，束叫</li>
+</ul>
+
+
+<h2>新花迫叫</h2>
+
+<p>叫出新花，代表迫叫一輪。</p>
+
+<ul>
+<li><strong>1D</strong>：6p+，一蓋一，保證四張</li>
+<li><strong>1H/1S</strong>：6p+，一蓋一，保證四張</li>
+<li><strong>2D/2H/2S</strong>：跳叫新花，迫叫成局，16p+，五張以上堅強牌組</li>
+</ul>
+
+
+<h1>再叫</h1>
+
+<p>聽到同伴有答叫，後續有一些基本原則：</p>
+
+<ul>
+<li>加一支持同伴或是叫回原花色，都是代表弱牌</li>
+<li>叫出新花色，都是代表<strong>迫叫</strong></li>
+<li>直接叫到成局，都是代表<strong>束叫</strong></li>
+<li>直接叫到成局的上一線，都是代表<strong>邀請</strong></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[無廢話橋牌入門(2)：淺談「制度」]]></title>
