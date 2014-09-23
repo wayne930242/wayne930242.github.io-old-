@@ -4,7 +4,7 @@
   <title><![CDATA[Wayneh and Coffee]]></title>
   <link href="http://wayneh.tw/atom.xml" rel="self"/>
   <link href="http://wayneh.tw/"/>
-  <updated>2014-09-23T12:20:43+08:00</updated>
+  <updated>2014-09-23T12:21:27+08:00</updated>
   <id>http://wayneh.tw/</id>
   <author>
     <name><![CDATA[洪偉]]></name>
@@ -169,8 +169,12 @@
 
 <h1>樹狀圖</h1>
 
-<p><img src="http://wayneh.tw/images/blog/1Ctree.jpg" alt="1Ctree" />
-* pm5製圖</p>
+<p><img src="http://wayneh.tw/images/blog/1Ctree.jpg" alt="1Ctree" /></p>
+
+<ul>
+<li>pm5製圖</li>
+</ul>
+
 ]]></content>
   </entry>
   
