@@ -4,7 +4,7 @@
   <title><![CDATA[Wayneh and Coffee]]></title>
   <link href="http://wayneh.tw/atom.xml" rel="self"/>
   <link href="http://wayneh.tw/"/>
-  <updated>2014-09-23T11:53:21+08:00</updated>
+  <updated>2014-09-23T11:54:44+08:00</updated>
   <id>http://wayneh.tw/</id>
   <author>
     <name><![CDATA[洪偉]]></name>
@@ -108,6 +108,8 @@
 
 <h3>支持同伴花色</h3>
 
+<hr />
+
 <p>四張紅心支持。</p>
 
 <ul>
@@ -118,6 +120,8 @@
 
 
 <h3>無王叫品</h3>
+
+<hr />
 
 <p>沒有四張紅心支持，也沒有四張黑桃的平均排型。</p>
 
@@ -131,6 +135,8 @@
 
 <h3>叫回原花色</h3>
 
+<hr />
+
 <p>真的有梅花張數。</p>
 
 <ul>
@@ -141,6 +147,8 @@
 
 
 <h3>叫新花色</h3>
+
+<hr />
 
 <p>至少迫叫一輪。</p>
 
