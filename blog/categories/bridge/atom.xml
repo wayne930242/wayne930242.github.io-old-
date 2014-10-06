@@ -4,7 +4,7 @@
   <title><![CDATA[Category: bridge | Wayneh and Coffee]]></title>
   <link href="http://wayneh.tw/blog/categories/bridge/atom.xml" rel="self"/>
   <link href="http://wayneh.tw/"/>
-  <updated>2014-09-27T17:45:15+08:00</updated>
+  <updated>2014-10-06T18:50:07+08:00</updated>
   <id>http://wayneh.tw/</id>
   <author>
     <name><![CDATA[洪偉]]></name>
@@ -12,6 +12,57 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[無廢話橋牌入門(4)：自然制1D開叫及後續]]></title>
+    <link href="http://wayneh.tw/blog/2014/10/06/bridge4/"/>
+    <updated>2014-10-06T18:18:48+08:00</updated>
+    <id>http://wayneh.tw/blog/2014/10/06/bridge4</id>
+    <content type="html"><![CDATA[<p>開叫 1C 表示 13p-21p ，方塊保證四張以上，<strong>否定五張高花</strong>。</p>
+
+<!--more-->
+
+
+<h1>答叫與再答叫</h1>
+
+<p>基本上，1D 和 1C 後續的原理基本上是相同的，包括：</p>
+
+<ul>
+<li>叫無王的時機</li>
+<li>高花四張優先叫出</li>
+<li>新花一蓋一的點力</li>
+<li>跳一叫新花代表迫叫成局</li>
+<li>跳叫</li>
+</ul>
+
+
+<p>除了 2C 直接答叫是新花二蓋一：</p>
+
+<ul>
+<li>新花二蓋一大多時候要保證五張，10p以上</li>
+</ul>
+
+
+<h1>什麼時候開叫1C？1D？</h1>
+
+<p>開叫 1C 或是 1D 有幾個考量：</p>
+
+<ol>
+<li>我有沒有我叫出來所保證的張數（方塊4張、梅花兩張）？</li>
+<li>由於同伴的一線新花是迫叫，我的牌力足夠倒叫（16p+）嗎？</li>
+<li>我的梅花和方塊哪個比較長？</li>
+</ol>
+
+
+<p>然後，會在不容易引起誤會的情況下選擇叫牌：</p>
+
+<ol>
+<li>如果<strong>沒有</strong>倒叫的牌力，先叫長門。如果叫1C，就要抱著方塊叫不出來的想法。如果一樣長，先叫1D。</li>
+<li>如果<strong>有</strong>倒叫的牌力，先叫1C；等到同伴答叫，再叫2D 。</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[無廢話橋牌入門(3)：自然制1C開叫及後續]]></title>
