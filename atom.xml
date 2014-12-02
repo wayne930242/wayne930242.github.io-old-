@@ -4,7 +4,7 @@
   <title><![CDATA[Wayneh and Coffee]]></title>
   <link href="http://wayneh.tw/atom.xml" rel="self"/>
   <link href="http://wayneh.tw/"/>
-  <updated>2014-10-06T18:50:07+08:00</updated>
+  <updated>2014-12-02T17:14:30+08:00</updated>
   <id>http://wayneh.tw/</id>
   <author>
     <name><![CDATA[洪偉]]></name>
@@ -12,6 +12,102 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[無廢話橋牌入門(5)：自然制1NT開叫及基本後續]]></title>
+    <link href="http://wayneh.tw/blog/2014/12/02/bridge5/"/>
+    <updated>2014-12-02T16:26:08+08:00</updated>
+    <id>http://wayneh.tw/blog/2014/12/02/bridge5</id>
+    <content type="html"><![CDATA[<p>無王開叫都是<strong>限制性叫牌</strong>，叫出來點力、牌型都相當清楚。如果同伴進行無王開叫，你通常需要大概決定合約（因為你很難叫得比他更清楚）。</p>
+
+<p>無王開叫通常分成三種點力區間，都是<strong>平均牌型</strong>：</p>
+
+<ul>
+<li><strong>1NT</strong>：15p-17p</li>
+<li><strong>1C 跳叫 2NT</strong>：18p-19p</li>
+<li><strong>2NT</strong>：20p-21p</li>
+</ul>
+
+
+<p>這篇文章將介紹 1NT 開叫和基本的後續。</p>
+
+<!--more-->
+
+
+<p>基本上，練熟 1NT 開叫和進階的後續以後，就算是進入初學者的門檻，海綿加油。</p>
+
+<h1>1NT 開叫及後續</h1>
+
+<p>1NT 開叫的後續有幾種，考慮：</p>
+
+<ol>
+<li>有幾張高花？（簡單的算術）</li>
+<li>點力範圍是否有可能成局（簡單的加法）</li>
+</ol>
+
+
+<h2>PASS</h2>
+
+<p>如果是不到 7p 的平均牌型，幾乎沒有成局希望，直接 PASS 。</p>
+
+<h2>加叫 NT</h2>
+
+<p>做數學：</p>
+
+<ul>
+<li>1NT - <strong>2NT</strong>：8p-9p 邀請3NT</li>
+<li>1NT - <strong>3NT</strong>：10p-15p 束叫</li>
+<li>1NT - <strong>4NT!</strong>：16p-17p，邀請 6NT（不使用 Blackwood 特約，改用 Gerber 特約）</li>
+<li>1NT - <strong>5NT!</strong>：20p-21p，迫叫 6NT，邀請 7NT</li>
+<li>1NT - <strong>6NT</strong>：18p-19p</li>
+<li>1NT - <strong>7NT</strong>：22p 以上</li>
+</ul>
+
+
+<h2>高花轉換叫</h2>
+
+<p>不平均牌型的情況下，如果持有五張高花，即使沒有點力（0p）都應該進行<strong>轉換</strong>。轉換的目的是不要讓 1NT 的好牌直接攤在桌上。</p>
+
+<ul>
+<li>1NT - <strong>2D!</strong>：五張以上紅心，迫叫 2H（<em>Jacoby Transfer</em>）</li>
+<li>1NT - <strong>2H!</strong>：五張以上黑桃，迫叫 2S（<em>Jacoby Transfer</em>）</li>
+<li>1NT - <strong>4D!</strong>：六張以上紅心，迫叫 4H（<em>Texas Transfer</em>）</li>
+<li>1NT - <strong>4H!</strong>：六張以上黑桃，迫叫 4S（<em>Texas Transfer</em>）</li>
+</ul>
+
+
+<h2>Stayman 特約</h2>
+
+<p>如果你手持四張高花，手上又拿 8p-9p ，有可能和同伴找到王牌配合的<strong>4線高花合約</strong>（聽起來比 3NT 好上那麼一點）。我們會用 Stayman 特約來找找看（如果是4333的牌型，就不建議這樣叫）。</p>
+
+<ul>
+<li><p>1NT - <strong>2C!</strong>：表示四張高花，8p-9p，<strong>非迫叫</strong> Stayman</p>
+
+<ul>
+<li>1NT - 2C! - <strong>2D</strong>：否定四張高花</li>
+<li>1NT - 2C! - <strong>2H</strong>：有四張紅心，可能也有四張黑桃</li>
+<li>1NT - 2C! - <strong>2S</strong>：有四張黑桃，不會有四張紅心</li>
+</ul>
+</li>
+</ul>
+
+
+<h2>低花轉換叫</h2>
+
+<p>在牌型不平均的情況下，我們不太想打無王合約。在低花張數配合時，可能想打低花合約，一種是打未成局的低花（防禦性），一種是想打成局的低花（攻擊性）。</p>
+
+<ul>
+<li><p>1NT - <strong>2S!</strong>：有兩種情況</p>
+
+<ul>
+<li>攻擊性：10p 以上，兩門低花五四以上</li>
+<li>防禦性： 0-5 hcps，一門六張低花或兩門低花五五以上</li>
+</ul>
+</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[無廢話橋牌入門(4)：自然制1D開叫及後續]]></title>
