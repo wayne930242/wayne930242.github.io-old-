@@ -7,7 +7,7 @@ title: Wayneh and Coffee
 subtitle: 偉恩與咖啡：哲學觀點
 author: 洪偉
 simple_search: https://www.google.com/search
-description: 我是洪偉 (Wayneh, WeiHung) ，這是一個哲學部落格。雖然是這樣，除了「推廣哲學」以外，我也會在這裡寫一些關於哲學應用的文章。哲學與文學、與各學科、與社會人生，甚至在實務方面的思索，都是偉恩與咖啡的主題之一。還有一些有的沒有的筆記。
+description: 我是洪偉 (Wayneh, WeiHung) ，這是一個哲學部落格。除了「推廣哲學」以外，我也會在這裡寫一些關於哲學應用的文章。哲學與文學、與各學科、與社會人生，甚至在實務方面的思索，都是偉恩與咖啡的主題之一。
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -33,6 +33,7 @@ destination: public
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
+category_title_prefix: "Category: "
 markdown: rdiscount
 rdiscount:
   extensions:
