@@ -4,7 +4,7 @@
   <title><![CDATA[Category: linux | Wayneh and Coffee]]></title>
   <link href="http://wayneh.tw/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://wayneh.tw/"/>
-  <updated>2015-01-26T18:53:36+08:00</updated>
+  <updated>2015-01-26T18:56:27+08:00</updated>
   <id>http://wayneh.tw/</id>
   <author>
     <name><![CDATA[洪偉]]></name>
@@ -24,6 +24,9 @@
 
 <pre><code>sudo lshw -C video
 </code></pre>
+
+<!--more-->
+
 
 <p>我的電腦告訴我，我有兩張顯卡（第一張是還沒驅動的）：</p>
 
