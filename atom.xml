@@ -4,7 +4,7 @@
   <title><![CDATA[Wayneh and Coffee]]></title>
   <link href="http://wayneh.tw/atom.xml" rel="self"/>
   <link href="http://wayneh.tw/"/>
-  <updated>2015-01-26T18:58:35+08:00</updated>
+  <updated>2015-02-13T14:39:32+08:00</updated>
   <id>http://wayneh.tw/</id>
   <author>
     <name><![CDATA[洪偉]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[test]]></title>
+    <link href="http://wayneh.tw/blog/2015/02/13/test/"/>
+    <updated>2015-02-13T14:21:47+08:00</updated>
+    <id>http://wayneh.tw/blog/2015/02/13/test</id>
+    <content type="html"><![CDATA[<p>y=[z>0]</p>
+
+<p>∫∞−∞f(x)dx</p>
+
+<p>∫∞−∞g(t)dt</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[在 ubuntu 系統驅動 nvidia 顯卡]]></title>
