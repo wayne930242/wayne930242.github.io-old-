@@ -40,6 +40,9 @@ rdiscount:
     - autolink
     - footnotes
     - smart
+pandoc:
+  format: html5
+  extensions: [smart, mathjax]
 
 highlighter: pygments # default python pygments have been replaced by pygments.rb
 

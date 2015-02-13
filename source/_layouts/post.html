@@ -4,6 +4,17 @@ single: true
 ---
 
 <div>
+	  <ul>
+      	{% for format in site.pandoc.outputs %}
+     	{% capture extension %}{{ format | first }}{% endcapture %}
+	<li>
+	<a href="{{ extension }}{{ page.url | remove:'.html' }}.{{ extension }}">
+	{{ extension }}
+	</a>
+	</li>
+	{% endfor %}
+	</ul>
+
 <article class="hentry" role="article">
   {% include article.html %}
   <footer>

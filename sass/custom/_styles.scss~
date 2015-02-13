@@ -26,8 +26,8 @@ to learn about modular scales.
 // variables
 // ------------------------------
 
-$accent-color: #0A8796;
-$accent-hover-color: darken($accent-color, 12%);
+$accent-color: #65a672;
+$accent-hover-color: darken($accent-color, 8%);
 
 $text-color: #333;
 $secondary-text-color: #aaa;
