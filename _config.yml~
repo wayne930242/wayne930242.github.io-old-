@@ -35,14 +35,18 @@ code_dir: downloads/code
 category_dir: blog/categories
 category_title_prefix: "Category: "
 markdown: rdiscount
-rdiscount:
-  extensions:
-    - autolink
-    - footnotes
-    - smart
+# rdiscount:
+#  extensions:
+#     - autolink
+#     - footnotes
+#     - smart
+
+markdown: pandoc 
 pandoc:
-  format: html5
-  extensions: [smart, mathjax]
+    skip: false
+    flags: '--smart --mathjax'
+
+gems: [ 'jekyll-pandoc-multiple-formats' ]
 
 highlighter: pygments # default python pygments have been replaced by pygments.rb
 
