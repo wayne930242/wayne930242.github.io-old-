@@ -4,7 +4,7 @@
   <title><![CDATA[Wayneh and Coffee]]></title>
   <link href="http://wayneh.tw/atom.xml" rel="self"/>
   <link href="http://wayneh.tw/"/>
-  <updated>2015-04-05T17:36:46+08:00</updated>
+  <updated>2015-04-05T17:38:20+08:00</updated>
   <id>http://wayneh.tw/</id>
   <author>
     <name><![CDATA[洪偉]]></name>
@@ -71,12 +71,33 @@
 
 <p>因此，比如，讓「$NT$」、「$PT$」和「$FT$」來分別縮寫「現在為真」、「過去為真」和「將為真」，我們將得到：</p>
 
-<p>|&mdash;&mdash;&mdash;&ndash;|&mdash;&mdash;&mdash;&mdash;&mdash;|&mdash;&mdash;&mdash;&mdash;&ndash;|
-| McTaggart |               | Lowe         |
-|&mdash;&mdash;&mdash;-:|&mdash;&mdash;&mdash;&mdash;&mdash;|:&mdash;&mdash;&mdash;&mdash;-|
-|      $Ne$ | $\rightarrow$ | $Ne$         |
-|     $NNe$ | $\rightarrow$ | &lsquo;$Ne$&rsquo;$NT$   |
-|    $PFNe$ | $\rightarrow$ | &lsquo;&ldquo;$Ne$&#8221;FT&#8217;PT |</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:right;"> McTaggart </th>
+<th>               </th>
+<th style="text-align:left;"> Lowe         </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right;">      $Ne$ </td>
+<td> $\rightarrow$ </td>
+<td style="text-align:left;"> $Ne$         </td>
+</tr>
+<tr>
+<td style="text-align:right;">     $NNe$ </td>
+<td> $\rightarrow$ </td>
+<td style="text-align:left;"> &lsquo;$Ne$&rsquo;$NT$   </td>
+</tr>
+<tr>
+<td style="text-align:right;">    $PFNe$ </td>
+<td> $\rightarrow$ </td>
+<td style="text-align:left;"> &lsquo;&ldquo;$Ne$&#8221;FT&#8217;PT </td>
+</tr>
+</tbody>
+</table>
+
 ]]></content>
   </entry>
   
