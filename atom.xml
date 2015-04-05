@@ -4,7 +4,7 @@
   <title><![CDATA[Wayneh and Coffee]]></title>
   <link href="http://wayneh.tw/atom.xml" rel="self"/>
   <link href="http://wayneh.tw/"/>
-  <updated>2015-04-05T20:41:04+08:00</updated>
+  <updated>2015-04-05T20:56:15+08:00</updated>
   <id>http://wayneh.tw/</id>
   <author>
     <name><![CDATA[洪偉]]></name>
@@ -424,7 +424,9 @@
     <link href="http://wayneh.tw/blog/2015/04/04/mctaggart/"/>
     <updated>2015-04-04T19:36:01+08:00</updated>
     <id>http://wayneh.tw/blog/2015/04/04/mctaggart</id>
-    <content type="html"><![CDATA[<p>McTaggart<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>給了一個滿有意思的、但是難懂的論證，這個論證的目標是要告訴我們：時間是非實在的。也就是說，時間不是<strong>真正存在著</strong>。</p>
+    <content type="html"><![CDATA[<p><img class="http://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Time_Warp_%287178293244%29.jpg/776px-Time_Warp_%287178293244%29.jpg 本圖引用至" src="http://commons.wikimedia.org/wiki/File:Time_Warp_(7178293244).jpg"></p>
+
+<p>McTaggart<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>給了一個滿有意思的、但是難懂的論證，這個論證的目標是要告訴我們：時間是非實在的。也就是說，時間不是<strong>真正存在著</strong>。</p>
 
 <p>因為這論證有點難懂，所以我不打算在一些訴求「易讀性」的平台上發出，而是選擇放在我自己的部落格。</p>
 
@@ -435,11 +437,11 @@
 
 <p>時間的「非實在」是反直覺的，我們早已習慣在「真的有時間」的世界觀中活著，我們有知覺，在知覺中它告訴了我們時間的<strong>流動</strong>。時間的流動是滿奧妙的事，原因在於我們從未知覺到純粹的時間，而更像是透過另外一種方式來理解時間：透過理解<strong>變化</strong>來理解時間。</p>
 
-<p>McTaggart 正是這樣認為的，他認為：變化包含在時間的本性裡頭。也就是說，他認為，如果我們弄清楚了時間是什麼以後，我們所理解的時間不能解釋變化，那麼這個時間的概念就是有問題的。</p>
+<p>McTaggart 正是這樣認為的，他認為：變化包含在時間的本性裡頭。也就是說，他認為，如果我們說自己弄清楚了時間是什麼，這個所理解的部份至少要能解釋變化才可能是充份的。</p>
 
-<h1>三種時間序列</h1>
+<h1>兩種時間序列</h1>
 
-<p>McTaggart 為了解釋變化，它引進了一套分析工具，即三種時間序列：</p>
+<p>McTaggart 為了解釋變化，它引進了一套分析工具，即兩種時間序列：</p>
 
 <ul>
 <li>A序列：將<strong>事件</strong>分成現在、過去、未來來排列</li>
@@ -449,7 +451,7 @@
 
 <p>所謂「<strong>事件</strong>」可以想成「在某時發生的某事」。</p>
 
-<p>譬如說，<a href="http://satoyamacafe.tw/">里山咖啡</a>的店長小花端出了一盤咖哩飯，可以是現在、過去或未來發生的一件特定的事（A序列），也或者是介於某兩個事件、介於「小花用新鮮原料燉煮咖哩醬汁」和「小花把盤子洗得很乾淨」之間發生的事（B序列）。</p>
+<p>譬如說，「<a href="http://satoyamacafe.tw/">里山咖啡</a>的店長小花端出了一盤咖哩飯」，可以是現在、過去或未來發生的一件特定的事（A序列），也或者是介於某兩個事件、介於「小花用新鮮原料燉煮咖哩醬汁」和「客人吃得很開心」之間發生的事（B序列）。</p>
 
 <h1>A序列必須要成立，否則就沒有變化</h1>
 
