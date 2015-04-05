@@ -4,7 +4,7 @@
   <title><![CDATA[Category: linux | Wayneh and Coffee]]></title>
   <link href="http://wayneh.tw/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://wayneh.tw/"/>
-  <updated>2015-04-05T20:56:15+08:00</updated>
+  <updated>2015-04-05T20:57:20+08:00</updated>
   <id>http://wayneh.tw/</id>
   <author>
     <name><![CDATA[洪偉]]></name>
@@ -30,30 +30,19 @@
 
 <p>我的電腦告訴我，我有兩張顯卡（第一張是還沒驅動的）：</p>
 
-<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>&lt;/p>
-</span><span class='line'>
-</span><span class='line'>&lt;p>  &lt;em>-display UNCLAIMED
-</span><span class='line'>       description: 3D controller
-</span><span class='line'>       product: GK208M [GeForce GT 740M]
-</span><span class='line'>       vendor: NVIDIA Corporation
-</span><span class='line'>       [&hellip;]
-</span><span class='line'>  &lt;/em>-display
-</span><span class='line'>       description: VGA compatible controller
-</span><span class='line'>       product: 3rd Gen Core processor Graphics Controller
-</span><span class='line'>       vendor: Intel Corporation
-</span><span class='line'>       [&hellip;]</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+<p>{% codeblock %}</p>
+
+<p>  <em>-display UNCLAIMED
+       description: 3D controller
+       product: GK208M [GeForce GT 740M]
+       vendor: NVIDIA Corporation
+       [&hellip;]
+  </em>-display
+       description: VGA compatible controller
+       product: 3rd Gen Core processor Graphics Controller
+       vendor: Intel Corporation
+       [&hellip;]
+{% endcodeblock %}</p>
 
 <h1>方法一</h1>
 
