@@ -5,21 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>在 ubuntu 系統驅動 nvidia 顯卡 - Wayneh and Coffee</title>
+  <title>Category: being, - Wayneh and Coffee</title>
   <meta name="author" content="洪偉">
 
   
-  <meta name="description" content="我的筆電有一張獨顯，最近因為看到朋友用 pc 打遊戲很爽，就想來驅動一下這張獨顯。 先查詢電腦中接上的顯卡： sudo lshw -C video 我的電腦告訴我，我有兩張顯卡（第一張是還沒驅動的）： 1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-*-display UNCLAIMED &hellip;">
+  <meta name="description" content="Category: being,">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -28,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://wayneh.tw/blog/2015/01/25/binary-graphic-card/">
+  <link rel="canonical" href="http://wayneh.tw/blog/categories/being/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -55,19 +45,9 @@
   </script>
 
 
-  <meta property="og:title" content="在 ubuntu 系統驅動 nvidia 顯卡 - Wayneh and Coffee" />
-<meta property="og:description" content="我的筆電有一張獨顯，最近因為看到朋友用 pc 打遊戲很爽，就想來驅動一下這張獨顯。 先查詢電腦中接上的顯卡： sudo lshw -C video 我的電腦告訴我，我有兩張顯卡（第一張是還沒驅動的）： 1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-*-display UNCLAIMED &hellip;" />
-<meta property="og:url" content="http://wayneh.tw/blog/2015/01/25/binary-graphic-card/" />
+  <meta property="og:title" content="Category: being, - Wayneh and Coffee" />
+<meta property="og:description" content="Category: being," />
+<meta property="og:url" content="http://wayneh.tw/blog/categories/being/" />
 <meta property="og:image" content="http://wayneh.tw/images/facebook.png" />
 <meta property="og:author" content="洪偉" />
 <meta property="og:site_name" content="Wayneh and Coffee" />
@@ -115,165 +95,36 @@ src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorM
   <div id="main">
     <div id="content">
       <div>
-
-<article class="hentry" role="article">
+<article role="article">
   
   <header>
-    
-      
-        <h1 class="entry-title">在 Ubuntu 系統驅動 Nvidia 顯卡</h1>
-      
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-01-25T17:13:32+08:00" pubdate data-updated="true"></time>
-        
-      </p>
+    <h1 class="entry-title">Category: Being,</h1>
     
   </header>
-
-
-<div class="entry-content"><p>我的筆電有一張獨顯，最近因為看到朋友用 pc 打遊戲很爽，就想來驅動一下這張獨顯。</p>
-
-<p>先查詢電腦中接上的顯卡：</p>
-
-<pre><code>sudo lshw -C video
-</code></pre>
-
-<!--more-->
-
-
-<p>我的電腦告訴我，我有兩張顯卡（第一張是還沒驅動的）：</p>
-
-<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>*-display UNCLAIMED
-</span><span class='line'>       description: 3D controller
-</span><span class='line'>       product: GK208M [GeForce GT 740M]
-</span><span class='line'>       vendor: NVIDIA Corporation
-</span><span class='line'>       [...]
-</span><span class='line'>  *-display
-</span><span class='line'>       description: VGA compatible controller
-</span><span class='line'>       product: 3rd Gen Core processor Graphics Controller
-</span><span class='line'>       vendor: Intel Corporation
-</span><span class='line'>       [...]</span></code></pre></td></tr></table></div></figure></notextile></div>
-
-
-<h1>方法一</h1>
-
-<p>安裝驅動程式（不用 beebumble ，改用 nvidia prime）：</p>
-
-<pre><code>sudo apt-add-repository ppa:xorg-edgers/ppa
-sudo apt-get update
-sudo apt-get install nvidia-319 nvidia-prime 
-</code></pre>
-
-<p>reboot 以後，進入 soft-center 的 adding driver 選項，選擇想要的顯卡驅動程式。進入 nvidia-setting 將顯卡改為想要的顯卡。</p>
-
-<p>reboot 以後，就用 nvidia 顯卡開機了。</p>
-
-<h1>方法二</h1>
-
-<p>第一種方法的體驗實在太糟糕了，確實用讀顯開機畫面變得比較好，但是效能太差了。於是我決定放棄 nvidia-prime ，改用 bumblebee 。</p>
-
-<p>先移除 nvidia-prime ，然後安裝 bumblebee：</p>
-
-<pre><code>sudo apt-get purge nvidia-prime
-sudo apt-get install bumblebee bumblebee-nvidia primus linux-headers-generic
-</code></pre>
-
-<p>reboot 後用 glxspheres64 測試一下，就發現成功用顯卡跑了這支程式了。</p>
-
-<h1>參考</h1>
-
-<ul>
-<li><a href="https://help.ubuntu.com/community/BinaryDriverHowto/Nvidia#SLI_Application_Profiles_for_ID_Tech_4_Engine_Games_on_Ubuntu_.28and_Linux_in_general.29">BinaryDriverHowto/Nvidia (ubuntu docs)</a></li>
-<li><a href="https://wiki.ubuntu.com/Bumblebee">Bumblebee Project</a></li>
-</ul>
-
-</div>
-
-
-  <footer>
-    <p class="meta">
-      
   
-
-<span class="byline author vcard">Posted by <span class="fn">洪偉</span></span>
-
-      
-
-
-
-
-
+  <div id="blog-archives" class="category">
 
 
 
   
+  <h2>2014</h2>
+
+<article>
+  
+<h1><a href="/blog/2014/09/11/lucy-being/">《露西》究竟有沒有問出存有問題？</a></h1>
+<time datetime="2014-09-11T16:16:44+08:00" pubdate><span class='month'>Sep</span> <span class='day'>11</span> <span class='year'>2014</span></time>
+
+<footer>
+  <span class="categories">posted in <a class='category' href='/blog/categories/being/'>being,</a>, <a class='category' href='/blog/categories/movie/'>movie</a></span>
+</footer>
 
 
-<time datetime="2015-01-25T17:13:32+08:00" pubdate data-updated="true"></time>
-      
-
-<span class="categories">
-  
-    <a class='category' href='/blog/categories/linux/'>linux</a>
-  
-</span>
-
-
-    </p>
-    
-      <div class="sharing">
-  
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://wayneh.tw/blog/2015/01/25/binary-graphic-card/" data-via="wayne930242" data-counturl="http://wayneh.tw/blog/2015/01/25/binary-graphic-card/" >Tweet</a>
-  
-  
-  <div class="g-plusone" data-size="medium"></div>
-  
-  
-    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
-  
-</div>
-
-    
-    <p class="meta">
-      
-        <a class="basic-alignment left articlenav" href="/blog/2014/09/11/lucy-being/" title="Previous Post: 《露西》究竟有沒有問出存有問題？">&laquo; 《露西》究竟有沒有問出存有問題？</a>
-      
-      
-        <a class="basic-alignment right articlenav" href="/blog/2015/04/04/mctaggart/" title="Next Post: McTaggart 悖論：你以為的時間不是實在的">McTaggart 悖論：你以為的時間不是實在的 &raquo;</a>
-      
-    </p>
-  </footer>
 </article>
 
-  <section>
-    <h1>Comments</h1>
-    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
-  </section>
+
+  
+</article>
 
 </div>
 
@@ -311,7 +162,7 @@ sudo apt-get install bumblebee bumblebee-nvidia primus linux-headers-generic
       </li>
     
       <li class="post">
-        <a href="/blog/2015/01/25/binary-graphic-card/">在 Ubuntu 系統驅動 Nvidia 顯卡</a>
+        <a href="/blog/2014/09/11/lucy-being/">《露西》究竟有沒有問出存有問題？</a>
       </li>
     
   </ul>
@@ -383,10 +234,7 @@ sudo apt-get install bumblebee bumblebee-nvidia primus linux-headers-generic
       var disqus_shortname = 'waynehtw';
       
         
-        // var disqus_developer = 1;
-        var disqus_identifier = 'http://wayneh.tw/blog/2015/01/25/binary-graphic-card/';
-        var disqus_url = 'http://wayneh.tw/blog/2015/01/25/binary-graphic-card/';
-        var disqus_script = 'embed.js';
+        var disqus_script = 'count.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

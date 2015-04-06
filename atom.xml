@@ -4,7 +4,7 @@
   <title><![CDATA[Wayneh and Coffee]]></title>
   <link href="http://wayneh.tw/atom.xml" rel="self"/>
   <link href="http://wayneh.tw/"/>
-  <updated>2015-04-06T18:34:36+08:00</updated>
+  <updated>2015-04-06T18:37:58+08:00</updated>
   <id>http://wayneh.tw/</id>
   <author>
     <name><![CDATA[洪偉]]></name>
@@ -543,80 +543,6 @@
 <p>McTaggart, J. E. (1908). The Unreality of Time. Mind, New Series, 17(68), 457–474<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
 </ol>
 </div>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[在 ubuntu 系統驅動 nvidia 顯卡]]></title>
-    <link href="http://wayneh.tw/blog/2015/01/25/binary-graphic-card/"/>
-    <updated>2015-01-25T17:13:32+08:00</updated>
-    <id>http://wayneh.tw/blog/2015/01/25/binary-graphic-card</id>
-    <content type="html"><![CDATA[<p>我的筆電有一張獨顯，最近因為看到朋友用 pc 打遊戲很爽，就想來驅動一下這張獨顯。</p>
-
-<p>先查詢電腦中接上的顯卡：</p>
-
-<pre><code>sudo lshw -C video
-</code></pre>
-
-<!--more-->
-
-
-<p>我的電腦告訴我，我有兩張顯卡（第一張是還沒驅動的）：</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>*-display UNCLAIMED
-</span><span class='line'>       description: 3D controller
-</span><span class='line'>       product: GK208M [GeForce GT 740M]
-</span><span class='line'>       vendor: NVIDIA Corporation
-</span><span class='line'>       [...]
-</span><span class='line'>  *-display
-</span><span class='line'>       description: VGA compatible controller
-</span><span class='line'>       product: 3rd Gen Core processor Graphics Controller
-</span><span class='line'>       vendor: Intel Corporation
-</span><span class='line'>       [...]</span></code></pre></td></tr></table></div></figure>
-
-
-<h1>方法一</h1>
-
-<p>安裝驅動程式（不用 beebumble ，改用 nvidia prime）：</p>
-
-<pre><code>sudo apt-add-repository ppa:xorg-edgers/ppa
-sudo apt-get update
-sudo apt-get install nvidia-319 nvidia-prime 
-</code></pre>
-
-<p>reboot 以後，進入 soft-center 的 adding driver 選項，選擇想要的顯卡驅動程式。進入 nvidia-setting 將顯卡改為想要的顯卡。</p>
-
-<p>reboot 以後，就用 nvidia 顯卡開機了。</p>
-
-<h1>方法二</h1>
-
-<p>第一種方法的體驗實在太糟糕了，確實用讀顯開機畫面變得比較好，但是效能太差了。於是我決定放棄 nvidia-prime ，改用 bumblebee 。</p>
-
-<p>先移除 nvidia-prime ，然後安裝 bumblebee：</p>
-
-<pre><code>sudo apt-get purge nvidia-prime
-sudo apt-get install bumblebee bumblebee-nvidia primus linux-headers-generic
-</code></pre>
-
-<p>reboot 後用 glxspheres64 測試一下，就發現成功用顯卡跑了這支程式了。</p>
-
-<h1>參考</h1>
-
-<ul>
-<li><a href="https://help.ubuntu.com/community/BinaryDriverHowto/Nvidia#SLI_Application_Profiles_for_ID_Tech_4_Engine_Games_on_Ubuntu_.28and_Linux_in_general.29">BinaryDriverHowto/Nvidia (ubuntu docs)</a></li>
-<li><a href="https://wiki.ubuntu.com/Bumblebee">Bumblebee Project</a></li>
-</ul>
 
 ]]></content>
   </entry>
