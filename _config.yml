@@ -7,7 +7,8 @@ title: Wayneh and Coffee
 subtitle: 偉恩與咖啡：哲學觀點
 author: 洪偉
 simple_search: https://www.google.com/search
-description: 我是洪偉 (Wayneh, WeiHung) ，這是一個哲學部落格。除了「推廣哲學」以外，我也會在這裡寫一些關於哲學應用的文章。哲學與文學、與各學科、與社會人生，甚至在實務方面的思索，都是偉恩與咖啡的主題之一。
+description: 「偉恩與咖啡：哲學觀點」是一個哲學部落格。但除了「推廣哲學」以外，我也會在這裡寫一些關於哲學與文學、與各學科、與社會人生方面的思索。
+default_ogp_image: http://wayneh.tw/images/facebook.png
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -105,9 +106,11 @@ disqus_short_name: waynehtw
 disqus_show_comment_count: false
 
 # Google Analytics
-google_analytics_tracking_id: UA-42752284-1
+google_analytics_tracking_id: UA-61272067-1
 
 # Facebook Like
 facebook_like: true
 
-
+facebook_app_id: 836018039785211
+facebook_locale: zh_TW
+facebook_page: https://www.facebook.com/wayne930242

@@ -3,7 +3,7 @@ layout: post
 title: "《露西》究竟有沒有問出存有問題？"
 date: 2014-09-11 16:16:44 +0800
 comments: true
-categories: comments
+categories: being, movie
 
 ---
 

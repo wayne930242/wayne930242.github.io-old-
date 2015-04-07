@@ -4,6 +4,7 @@ title: "在 ubuntu 系統驅動 nvidia 顯卡"
 date: 2015-01-25 17:13:32 +0800
 comments: true
 categories: linux
+published: false
 ---
 
 我的筆電有一張獨顯，最近因為看到朋友用 pc 打遊戲很爽，就想來驅動一下這張獨顯。
