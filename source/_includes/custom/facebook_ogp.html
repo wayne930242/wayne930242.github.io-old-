@@ -5,13 +5,13 @@
 <meta property="og:author" content="{{ site.author }}" />
 <meta property="og:site_name" content="{{ site.title }}" />
 <meta property="og:locale" content="{{ site.facebook_locale }}" />
-<meta property="og:type" content="{% if page.index %}blog{% else %}article{% endif %}" />
+<meta property="og:type" content="website" />
 <meta property="fb:app_id" content="{{ site.facebook_app_id }}" />
+<meta property="fb:profile_id" content="wayne930242" />
 
-<meta property="twitter:card" content="{% if page.twitter_card.type %}{{ page.twitter_card.type}}{% else %}summary_large_image{% endif %}" />
+<meta property="twitter:card" content="{% if page.twitter_card.type %}{{ page.twitter_card.type}}{% else %}summary{% endif %}" />
 <meta property="twitter:site" content="@wayne930242" />
 <meta property="twitter:url" content="{% if canonical %}{{ canonical }}{% else %}{{ site.url }}{% endif %}" />
 <meta property="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
 <meta property="twitter:description" content="{{ description | strip_html | condense_spaces | truncate:200 }}" />
-<meta property="twitter:creator" content="@wayne930242" />
 <meta property="twitter:image:src" content="{% if page.ogp_image %}{{ page.ogp_image }}{% else %}{{ site.default_ogp_image }}{% endif %}" />
