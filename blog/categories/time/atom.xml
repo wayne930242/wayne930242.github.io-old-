@@ -4,7 +4,7 @@
   <title><![CDATA[Category: time | Wayneh and Coffee]]></title>
   <link href="http://wayneh.tw/blog/categories/time/atom.xml" rel="self"/>
   <link href="http://wayneh.tw/"/>
-  <updated>2015-04-20T16:02:36+08:00</updated>
+  <updated>2015-04-20T16:05:04+08:00</updated>
   <id>http://wayneh.tw/</id>
   <author>
     <name><![CDATA[洪偉]]></name>
@@ -188,14 +188,16 @@
 <p>McTaggart 為了解釋變化，它引進了一套分析工具，即兩種時間序列：</p>
 
 <ul>
-<li>A序列：將<strong>事件</strong>分成現在、過去、未來來排列</li>
-<li>B序列：將<strong>事件</strong>分成先的事件、後的事件來排列</li>
+<li>A序列：將<strong>事件</strong>按照現在、過去、未來來排列</li>
+<li>B序列：將<strong>事件</strong>按照事件的先、後來排列</li>
 </ul>
 
 
 <p>所謂「<strong>事件</strong>」可以想成「在某時發生的某事」。</p>
 
 <p>譬如說，「<a href="http://satoyamacafe.tw/">里山咖啡</a>的店長小花端出了一盤咖哩飯」，可以是現在、過去或未來發生的一件特定的事（A序列），也或者是介於某兩個事件、介於「小花用新鮮原料燉煮咖哩醬汁」和「客人吃得很開心」之間發生的事（B序列）。</p>
+
+<p>我們可以看到，A系列是會隨著時間變動的。A系列裡面的未來的事件，會隨著時間變成現在的事件、再變成過去的事件。然而B系列是不會變動的，一旦先後關係確定了，無論時間怎麼流動，B系列都是固定的。</p>
 
 <h1>B序列預設了A序列，否則就沒有變化</h1>
 
