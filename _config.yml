@@ -111,6 +111,11 @@ google_analytics_tracking_id: UA-61272067-1
 # Facebook Like
 facebook_like: true
 
+# Facebook meta
 facebook_app_id: 836018039785211
 facebook_locale: zh_TW
 facebook_page: https://www.facebook.com/wayne930242
+
+# 
+front_page_categories: [mood] # A list of categories for the front page
+front_page_categories_op : 'hide' # Whether to show or hide the list of categories from front_page_categories
