@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "McTaggart悖論之後，哲學界發生什麼事？（Loux，Metaphysics 的摘要）"
+title: "McTaggart悖論之後，哲學界發生什麼事？"
 date: 2015-04-09 16:15:25 +0800
 comments: true
 categories: metaphisics, time
