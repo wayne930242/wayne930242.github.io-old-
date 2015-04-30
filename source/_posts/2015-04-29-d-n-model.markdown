@@ -1,0 +1,13 @@
+---
+layout: post
+title: "D-N-model"
+date: 2015-04-29 16:17:15 +0800
+comments: true
+categories: 
+ogp_image: 
+published: false
+---
+
+什麼是科學解釋？怎樣的解釋算是科學解釋？我們在這裡要介紹一種最經典的科學解釋的理論模型，由 Hempel 所提出的**演譯—法則模型 (Deductive-Nomological Model，我們簡稱「DN模型」) **。
+
+
