@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "《露西》究竟有沒有問出存有問題？"
+title: "《露西》的哲學探討"
 date: 2014-09-11 16:16:44 +0800
 comments: true
 categories: being, movie
@@ -9,11 +9,17 @@ categories: being, movie
 
 {% img /images/blog/lucyXphiXsci.jpg lucybanner %}
 
-我也看了《露西》，在 nchild 的主持下，10月3日晚上，我將與泛科學的[廖英凱](http://pansci.tw/archives/author/ykliao)，於 Bookshow 說書會合講一次「[科哲露西](http://www.accupass.com/go/lucy)」，這是 phi10sophy @g0v 的第一場活動。
+在 nchild 的主持下，我曾與泛科學的[廖英凱](http://pansci.tw/archives/author/ykliao)，於 Bookshow 說書會合講一次「[科哲露西](http://www.accupass.com/go/lucy)」，這是 phi10sophy @g0v 的第一場活動。
+
+當天的錄影：
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/a1gBC-xU0D4" frameborder="0" allowfullscreen></iframe>
+
+當天我所使用的簡報：
+
+<iframe src="//slides.com/weihung/--120226/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 為了給活動一個引言，我想從 Ian 和 sharon 的一個衝突談起：露西究竟有沒有問出「存有」的問題？
-
-（當然，問「此電影有沒有提出某哲學問題」，不如問「我們是否能在此電影中讀出某哲學問題的旨趣」的預設來得更少，但我樂意使用前者來簡稱後者，就像[其他作者](https://phi10.hackpad.com/VhrAm5mqMJo)一樣。）
 
 <!--more-->
 
@@ -86,5 +92,3 @@ Ian Chen 敏銳地洞見到演化與存有的關聯，但我們也能明確看�
 這是我所讀到的《露西》中可以問出的一個存有問題。作為本活動的一個引言。
 
 最後，我想再拋出一個相關的問題：請問，露西什麼時候開始，已經**不是**一個人類了？
-
-（歡迎來 10月3日晚上 nchild 所主持的「[科哲露西](http://www.accupass.com/go/lucy)」一起聊聊）
