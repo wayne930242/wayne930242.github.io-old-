@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: movie | Wayneh and Coffee]]></title>
+  <title><![CDATA[Category: Movie | Wayneh and Coffee]]></title>
   <link href="http://wayneh.tw/blog/categories/movie/atom.xml" rel="self"/>
   <link href="http://wayneh.tw/"/>
-  <updated>2015-05-04T14:53:19+08:00</updated>
+  <updated>2015-05-05T21:53:26+08:00</updated>
   <id>http://wayneh.tw/</id>
   <author>
     <name><![CDATA[洪偉]]></name>
@@ -14,17 +14,25 @@
 
   
   <entry>
-    <title type="html"><![CDATA[《露西》究竟有沒有問出存有問題？]]></title>
+    <title type="html"><![CDATA[《露西》的哲學探討]]></title>
     <link href="http://wayneh.tw/blog/2014/09/11/lucy-being/"/>
     <updated>2014-09-11T16:16:44+08:00</updated>
     <id>http://wayneh.tw/blog/2014/09/11/lucy-being</id>
     <content type="html"><![CDATA[<p><img src="/images/blog/lucyXphiXsci.jpg" title="lucybanner" ></p>
 
-<p>我也看了《露西》，在 nchild 的主持下，10月3日晚上，我將與泛科學的<a href="http://pansci.tw/archives/author/ykliao">廖英凱</a>，於 Bookshow 說書會合講一次「<a href="http://www.accupass.com/go/lucy">科哲露西</a>」，這是 phi10sophy @g0v 的第一場活動。</p>
+<p>在 nchild 的主持下，我曾與泛科學的<a href="http://pansci.tw/archives/author/ykliao">廖英凱</a>，於 Bookshow 說書會合講一次「<a href="http://www.accupass.com/go/lucy">科哲露西</a>」，這是 phi10sophy @g0v 的第一場活動。</p>
+
+<p>當天的錄影：</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/a1gBC-xU0D4" frameborder="0" allowfullscreen></iframe>
+
+
+<p>當天我所使用的簡報：</p>
+
+<iframe src="//slides.com/weihung/--120226/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 
 <p>為了給活動一個引言，我想從 Ian 和 sharon 的一個衝突談起：露西究竟有沒有問出「存有」的問題？</p>
-
-<p>（當然，問「此電影有沒有提出某哲學問題」，不如問「我們是否能在此電影中讀出某哲學問題的旨趣」的預設來得更少，但我樂意使用前者來簡稱後者，就像<a href="https://phi10.hackpad.com/VhrAm5mqMJo">其他作者</a>一樣。）</p>
 
 <!--more-->
 
@@ -88,8 +96,6 @@
 <p>這是我所讀到的《露西》中可以問出的一個存有問題。作為本活動的一個引言。</p>
 
 <p>最後，我想再拋出一個相關的問題：請問，露西什麼時候開始，已經<strong>不是</strong>一個人類了？</p>
-
-<p>（歡迎來 10月3日晚上 nchild 所主持的「<a href="http://www.accupass.com/go/lucy">科哲露西</a>」一起聊聊）</p>
 ]]></content>
   </entry>
   
