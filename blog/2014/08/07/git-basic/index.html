@@ -9,9 +9,12 @@
   <meta name="author" content="洪偉">
 
   
-  <meta name="description" content="1. git repo git init
+  <meta name="description" content="1. git repo
+git init
 git clone &lt;repo&gt;
-git config 2. git 結構的三個視角 2-1. 儲藏 2-2. 歷史 2-3. 遠端 3. 儲藏視角下的 git 操作 3-1. 工作區 git clean 3-2. 準備區 git add &hellip;">
+git config # 2. git 結構的三個視角 2-1. 儲藏 2-2. 歷史 2-3. 遠端 3. 儲藏視角下的 git 操作 3-1. 工作區
+git clean 3-2. 準備區
+git add &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -33,6 +36,37 @@ git config 2. git 結構的三個視角 2-1. 儲藏 2-2. 歷史 2-3. 遠端 3. �
 <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
 
+<!-- MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript"
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
   
   <script type="text/javascript">
     var _gaq = _gaq || [];
@@ -48,9 +82,12 @@ git config 2. git 結構的三個視角 2-1. 儲藏 2-2. 歷史 2-3. 遠端 3. �
 
 
   <meta property="og:title" content="git 入門筆記 - Wayneh and Coffee" />
-<meta property="og:description" content="1. git repo git init
+<meta property="og:description" content="1. git repo
+git init
 git clone &lt;repo&gt;
-git config 2. git 結構的三個視角 2-1. 儲藏 2-2. 歷史 2-3. 遠端 3. 儲藏視角下的 git 操作 3-1. 工作區 git clean 3-2. 準備區 git add &hellip;" />
+git config # 2. git 結構的三個視角 2-1. 儲藏 2-2. 歷史 2-3. 遠端 3. 儲藏視角下的 git 操作 3-1. 工作區
+git clean 3-2. 準備區
+git add &hellip;" />
 <meta property="og:url" content="http://wayneh.tw/blog/2014/08/07/git-basic" />
 <meta property="og:image" content="http://wayneh.tw/images/facebook.png" />
 <meta property="og:author" content="洪偉" />
@@ -64,11 +101,15 @@ git config 2. git 結構的三個視角 2-1. 儲藏 2-2. 歷史 2-3. 遠端 3. �
 <meta property="twitter:site" content="@wayne930242" />
 <meta property="twitter:url" content="http://wayneh.tw/blog/2014/08/07/git-basic" />
 <meta property="twitter:title" content="git 入門筆記" />
-<meta property="twitter:description" content="1. git repo git init
+<meta property="twitter:description" content="1. git repo
+git init
 git clone &lt;repo&gt;
-git config 2. git 結構的三個視角 2-1. 儲藏 2-2. 歷史 2-3. 遠端 3. 儲藏視角下的 git 操作 3-1. 工作區 git clean 3-2. 準備區 git add
-git rm 3-3. 提交 repo git commit
-git checkout -- 3-4 &hellip;" />
+git config # 2. git 結構的三個視角 2-1. 儲藏 2-2. 歷史 2-3. 遠端 3. 儲藏視角下的 git 操作 3-1. 工作區
+git clean 3-2. 準備區
+git add
+git rm 3-3. 提交 repo
+git commit
+git checkout -- 3- &hellip;" />
 <meta property="twitter:image:src" content="http://wayneh.tw/images/facebook.png" />
 
 </head>
@@ -127,97 +168,81 @@ git checkout -- 3-4 &hellip;" />
 
 <!-- more -->
 
-
-<h1>1. git repo</h1>
-
+<h1 id="git-repo">1. git repo</h1>
 <pre><code>git init
 git clone &lt;repo&gt;
-git config
+git config # 2. git 結構的三個視角
 </code></pre>
 
-<h1>2. git 結構的三個視角</h1>
+<h2 id="section">2-1. 儲藏</h2>
 
-<h2>2-1. 儲藏</h2>
+<h2 id="section-1">2-2. 歷史</h2>
 
-<h2>2-2. 歷史</h2>
+<h2 id="section-2">2-3. 遠端</h2>
 
-<h2>2-3. 遠端</h2>
+<h1 id="git-">3. 儲藏視角下的 git 操作</h1>
 
-<h1>3. 儲藏視角下的 git 操作</h1>
-
-<h2>3-1. 工作區</h2>
-
+<h2 id="section-3">3-1. 工作區</h2>
 <pre><code>git clean
 </code></pre>
 
-<h2>3-2. 準備區</h2>
-
+<h2 id="section-4">3-2. 準備區</h2>
 <pre><code>git add
 git rm
 </code></pre>
 
-<h2>3-3. 提交 repo</h2>
-
+<h2 id="repo">3-3. 提交 repo</h2>
 <pre><code>git commit
 git checkout --
 </code></pre>
 
-<h2>3-4. 查看現狀</h2>
-
+<h2 id="section-5">3-4. 查看現狀</h2>
 <pre><code>git status
 git log
 git diff
 </code></pre>
 
-<h1>4. 歷史視角下的 git 操作</h1>
-
+<h1 id="git--1">4. 歷史視角下的 git 操作</h1>
 <pre><code>git branch
 </code></pre>
 
-<h2>4-1. checkout!</h2>
-
+<h2 id="checkout">4-1. checkout!</h2>
 <pre><code>git checkout
 </code></pre>
 
-<h2>4-2. 合併進來</h2>
-
+<h2 id="section-6">4-2. 合併進來</h2>
 <pre><code>git merge
 </code></pre>
 
-<h2>4-3. 提交 repo 的其他方法</h2>
-
+<h2 id="repo-">4-3. 提交 repo 的其他方法</h2>
 <pre><code>git revert
 git reset
 </code></pre>
 
-<h2>4-4. 改寫歷史</h2>
-
+<h2 id="section-7">4-4. 改寫歷史</h2>
 <pre><code>git rebase
 git commit --amend
 </code></pre>
 
-<h1>5. 遠端視角下的 git 操作</h1>
+<h1 id="git--2">5. 遠端視角下的 git 操作</h1>
 
-<h2>5-1. 設定遠端</h2>
-
+<h2 id="section-8">5-1. 設定遠端</h2>
 <pre><code>git remote
 </code></pre>
 
-<h2>5-2. 接取遠端</h2>
-
+<h2 id="section-9">5-2. 接取遠端</h2>
 <pre><code>git fetch
 git pull
 </code></pre>
 
-<h2>5-3. 推上遠端</h2>
-
+<h2 id="section-10">5-3. 推上遠端</h2>
 <pre><code>git push
 </code></pre>
 
-<h1>6. 參考連結</h1>
+<h1 id="section-11">6. 參考連結</h1>
 
 <ul>
-<li><a href="https://www.atlassian.com/git/">Atlassian git Tutorials</a></li>
+  <li><a href="https://www.atlassian.com/git/">Atlassian git Tutorials</a></li>
 </ul>
 
 </div>

@@ -31,6 +31,37 @@
 <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
 
+<!-- MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript"
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
   
   <script type="text/javascript">
     var _gaq = _gaq || [];
@@ -115,42 +146,37 @@
   </header>
 
 
-<div class="entry-content"><p><img src="/images/blog/lucyXphiXsci.jpg" title="lucybanner" ></p>
+<div class="entry-content"><p><img src="/images/blog/lucyXphiXsci.jpg" title="lucybanner" /></p>
 
 <p>在 nchild 的主持下，我曾與泛科學的<a href="http://pansci.tw/archives/author/ykliao">廖英凱</a>，於 Bookshow 說書會合講一次「<a href="http://www.accupass.com/go/lucy">科哲露西</a>」，這是 phi10sophy @g0v 的第一場活動。</p>
 
 <p>當天的錄影：</p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/a1gBC-xU0D4" frameborder="0" allowfullscreen></iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/a1gBC-xU0D4" frameborder="0" allowfullscreen=""></iframe>
 
 <p>當天我所使用的簡報：</p>
 
-<iframe src="//slides.com/weihung/--120226/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
+<iframe src="//slides.com/weihung/--120226/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
 
 <p>為了給活動一個引言，我想從 Ian 和 sharon 的一個衝突談起：露西究竟有沒有問出「存有」的問題？</p>
 
 <!--more-->
 
-
-<h1>Ian vs. sharon</h1>
+<h1 id="ian-vs-sharon">Ian vs. sharon</h1>
 
 <p>我們先來看看 <a href="http://blog.roodo.com/ianhoho/archives/30652063.html">Ian Chen 的說法</a>：</p>
 
-<blockquote><p>從摩根費里曼談海豚演化出類聲納的溝通方式，說人類忘了如何存在（being），在我看來就是海德格提出幾千年來對存在的研究都其實只是遺忘存在（being）的意思。[...]</p><p>我換個方式來說，人的存在（being）是什麼？或是說「人是什麼？」這個問題，很多哲學家甚至科學家嘗試找出答案，比方說，有些哲學家會告訴你，人就是理性的動物，理性就是人的最根本核心的東西，科學家可能會說是細胞，或是更小的原子、分子之類的概念。但是摩根費里曼跟海德格想說的，人花太多的心力去找那個核心的東西，而忽略或誤解了人的存在也就是誤解了being，因為being很可能只是一種如海豚般的方式，為了適應環境而漸漸演化而擁有某種能力。[...]</p><p>那為什麼要談到我們怎麼理解（being）呢？因為如果這個（being）被理解為某種本質（essence）或實體（entity），露西就不可能進化，因為本質或實體是無法改變的。也由於電影裡的世界觀，我個人認為是用海德格理解存在（being）的方式，也就是將人的存在理解為某種可改變的能力，露西的進化才能成立。</p><footer><strong>Ian Chen</strong> <cite><a href='http://blog.roodo.com/ianhoho/archives/30652063.html'>電影裡的哲學，露西為什麼能進化？最後去了那裡？歐陸哲學來告訴你。</a></cite></footer></blockquote>
-
+<blockquote><p>從摩根費里曼談海豚演化出類聲納的溝通方式，說人類忘了如何存在（being），在我看來就是海德格提出幾千年來對存在的研究都其實只是遺忘存在（being）的意思。[...]</p><p>我換個方式來說，人的存在（being）是什麼？或是說「人是什麼？」這個問題，很多哲學家甚至科學家嘗試找出答案，比方說，有些哲學家會告訴你，人就是理性的動物，理性就是人的最根本核心的東西，科學家可能會說是細胞，或是更小的原子、分子之類的概念。但是摩根費里曼跟海德格想說的，人花太多的心力去找那個核心的東西，而忽略或誤解了人的存在也就是誤解了being，因為being很可能只是一種如海豚般的方式，為了適應環境而漸漸演化而擁有某種能力。[...]</p><p>那為什麼要談到我們怎麼理解（being）呢？因為如果這個（being）被理解為某種本質（essence）或實體（entity），露西就不可能進化，因為本質或實體是無法改變的。也由於電影裡的世界觀，我個人認為是用海德格理解存在（being）的方式，也就是將人的存在理解為某種可改變的能力，露西的進化才能成立。</p><footer><strong>Ian Chen</strong> <cite><a href="http://blog.roodo.com/ianhoho/archives/30652063.html">電影裡的哲學，露西為什麼能進化？最後去了那裡？歐陸哲學來告訴你。</a></cite></footer></blockquote>
 
 <p>再來，讓我們看看 <a href="http://myphantomisland.wordpress.com/2014/09/09/lucy%E8%AC%9B%E5%93%B2%E5%AD%B8%EF%BC%9F/">sharon 的說法</a>：</p>
 
-<blockquote><p>[...]我不覺得Lucy問了存有（being）的問題，從頭到尾都沒有上升到存有的層次，而在「存在」（existence）的層次打轉。哲學麻煩就是很多概念看起來十分相似，通常「存有」（being）處理「使存在可能」的問題，而「存在」（existence）處理「展現」出來的問題。用沙特存有的虛無來舉例，Being是背後不斷讓新事物創生的動力，但我們所有看見的都是Being of something，也就是作為某事物的存有（一個蘋果、杯子或其他），存有每一次的展現都化身為特定的存在被看見，因此講存有的虛無，因為他未曾也不會展現出自己。</p><p>因此海德格才說存在（existence）是exsistase，這個字的意思是「站在自身旁邊」，每一次創生出一個「存在」，這個存在就是站在自己的存有旁邊，而不是裡面或者等於自己的存有。簡單來說，你看到存在的自己永遠不全然是自己的存有，最多也只是相差不遠。[...]</p><footer><strong>sharonme0627</strong> <cite><a href='http://myphantomisland.wordpress.com/2014/09/09/lucy%E8%AC%9B%E5%93%B2%E5%AD%B8%EF%BC%9F/'>Lucy講哲學？</a></cite></footer></blockquote>
-
+<blockquote><p>[...]我不覺得Lucy問了存有（being）的問題，從頭到尾都沒有上升到存有的層次，而在「存在」（existence）的層次打轉。哲學麻煩就是很多概念看起來十分相似，通常「存有」（being）處理「使存在可能」的問題，而「存在」（existence）處理「展現」出來的問題。用沙特存有的虛無來舉例，Being是背後不斷讓新事物創生的動力，但我們所有看見的都是Being of something，也就是作為某事物的存有（一個蘋果、杯子或其他），存有每一次的展現都化身為特定的存在被看見，因此講存有的虛無，因為他未曾也不會展現出自己。</p><p>因此海德格才說存在（existence）是exsistase，這個字的意思是「站在自身旁邊」，每一次創生出一個「存在」，這個存在就是站在自己的存有旁邊，而不是裡面或者等於自己的存有。簡單來說，你看到存在的自己永遠不全然是自己的存有，最多也只是相差不遠。[...]</p><footer><strong>sharonme0627</strong> <cite><a href="http://myphantomisland.wordpress.com/2014/09/09/lucy%E8%AC%9B%E5%93%B2%E5%AD%B8%EF%BC%9F/">Lucy講哲學？</a></cite></footer></blockquote>
 
 <p>但是到底<strong>存在</strong>是什麼？<strong>存有</strong>是什麼？他們的衝突又是什麼？</p>
 
-<h1>存在是什麼？存有是什麼？</h1>
+<h1 id="section">存在是什麼？存有是什麼？</h1>
 
-<p>「存有」這個術語來自歐陸哲學的 &ldquo;Being&rdquo; （德：Sein），我們經常譯作「存有」，而不將它譯作「存在」。這是因為，我們希望將「存在」拿來指另一個更有「在」的意義的字："Existence" 。</p>
+<p>「存有」這個術語來自歐陸哲學的 “Being” （德：Sein），我們經常譯作「存有」，而不將它譯作「存在」。這是因為，我們希望將「存在」拿來指另一個更有「在」的意義的字：”Existence” 。</p>
 
 <p>區分這兩個字的概念是很重要的，但要真的分清楚其實不容易。一下子引自然哲學家、一下子引笛卡爾康德黑格爾、一下子又要引海德格，才能透過哲學史的探索進程，將這兩字的概念釐得像是越來越清晰。</p>
 
@@ -162,7 +188,7 @@
 
 <p>你搓搓手，感覺自己的手黏黏的，軟軟的，這是關於你的手的<strong>性質</strong>。在這同時，你可以決定手的形狀，決定握拳、決定張開，你可以有條件地自由地感覺它、改變它的各種性質。這是你的手的<strong>存在</strong>，或說是「<strong>作為你的手的存在</strong>」。</p>
 
-<p>&ldquo;Existence&rdquo; 這個字，在語源中結合了「向外（<em>ex-</em>）」與「放置（<em>sistere</em>）」的意思，它是 &ldquo;exist&rdquo; 的名詞化，保有「來自<strong>某X</strong>」的意義。這個<strong>某X</strong>，我們要是弄對了想法的話，就可以是<strong>存有</strong>。這如 sharon 所說「存有處理『使存在可能』的問題」的意義。</p>
+<p>“Existence” 這個字，在語源中結合了「向外（<em>ex-</em>）」與「放置（<em>sistere</em>）」的意思，它是 “exist” 的名詞化，保有「來自<strong>某X</strong>」的意義。這個<strong>某X</strong>，我們要是弄對了想法的話，就可以是<strong>存有</strong>。這如 sharon 所說「存有處理『使存在可能』的問題」的意義。</p>
 
 <p>我們再接著來理解「存有」是什麼，這需要一點想像力。但無論如何，請不要將它想成「將一切性質剔除掉的事物」，它不是<strong>物自身</strong>。同時，存有也不會是不屬於世界的東西，也就是說，即使手的形狀出自意念或本質，但是<strong>意念</strong>或<strong>本質</strong>並不是手的<strong>存有</strong>。</p>
 
@@ -172,11 +198,13 @@
 
 <p>總結來說，<strong>存有</strong>並不是一個概念，也不是在世界中被概念化、空間化以後的東西，就正面來說，<strong>存有</strong>的意義是極空泛的。談存有問題，是哲學中一個深奧的（有意思的）課題。</p>
 
-<h1>《露西》究竟有沒有問出存有問題？</h1>
+<h1 id="section-1">《露西》究竟有沒有問出存有問題？</h1>
 
 <p>我認為<strong>演化</strong>是《露西》的主軸之一，包括內建了一個<strong>演化</strong>的「腦部發展理論」（我在這裡不想去釐清它的意義）：</p>
 
-<blockquote><p>生物在演化中，能使用越來越多的腦。</p></blockquote>
+<blockquote>
+  <p>生物在演化中，能使用越來越多的腦。</p>
+</blockquote>
 
 <p>Ian Chen 敏銳地洞見到演化與存有的關聯，但我們也能明確看到，就他將<strong>人的存有</strong>在不同觀點的考慮下，想成<strong>一個</strong>或<strong>多個</strong>實體的結合、想成用不同方式所理解的對象，也就是將其想成從世界中分離出來的對象而言，他所考慮的依然是<strong>在特定狀態中的存有</strong>，依然包含<strong>一與多</strong>、<strong>客體與世界</strong>在內的<strong>實體</strong>概念的形式，也因此才直接牽涉到關於<strong>理解</strong>的問題。</p>
 

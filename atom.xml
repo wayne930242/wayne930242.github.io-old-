@@ -4,7 +4,7 @@
   <title><![CDATA[Wayneh and Coffee]]></title>
   <link href="http://wayneh.tw/atom.xml" rel="self"/>
   <link href="http://wayneh.tw/"/>
-  <updated>2015-06-04T16:32:23+08:00</updated>
+  <updated>2015-06-04T16:44:24+08:00</updated>
   <id>http://wayneh.tw/</id>
   <author>
     <name><![CDATA[洪偉]]></name>
@@ -18,39 +18,38 @@
     <link href="http://wayneh.tw/blog/2015/05/10/review-excerpts-from-ostensible-temporality/"/>
     <updated>2015-05-10T00:00:00+08:00</updated>
     <id>http://wayneh.tw/blog/2015/05/10/review-excerpts-from-ostensible-temporality</id>
-    <content type="html"><![CDATA[<blockquote><p>這篇文章的內容來自 C. D. Broad &ldquo;Ostensible Temporality&rdquo; 一書的節選<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>。</p></blockquote>
+    <content type="html"><![CDATA[<blockquote>
+  <p>這篇文章的內容來自 C. D. Broad “Ostensible Temporality” 一書的節選<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>。</p>
+</blockquote>
 
 <!--more-->
 
-
-<h1>1. Independent account of the phenomenology of time</h1>
+<h1 id="independent-account-of-the-phenomenology-of-time">1. Independent account of the phenomenology of time</h1>
 
 <p>There are two kinds of ostensibly recorded facts (which are temporal and recorded by some sentences):</p>
 
 <ol>
-<li>intra-subjective fact</li>
-<li>trans-subjective fact</li>
+  <li>intra-subjective fact</li>
+  <li>trans-subjective fact</li>
 </ol>
-
 
 <p>It seems intra-subjective fact is logically more primitive and simpler than trans-subjective fact. So we consider the former first.</p>
 
 <p>The temporal characteristics of experiences fall into three sets:</p>
 
 <ol>
-<li>Every experience has some duration.</li>
-<li>If $A$ and $B$ are two experiences of the same person, and no assumption is made about the relative durations of $A$ and $B$, there are <em>13</em> aleternative possible relations in which $A$ may stand to $B$: 6 are independent of the raltive duration of $A$ and $B$. 1 is exact temporal coincidence without overlap (hold only if $A$ and $B$ have equal duration); 3 hold only if $A$ is shorter than $B$; 3 hold only if $A$ is longer than $B$.<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup></li>
-<li>The facts recorded would be changing for the becoming of experiences.</li>
+  <li>Every experience has some duration.</li>
+  <li>If $A$ and $B$ are two experiences of the same person, and no assumption is made about the relative durations of $A$ and $B$, there are <em>13</em> aleternative possible relations in which $A$ may stand to $B$: 6 are independent of the raltive duration of $A$ and $B$. 1 is exact temporal coincidence without overlap (hold only if $A$ and $B$ have equal duration); 3 hold only if $A$ is shorter than $B$; 3 hold only if $A$ is longer than $B$.<sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup></li>
+  <li>The facts recorded would be changing for the becoming of experiences.</li>
 </ol>
 
+<p>Def. “the Extensive Aspect of Temporal Facts”: the two aspects of duration and temporal relations, in which there is a close analogy between Time and Space.</p>
 
-<p>Def. &ldquo;the Extensive Aspect of Temporal Facts&rdquo;: the two aspects of duration and temporal relations, in which there is a close analogy between Time and Space.</p>
+<h2 id="the-extensive-aspect-of-temporal-facts">1.1. The extensive aspect of temporal facts</h2>
 
-<h2>1.1. The extensive aspect of temporal facts</h2>
+<p>There is a ananlogy between a person’s mental history, taken as a whole, and a cord made up of shorter strands in colour or texture arranged in a defined way.</p>
 
-<p>There is a ananlogy between a person&rsquo;s mental history, taken as a whole, and a cord made up of shorter strands in colour or texture arranged in a defined way.</p>
-
-<p>(1) In a linear spatial series there is no asymmetric dyadic relaion intrinsic to the seies. The only relation which does not involve a tacit reference to some term outside the series is the partly symmetrical and partly asymmetrical <em>triadic</em> relation of &ldquo;betweenness&rdquo;. In a temporal series there is a genuine dyadic relation which is intrinsic to the series and involves no reference to any term outside the latter. It is the fundamental relation here, and <em>temporal</em> betweenness is defiable in terms of it.</p>
+<p>(1) In a linear spatial series there is no asymmetric dyadic relaion intrinsic to the seies. The only relation which does not involve a tacit reference to some term outside the series is the partly symmetrical and partly asymmetrical <em>triadic</em> relation of “betweenness”. In a temporal series there is a genuine dyadic relation which is intrinsic to the series and involves no reference to any term outside the latter. It is the fundamental relation here, and <em>temporal</em> betweenness is defiable in terms of it.</p>
 
 <p>In the temporal series there are two intrinsically opposite directions. In the linear spatial series there is no <em>intrinsic</em> direction. If direction is to be introduces, this must be done <em>extrinsically</em>.</p>
 
@@ -62,82 +61,82 @@
 
 <p>Temporal relations <em>directly</em> relate <em>events or processes</em>, not the continuants of which events and processes constitute the histories. Events or processes are temporally eextended. The continuants, of which these events or processes constitute the histories, <em>endure through</em> periods of time. And the period through which a continuant endure is measured by the length of its history.</p>
 
-<p>Lately, a temporal whole may be composed of parts which do not temporally overlap but are completely successive to each other.</p>
+<p>Lately, a temporal whole may be composed of parts which do not temporally overlap but are completely successive to each other. </p>
 
-<h2>1.2 The transitory aspect of temporal facts</h2>
+<h2 id="the-transitory-aspect-of-temporal-facts">1.2 The transitory aspect of temporal facts</h2>
 
 <p>Here are two points to be considered: (1) the characteristics of pastness, presentness, and futurity; (2) the fact that every event is continually changing in respect of these characteristics.</p>
 
 <p>There are two different ways of recording temporal facts:</p>
 
 <ol>
-<li>by means of differences of tense in inflected languages, or by means of a temporal copula.</li>
-<li>by means of a single uniform copula and temporal adjectives.</li>
+  <li>by means of differences of tense in inflected languages, or by means of a temporal copula.</li>
+  <li>by means of a single uniform copula and temporal adjectives.</li>
 </ol>
 
+<p>By useing various forms of temporal adjective we may be able to reduce the number of forms of temporal copula needed in recording temporal facts to the single copula “is”. </p>
 
-<p>By useing various forms of temporal adjective we may be able to reduce the number of forms of temporal copula needed in recording temporal facts to the single copula &ldquo;is&rdquo;.</p>
+<p>Suppose that, on a certain occasion, I utter the sentence “The event $e$ is present.” And suppose that this utterance records a fact. If the word “is” in it were a non-tmeporal copula, <em>every</em> utterance by me of the same sentence would record the same fact, no matter whether it were earlier than, contemporary with, or later than this utterance of mine. But actually the only utterances of this sentence which sould record the same fact as this utterance of mine would be those which are <em>contemporary with</em> my utterance.</p>
 
-<p>Suppose that, on a certain occasion, I utter the sentence &ldquo;The event $e$ is present.&rdquo; And suppose that this utterance records a fact. If the word &ldquo;is&rdquo; in it were a non-tmeporal copula, <em>every</em> utterance by me of the same sentence would record the same fact, no matter whether it were earlier than, contemporary with, or later than this utterance of mine. But actually the only utterances of this sentence which sould record the same fact as this utterance of mine would be those which are <em>contemporary with</em> my utterance.</p>
-
-<h3>1.2.1 Pastness, presentness, and futurity</h3>
+<h3 id="pastness-presentness-and-futurity">1.2.1 Pastness, presentness, and futurity</h3>
 
 <p>If we regard them as three determinates under a single determinable, they are not on a level. Pastness and futurity are each capable of an infinite range of different degrees. Presentness is generally thought of as being incaplble of variation in degree. If we want to put them on a level, we must take as our ultimate determinates presentness, the various determinate degrees of pastness, and the various determinate degrees of futurity.</p>
 
-<p>When we do this, we are faced with the following complication. Ant experience has some duration, but presentness, nor absolutely [finitely] determinate degree of  pastness or futurity can not characterise a temporally extended term.</p>
+<p>When we do this, we are faced with the following complication. Ant experience has some duration, but presentness, nor absolutely [finitely] determinate degree of  pastness or futurity can not characterise a temporally extended term. </p>
 
-<p>And the notions of strict presentness and of perfectly determinate degrees of pastness or futurity are inseparably bound up with the notion of strictly instantaneous terms (analogously, a point): I call them &ldquo;event-particles&rdquo;.</p>
+<p>And the notions of strict presentness and of perfectly determinate degrees of pastness or futurity are inseparably bound up with the notion of strictly instantaneous terms (analogously, a point): I call them “event-particles”.</p>
 
-<p>The experiences of prehending boundary of lines are the sensible basis of the notion of lines without breadth. Let us now pass from the apatial analogy to the temporal problem. And the experience of temporal boundaries is the basis of the notion of event-particles.</p>
+<p>The experiences of prehending boundary of lines are the sensible basis of the notion of lines without breadth. Let us now pass from the apatial analogy to the temporal problem. And the experience of temporal boundaries is the basis of the notion of event-particles. </p>
 
-<p>We can form the conception of a continuous uniform and variable noise-pocess as consisting of a <em>compact</em> series of qualitatively similar (successive)  <em>event-particles</em>, each with its own absolutely determinate <em>temporal position</em> and without any <em>duration</em>.</p>
+<p>We can form the conception of a continuous uniform and variable noise-pocess as consisting of a <em>compact</em> series of qualitatively similar (successive)  <em>event-particles</em>, each with its own absolutely determinate <em>temporal position</em> and without any <em>duration</em>. </p>
 
-<blockquote><p>The real problem may be &ldquo;what is the topological difference of time we would never-ever know?&rdquo;. The property of time vs the property of event.</p></blockquote>
+<blockquote>
+  <p>The real problem may be “what is the topological difference of time we would never-ever know?”. The property of time vs the property of event.</p>
+</blockquote>
 
-<h3>1.2.2 Abolute becoming</h3>
+<h3 id="abolute-becoming">1.2.2 Abolute becoming</h3>
 
 <p>We can not explain or represent temporal becoming in terms of qualitative change or motion, since they presuppose qualitative or substantial persistence, and both presuppose temporal becoming.</p>
 
 <p>We attempt to represent temporal becoming by means of motion. Here we are supposed of have a series of event-paricles related by the relation of earlier and later. This may be represented by a straight line. The characteristic of presentness is then supposed to move aling this series of event-particles, in the direction from earlier to later.</p>
 
-<p>There are some fatal objections for the &ldquo;policeman&rsquo;s bullseye&rdquo;:</p>
+<p>There are some fatal objections for the “policeman’s bullseye”:</p>
 
-<p>(1) How great a distance will it have traversed in unit time-lapse? But the &ldquo;distance&rdquo; should be temporal. In it &ldquo;distance&rdquo; <em>is</em> time-lapse. The Question become meaningless.</p>
+<p>(1) How great a distance will it have traversed in unit time-lapse? But the “distance” should be temporal. In it “distance” <em>is</em> time-lapse. The Question become meaningless.</p>
 
 <p>(2) Consider any event-particle in the series. At a certain moment this acquires presentness, before that moment it was future, afterwards it is past. Now the acquisition and the loss of presentness by this event-particle is itself an event-particle of the second order, which happens to the first-order event-particle. Therefore every first-order event-<em>particle</em> has a <em>history</em> of indefinite length; and, at a certain stage of this there is one outstanding second-order enent-particle. Yet, by defintion, the first-order event-particle which we have been considering has no duration, and therefore can have no history, in the time-series along which presentness is supposed to move.</p>
 
 <p>The two considerations would seem to make this conculsion inevitable: if there is any sense intalking of presentness moving along a series of events, related by the relation of earlier-and-later, we must postulate a <em>second</em> time-dimension in addition to that in which the series is spread out:</p>
 
 <ol>
-<li>Let $e_1$ and $e_2$ be two first-order event-particles, and let $e_1$ precede $e_2$ by $t$ units of the first time-dimension.</li>
-<li>Suppose that the second-order event-particle which is $e_1$&rsquo;s acquirement of presentness precedes the second-order event-particle (denoted by $e_1<sup>2</sup>$)) which is $e_2$&rsquo;s acquirement of presentness by $t&#8217;$ units of the second time-demension (denoted by $e_2<sup>2</sup>$).</li>
-<li>Then the velocity with which presentness moves along the original series will be measured by the ratio $t/t&#8217;$.</li>
+  <li>Let $e_1$ and $e_2$ be two first-order event-particles, and let $e_1$ precede $e_2$ by $t$ units of the first time-dimension.</li>
+  <li>Suppose that the second-order event-particle which is $e_1$’s acquirement of presentness precedes the second-order event-particle (denoted by $e_1^2$)) which is $e_2$’s acquirement of presentness by $t’$ units of the second time-demension (denoted by $e_2^2$).</li>
+  <li>Then the velocity with which presentness moves along the original series will be measured by the ratio $t/t’$.</li>
 </ol>
-
 
 <p>Point is: the ratio cannot possibly represent a rate of change unless its denominator measures a <em>lapse of time</em> and its numerator measures something <em>other than</em> a lapse of time in the same time-dimension.</p>
 
-<p>The seires of second-order event-particles, $e_1<sup>2</sup>$, $e_2<sup>2</sup>$, $e_3<sup>2</sup>$, etc., in the second time-dimension, is precisely like the series of first-order event-particles, $e_1$, $e_2$, $e_3$, etc., in all those respects which led people to say that presentness &ldquo;move along&rdquo; the first-order seires. Such people ought therefore to say that presentness &ldquo;moves along&rdquo; the second-order series too.</p>
+<p>The seires of second-order event-particles, $e_1^2$, $e_2^2$, $e_3^2$, etc., in the second time-dimension, is precisely like the series of first-order event-particles, $e_1$, $e_2$, $e_3$, etc., in all those respects which led people to say that presentness “move along” the first-order seires. Such people ought therefore to say that presentness “moves along” the second-order series too.</p>
 
-<p>We can also use $e_n<sup>3</sup>$ to represent a <em>third</em> timedimension, which stands for &ldquo;the acquirement of presentness by the acquirement of presentness by $e_n$.&rdquo; And futher.</p>
+<p>We can also use $e_n^3$ to represent a <em>third</em> timedimension, which stands for “the acquirement of presentness by the acquirement of presentness by $e_n$.” And futher.</p>
 
-<p>It is a sign that one has made a false move at the beginning. I think that regarding the &ldquo;to become present&rdquo; (<em>absolute becoming</em>)  as &ldquo;to become hot&rdquo; (<em>qualitative change</em>) is a mistake.</p>
+<p>It is a sign that one has made a false move at the beginning. I think that regarding the “to become present” (<em>absolute becoming</em>)  as “to become hot” (<em>qualitative change</em>) is a mistake.</p>
 
-<p>A literally <em>instantaneous</em> event-particle can significantly be said to &ldquo;become present&rdquo;; and, indeed, in the strict sence of &ldquo;&#8221;present&rdquo; <em>only</em> instantaneous event-paricles can be said to &ldquo;become present&rdquo;. To &ldquo;become present&rdquo; is, in fact, just to &ldquo;become&rdquo;, to &ldquo;come to pass&rdquo; or to &ldquo;happen&rdquo;. Clearly, qualitative change involves absolute becoming, and it seems to me equally certain that absolue becoming is involved in mere continuance without qualitative change.</p>
+<p>A literally <em>instantaneous</em> event-particle can significantly be said to “become present”; and, indeed, in the strict sence of ““present” <em>only</em> instantaneous event-paricles can be said to “become present”. To “become present” is, in fact, just to “become”, to “come to pass” or to “happen”. Clearly, qualitative change involves absolute becoming, and it seems to me equally certain that absolue becoming is involved in mere continuance without qualitative change.</p>
 
-<h1>2. McTaggart&rsquo;s account of the phenomenology of time</h1>
+<h1 id="mctaggarts-account-of-the-phenomenology-of-time">2. McTaggart’s account of the phenomenology of time</h1>
 
-<h2>2.1. B-series and A-series</h2>
+<h2 id="b-series-and-a-series">2.1. B-series and A-series</h2>
 
-<p>(1) We can classify event-particles into a series of successive sets of mutually similtaneous event-particles (the contents of a single temporal position). McTaggart gives the name of a &ldquo;B-series&rdquo; to the such series of sets. Thus the generateing relation of a B-series is the relation &ldquo;earlier than&rdquo;.</p>
+<p>(1) We can classify event-particles into a series of successive sets of mutually similtaneous event-particles (the contents of a single temporal position). McTaggart gives the name of a “B-series” to the such series of sets. Thus the generateing relation of a B-series is the relation “earlier than”.</p>
 
-<p>(2) I think that in so-called &ldquo;A-series&rdquo; there is a certain ambiguity in the applicaiton of the term. I will now remove it.</p>
+<p>(2) I think that in so-called “A-series” there is a certain ambiguity in the applicaiton of the term. I will now remove it.</p>
 
-<p>(a) There is what I will call the &ldquo;series of A-characteristics&rdquo;. This is simply the series formed by the various possibel degrees of pastness indecreasing order of magnitude, the characteristic of strict presentness, and the various possible degrees of futurity in increasing order of magnitude.</p>
+<p>(a) There is what I will call the “series of A-characteristics”. This is simply the series formed by the various possibel degrees of pastness indecreasing order of magnitude, the characteristic of strict presentness, and the various possible degrees of futurity in increasing order of magnitude.</p>
 
-<p>(b) The terms of a B-series constitute also at any moment an &ldquo;A-series&rdquo;. They consitute a B-series in virtue of standing in the relation of earlier and later to each other. Ther consitute an A-series in virtue of their one-to-one correslation at every moment with the terms of the series of A-charcteristics.</p>
+<p>(b) The terms of a B-series constitute also at any moment an “A-series”. They consitute a B-series in virtue of standing in the relation of earlier and later to each other. Ther consitute an A-series in virtue of their one-to-one correslation at every moment with the terms of the series of A-charcteristics.</p>
 
-<p>Every difference in magnitude of the relation &ldquo;earlier than&rdquo; is correlated with a difference in the degree of the A-characteristics possessed by the related events. (For this purpose we must count futurity as similar to pastness. And we must take &ldquo;difference&rdquo; to mean &ldquo;algebraical difference&rdquo;.) Every <em>one</em> event-particle is continually changing in respect of its A-characteristics. But any two event-particles in the same B-series always keep the <em>same algebraic difference</em> between their A-characteristics.</p>
+<p>Every difference in magnitude of the relation “earlier than” is correlated with a difference in the degree of the A-characteristics possessed by the related events. (For this purpose we must count futurity as similar to pastness. And we must take “difference” to mean “algebraical difference”.) Every <em>one</em> event-particle is continually changing in respect of its A-characteristics. But any two event-particles in the same B-series always keep the <em>same algebraic difference</em> between their A-characteristics.</p>
 
 <p>We have two alternative ways to picture the temporal facts by means of an analogy with motion.</p>
 
@@ -149,106 +148,105 @@
 
 <p><img src="http://wayneh.tw/images/blog/time_picture_2.png" alt="picture 2" /></p>
 
-<h2>2.2. Time, change and the two series</h2>
+<h2 id="time-change-and-the-two-series">2.2. Time, change and the two series</h2>
 
-<p>What is the relation between these series?</p>
+<p>What is the relation between these series? </p>
 
-<h3>2.2.1. Statement of McTaggart&rsquo;s doctrine</h3>
+<h3 id="statement-of-mctaggarts-doctrine">2.2.1. Statement of McTaggart’s doctrine</h3>
 
 <p>Suppose that we are given a series of terms related by a transitive asymmetrical relaiton $R$. Suppose further that between any two terms, $x$ and $y$, of this series there is a third term, $z$, which is dissimilar to $x$ in some respect beside occupying a different position in the series from $x$, and which is dissimilar to $y$ in some respect beside occupying a different position in the series from $y$.</p>
 
 <p>Then:</p>
 
-<p>(A) the series <em>cannot</em> be counted as a process of perpetual qualitative change <em>unless</em> $R$ is the relation &ldquo;earlier than&rdquo;, and the series is therefore a B-series.</p>
+<p>(A) the series <em>cannot</em> be counted as a process of perpetual qualitative change <em>unless</em> $R$ is the relation “earlier than”, and the series is therefore a B-series.</p>
 
-<p>(B) If the relation $R$ is that of &ldquo;earlier than&rdquo;, and the series is therefore a B-series, the series <em>can</em> be counted as a process of perpetual qualitive change.</p>
+<p>(B) If the relation $R$ is that of “earlier than”, and the series is therefore a B-series, the series <em>can</em> be counted as a process of perpetual qualitive change.</p>
 
-<p>&copy; the series <em>cannot</em> be counted as a process of perpetual qualitative change unless <em>each term</em> of it changes in respect of a certain characteristic.</p>
+<p>(C) the series <em>cannot</em> be counted as a process of perpetual qualitative change unless <em>each term</em> of it changes in respect of a certain characteristic.</p>
 
 <p>(D) The only characteristics in respect of which the individual terms can change are A-characteristcs (degree of futurity, presentness and pastness).</p>
 
 <p>(E) Therefore, unless the terms of a series have A-characteristics and can change in respect of these, the series cannot be a process of qualitative change.</p>
 
-<p>And therefore, its gernerating relation $R$ cannot be that of &ldquo;earlier than&rdquo; and the series cannot be a B-series.</p>
+<p>And therefore, its gernerating relation $R$ cannot be that of “earlier than” and the series cannot be a B-series.</p>
 
-<h3>2.2.2. Justification of this account of McTaggart&rsquo;s doctrine</h3>
+<h3 id="justification-of-this-account-of-mctaggarts-doctrine">2.2.2. Justification of this account of McTaggart’s doctrine</h3>
 
-<p>(1) The McTaggart&rsquo;s statement &ldquo;time involves change.&rdquo; is highly ambiguous. Firstly, it might be referred to qualitative change, or might be referred to change with respect to temporal characteristics. Secondly, even if he were referring to qualitative change, he might or might not mean that there must <em>always</em> be qualitative change going on somewhere if temporal characteristics are to apply within the univers.</p>
+<p>(1) The McTaggart’s statement “time involves change.” is highly ambiguous. Firstly, it might be referred to qualitative change, or might be referred to change with respect to temporal characteristics. Secondly, even if he were referring to qualitative change, he might or might not mean that there must <em>always</em> be qualitative change going on somewhere if temporal characteristics are to apply within the univers. </p>
 
-<p>He say: &ldquo;The time-series consists of terms, joined by the relation of earlier and later, which terms are different in their <em>non-temoral qualities</em>&rdquo; The word &ldquo;non-tempral&rdquo; is essential for my purpose.</p>
+<p>He say: “The time-series consists of terms, joined by the relation of earlier and later, which terms are different in their <em>non-temoral qualities</em>” The word “non-tempral” is essential for my purpose. </p>
 
-<p>(2) McTaggart admits and asserts that we should say that a qualitative change takes place if and only if there are qulitatively dissimilar terms related by the relation of &ldquo;earlier than&rdquo;.</p>
+<p>(2) McTaggart admits and asserts that we should say that a qualitative change takes place if and only if there are qulitatively dissimilar terms related by the relation of “earlier than”. </p>
 
-<p>His objective to Russell&rsquo;s analysis is that, unless the terms had A-characteristics and changed in respect of them, the relation between them could not be that of &ldquo;earlier than&rdquo;, and the series of qualitatively dissimilar terms could not consitute a process of qualitative change. ((a), (b), &copy;)</p>
+<p>His objective to Russell’s analysis is that, unless the terms had A-characteristics and changed in respect of them, the relation between them could not be that of “earlier than”, and the series of qualitatively dissimilar terms could not consitute a process of qualitative change. ((a), (b), (c))</p>
 
-<p>(3) It is true that McTaggart talks of &ldquo;facts&rdquo;, and not of &ldquo;events&rdquo;, as changing. But McTaggart was always liable to use the word &ldquo;fact&rdquo; loosely, and it is certain that he often used it to mean &ldquo;event&rdquo;. Moreover, the &ldquo;facts&rdquo; which are said to change are facts about the A-characteristics of events.</p>
+<p>(3) It is true that McTaggart talks of “facts”, and not of “events”, as changing. But McTaggart was always liable to use the word “fact” loosely, and it is certain that he often used it to mean “event”. Moreover, the “facts” which are said to change are facts about the A-characteristics of events.</p>
 
 <p>(4) (311 and 315-317).</p>
 
-<p>One more: McTaggart nowhere asserts, or claims to have proved, that the relation &ldquo;earlier than&rdquo; can be <em>defined</em> in terms of past, present and future. But afterward, he thought he had shown that &ldquo;earlier than&rdquo; can be <em>defined</em> in terms of A-characteristics, whilst the converse dose not hold. This apears to be a much more radical dictrine than any that is stated or augued for in Chap. XXXIII.</p>
+<p>One more: McTaggart nowhere asserts, or claims to have proved, that the relation “earlier than” can be <em>defined</em> in terms of past, present and future. But afterward, he thought he had shown that “earlier than” can be <em>defined</em> in terms of A-characteristics, whilst the converse dose not hold. This apears to be a much more radical dictrine than any that is stated or augued for in Chap. XXXIII.</p>
 
-<h3>2.2.3. McTaggart&rsquo;s reasons for his doctrine</h3>
+<h3 id="mctaggarts-reasons-for-his-doctrine">2.2.3. McTaggart’s reasons for his doctrine</h3>
 
 <p>(1) (About (A) and (B)) In fact, granted that there could not be succession without <em>occational</em> qualitative change, is it obvious that there could not be succession without <em>perpetual</em> qualitative change?</p>
 
-<p>(2) The essential point which McTaggart has to prove is that a series of qualitatively dissimlilar terms sould not counted as a  process of qualitative change unless <em>each term</em> changed in respect of certain characteristics. McTaggart&rsquo;s argument may be summarised as follows:</p>
+<p>(2) The essential point which McTaggart has to prove is that a series of qualitatively dissimlilar terms sould not counted as a  process of qualitative change unless <em>each term</em> changed in respect of certain characteristics. McTaggart’s argument may be summarised as follows:</p>
 
 <ol>
-<li>Suppose, if possible, that there sould be a B-series of terms which had no A-characteristics, and therefore of terms which could not change in respect of A-characteristics.</li>
-<li>Then this series could not constitute a process of qualitative change. But, unless there be qualitative change, no temporal characteristics have any application.</li>
-<li>Now the relation &ldquo;earlier than&rdquo;, which relates the terms of a B-series, is a tempral relation.</li>
-<li>Therefore the supposition that there could be a B-series of terms which had no A-characteristics must be refected as impossible.</li>
+  <li>Suppose, if possible, that there sould be a B-series of terms which had no A-characteristics, and therefore of terms which could not change in respect of A-characteristics.</li>
+  <li>Then this series could not constitute a process of qualitative change. But, unless there be qualitative change, no temporal characteristics have any application.</li>
+  <li>Now the relation “earlier than”, which relates the terms of a B-series, is a tempral relation.</li>
+  <li>Therefore the supposition that there could be a B-series of terms which had no A-characteristics must be refected as impossible.</li>
 </ol>
-
 
 <p>Why B-series of terms which had no A-characteristics could not constitute a process of qualitative change? His argument is as follows:</p>
 
 <ol>
-<li>A process of qualitative change could not consist in the annihilation of one event insuch a sereies and the generation of another event in place of it.</li>
-<li>A process of qualitative chenge could not consist in one event &ldquo;merging into&rdquo; another, so that they have a slice in common.</li>
-<li>The only alternative left is that each term in a B-series changes in respect of certain chararteristics: A-characteristics.</li>
+  <li>A process of qualitative change could not consist in the annihilation of one event insuch a sereies and the generation of another event in place of it.</li>
+  <li>A process of qualitative chenge could not consist in one event “merging into” another, so that they have a slice in common.</li>
+  <li>The only alternative left is that each term in a B-series changes in respect of certain chararteristics: A-characteristics.</li>
 </ol>
-
 
 <p>There are two questions to be raised about this argumet:</p>
 
 <p><strong>(1) Are the alternative analyses of qualitative change with McTaggart here proposes exhaustive?</strong></p>
 
-<p>Russell&rsquo;s theory: There are certain series of successive events, such that the members of any one such series are intimately interconnected by certain spatial, causal, and other relations, which do not interconnect members of any two such series. Each such series is counted as the history of adiffernt thing. Now successive members of one such series may differ in respect of a certain quality.</p>
+<p>Russell’s theory: There are certain series of successive events, such that the members of any one such series are intimately interconnected by certain spatial, causal, and other relations, which do not interconnect members of any two such series. Each such series is counted as the history of adiffernt thing. Now successive members of one such series may differ in respect of a certain quality. </p>
 
-<p>&ldquo;The thing $T$ changes from $q_1$ to $q_2$&rdquo; is completely analysable into &ldquo;There is a certain series of successive events so interrelated that it counts as the history of a certain thing $T$; $e_1$ and $e_2$ are two successive adjoined phases in this series; and $e_1$ has $Q$ in the form $q_1$ whilst $e_2$ has $Q$ in the form $q_2$.&rdquo;</p>
+<p>“The thing $T$ changes from $q_1$ to $q_2$” is completely analysable into “There is a certain series of successive events so interrelated that it counts as the history of a certain thing $T$; $e_1$ and $e_2$ are two successive adjoined phases in this series; and $e_1$ has $Q$ in the form $q_1$ whilst $e_2$ has $Q$ in the form $q_2$.”</p>
 
 <p>McTaggart has two objections. The first is irrelevant; and the second is an <em>ignoratio elenchi</em>.</p>
 
 <p><strong>(2) Is he justified in rejecting the first two of the three alternatives which he considers?</strong></p>
 
-<p>The basis of his rejection is the principle that, if $X$ <em>ever</em> precedes $Y$ by a certain amount, then it always precedes $Y$ by precisely that amount. This principle is supposed to be incompatible with the view that events are generated and annihilated.</p>
+<p>The basis of his rejection is the principle that, if $X$ <em>ever</em> precedes $Y$ by a certain amount, then it always precedes $Y$ by precisely that amount. This principle is supposed to be incompatible with the view that events are generated and annihilated. </p>
 
-<p>&ldquo;The Battle of Hastings precedes the Battle of Waterloo by 749 years.&rdquo; Such phraseology would suggest that the two events are two particulars which (a) somehow <em>co-exist</em> either timelessly or simultaneously, and yet (b) stand timelessly or sempitiernally in a certain <em>temptoral</em> relation of precedence. This must be nonsense.</p>
+<p>“The Battle of Hastings precedes the Battle of Waterloo by 749 years.” Such phraseology would suggest that the two events are two particulars which (a) somehow <em>co-exist</em> either timelessly or simultaneously, and yet (b) stand timelessly or sempitiernally in a certain <em>temptoral</em> relation of precedence. This must be nonsense.</p>
 
 <p>That events cannot be annihilated or generated would be incompatible with the fact that they <em>always</em> stand in the determinate temporal relation in which they do stand to each other.</p>
 
-<h3>2.2.4 Restatement of the position</h3>
+<h3 id="restatement-of-the-position">2.2.4 Restatement of the position</h3>
 
 <p>There is a set of terms such that at any moment every A-characteristic belongs to one or other of them, each of them has one and only one A-characteristic, and no two of them have the same A-characteristic. These changes are so adjusted that the <em>algebraical difference</em> between the A-characteristics of any two terms remains constant and independent of the <em>absolute values</em> of their A-characteristcs.</p>
 
-<p>A simple way of stating the theory is as follows.</p>
+<p>A simple way of stating the theory is as follows. </p>
 
-<p>Take the sentence &ldquo;It is now raining.&rdquo; A number of utterances may occur at different times, which are all alike enough in the relevant respects to count as utterances of this sentence. Now any one who utters this sentence seriously on any occasion means to express his belief that an occurrence of rain falling in his neighbourhood is simutaneous with this utterance of his. And so does anyone who hears and understands.</p>
+<p>Take the sentence “It is now raining.” A number of utterances may occur at different times, which are all alike enough in the relevant respects to count as utterances of this sentence. Now any one who utters this sentence seriously on any occasion means to express his belief that an occurrence of rain falling in his neighbourhood is simutaneous with this utterance of his. And so does anyone who hears and understands.</p>
 
-<p>Thus any utterance $U$ of the type-sentence &ldquo;It is raining now&rdquo; means &ldquo;An occurrence of rain in the neighbourhood of the speaker who utters $U$ is simultaneous with this utterence.&rdquo; We may abbreviate this into &ldquo;An occurrence of rain in spatio-temporally contiguous with the utterance $U$.&rdquo; Different utterances of the same type-setntence necessarily have different meanings (from the speaker and hearer). If the two utterances are successive, it may well be that one expresses a true proposition and the other a false proposition, though both are utterances of the same type-sentence &ldquo;It is raining now.&rdquo;</p>
+<p>Thus any utterance $U$ of the type-sentence “It is raining now” means “An occurrence of rain in the neighbourhood of the speaker who utters $U$ is simultaneous with this utterence.” We may abbreviate this into “An occurrence of rain in spatio-temporally contiguous with the utterance $U$.” Different utterances of the same type-setntence necessarily have different meanings (from the speaker and hearer). If the two utterances are successive, it may well be that one expresses a true proposition and the other a false proposition, though both are utterances of the same type-sentence “It is raining now.”</p>
 
-<p>Can this theory be accepted? I don&rsquo;t believe it is the meaning of the <em>speaker</em>.</p>
+<p>Can this theory be accepted? I don’t believe it is the meaning of the <em>speaker</em>. </p>
+
 <div class="footnotes">
-<hr/>
-<ol>
-<li id="fn:1">
-<p>Broad, C. D. &ldquo;Ostensible temporality.&rdquo; The Philosophy of Time: A collection of essays. Macmillan (1968).<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
-<li id="fn:2">
-<p>Such a good idea.<a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
-</ol>
+  <ol>
+    <li id="fn:1">
+      <p>Broad, C. D. “Ostensible temporality.” The Philosophy of Time: A collection of essays. Macmillan (1968). <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>Such a good idea. <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
 </div>
-
 ]]></content>
   </entry>
   
@@ -260,7 +258,6 @@
     <content type="html"><![CDATA[<p>在法律前方站著一個守門人。一個從國家來的人朝守門人走去，請求往法律的入境許可。但守門人說，此時還無法許可他入境。這個人想了想，只好再問，他是否會在稍後得到許可。「可能吧，」守門人說，「但總之，不是現在。」通往法律之門敞開著，一如往常，守門人走到一側，這個人為了想通過門看進裡面，將身子俯低。守門人注意到了，笑著說：「如果真的這麼吸引你，就試著不顧禁令逕自進去吧。但是你要知道。我是有權力的。我只是最下位的守門人。而每個房間之間，都還站有守門人，一個比一個有著更大的權力。到了第三個，我甚至不敢瞥上一眼。」從國家來的這個人無法想像如此困難：法律應該一直是任何人都能取用的吧－－當他更仔細地察看披著毛大衣的守門人，察看他的大高鼻子和長、細而黑的大鬍子 (Tartar’s beard) ，想了想，還是決定等到獲得許可再進入比較好。於是守門人給他一個凳子，允許他坐在門前。他坐了一天又一天、一年又一年。他為了入境，做過了許多嘗試，乞求能消磨守門人的耐性。守門人往往簡單地審問關於他的家鄉和一些其他事，冷冷地提問，就像是一名偉大領主那樣，而且最終，總是一再地告訴他，還不能進去。這個人，為了他的旅程已攜帶許多東西，花費了價值極高的一切去說服守門人。守門人通通拿走了，但這麼做時他說的是：「我之所以拿走這些，只是為了讓你不覺得一事無成。」許多年過去，這個人不斷觀察眼前的守門人。他已忘了其他守門人的存在，第一個守門人看似成了他入境法律的唯一障礙。開始幾年，他粗魯、吵鬧地咒罵這不幸的處境；晚年，當他老去，就只剩下對自己咕噥地說話。他變得幼稚，並因為長年對守門人的研究，還認識了守門人毛大衣領上的跳蚤，他甚至還請跳蚤去幫他說服守門人。到了最後，他的眼神變得虛弱，不知道逐漸晦暗的圍繞著著的事物是否真實，或是他的眼睛只是在欺騙他。然而在黑暗中，他突然意識到自法律之門射來的一道不可遏止的光線。如今，他沒有多少時間能活了。在他死去之前，頭腦裡積聚了在全部時間中的一切經驗，成為一個他還沒拋給守門人的問題。因為他已無法移動他的身體，便揮手要他靠近。守門人必須向他俯下身，因為他們之間巨大的高度差異，已大幅轉變為這個人的弱勢。「現在你還想知道什麼嗎？」守門人問，「真不知足。」「所有人都為抵達法律奮鬥，」這個人說，「這些年之中，除了我之外就沒有人要求入境了，為什麼會這樣？」守門人看到這人已經幾乎死去，由於他的聽力虛弱，大聲吼道：「這裡沒有其他人可被允許入境，因為，這入口是只分派給你的。我現在要將門關上了。」</p>
 
 <!--more-->
-
 
 <p>(from the English translation by <a href="http://records.viu.ca/~johnstoi/kafka/beforethelaw.htm">Ian Johnston</a> and by <a href="http://www.endeneu.com/kafka/beforethelaw.html">Willa and Edwin Muir</a>)</p>
 
@@ -282,23 +279,20 @@
 <p>要理解這個問題，我們就要先問問：究竟燒紙錢在它迷信上的功能是什麼？在習俗來看，它大概有以下主要功能：</p>
 
 <ol>
-<li>將紙錢燒給自己在冥界的親人、先人或是朋友，以給他們花用。</li>
-<li>將紙錢燒給陰曹地府的官員，賄賂他們，希望他們對自己的親人好一點。</li>
-<li>將紙錢燒給神佛，讓他們可以有錢做自己想做的事（如捐款給 NPO 一樣）。</li>
-<li>將紙錢燒給某些世俗神（如土地公），賄賂他們，讓他們保佑我們這些有捐款的人。</li>
+  <li>將紙錢燒給自己在冥界的親人、先人或是朋友，以給他們花用。</li>
+  <li>將紙錢燒給陰曹地府的官員，賄賂他們，希望他們對自己的親人好一點。</li>
+  <li>將紙錢燒給神佛，讓他們可以有錢做自己想做的事（如捐款給 NPO 一樣）。</li>
+  <li>將紙錢燒給某些世俗神（如土地公），賄賂他們，讓他們保佑我們這些有捐款的人。</li>
 </ol>
-
 
 <p>不管是哪一種功能，這種迷信都假定了兩個前提：</p>
 
 <!--more-->
 
-
 <ol>
-<li><strong>貨幣的有價性</strong>：在冥界，至少存在著一種有價值的貨幣，本文將這種貨幣稱作冥幣。</li>
-<li><strong>兌換的有效性</strong>：透過燒紙錢的儀式，冥紙會透過某種兌換比率變成冥幣。</li>
+  <li><strong>貨幣的有價性</strong>：在冥界，至少存在著一種有價值的貨幣，本文將這種貨幣稱作冥幣。</li>
+  <li><strong>兌換的有效性</strong>：透過燒紙錢的儀式，冥紙會透過某種兌換比率變成冥幣。</li>
 </ol>
-
 
 <p>本文不打算透過科學的觀點去指出「沒有證據指出，將冥紙燃燒成碳能夠發揮它習俗的功能」，而是要說，即使在這兩個前提都成立的情況下，燒紙錢也是完全不合理、甚至毫無道德、違反公德心的事。</p>
 
@@ -327,60 +321,71 @@
     <link href="http://wayneh.tw/blog/2015/04/30/philosophy-of-science/"/>
     <updated>2015-04-30T15:51:29+08:00</updated>
     <id>http://wayneh.tw/blog/2015/04/30/philosophy-of-science</id>
-    <content type="html"><![CDATA[<blockquote><p>這是我 2015 年5月6日在<a href="https://www.facebook.com/wenzao.philosophy.club">文藻哲學社</a>講課時使用的課綱。我選擇的題目是「科學的哲學」：</p>
+    <content type="html"><![CDATA[<blockquote>
+  <p>這是我 2015 年5月6日在<a href="https://www.facebook.com/wenzao.philosophy.club">文藻哲學社</a>講課時使用的課綱。我選擇的題目是「科學的哲學」：</p>
 
-<p>自然科學幾乎是人類當代最重要的知識體系類型。甚至，只有能用自然科學來解釋自然現象，才能被當成是自然的，如果無法解釋的，往往被當成是「超自然」的，像是魔法或是幽靈等。但哲學家想問「為什麼」：為什麼自然科學會那麼重要而且可靠？為什麼我們如此依賴它來理解整個世界？有沒有可能自然科學只是剛好矇到，就像猜中明天會不會下雨一樣？自然科學是什麼？</p></blockquote>
+  <p>自然科學幾乎是人類當代最重要的知識體系類型。甚至，只有能用自然科學來解釋自然現象，才能被當成是自然的，如果無法解釋的，往往被當成是「超自然」的，像是魔法或是幽靈等。但哲學家想問「為什麼」：為什麼自然科學會那麼重要而且可靠？為什麼我們如此依賴它來理解整個世界？有沒有可能自然科學只是剛好矇到，就像猜中明天會不會下雨一樣？自然科學是什麼？</p>
+</blockquote>
 
 <!--more-->
 
-
-<h1>什麼是科學解釋？</h1>
+<h1 id="section">什麼是科學解釋？</h1>
 
 <p>科學的本義即是知識（<em>scientia</em>），但它不僅僅是觀察而來的知識。科學的起源總是伴隨著一個「為什麼？」的問題，我們希望透過對這問題的回答來更了解世界。但是，對於這樣的問題，其實我們有各種各樣的「解釋」存在。譬如，給定一個這樣的問題：</p>
 
-<blockquote><p>(1) 天空為什麼會下雨？</p></blockquote>
+<blockquote>
+  <p>(1) 天空為什麼會下雨？</p>
+</blockquote>
 
 <p>我們可以有以下的「解釋」：</p>
 
-<blockquote><p>(2) 因為天空本來就會下雨。</p>
+<blockquote>
+  <p>(2) 因為天空本來就會下雨。</p>
 
-<p>(3) 因為海龍王/上帝讓它下雨。</p>
+  <p>(3) 因為海龍王/上帝讓它下雨。</p>
 
-<p>(4) 因為天空在哭泣。</p>
+  <p>(4) 因為天空在哭泣。</p>
 
-<p>(5) 因為水汽凝結成水後落下。</p>
+  <p>(5) 因為水汽凝結成水後落下。</p>
 
-<p>(6) 因為我剛才吃了一碗麵。</p></blockquote>
+  <p>(6) 因為我剛才吃了一碗麵。</p>
+</blockquote>
 
 <p>我們可以看到，其中有一些解釋，很難說能讓人滿意。要說明哪樣的解釋是好的解釋，牽涉到「什麼是（好的）<strong>科學解釋</strong>？」的問題。怎麼樣算是一個好的解釋呢？</p>
 
 <p>我們有沒有可能，試著來想一些外加條件，試試看是否是科學解釋的必要條件？</p>
 
-<h2>討論1：融貫性</h2>
+<h2 id="section-1">討論1：融貫性</h2>
 
 <p>討論下面這段話：</p>
 
-<blockquote><p>科學解釋不能和其他已知的事情相衝突，包括該解釋可能產生的後果。並且，一組科學解釋中，裡面的命題必須是有根據的，它可能是明顯的觀察，或是由其他觀察或解釋所支持的。科學不能與<strong>數學</strong>和<strong>邏輯學</strong>發生衝突，並且幾乎總是需要依靠數學和邏輯學來建立它的基礎（為什麼？）。</p></blockquote>
+<blockquote>
+  <p>科學解釋不能和其他已知的事情相衝突，包括該解釋可能產生的後果。並且，一組科學解釋中，裡面的命題必須是有根據的，它可能是明顯的觀察，或是由其他觀察或解釋所支持的。科學不能與<strong>數學</strong>和<strong>邏輯學</strong>發生衝突，並且幾乎總是需要依靠數學和邏輯學來建立它的基礎（為什麼？）。</p>
+</blockquote>
 
-<h2>討論2：普遍性與可驗證性</h2>
-
-<p>討論下面這段話：</p>
-
-<blockquote><p>科學解釋必須要有<strong>普遍性</strong>，也就是說，它除了能解釋當前的現象，他也必須能夠以同樣方式解釋其他的足夠類似的現象。也因此，在其他同樣足夠類似的狀況下，這樣的解釋也必須發揮作用。</p>
-
-<p>科學解釋必須要能通過<strong>驗證</strong>，倚靠可靠的方法來得到現實的基礎（<strong>科學實驗</strong>），並且我們要求這方法是可靠的、客觀的、可重複的、結果足夠顯著的、合乎邏輯的。這也意味著，科學解釋的內容，多少要具有能<strong>預測</strong>事實的能力。</p></blockquote>
-
-<h2>討論3：因果性</h2>
+<h2 id="section-2">討論2：普遍性與可驗證性</h2>
 
 <p>討論下面這段話：</p>
 
-<blockquote><p>科學解釋必須要能指出世界的規律，它必須包含世界的<strong>定律</strong>。也就是說，它必須具有這樣一種形式：在可觀察的條件下，經驗世界中的現象會按照某個規則進行變化，造成另一個可觀察的結果。</p></blockquote>
+<blockquote>
+  <p>科學解釋必須要有<strong>普遍性</strong>，也就是說，它除了能解釋當前的現象，他也必須能夠以同樣方式解釋其他的足夠類似的現象。也因此，在其他同樣足夠類似的狀況下，這樣的解釋也必須發揮作用。</p>
 
-<h2>討論4</h2>
+  <p>科學解釋必須要能通過<strong>驗證</strong>，倚靠可靠的方法來得到現實的基礎（<strong>科學實驗</strong>），並且我們要求這方法是可靠的、客觀的、可重複的、結果足夠顯著的、合乎邏輯的。這也意味著，科學解釋的內容，多少要具有能<strong>預測</strong>事實的能力。</p>
+</blockquote>
+
+<h2 id="section-3">討論3：因果性</h2>
+
+<p>討論下面這段話：</p>
+
+<blockquote>
+  <p>科學解釋必須要能指出世界的規律，它必須包含世界的<strong>定律</strong>。也就是說，它必須具有這樣一種形式：在可觀察的條件下，經驗世界中的現象會按照某個規則進行變化，造成另一個可觀察的結果。</p>
+</blockquote>
+
+<h2 id="section-4">討論4</h2>
 
 <p>還有怎樣的條件可能是必要的？</p>
 
-<h1>科學體系的邏輯特色</h1>
+<h1 id="section-5">科學體系的邏輯特色</h1>
 
 <p>現在，為了闡明科學的樣貌，我將試著盡可能清楚地去剖析科學體系（特別是自然科學）與一般意見集合的差異。</p>
 
@@ -392,27 +397,26 @@
 
 <p>其次，一個科學體系，就與世界的關係而言，是<strong>歸納的</strong>（deductive），意即，它的命題必須和關於經驗世界的資料在某種程度上是吻合的、最好是精確的。在這裡要註明的是，科學除了必須吻合現有的觀察資料，他也被假定必須吻合<strong>未來可能出現的觀察資料</strong>。這也就是說，科學必須有一種普遍性，更精確來說，自然科學的命題必須是<strong>自然定律</strong>。</p>
 
-<p>以上這兩個，我們可以把它們稱作是科學的<strong>邏輯特色</strong>，它們指出科學系統的兩種不同面相<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>。</p>
+<p>以上這兩個，我們可以把它們稱作是科學的<strong>邏輯特色</strong>，它們指出科學系統的兩種不同面相<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>。</p>
 
-<h2>問題討論1</h2>
+<h2 id="section-6">問題討論1</h2>
 
 <p>現在，讓我們來討論看看一些命題體系和科學體系的差異，我們來舉舉看有沒有（非科學的）命題體系：</p>
 
 <ol>
-<li>是演譯的，但不是歸納的</li>
-<li>是歸納的，但不是演譯的</li>
+  <li>是演譯的，但不是歸納的</li>
+  <li>是歸納的，但不是演譯的</li>
 </ol>
-
 
 <p>這樣的命題體系給你怎樣的感覺？他們有怎樣的特色？</p>
 
-<h2>問題討論2</h2>
+<h2 id="section-7">問題討論2</h2>
 
 <p>能不能想到一些例子，它似乎是演譯的、也似乎是歸納的，但是在直覺上，它似乎不是科學的？</p>
 
 <p>針對這樣的體系（如果存在的話），能不能有一些補充，讓科學體系的邏輯特色可以更接近「一個命題體系是不是科學」的充份的判斷條件？</p>
 
-<h1>科學解釋與科學體系</h1>
+<h1 id="section-8">科學解釋與科學體系</h1>
 
 <p>在上面兩節，我們簡單談論到科學解釋和科學體系的一些特徵，我希望我們到此的討論是足夠充份的，至少充份到你可以暫且有某種對科學體系或是科學解釋的看法。</p>
 
@@ -428,23 +432,23 @@
 
 <p>多年發展之下，科學逐漸如此地成為完整的世界現象的版圖。它似乎不再只作為世界的解釋，不少人還可能主張，如果有一個現象是自然科學無法解釋的，這現象就是超自然的，這現象意味著科學與可能的自然知識的領域已經逐漸重合，以及科學精神——特別是作為世界定律的意向——的某程度上的實現。似乎科學就這樣變得愈來愈完備了。</p>
 
-<h2>問題討論1</h2>
+<h2 id="section-9">問題討論1</h2>
 
 <p>能不能有科學革命的例子？能不能有類似科學的知識體系，而後被當成「非科學」消滅的例子？能不能有科學被化約而後逐漸消失的例子？</p>
 
 <p>我們可以從這些例子中得到什麼？</p>
 
-<h2>問題討論2</h2>
+<h2 id="section-10">問題討論2</h2>
 
 <p>我們可以看到，即使我們同意一個可以解釋因果關係的解釋，比起沒有的，是一個更好的科學解釋，但因果性在科學體系中依然不被特別強調，為何如此？特別是相對論、量子力學出現之後，因果性甚至變得是可以從科學概念中移出、消除的理念。</p>
-<div class="footnotes">
-<hr/>
-<ol>
-<li id="fn:1">
-<p>當邏輯實證論（logical positivism）的支持者捕捉到這個面向以後，他們便透過兩個方面的推理去描述科學知識的獨特性，並通過這種描述表明一個形上學的主張：形上學的描述與定律對於人類認識世界而言是不必要的。<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
-</ol>
-</div>
 
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>當邏輯實證論（logical positivism）的支持者捕捉到這個面向以後，他們便透過兩個方面的推理去描述科學知識的獨特性，並通過這種描述表明一個形上學的主張：形上學的描述與定律對於人類認識世界而言是不必要的。 <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
 ]]></content>
   </entry>
   
@@ -453,16 +457,19 @@
     <link href="http://wayneh.tw/blog/2015/04/22/deleuze-cinema-1-ch1/"/>
     <updated>2015-04-22T14:31:39+08:00</updated>
     <id>http://wayneh.tw/blog/2015/04/22/deleuze-cinema-1-ch1</id>
-    <content type="html"><![CDATA[<blockquote><p>一篇懶惰的翻譯夾雜摘要。</p></blockquote>
+    <content type="html"><![CDATA[<blockquote>
+  <p>一篇懶惰的翻譯夾雜摘要。</p>
+</blockquote>
 
 <!--more-->
 
+<h1 id="section">第一理論：運動與瞬間</h1>
 
-<h1>第一理論：運動與瞬間</h1>
+<p>按照 Bergson 的第一理論來說，運動與所經空間（espace parcouru<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>）是有區別的。所經空間是過去，運動是現在，即<strong>經過的行為</strong>。所經空間是可分的、無限可分的，而運動是不可分的、或說除非它質變為在任何時間都是分開的，否則是不可分的。</p>
 
-<p>按照 Bergson 的第一理論來說，運動與所經空間（espace parcouru<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>）是有區別的。所經空間是過去，運動是現在，即<strong>經過的行為</strong>。所經空間是可分的、無限可分的，而運動是不可分的、或說除非它質變為在任何時間都是分開的，否則是不可分的。</p>
-
-<blockquote><p>這裡指的很顯然是空間的「可分性」。</p></blockquote>
+<blockquote>
+  <p>這裡指的很顯然是空間的「可分性」。</p>
+</blockquote>
 
 <p>這裡已經預設了一個更複雜的想法：所經空間全都屬於一個單一個、同一的、均質的（homogeneous）空間；而運動在他們自己之間是異質的（heterogeneous）、不可化約的。</p>
 
@@ -472,7 +479,7 @@
 
 <p>Bergson 在《創造性演化》（1907）中將這未修正的句式取名為「電影攝影幻覺（illusion cinématographique）」。電影，事實上，透過兩個補充性的給予來運作：多個瞬間的切面，稱作影像；一個非個人的、均勻的、抽象的、不可見的、無法知覺的、「內」於機器的、「隨」製作以連續經過之影像的，運動或時間。</p>
 
-<p>電影因此給予我們一個典型的錯誤運動。其實這是一個很老的幻像，當電影以可動切面來重構運動時，它就是 Zeno 悖論或是自然知覺所做的那些東西。由此來看，伯格森的立場和現象學是有所區別的，它將電影與自然知覺條件劃清了界限。「我們，如其所是地，如這些是實體的特徵地，擷取經過實體的快照，我們只需將它們在一個抽象的、均勻的、不可見的位於知識的機器之後的流變上串起來。[&hellip;]知覺、理智活動、語言如此一般地行進。無論我們會思考、表達、或甚知覺流變，我們很難不把流變設定為一種內在於我們的電影攝影。」</p>
+<p>電影因此給予我們一個典型的錯誤運動。其實這是一個很老的幻像，當電影以可動切面來重構運動時，它就是 Zeno 悖論或是自然知覺所做的那些東西。由此來看，伯格森的立場和現象學是有所區別的，它將電影與自然知覺條件劃清了界限。「我們，如其所是地，如這些是實體的特徵地，擷取經過實體的快照，我們只需將它們在一個抽象的、均勻的、不可見的位於知識的機器之後的流變上串起來。[…]知覺、理智活動、語言如此一般地行進。無論我們會思考、表達、或甚知覺流變，我們很難不把流變設定為一種內在於我們的電影攝影。」</p>
 
 <p>接下來就有許多問題出現。</p>
 
@@ -482,11 +489,13 @@
 
 <p>但在《物質和記憶》還有一個理論，可動切面，預示了未來或電影本質的時間性平面。</p>
 
-<h1>第二理論：優位瞬間與任意瞬間</h1>
+<h1 id="section-1">第二理論：優位瞬間與任意瞬間</h1>
 
 <p>《創造性演化》發展了第二個理論，區分兩種不同的幻象。在古代，運動涉及可理解元素，形式或是理型，它們本身是不變且不動的。當然，為了重構運動，這些形式必須盡可能接近在他們在質料流中的現實化。這些是只能透過被鑲嵌（在物質中）所實現的潛在性。相反地，運動只表述了一個形式間之「辯證」，一個給予它次序與尺度的理念性綜合。按照這種方式所構想的運動，將因此是從一到它的被規約的過渡（像（舞蹈的）姿勢的連貫一樣）。形式或理念們</p>
 
-<blockquote><p>被預設為[&hellip;]一個時段的特徵表述，它們表述該時段的精隨，此時段的一切自身毫無旨趣的靜止由從一形式往它形式的過渡所填充。[&hellip;]人們因而將最後措辭或最高點（télos, acmè，頂點）標定為本質性的時刻：這個時刻，為了表述事實的全體而將語言保留下來，滿足了對科學而言的進行特徵表述的需求。</p></blockquote>
+<blockquote>
+  <p>被預設為[…]一個時段的特徵表述，它們表述該時段的精隨，此時段的一切自身毫無旨趣的靜止由從一形式往它形式的過渡所填充。[…]人們因而將最後措辭或最高點（télos, acmè，頂點）標定為本質性的時刻：這個時刻，為了表述事實的全體而將語言保留下來，滿足了對科學而言的進行特徵表述的需求。</p>
+</blockquote>
 
 <p>現代科學不將運動看成是由優位瞬間，而是任意瞬間組成。雖然運動依然是重組的，但<strong>不再是自形式的先驗元素（姿勢）重組，而是自固有的質料元素（切面）重組</strong>。與其生產運動的一個可理解綜合，不如生產從它推衍出的可感知分析。姿勢之辯證法次序，無處不被瞬間之機械性相續所取代：「現代科學必須，極大地由它想將時間看為獨立變數的強烈慾望所定義。」</p>
 
@@ -508,7 +517,7 @@
 
 <p>這是 Bergson 的終極目標：給予現代科學與之符合的、相輔相成的形上學。Bergson 想到這裡，就不再只因為能鞏固他的運動第一理論而滿足。他的第二理論－－雖然只做了一半－－讓另一個審視電影的方法得以可能，按照這個方法，它不再只是最老幻像的完善了的機器，反而是為完善了新的實在性的有機部件。</p>
 
-<h1>第三理論：運動與變化</h1>
+<h1 id="section-2">第三理論：運動與變化</h1>
 
 <p>Bergson 的第三理論在《創造性演化》裡面。我們可以嘗試把它化約成：不只是瞬間是運動之不動切面，運動也是持存（或全體者、或一個全體）之可動切面。這蘊含運動表達了某種更淵遠的東西，它是持存或全體中的變化。它的定義包含了「持存是變化」：它變化並且不停變化。在這裡的問題有兩個：這個表述、這個全體—持存同一性。</p>
 
@@ -542,15 +551,15 @@
 
 <p>因此在這意義下，運動有兩種觀點。一方面是就它發生在兩物體或部份之間來說；一方面是就它表述了持存或全體來說。結果是，持存，透過質變，被分割為對象，而對象，透過獲得深度、失去他們的輪廓，統一到持存之中。我們可以因此說，運動將一個封閉系統之對象關聯到敞開持存，而將持存關聯到被強迫敞開的系統之對象。運動將在其之間所被建立的對象關聯到它所表達的變化的整體，反之亦然。通過運動，整體被分割為對象，對象被再統一進全體，當然是在兩個「全體」的變化之間。我們可以將對象或集合的部份考慮為<strong>不動切面</strong>；但是運動是在這兩切面之間被建立，將對象或部份們關聯到變化的一個全體的持存，因此表述了與對象有所關聯的全體的變化或是他自己就是一個持存的<strong>可動切面</strong>，</p>
 
-<p>如今，我們有了對《物質與記憶》的第一個章節中的知名理論的了解：(1) 沒有純瞬間的影像，此即運動的不動切面；(2) 有乃是持存之可動切面的運動—影像；(3) 最後，有時間—影像，此即暗藏在運動本身之中的持存—影像、變化—影像、關係—影像、容積—影像（這啥小）&hellip;&hellip;</p>
-<div class="footnotes">
-<hr/>
-<ol>
-<li id="fn:1">
-<p>中文譯本譯作「馳騁空間」，但我不覺得有必要以「馳騁」這麼有爆發性的字來表達 <em>parcourir</em> (go through, pass through) 的意思&hellip;&hellip;<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
-</ol>
-</div>
+<p>如今，我們有了對《物質與記憶》的第一個章節中的知名理論的了解：(1) 沒有純瞬間的影像，此即運動的不動切面；(2) 有乃是持存之可動切面的運動—影像；(3) 最後，有時間—影像，此即暗藏在運動本身之中的持存—影像、變化—影像、關係—影像、容積—影像（這啥小）……</p>
 
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>中文譯本譯作「馳騁空間」，但我不覺得有必要以「馳騁」這麼有爆發性的字來表達 <em>parcourir</em> (go through, pass through) 的意思…… <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
 ]]></content>
   </entry>
   
@@ -561,26 +570,29 @@
     <id>http://wayneh.tw/blog/2015/04/14/a-ethic-reflection</id>
     <content type="html"><![CDATA[<p><img src="http://wayneh.tw/images/blog/ethics1.jpg" alt="2013 Taiwan LGBT Pride" /></p>
 
-<p>昨天在每周一晚舉辦的<a href="https://www.facebook.com/STYMCafe/posts/1638108786420999">里山沙龍：看見跨性別</a>中，講者梅子和大家分享了跨性別社群中遇到的一個狀況，這個狀況是這樣的：一些跨性別社群中的成員，會確立自己社群的要件，並且將某些人排除在外。譬如，有些人會認為，如果你沒有裝扮（或氣質、手術&hellip;等）成該性別的樣子，你便不算是跨性別者。</p>
+<p>昨天在每周一晚舉辦的<a href="https://www.facebook.com/STYMCafe/posts/1638108786420999">里山沙龍：看見跨性別</a>中，講者梅子和大家分享了跨性別社群中遇到的一個狀況，這個狀況是這樣的：一些跨性別社群中的成員，會確立自己社群的要件，並且將某些人排除在外。譬如，有些人會認為，如果你沒有裝扮（或氣質、手術…等）成該性別的樣子，你便不算是跨性別者。</p>
 
 <!--more-->
-
 
 <p>這樣的現象，在2013年的同志遊行中或許更加清楚：當年，有些人想以非單純的同志解放訴求（如性解放）加入同志遊行，因此引起了同志圈內部的議論。有人認為這些訴求不應該加入同志遊行，有人則站在相反的立場。</p>
 
 <p>最後，主辦單位將同性戀與性解放訴求以「性難民」統稱起來，他們<a href="http://twpride.org/twp/?q=about/essence_2013">主張</a>：</p>
 
-<blockquote><p>台灣社會及法律僅保障與鼓吹「男女有別、一夫一妻、一生一世」的價值觀，這個價值觀不僅包含對性喜好、性的表達方式的要求，也囊括了對性傾向、性別氣質的要求。而非婚的性、非生殖用途的性、非一對一的性、非香草式性愛的性，往往被遮蔽、隱晦和道德高壓所禁制，不僅無法分配到任何資源、無法討論與表述，甚至受到社會壓迫與法律懲處。凡是偏離這個價值觀的性，就不符合社會的主觀想像及期待。為什麼個人的性喜好、性選擇、性的表達方式必須符合社會的期待？一旦無法符合，就成為社會制度下的受難者。</p>
+<blockquote>
+  <p>台灣社會及法律僅保障與鼓吹「男女有別、一夫一妻、一生一世」的價值觀，這個價值觀不僅包含對性喜好、性的表達方式的要求，也囊括了對性傾向、性別氣質的要求。而非婚的性、非生殖用途的性、非一對一的性、非香草式性愛的性，往往被遮蔽、隱晦和道德高壓所禁制，不僅無法分配到任何資源、無法討論與表述，甚至受到社會壓迫與法律懲處。凡是偏離這個價值觀的性，就不符合社會的主觀想像及期待。為什麼個人的性喜好、性選擇、性的表達方式必須符合社會的期待？一旦無法符合，就成為社會制度下的受難者。</p>
 
-<p>我們統稱這樣的受難者為「性難民」。[&hellip;]</p></blockquote>
+  <p>我們統稱這樣的受難者為「性難民」。[…]</p>
+</blockquote>
 
 <p>這個「小眾社群的內部排擠現象」議題引起了沙龍現場的熱議。</p>
 
-<h1>「弱弱相殘」論證</h1>
+<h1 id="section">「弱弱相殘」論證</h1>
 
 <p>現場有一種論述是這樣的，我把這稱之為「弱弱相殘」論述：</p>
 
-<blockquote><p>追求基本尊重的團體，既然自己都已經知道了缺乏尊重的困境，更應該將自己擁有的尊重分享給同樣缺乏尊重的人。而不是弱弱相殘。</p></blockquote>
+<blockquote>
+  <p>追求基本尊重的團體，既然自己都已經知道了缺乏尊重的困境，更應該將自己擁有的尊重分享給同樣缺乏尊重的人。而不是弱弱相殘。</p>
+</blockquote>
 
 <p>雖然，在現場有許多人支持這個論述，但是我提出了反對。我反對的點不是在主張：「弱者」應該剝奪同樣需要的「弱者」的基本尊重。而是主張「任何人都不應該剝奪他人的基本尊重」。</p>
 
@@ -596,7 +608,7 @@
 
 <p><strong>四</strong>、這就變成了：弱勢者必須遵守比強勢者更多的道德規範，而且弱勢者只能選擇要嘛加入追求的行列並且承擔這個道德義務、要嘛不加入追求的行列（因為如何加入但是不承擔這個義務，就變成是道德上不一致的）。</p>
 
-<h1>對於一些反對意見的回應</h1>
+<h1 id="section-1">對於一些反對意見的回應</h1>
 
 <p>可以想到許多對於我的論證的反對意見，我想進一步說明這些反對意見造成的後果。</p>
 
@@ -610,7 +622,7 @@
 
 <p>另外還有一種批評，會認為事實上這並不是「更高的道德規範」而最多只是「一樣高的道德規範」，因為事實上，「我們不應該剝奪人基本尊重」這個規範其實已經包含了「如果你是弱勢者，更不應該剝奪弱勢者的基本尊重」，而「應該/不應該」其實沒有程度上的分別（或是，在此並不存在程度上的分別）。這個批評看起來不會有前一個批評的問題，但是依然無法反駁我的論證。</p>
 
-<p>因為事實上，我們可以主張「基本尊重並非是基本人權，而是某些人可以享用某種尊重、不同的人享用不同的尊重（我們並非不尊重你們，只是&hellip;）」，但是這樣的論述卻無法被參與追求尊重的弱勢者採用，因為這些弱勢者在邏輯上無法接受「自己現有的尊重就是自己值得享用的」（否則他便沒有必要追求更多尊重了）。這麼一來，追求尊重的少數者依然被迫遵守「弱弱相殘」的邏輯，即使因為「基本尊重並非是基本人權」，「不剝奪人的基本尊重」已經不具備有道德規範性。</p>
+<p>因為事實上，我們可以主張「基本尊重並非是基本人權，而是某些人可以享用某種尊重、不同的人享用不同的尊重（我們並非不尊重你們，只是…）」，但是這樣的論述卻無法被參與追求尊重的弱勢者採用，因為這些弱勢者在邏輯上無法接受「自己現有的尊重就是自己值得享用的」（否則他便沒有必要追求更多尊重了）。這麼一來，追求尊重的少數者依然被迫遵守「弱弱相殘」的邏輯，即使因為「基本尊重並非是基本人權」，「不剝奪人的基本尊重」已經不具備有道德規範性。</p>
 
 <p>或許你會主張：「對啊，因為基本尊重本來就是基本人權嘛！」那如果是這樣，我們為什麼還需要「弱弱相殘」的論述？</p>
 ]]></content>
@@ -623,11 +635,13 @@
     <id>http://wayneh.tw/blog/2015/04/09/review5</id>
     <content type="html"><![CDATA[<p><img src="http://wayneh.tw/images/blog/review5.png" alt="nature of time" /></p>
 
-<blockquote><p>本文是我的碩士論文的筆記，讀的是 Loux 的 <em>Metaphysics</em> <sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> 的第七章。</p></blockquote>
+<blockquote>
+  <p>本文是我的碩士論文的筆記，讀的是 Loux 的 <em>Metaphysics</em> <sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> 的第七章。</p>
+</blockquote>
 
-<h1>緒論</h1>
+<h1 id="section">緒論</h1>
 
-<p>本篇介紹 McTaggart 的論證和對此論證的回應，這些構成了近代時間哲學的研究主軸<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup>。</p>
+<p>本篇介紹 McTaggart 的論證和對此論證的回應，這些構成了近代時間哲學的研究主軸<sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>。</p>
 
 <p>有三種回應 McTaggart 的論證的方法：</p>
 
@@ -639,8 +653,7 @@
 
 <!--more-->
 
-
-<h1>A. McTaggart 論證</h1>
+<h1 id="a-mctaggart-">A. McTaggart 論證</h1>
 
 <p>我們的世界看似是由時間所排列。事件發生在時間之中。</p>
 
@@ -652,7 +665,7 @@
 
 <p>他的論證有許多學者詮釋，但是，讓我們不要管這些細節，只管他的主題部份。</p>
 
-<h2>動態的A系列與靜態的B系列</h2>
+<h2 id="ab">動態的A系列與靜態的B系列</h2>
 
 <p>McTaggart 認為，各種時間中的位置（position in time），都可以由兩個不同的類似概念加以描述（characterize）。時間中的位置包含了事件與事件所發生的個別的時間，McTaggart 認為，我們可以(1)按照先/後的關係概念來描述，也可以(2)按照過去、現在、未來的概念來描述。並且他主張這兩個概念的集合給出了事件與時間的一個次序。</p>
 
@@ -660,19 +673,18 @@
 
 <p>所以，B系列和A系列是不同的概念，構成不同的架構。另一個不同點在於，事件或時間在B系列中的位置是不變、固定的，相較起來，A系列是動態的：事件和時間恆常地在A規定性（A-determination）中變化。遙遠的未來事件，逐漸變成現在，然後變成遙遠的過去。 McTaggart 將這種在A規定性下看來的事件與時間變化稱為時間性生成（temprol becoming）。</p>
 
-<h2>McTaggart ：時間是非實在的</h2>
+<h2 id="mctaggart-">McTaggart ：時間是非實在的</h2>
 
 <p>McTaggart 論證時間的非實在性，分成兩個部份：</p>
 
 <ol>
-<li>論證B系列預設了A系列</li>
-<li>論證不可能會有A系列，因為A系列包含了矛盾</li>
+  <li>論證B系列預設了A系列</li>
+  <li>論證不可能會有A系列，因為A系列包含了矛盾</li>
 </ol>
-
 
 <p>如果這兩個論證成功的話，時間的特性就不包含A規定性與B規定性。那麼就沒有我們稱之為時間的那種東西了。</p>
 
-<h2>1. B系列預設了A系列</h2>
+<h2 id="ba">1. B系列預設了A系列</h2>
 
 <p>McTaggart 之所以認為B系列預設了A規定性，是因為他相信，時間預設了變化。要是我們接受了這一點，我們要是想把B系列當成是一種恰當的時間架構，就必須找出B系列如何包含變化。如果我們要否認B系列預設了A系列，我們就要說出B系列中的這種變化和A系列中的變化是不一樣的東西： McTaggart 認為這是不可能的。</p>
 
@@ -680,7 +692,7 @@
 
 <p>McTaggart 認為，如果它們確實構成了一個時間架構，組成B系列的事件必須經受變化；但是如果只有B規定性，它們不會變化。然而我們已經看到，按A規定性來看，它們是可以有變化的。也就是說，B系列要是沒有A系列的話，它根本就不是一個時間架構。</p>
 
-<h3>對 1 的挑戰</h3>
+<h3 id="section-1">對 1 的挑戰</h3>
 
 <p>有人或許會認為B系列其實也給出了一種變化，而這種變化是不包含A規定性的。我們來看看這種變化是什麼：老的事件被新的事件所取代；發生的事情必須是，老的事件跳出了存在，而新的事件跳了進來。</p>
 
@@ -692,7 +704,9 @@
 
 <p>McTaggart 認為，B系列的不變與固定的架構，有著更廣泛的蘊含。不只是事件無法突然出現和消失，它們的部份也不會失去與得到，它們在任何看法下都沒有改變。McTaggart 以一個事件「 Anne 女王之死」為例：</p>
 
-<blockquote><p>死亡存在；Anne Stuart 之死存在；有這些原因、這些結果——這種特徵從未改變。「在星辰望見另一片平原之前」，所考慮的事件是女王之死。在時間的最後一個時刻——如果時間有最後一個時刻——這將仍然是女王之死。</p></blockquote>
+<blockquote>
+  <p>死亡存在；Anne Stuart 之死存在；有這些原因、這些結果——這種特徵從未改變。「在星辰望見另一片平原之前」，所考慮的事件是女王之死。在時間的最後一個時刻——如果時間有最後一個時刻——這將仍然是女王之死。</p>
+</blockquote>
 
 <p>所以事件不是作為B系列中會變化的元件；如果有什麼東西是在B系列中會變化的，那構成它的事件就必須變化。然而我們說過，要是一個次序是一個恰當地時間次序，它必須包含變化。這就變成，B系列其實不是一個真正的時間架構。</p>
 
@@ -706,7 +720,7 @@
 
 <p>二、McTaggart 主張，我們只在我們有一個在事物的性質和特徵有變化的情況下，才有一個真正的變化。然而，一個事物在B系列的周三是溫的、在周四的時候是冷的，並沒有任何變化發生，這兩個性質都是不變和固定的。</p>
 
-<h2>2. A系列包含了矛盾</h2>
+<h2 id="a">2. A系列包含了矛盾</h2>
 
 <p>首先， McTaggart 指出，是過去的、是現在的、是未來的，是3個不相容的性質。然而， McTaggart 堅持，如果有一個A系列，所有在系列中的事件會有3個性質。A系列的理念的本質包含了，事件從遙遠的未來、經過現在、到遙遠的過去。</p>
 
@@ -722,11 +736,11 @@
 
 <p>我們接著來看看這兩種回應。</p>
 
-<h1>B. B理論</h1>
+<h1 id="b-b">B. B理論</h1>
 
-<h2>B系列是恰當的時間架構</h2>
+<h2 id="b">B系列是恰當的時間架構</h2>
 
-<p>B理論者<sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup>認為，時間的本性可以由 McTaggart 的B系列恰當地表示。他們認為時間是一個以先、後、同時等無時態的關係所構成的外在地固定的架構。也就是說，時間只是空間外的第四個維度。進而，空間位置與其內容、各種時間位置、其所包含的時間與事物，有相同的本體論狀態。我說「在這裡」與「在此時」並沒有真正的形上學的區別。</p>
+<p>B理論者<sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup>認為，時間的本性可以由 McTaggart 的B系列恰當地表示。他們認為時間是一個以先、後、同時等無時態的關係所構成的外在地固定的架構。也就是說，時間只是空間外的第四個維度。進而，空間位置與其內容、各種時間位置、其所包含的時間與事物，有相同的本體論狀態。我說「在這裡」與「在此時」並沒有真正的形上學的區別。</p>
 
 <p>因此，B理論者是四維論者，將所有時間及其內容看成是相同真實的。我們將四維論與其內容都是完全真實與存在的學說的結合稱作「<strong>外在論</strong>」。B理論者是外在論者，他們的外在論建立於B系列（作為一個不變且固定的架構）的 McTaggart 的外在論特徵，這個架構的結構可以完全由B關係的無時態語言所表示，但是他們又認為B系列是一個合適的時間架構。他們承認時間和變化是緊密連結的，而變化是可以在他們這個無時態的時間架構中存在。</p>
 
@@ -736,11 +750,11 @@
 
 <p>假定一個物件$x$在$t$時存在，B理論者可以同意$x$外在地有「存在於$t$」的時間索引性性質。依此，B理論者可以同意$x$無法逃脫或是成為這個性質；同時顯然，$x$表現的「存在於$t^＊$」這樣形式的其他性質也是如此。但是，B理論者堅持，按照存在著的簡化物的非時間性索引性性質來看，它會變成相當不一樣的東西。可能有兩個時間，一個是$x$在其中有此性質的、一個是沒有的。進而，B理論者可以主張，可能有$x$表現存在著的簡化物的非時間索引性性質的第一個時刻，以及一個隨後的$x$不再表現這個性質的第一個時刻（即時間性邊界）。這個可能性的實現就是$x$可以成為存有和不再是存有。</p>
 
-<p>回來看看 McTaggart 的「其他性質的變化的不可能」的論證：如果一個物$x$在$t$時是溫的、在$t&#8217;$時是冷的，那麼$x$將永遠有「$x$在$t$時是溫的、在$t&#8217;$時是冷的」的性質，因此它無法失去或獲得性質；那麼，它無法在溫度上有變化；所有其他$x$能被指出的特徵維度上，顯然都是一樣的。但是同樣地，B理論者主張 McTaggart 混淆了時間索引性性質和非時間索引性性質：B理論者否認$x$所擁有的性質由它的時間索引性性質所窮舉，即使「在$t$時是溫的、在$t&#8217;$時是冷的」確實是不變的時間索引性性質。還有是溫的簡化物與是冷的簡化物的性質，B理論者可以主張$x$在一個時間有這些性質、在另一時間有其他性質是可能的。</p>
+<p>回來看看 McTaggart 的「其他性質的變化的不可能」的論證：如果一個物$x$在$t$時是溫的、在$t’$時是冷的，那麼$x$將永遠有「$x$在$t$時是溫的、在$t’$時是冷的」的性質，因此它無法失去或獲得性質；那麼，它無法在溫度上有變化；所有其他$x$能被指出的特徵維度上，顯然都是一樣的。但是同樣地，B理論者主張 McTaggart 混淆了時間索引性性質和非時間索引性性質：B理論者否認$x$所擁有的性質由它的時間索引性性質所窮舉，即使「在$t$時是溫的、在$t’$時是冷的」確實是不變的時間索引性性質。還有是溫的簡化物與是冷的簡化物的性質，B理論者可以主張$x$在一個時間有這些性質、在另一時間有其他性質是可能的。</p>
 
 <p>因此，B系列是一個恰當的時間架構。</p>
 
-<h2>B理論者：B系列是唯一恰當的時間架構</h2>
+<h2 id="bb">B理論者：B系列是唯一恰當的時間架構</h2>
 
 <p>B理論者通常同意 McTaggart 對A系列的矛盾性的論證，但即使不論時間性觀念的矛盾，他們發現這也是有很嚴重的問題。</p>
 
@@ -754,71 +768,91 @@
 
 <p>B理論者的公式化特徵，到了1970年，涉及意義與翻譯的概念。此時的主張是每個包含了動詞或A述詞的時態形式，都有B理論的翻譯，每個語句語意地等同於只包含動詞與B述詞的無時態形式的原型。</p>
 
-<p>然而，B理論者並不全同意這些翻譯該如何進行。有一種策略是以使用日期來翻譯A系列<sup id="fnref:4"><a href="#fn:4" rel="footnote">4</a></sup>。舉例來說，在2005年聖誕節，我說：</p>
+<p>然而，B理論者並不全同意這些翻譯該如何進行。有一種策略是以使用日期來翻譯A系列<sup id="fnref:4"><a href="#fn:4" class="footnote">4</a></sup>。舉例來說，在2005年聖誕節，我說：</p>
 
-<blockquote><p>(1) 昨天下雪。</p></blockquote>
+<blockquote>
+  <p>(1) 昨天下雪。</p>
+</blockquote>
 
 <p>以無時態語言表示就是：</p>
 
-<blockquote><p>(2) 2005年12月24日下雪。</p></blockquote>
+<blockquote>
+  <p>(2) 2005年12月24日下雪。</p>
+</blockquote>
 
-<p>另外一個消除時態的策略叫作「個例反身性分析（token reflexive analysis）」<sup id="fnref:5"><a href="#fn:5" rel="footnote">5</a></sup>。依據這個分析，一個A理論語句的個例（言說或文詞）總是包含一個個例自身的參照，時態性語言的力量，是透過它的對言說或文詞所報告的事件之發生的B關係去指認事件的時間。如果我說：</p>
+<p>另外一個消除時態的策略叫作「個例反身性分析（token reflexive analysis）」<sup id="fnref:5"><a href="#fn:5" class="footnote">5</a></sup>。依據這個分析，一個A理論語句的個例（言說或文詞）總是包含一個個例自身的參照，時態性語言的力量，是透過它的對言說或文詞所報告的事件之發生的B關係去指認事件的時間。如果我說：</p>
 
-<blockquote><p>(3) 現在下雨。</p></blockquote>
+<blockquote>
+  <p>(3) 現在下雨。</p>
+</blockquote>
 
 <p>我透過B理論語句所表述的是：</p>
 
-<blockquote><p>(4) 下雨，與此文詞同時之時。</p></blockquote>
+<blockquote>
+  <p>(4) 下雨，與此文詞同時之時。</p>
+</blockquote>
 
 <p>如果改寫(1)就變成：</p>
 
-<blockquote><p>(5) 下雨，於比此文詞早的某一天。</p></blockquote>
+<blockquote>
+  <p>(5) 下雨，於比此文詞早的某一天。</p>
+</blockquote>
 
 <p>雖然有許多A語句的翻譯方法，但是他們的目的是一樣的：證明我們對為真的A理論語句的使用，不保證A性質、A事實或A狀態的存在。</p>
 
-<h1>C. A理論</h1>
+<h1 id="c-a">C. A理論</h1>
 
 <p>A理論者將時間看待成具有不可化約的時態性的。他們認為時態的各種語言表述，指出了時間的客觀特色，在沒有思想者的時候時間依然在世界中。不過，對於A理論者來說，事件、時間和變化的對象是稍縱即逝的。他們給予現在形上學的優位性，過去與未來比起現在，都不是實在的。</p>
 
 <p>因此，對於A理論者來說，時間的不可化約時態性具有本體論上的意義。他們認為：</p>
 
-<blockquote><p>(1) 昨天下雪。</p></blockquote>
+<blockquote>
+  <p>(1) 昨天下雪。</p>
+</blockquote>
 
 <p>不能改寫成</p>
 
-<blockquote><p>(2) 2005年12月24日下雪。</p></blockquote>
+<blockquote>
+  <p>(2) 2005年12月24日下雪。</p>
+</blockquote>
 
 <p>因為，如果我昏迷了很久以後在2005年的聖誕夜醒來，並看到下雪。我並不知道現在的日期，第二天，當我說「昨天下雪」，就完全沒有(2)的意義。</p>
 
 <p>同樣，</p>
 
-<blockquote><p>(3) 現在在下雪。</p></blockquote>
+<blockquote>
+  <p>(3) 現在在下雪。</p>
+</blockquote>
 
 <p>不能改寫成</p>
 
-<blockquote><p>(4) 與說此話同時，在下雪。</p></blockquote>
+<blockquote>
+  <p>(4) 與說此話同時，在下雪。</p>
+</blockquote>
 
 <p>(3)和(4)有個不同的蘊含，因為意義是不同的。(4)蘊含了關於天氣的表達，但是(3)沒有。(3)的表示可以在世界上沒有說話者的時候為真，但是(4)不行。</p>
 
-<p>Arthur Prior<sup id="fnref:6"><a href="#fn:6" rel="footnote">6</a></sup> 給了一個例子，當一個人通過了一個特定的殘酷經驗，他會說：「感謝上帝，結束了。」Prior 堅持，這樣的句子不是表達說話者在一個特定日子發生的經驗的最後時刻的安心；因為，同樣，說話者可以並不清楚他的經驗是在哪一天結束的。Prior 同樣認為，這個人不是在說「感謝上帝，這個經驗的最後時刻早於我說這句話的時間。」他問：說話這幹嘛對這感到安心？</p>
+<p>Arthur Prior<sup id="fnref:6"><a href="#fn:6" class="footnote">6</a></sup> 給了一個例子，當一個人通過了一個特定的殘酷經驗，他會說：「感謝上帝，結束了。」Prior 堅持，這樣的句子不是表達說話者在一個特定日子發生的經驗的最後時刻的安心；因為，同樣，說話者可以並不清楚他的經驗是在哪一天結束的。Prior 同樣認為，這個人不是在說「感謝上帝，這個經驗的最後時刻早於我說這句話的時間。」他問：說話這幹嘛對這感到安心？</p>
 
-<p>不過在這同時，一些A理論者承認，除了時態性真理外，也有無時態的真理，譬如邏輯和數學的真理。另有一些A理論者則表示，沒有真正無時態的主張，他們認為B語句只能被理解為隱含時態的主張。在這樣的觀點下，事件$e$先於事件$e&#8217;$只是一個對「$e&#8217;$是現在的時候$e$是過去」和「$e&#8217;$是未來的時候$e$是現在」的偽裝的連言。數學真理事實上也是這樣的連言。</p>
+<p>不過在這同時，一些A理論者承認，除了時態性真理外，也有無時態的真理，譬如邏輯和數學的真理。另有一些A理論者則表示，沒有真正無時態的主張，他們認為B語句只能被理解為隱含時態的主張。在這樣的觀點下，事件$e$先於事件$e’$只是一個對「$e’$是現在的時候$e$是過去」和「$e’$是未來的時候$e$是現在」的偽裝的連言。數學真理事實上也是這樣的連言。</p>
 
-<p>無論是哪種A理論者，他們都同意時態語言指出了事情的不可化約的時態性性質與時態性狀態。他們想去主張，包含時態的形上學區別現象學地表達了他們自己。「是現在的」性質，他們告訴我們，伴隨我們的一切經驗。現在就在那，於知覺和自省兩方面都先於我們。如一個A理論者<sup id="fnref:7"><a href="#fn:7" rel="footnote">7</a></sup>所說，現在於經驗中為我們「活著」。在經驗中我們親知（acquaint with）存有現在（也只有現在）的性質。過去只能記得，安心、後悔等。未來只能預期，害怕、希望等。這些不同的態度是合適的，他們合於包含過去、現在、未來的本體論區分。</p>
+<p>無論是哪種A理論者，他們都同意時態語言指出了事情的不可化約的時態性性質與時態性狀態。他們想去主張，包含時態的形上學區別現象學地表達了他們自己。「是現在的」性質，他們告訴我們，伴隨我們的一切經驗。現在就在那，於知覺和自省兩方面都先於我們。如一個A理論者<sup id="fnref:7"><a href="#fn:7" class="footnote">7</a></sup>所說，現在於經驗中為我們「活著」。在經驗中我們親知（acquaint with）存有現在（也只有現在）的性質。過去只能記得，安心、後悔等。未來只能預期，害怕、希望等。這些不同的態度是合適的，他們合於包含過去、現在、未來的本體論區分。</p>
 
-<h2>A理論者：A規定性沒有矛盾</h2>
+<h2 id="aa">A理論者：A規定性沒有矛盾</h2>
 
 <p>A理論者面對 McTaggart 對A規定性的矛盾性的攻擊，回應：事件是相續、而非同時擁有這三個性質（過去、現在、未來）的。一個事件現在是現在的、將會是過去的以及曾經是未來的。</p>
 
 <p>雖然 McTaggart 認為這樣會有無限後退的問題，但A理論者並不認為那個論證是對的。A理論者認為，我們其實沒必要對於動詞的時態性形式提供分析。 McTaggart 對於他堅持的分析並沒有提供真正的理由；並且，他計劃的分析不相容於他的對於A序列與B序列的關係的觀點。畢竟， McTaggart 想要主張，A系列比B系列更加基礎；但這只是在主張時態性語言比無時態語言更加根本。如果是這樣，去主張動詞的時態形式（A規定性的詞性變化表述）需要一個以無時態動詞型式的此語來進行分析，肯定就是錯誤的。</p>
 
-<blockquote><p>這裡我覺得很奇怪，論述並不充份。主張時態性語言需要A系列來解釋，就是主張時態性語言需要非時態語言來解釋嗎？</p></blockquote>
+<blockquote>
+  <p>這裡我覺得很奇怪，論述並不充份。主張時態性語言需要A系列來解釋，就是主張時態性語言需要非時態語言來解釋嗎？</p>
+</blockquote>
 
-<h2>時間如何流逝？</h2>
+<h2 id="section-2">時間如何流逝？</h2>
 
 <p>在以上這些部份A理論者都是共同同意的。但是他們在時間的流逝性（transient）特徵的準確表達方式上，並沒有共識。如我們所見， McTaggart 透過時間性生成的說法來帶出時態的流逝性特徵。</p>
 
-<p>C.D. Broad 指出另外一種可能的表達方式<sup id="fnref:8"><a href="#fn:8" rel="footnote">8</a></sup>。他提出一個類比。我們有在一條街上的一排房子。一個警察沿著街走下去。當他走時，他將光打在房子上（Broad 稱之為警察的靶心），房子在那時被打亮，沿著一個特定的順序。假定房子就是各個被安排在他們的特定時間次序中的事件。警察的圓心是現在。被照過的就是過去，還沒被照過的就是未來。</p>
+<p>C.D. Broad 指出另外一種可能的表達方式<sup id="fnref:8"><a href="#fn:8" class="footnote">8</a></sup>。他提出一個類比。我們有在一條街上的一排房子。一個警察沿著街走下去。當他走時，他將光打在房子上（Broad 稱之為警察的靶心），房子在那時被打亮，沿著一個特定的順序。假定房子就是各個被安排在他們的特定時間次序中的事件。警察的圓心是現在。被照過的就是過去，還沒被照過的就是未來。</p>
 
 <p>Broad 主張的是成長式阻隔理論（growing block theory）的形式。Borad 想去主張，現在和過去都是完全實在的，但是未來不是。因此實體性是一個阻隔，現在只是阻隔的領導邊緣。他主張：存在的總和總是在增加。新的事件到來而存有， Broad 稱他們的到來為存在的生成。他說這是一種特殊種類的變化，這種類無法化約到任何變化的更通常種類。他否認去問這有多快或多慢是有意義的，因為這預設了其他種類變化的存在。</p>
 
@@ -826,13 +860,13 @@
 
 <p>也有另外一種直覺可能會導致A理論的一個不同形式，可稱為沈沒式阻隔理論（shrinking block theory）。在這個觀點下，現在捍衛來都是實在的，但是過去並沒有本體論狀態。存在因此是不斷流失的。現在是刪除的一個實體的拖曳邊界。他們同樣也反對去問這個阻隔失去片段有多快。</p>
 
-<p>聚光燈（警察的靶心）理論、成長式阻隔理論、沈沒式阻隔理論，表現了三個A規定性的流逝本質的可能的表達方式。值得一提的是，這三種表達都合乎四維主義的學說<sup id="fnref:9"><a href="#fn:9" rel="footnote">9</a></sup>。它們都將實體稱作阻隔，同時有空間性與時間性的擴延。在每一個模型中，都有一個四維的阻隔。只是聚光燈理論者同時也是一個四維主義者，他們承認過去和現在都有某種實體性、某種本體論狀態：很難想像這沒有把實體當成有四個維度的擴展。</p>
+<p>聚光燈（警察的靶心）理論、成長式阻隔理論、沈沒式阻隔理論，表現了三個A規定性的流逝本質的可能的表達方式。值得一提的是，這三種表達都合乎四維主義的學說<sup id="fnref:9"><a href="#fn:9" class="footnote">9</a></sup>。它們都將實體稱作阻隔，同時有空間性與時間性的擴延。在每一個模型中，都有一個四維的阻隔。只是聚光燈理論者同時也是一個四維主義者，他們承認過去和現在都有某種實體性、某種本體論狀態：很難想像這沒有把實體當成有四個維度的擴展。</p>
 
 <p>所有3個版本的A理論都同意實體的四維圖像，在此他們和B理論者是有共識的；他們和B理論者的差異在於，否認所有的時間都是同樣真實的，以及堅持實體性本身是不可化約的時態性的。</p>
 
-<h2>現時主義</h2>
+<h2 id="section-3">現時主義</h2>
 
-<p>但除了A理論的這三種形式，最流行的那個A理論版本——現時主義（presentism）<sup id="fnref:10"><a href="#fn:10" rel="footnote">10</a></sup>——就不接受四維主義了。按照這個觀點，實體不是時間性地擴延的，無論是從過去到現在還是從現在到未來。</p>
+<p>但除了A理論的這三種形式，最流行的那個A理論版本——現時主義（presentism）<sup id="fnref:10"><a href="#fn:10" class="footnote">10</a></sup>——就不接受四維主義了。按照這個觀點，實體不是時間性地擴延的，無論是從過去到現在還是從現在到未來。</p>
 
 <p>現時主義者堅持，只有存在於現在的東西才現實地存在，只有發生於現在的東西才現實地發生。現實的和現在的，現時主義者要說：他們是同一件事。</p>
 
@@ -842,29 +876,35 @@
 
 <p>當然，現時主義者遇到了一些重要的反對。我會指出兩個。</p>
 
-<p>首先，現時主義與特殊相對論是不相容的。因為它主張了有一種時間優位於其他時間，事實上，相對論普遍地預設了一種作用於B理論的外在論式的世界圖像。現在有一些現時主義者會回應：我們不需要是相對論的實在論者。我們可以說，相對論只是一種工具，讓我們從一組觀察性陳述被帶到另一組觀察性陳述。這種回應不是許多現時論者所採取的。他們更常會去承認相對論建構了世界的一個特徵，並且這和現時主義的形上學是不相容的<sup id="fnref:11"><a href="#fn:11" rel="footnote">11</a></sup>。他們主張，在相同的一般的鄰近處，有一些理論經驗性地等同於特殊相對論，但非不相容於現時主義。他們告訴我們，這些理論表述的只是官方理論的適中的選項，他們建議，如果關心正確的世界的形上學圖像的話，我們採取其中一個主張當成是相對論的等同的經驗性變體。</p>
+<p>首先，現時主義與特殊相對論是不相容的。因為它主張了有一種時間優位於其他時間，事實上，相對論普遍地預設了一種作用於B理論的外在論式的世界圖像。現在有一些現時主義者會回應：我們不需要是相對論的實在論者。我們可以說，相對論只是一種工具，讓我們從一組觀察性陳述被帶到另一組觀察性陳述。這種回應不是許多現時論者所採取的。他們更常會去承認相對論建構了世界的一個特徵，並且這和現時主義的形上學是不相容的<sup id="fnref:11"><a href="#fn:11" class="footnote">11</a></sup>。他們主張，在相同的一般的鄰近處，有一些理論經驗性地等同於特殊相對論，但非不相容於現時主義。他們告訴我們，這些理論表述的只是官方理論的適中的選項，他們建議，如果關心正確的世界的形上學圖像的話，我們採取其中一個主張當成是相對論的等同的經驗性變體。</p>
 
 <p>另一個反對針對了關於現時主義的現在、過去與未來的主張。如果過去和未來都不是實在的，那很難明白我們那些主張所談論的究竟是什麼。這個批評實際上可以針對那些主張未來或過去不是實在的那些A理論。 Broad 作為成長阻隔理論的支持者，他的解決辦法是堅持因為沒有未來對象，未來時態性陳述都沒有真值。</p>
 
 <p>一個現時主義者會如何過去時態的主張呢？舉例來說，我們說「以前喬治華盛頓有假牙」，而這個主張是為真的，最好是能有什麼我們所談論的東西存在。如果現時主義是正確的，那華盛頓就不存在，似乎意味著這句話是錯的。</p>
 
-<p>現時主義者嚴肅地考慮這個問題<sup id="fnref:12"><a href="#fn:12" rel="footnote">12</a></sup>。他們說，這問題是過去時態語句的一種詮釋、這些語句對命題的表述的一種識別。他們承認這樣的語句可以用於表達一個真命題：</p>
+<p>現時主義者嚴肅地考慮這個問題<sup id="fnref:12"><a href="#fn:12" class="footnote">12</a></sup>。他們說，這問題是過去時態語句的一種詮釋、這些語句對命題的表述的一種識別。他們承認這樣的語句可以用於表達一個真命題：</p>
 
-<blockquote><p>(6) 以前華盛頓有假牙。</p></blockquote>
+<blockquote>
+  <p>(6) 以前華盛頓有假牙。</p>
+</blockquote>
 
 <p>他們反對，即使是在鬆散的意義下，它表達了一個關於華盛頓這個人的命題。那表達了什麼？現時主義者提醒我們，命題是必要的存有。這些命題存在於所有的可能世界裡頭，有不少於普遍命題的單一命題為真。</p>
 
 <p>透過這樣的語句的命題，存在於所有的可能世界中，而不是只在華盛頓存在的世界中存在：</p>
 
-<blockquote><p>(7) 布希出生於德州。</p></blockquote>
+<blockquote>
+  <p>(7) 布希出生於德州。</p>
+</blockquote>
 
 <p>進而，它從在於所有世界中的所有時間。據此，一個關於不存在於特定時間的對象的單一命題，存在於該時間。因此，即使是在華盛頓不存在以後，現在時態的這個命題還是存在：</p>
 
-<blockquote><p>(8) 華盛頓有假牙。</p></blockquote>
+<blockquote>
+  <p>(8) 華盛頓有假牙。</p>
+</blockquote>
 
 <p>現在，現時主義者告訴我們，當前存在的對象可以有一種可稱作回顧性質（backward looking property）的東西。因此，布希可以有「去過耶魯大學」和「當過德州州長」的性質。如今，不少於適真地存在的具體個殊的命題可以有回顧性質，現時主義者可以說，了解(6)的一種方法是，將它看作是由(8)所表達的命題擁有「曾經一旦為真」的回顧性質的命題的表達。</p>
 
-<h1>D. 新B理論</h1>
+<h1 id="d-b">D. 新B理論</h1>
 
 <p>我們說了，對於B理論，時態性語句可以用無時態語句來分析，我們給出了兩種關於分析方法的說明：透過日期法與個例反身性分析法。在1980年代以前，這個進路是B理論者的研究工作的特色。到了1980年代，出現了一種理論的新版本，稱作新B理論或者時間的新無時態理論。</p>
 
@@ -872,27 +912,35 @@
 
 <p>他們主張B理論的相續性能充份提供時態性語句的無時態真值條件：對於每個時態性語句$S$，以嚴格非時態語詞，去辨識對$S$為真而言的充份必要的非語言條件是可能的。這種非時態真值條件會顯示的東西，他們認為，是外於自身組成B理論的本體論的事態的某種無時態狀態的世界的一些事實。</p>
 
-<p>在1970年代，語言哲學的發展給了一個結論<sup id="fnref:13"><a href="#fn:13" rel="footnote">13</a></sup>。這工作針對的是索引性，並表示不可能將索引性從我們的語言中刪除掉。索引詞是隨著各種脈絡有不同的語義詮釋的表述，像是「這裡」、「那裡」、「你」、「我」等等。1970年代的爭論是，索引性語言不可翻譯成無索引性與詞的混合。考慮：</p>
+<p>在1970年代，語言哲學的發展給了一個結論<sup id="fnref:13"><a href="#fn:13" class="footnote">13</a></sup>。這工作針對的是索引性，並表示不可能將索引性從我們的語言中刪除掉。索引詞是隨著各種脈絡有不同的語義詮釋的表述，像是「這裡」、「那裡」、「你」、「我」等等。1970年代的爭論是，索引性語言不可翻譯成無索引性與詞的混合。考慮：</p>
 
-<blockquote><p>(9) 這裡正在下雪。</p></blockquote>
+<blockquote>
+  <p>(9) 這裡正在下雪。</p>
+</blockquote>
 
 <p>它主張，不可能找到一個能將「這裡」替換掉的、不更改(9)的意義的非索引性表述。所有的替換將產生一個語義不同於(9)的語句。</p>
 
 <p>但新B理論者們認為，翻譯的失敗並沒有對時間本性之特殊形上學事實造成影響。就像(9)的「這裡」並未蘊含有個地方比起其餘地方，在形上學的區別上有什麼獨特的地方。</p>
 
-<p>B理論者進而主張，可能為時態性語句提供無時態的真值條件。他們建議了兩種不同的策略來提供這樣的真值條件，有趣的是，兩種策略分別根源於於舊B理論的兩種翻譯策略。一種舊B理論的版本是透過日期參照來給予時態性語句意義，有一種新理論的版本（J.J.C. Smart）就是以日期的語詞來為時態性語句的個例辨識真值條件<sup id="fnref:14"><a href="#fn:14" rel="footnote">14</a></sup>；一種舊B理論的版本是給予時態性語句的意義一個個例反身性的分析，新理論的一個版本（D.H. Mellor）為時態性語句的個例一個個例反身性的真值條件。<sup id="fnref:15"><a href="#fn:15" rel="footnote">15</a></sup></p>
+<p>B理論者進而主張，可能為時態性語句提供無時態的真值條件。他們建議了兩種不同的策略來提供這樣的真值條件，有趣的是，兩種策略分別根源於於舊B理論的兩種翻譯策略。一種舊B理論的版本是透過日期參照來給予時態性語句意義，有一種新理論的版本（J.J.C. Smart）就是以日期的語詞來為時態性語句的個例辨識真值條件<sup id="fnref:14"><a href="#fn:14" class="footnote">14</a></sup>；一種舊B理論的版本是給予時態性語句的意義一個個例反身性的分析，新理論的一個版本（D.H. Mellor）為時態性語句的個例一個個例反身性的真值條件。<sup id="fnref:15"><a href="#fn:15" class="footnote">15</a></sup></p>
 
 <p>在 Smart 的日期版本，「事件$e$現在正在發生」的形式的作為在一個時間$t$的語句的個例為真，若且唯若，$e$在$t$發生。而在 Mellor 的個例反身性說明中，告訴我們一個「事件$e$正在發生」的形式的語句的個例為真，若且唯若，$e$與考慮的個例是同時的。</p>
 
 <p>因此，對於</p>
 
-<blockquote><p>(3) 現在正在下雪。</p></blockquote>
+<blockquote>
+  <p>(3) 現在正在下雪。</p>
+</blockquote>
 
 <p>就有了兩種不同的語句給了它真值條件：</p>
 
-<blockquote><p>(10) 2006年1月21日在下雪。</p>
+<blockquote>
+  <p>(10) 2006年1月21日在下雪。</p>
+</blockquote>
 
-<p>(11) 下雪和「現在正在下雪」的這個表達同時。</p></blockquote>
+<blockquote>
+  <p>(11) 下雪和「現在正在下雪」的這個表達同時。</p>
+</blockquote>
 
 <p>但是它們的意義都與(3)不同。</p>
 
@@ -900,65 +948,88 @@
 
 <p>如果是這樣，我們到底為何需要時態？新B理論者給我們的答案，與信念的時態性語句表述有關。新B理論者告訴我們，我們需要有時態性語言是因我們的行為有其時間性。如果我們去相續地表現我們想要表現的行為，我們就需要比為真的關於行為是何時被表現的無時態信念更多的東西。</p>
 
-<p>新的無時態理論成為了A理論者持續批判的目標。A理論者辯稱，兩種新理論的版本都沒有為時態性語句恰當地辨認出真值條件。這些批評的細節是精巧且通常是技術性的。我們在這理可以指出 Quentin Smith 的批判<sup id="fnref:16"><a href="#fn:16" rel="footnote">16</a></sup>。</p>
+<p>新的無時態理論成為了A理論者持續批判的目標。A理論者辯稱，兩種新理論的版本都沒有為時態性語句恰當地辨認出真值條件。這些批評的細節是精巧且通常是技術性的。我們在這理可以指出 Quentin Smith 的批判<sup id="fnref:16"><a href="#fn:16" class="footnote">16</a></sup>。</p>
 
 <p>首先 Smith 要我們考慮這樣的在1980年說出的語句：</p>
 
-<blockquote><p>(12) 現在是1980年。</p></blockquote>
+<blockquote>
+  <p>(12) 現在是1980年。</p>
+</blockquote>
 
 <p>我們如果認為「事件$e$現在正在發生」的表達$u$，作為在一個時間$t$的語句的個例，為真，若且唯若，$e$在$t$發生，那麼 Smith 告訴我們，我們會得到(11)的真值條件是：</p>
 
-<blockquote><p>(13) 1980年是在1980年。</p></blockquote>
+<blockquote>
+  <p>(13) 1980年是在1980年。</p>
+</blockquote>
 
 <p>但 Smith 論證，(13)無法給予(12)真值條件，因為(12)表述的是一個實質的適真主張，(13)則只是一個恆真句。</p>
 
 <p>如果我們採取 Mellor 的個例反身性的說明。讓我們考慮這兩個句子：</p>
 
-<blockquote><p>(12) 現在是1980年。</p>
+<blockquote>
+  <p>(12) 現在是1980年。</p>
+</blockquote>
 
-<p>(14) 1980年是現在。</p></blockquote>
+<blockquote>
+  <p>(14) 1980年是現在。</p>
+</blockquote>
 
 <p>顯然(12)和(14)是等同的，他們相互隱含了彼此，並且 Simith 堅稱，這個事實必須被顯示在它們的真值條件上。並且他論證， Mellor 的個例反身性的說明並沒有這樣。</p>
 
 <p>這個說明是，「事件$e$正在發生」的句子的個例$u$為真，若且唯若，$e$與$u$是同時的。但如果是這樣，任何一個(12)的表達$x$的真值條件都是「$x$發生在1980年」；而任何一個(14)的表達&amp;y&amp;的真值條件，都是「$y$發生在1980年」。Smith 論證這兩個真值條件完全是彼此獨立的，但是他們必須要能展示(12)和(14)的邏輯等同才對。</p>
-<div class="footnotes">
-<hr/>
-<ol>
-<li id="fn:1">
-<p>本文摘錄自「Loux, Michael J. 2006, <em>Metaphysics: A Contemporary Introduction</em> 」一書。<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
-<li id="fn:2">
-<p>McTaggart 的論證可參考拙作<a href="http://wayneh.tw/blog/2015/04/04/mctaggart/">McTaggart 悖論：你以為的時間不是實在的</a>。<a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
-<li id="fn:3">
-<p>參考 Williams, D.C. (1951) &ldquo;The myth of passage,&rdquo; <em>Journal of Philosophy</em>、Quine, W.V. (1960) <em>Word and Object</em>, Cambridge, MA: MIT Press (section 36)、Smart, J.J.C.  (1963) <em>Philosophy and Scientific Realism</em>, London: Routledge (131-142)。<a href="#fnref:3" rev="footnote">&#8617;</a></p></li>
-<li id="fn:4">
-<p>見上 Quine (1960: section 36) 。<a href="#fnref:4" rev="footnote">&#8617;</a></p></li>
-<li id="fn:5">
-<p>見上 Williams (1951) 。<a href="#fnref:5" rev="footnote">&#8617;</a></p></li>
-<li id="fn:6">
-<p>Prior, A. (1959) &ldquo;Thank goodness that&rsquo;s over,&rdquo; <em>Philosophy</em>。<a href="#fnref:6" rev="footnote">&#8617;</a></p></li>
-<li id="fn:7">
-<p>Schlesinger, G. (1980) <em>Aspects of Time</em>, Indianapolis: Hackett (23)。<a href="#fnref:7" rev="footnote">&#8617;</a></p></li>
-<li id="fn:8">
-<p>Broad, C.D. (1923) <em>Scientific Thought</em>, London: Kegan Paul (chap. II)。要注意的是，在這個圖像上，現在是不會移動的。也可參考 Taylor, R. (1963) <em>Metaphysics</em>, Garden City, NJ: Prentice Hall (ch. 6)。<a href="#fnref:8" rev="footnote">&#8617;</a></p></li>
-<li id="fn:9">
-<p>Rea, M. (2003) &ldquo;Four dimensionalism&#8221;。<a href="#fnref:9" rev="footnote">&#8617;</a></p></li>
-<li id="fn:10">
-<p>現時主義者如 Prior, A. (1959) &ldquo;Thank goodness that&rsquo;s over,&rdquo; <em>Philosophy</em>、Zimmerman, D. (1998) &ldquo;Temporary intrinsics and presentism&rdquo; 、Crisp, T. (2003) &ldquo;Presentism&rdquo; 和 Markosian, N.  (2005) &ldquo;A defense of presentism&#8221;。<a href="#fnref:10" rev="footnote">&#8617;</a></p></li>
-<li id="fn:11">
-<p>見上 Crisp (2003) 。<a href="#fnref:11" rev="footnote">&#8617;</a></p></li>
-<li id="fn:12">
-<p>Chisholm, R.  (1990) &ldquo;Referring to things that no longer exist,&rdquo; <em>Philosophical Perspectives</em>、 Zimmerman, D. (1998) &ldquo;Temporary intrinsics and presentism&rdquo; 和 Crisp (2003) 。<a href="#fnref:12" rev="footnote">&#8617;</a></p></li>
-<li id="fn:13">
-<p>如 Castañeda, H.N. (1967) &ldquo;Indicators and quasi-indicators,&rdquo; <em>American Philosophical Quarterly</em>、Kaplan, D. (1975) &ldquo;How to Russell a Frege Church,&rdquo; <em>Journal of Philosophy</em>、Perry, J. (1979) &ldquo;The Problem of the essential indexical,&rdquo; <em>Nous</em>、 Wettstein, H. (1979) &ldquo;Indexical reference and propositional content,&rdquo; <em>Philosophical Review</em> 和 Lewis, D.  (1979) &ldquo;Attitudes De Dicto and De Se,&rdquo; <em>Philosophical Review</em>。<a href="#fnref:13" rev="footnote">&#8617;</a></p></li>
-<li id="fn:14">
-<p>Smart, J.J.C. (1980) &ldquo;Time and becoming&rdquo; 。<a href="#fnref:14" rev="footnote">&#8617;</a></p></li>
-<li id="fn:15">
-<p>Mellor, D.H.  (1981) <em>Real Time</em>, Cambridge: Cambridge University Press (ch. 2 and 5)。<a href="#fnref:15" rev="footnote">&#8617;</a></p></li>
-<li id="fn:16">
-<p>Smith, Q. (1987) &ldquo;Problems with the new tenseless theory of time,&rdquo; <em>Philosophical Studies</em>。<a href="#fnref:16" rev="footnote">&#8617;</a></p></li>
-</ol>
-</div>
 
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>本文摘錄自「Loux, Michael J. 2006, <em>Metaphysics: A Contemporary Introduction</em> 」一書。 <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>McTaggart 的論證可參考拙作<a href="http://wayneh.tw/blog/2015/04/04/mctaggart/">McTaggart 悖論：你以為的時間不是實在的</a>。 <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:3">
+      <p>參考 Williams, D.C. (1951) “The myth of passage,” <em>Journal of Philosophy</em>、Quine, W.V. (1960) <em>Word and Object</em>, Cambridge, MA: MIT Press (section 36)、Smart, J.J.C.  (1963) <em>Philosophy and Scientific Realism</em>, London: Routledge (131-142)。 <a href="#fnref:3" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:4">
+      <p>見上 Quine (1960: section 36) 。 <a href="#fnref:4" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:5">
+      <p>見上 Williams (1951) 。 <a href="#fnref:5" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:6">
+      <p>Prior, A. (1959) “Thank goodness that’s over,” <em>Philosophy</em>。 <a href="#fnref:6" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:7">
+      <p>Schlesinger, G. (1980) <em>Aspects of Time</em>, Indianapolis: Hackett (23)。 <a href="#fnref:7" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:8">
+      <p>Broad, C.D. (1923) <em>Scientific Thought</em>, London: Kegan Paul (chap. II)。要注意的是，在這個圖像上，現在是不會移動的。也可參考 Taylor, R. (1963) <em>Metaphysics</em>, Garden City, NJ: Prentice Hall (ch. 6)。 <a href="#fnref:8" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:9">
+      <p>Rea, M. (2003) “Four dimensionalism”。 <a href="#fnref:9" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:10">
+      <p>現時主義者如 Prior, A. (1959) “Thank goodness that’s over,” <em>Philosophy</em>、Zimmerman, D. (1998) “Temporary intrinsics and presentism” 、Crisp, T. (2003) “Presentism” 和 Markosian, N.  (2005) “A defense of presentism”。 <a href="#fnref:10" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:11">
+      <p>見上 Crisp (2003) 。 <a href="#fnref:11" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:12">
+      <p>Chisholm, R.  (1990) “Referring to things that no longer exist,” <em>Philosophical Perspectives</em>、 Zimmerman, D. (1998) “Temporary intrinsics and presentism” 和 Crisp (2003) 。 <a href="#fnref:12" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:13">
+      <p>如 Castañeda, H.N. (1967) “Indicators and quasi-indicators,” <em>American Philosophical Quarterly</em>、Kaplan, D. (1975) “How to Russell a Frege Church,” <em>Journal of Philosophy</em>、Perry, J. (1979) “The Problem of the essential indexical,” <em>Nous</em>、 Wettstein, H. (1979) “Indexical reference and propositional content,” <em>Philosophical Review</em> 和 Lewis, D.  (1979) “Attitudes De Dicto and De Se,” <em>Philosophical Review</em>。 <a href="#fnref:13" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:14">
+      <p>Smart, J.J.C. (1980) “Time and becoming” 。 <a href="#fnref:14" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:15">
+      <p>Mellor, D.H.  (1981) <em>Real Time</em>, Cambridge: Cambridge University Press (ch. 2 and 5)。 <a href="#fnref:15" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:16">
+      <p>Smith, Q. (1987) “Problems with the new tenseless theory of time,” <em>Philosophical Studies</em>。 <a href="#fnref:16" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
 ]]></content>
   </entry>
   
@@ -974,30 +1045,27 @@
 
 <!--more-->
 
+<p>欲參與本讀書會者，請電郵以下郵箱聯絡吳俊業老師登記：philosophy.nthu@gmail.com</p>
 
-<p>欲參與本讀書會者，請電郵以下郵箱聯絡吳俊業老師登記：<a href="&#109;&#x61;&#x69;&#x6c;&#116;&#x6f;&#58;&#x70;&#x68;&#x69;&#108;&#111;&#x73;&#x6f;&#112;&#x68;&#121;&#x2e;&#x6e;&#116;&#104;&#117;&#64;&#103;&#109;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#109;">&#112;&#x68;&#x69;&#108;&#111;&#x73;&#111;&#x70;&#104;&#121;&#x2e;&#x6e;&#x74;&#x68;&#x75;&#x40;&#x67;&#109;&#x61;&#x69;&#108;&#x2e;&#x63;&#111;&#109;</a></p>
+<h1 id="section">讀書會閱讀資料與暫定聚會時間地點</h1>
 
-<h1>讀書會閱讀資料與暫定聚會時間地點</h1>
-
-<h2>閱讀文本：</h2>
-
-<ul>
-<li>Maurice Merleau-Ponty, <em>The Prose of the World</em>. Translated by Colin Smith. Evanston: Routledge s, 1973.</li>
-<li>Maurice Merleau-Ponty, <em>The Prose of the World</em>. Translated by John O&#8217;Neill. London: Northwestern University Press, 1992.</li>
-</ul>
-
-
-<h2>聚會日期與時間：</h2>
-
-<h3>第一次聚會</h3>
+<h2 id="section-1">閱讀文本：</h2>
 
 <ul>
-<li><strong>日期與時間</strong>：4/10 (五) 5:00 p.m. -7:30 p.m.</li>
-<li><strong>地點</strong>：國立清華大學教育館225 (新竹巿光復路二段101號)</li>
-<li><strong>議題</strong>：Introduction and The Specter of a Pure Language</li>
-<li><strong>閱讀材料</strong>：The Chapter on “Body as Expression” in <em>Phenomenology of Perception</em>, pp. 174-202 <em>The Prose of the World</em>, pp.3-9.</li>
+  <li>Maurice Merleau-Ponty, <em>The Prose of the World</em>. Translated by Colin Smith. Evanston: Routledge s, 1973.</li>
+  <li>Maurice Merleau-Ponty, <em>The Prose of the World</em>. Translated by John O’Neill. London: Northwestern University Press, 1992.</li>
 </ul>
 
+<h2 id="section-2">聚會日期與時間：</h2>
+
+<h3 id="section-3">第一次聚會</h3>
+
+<ul>
+  <li><strong>日期與時間</strong>：4/10 (五) 5:00 p.m. -7:30 p.m.</li>
+  <li><strong>地點</strong>：國立清華大學教育館225 (新竹巿光復路二段101號)</li>
+  <li><strong>議題</strong>：Introduction and The Specter of a Pure Language</li>
+  <li><strong>閱讀材料</strong>：The Chapter on “Body as Expression” in <em>Phenomenology of Perception</em>, pp. 174-202 <em>The Prose of the World</em>, pp.3-9.</li>
+</ul>
 
 <p><strong>其後聚會日期與時間將於第一次聚會商議確定。</strong></p>
 ]]></content>
@@ -1008,16 +1076,17 @@
     <link href="http://wayneh.tw/blog/2015/04/05/review3/"/>
     <updated>2015-04-05T15:26:41+08:00</updated>
     <id>http://wayneh.tw/blog/2015/04/05/review3</id>
-    <content type="html"><![CDATA[<blockquote><p>這是我碩士論文參考文獻的閱讀摘要<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p></blockquote>
+    <content type="html"><![CDATA[<blockquote>
+  <p>這是我碩士論文參考文獻的閱讀摘要<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup></p>
+</blockquote>
 
-<h1>1</h1>
+<h1 id="section">1</h1>
 
 <p>Lowe 在兩件事情上都失敗了：(1) 他沒有駁倒 McTaggart ，因為其實 McTaggart 的論證並不需要時態事實；(2) 他沒有成功解釋變化的時間性特徵，因為他的說明完全是空間性類比的。</p>
 
 <!--more-->
 
-
-<h1>2 McTaggart</h1>
+<h1 id="mctaggart">2 McTaggart</h1>
 
 <p>我們同樣把時間性地座落（temporally located）的元件稱之為「事件」，雖然我們會用它來指對象和時間性地座落的事實。並沿用A系列與B系列的兩個區分。若談及事件的「時間」或「日期」，我們總是指它在B系列中的位置；在A系列中的位置像是今天、上星期、明年之類的。</p>
 
@@ -1030,128 +1099,130 @@
 <p>McTaggart 論證：</p>
 
 <ol>
-<li>時間導致變化</li>
-<li>變化導致時態性事實</li>
-<li>時態性事實導致一個矛盾</li>
-<li>因此，時間是非實在的</li>
+  <li>時間導致變化</li>
+  <li>變化導致時態性事實</li>
+  <li>時態性事實導致一個矛盾</li>
+  <li>因此，時間是非實在的</li>
 </ol>
-
 
 <p>如 Lowe ，我們接受1但拒絕4，但和 Lowe 不一樣的是，我們接受3，卻反對2。我們反對2是因為我們無時態地給了變化說明，這方法我們會放在這篇筆記的後面；但首先，我們證明為什麼我們必須這樣做，透過防禦 Lowe 對3的攻擊。</p>
 
-<h2>2-1</h2>
+<h2 id="section-1">2-1</h2>
 
 <p>McTaggart 對於3的狀況，像是 Lowe 報告的一樣，分成兩個部份：</p>
 
-<p>首先他指出(3&#8217;)簡單的時態謂詞「過去$P$」、「現在$N$」和「未來$F$」是相互不相容的（$Pe \vdash \neg Ne$, etc.）以及(3&#8221;)他們都用於所有事件（$Pe \land Ne \land Fe$）；而(3&#8217;)和(3&#8221;)是不一致的。</p>
+<p>首先他指出(3’)簡單的時態謂詞「過去$P$」、「現在$N$」和「未來$F$」是相互不相容的（$Pe \vdash \neg Ne$, etc.）以及(3”)他們都用於所有事件（$Pe \land Ne \land Fe$）；而(3’)和(3”)是不一致的。</p>
 
-<p>老回應是，(3&#8221;)是錯的：沒有事件能同步地是 $P&amp;N$ 或 $P&amp;F$ 或 $N&amp;F$：甚至，如果$e$現在是$N$，那它<strong>曾是</strong>$F$、<strong>將是</strong>$P$。我們有的會是$NNe \land FPe \land PFe$，而沒有和(3&#8217;)不一致。</p>
+<p>老回應是，(3”)是錯的：沒有事件能同步地是 $P&amp;N$ 或 $P&amp;F$ 或 $N&amp;F$：甚至，如果$e$現在是$N$，那它<strong>曾是</strong>$F$、<strong>將是</strong>$P$。我們有的會是$NNe \land FPe \land PFe$，而沒有和(3’)不一致。</p>
 
 <p>但是，McTaggart 反駁這樣的回應，複合時態（compound tense）將只產生更複雜的矛盾。因為$NN$、$PF$和$FP$不是全部的複合時態。還有$FF$、$FN$、$NF$、$NP$、$PN$和$PP$，所有這些$e$、許多這些時態還是相互不一致的：尤其$NF$、$NN$和$NP$，等於就是$F$、$N$和$P$。複合時態並沒有移除原本的矛盾，只是加成了它們，造成了不良的後退。</p>
 
-<h2>2-2</h2>
+<h2 id="section-2">2-2</h2>
 
-<p>Lowe 也用類似的方式反駁，認為複合時態是沒道理的：援引它們將導致被他稱作索引詞謬誤的東西。他承認「如果是一個未來事件$e$，那麼將有一個時間使『$e$是現在的』為真」，但是否認所有像是$PNe$的用法。而如果複合時態不存在，他們可以不產生矛盾、也不會造成後退：因為(3&#8221;)將會被駁倒。</p>
+<p>Lowe 也用類似的方式反駁，認為複合時態是沒道理的：援引它們將導致被他稱作索引詞謬誤的東西。他承認「如果是一個未來事件$e$，那麼將有一個時間使『$e$是現在的』為真」，但是否認所有像是$PNe$的用法。而如果複合時態不存在，他們可以不產生矛盾、也不會造成後退：因為(3”)將會被駁倒。</p>
 
-<blockquote><p>這部份的詮釋和 Lowe 原先所講的有點差異，但可能無礙於之後的推論。</p></blockquote>
+<blockquote>
+  <p>這部份的詮釋和 Lowe 原先所講的有點差異，但可能無礙於之後的推論。</p>
+</blockquote>
 
-<h2>2-3</h2>
+<h2 id="section-3">2-3</h2>
 
-<p>但事實上， Lowe 的消除複合時態的方法依然為(3&#8221;)造成了一個同樣不良的後退。Lowe 消除在「$FNe$」中的複合時態，是透過將它的第二複合（「$F$」）導出成為在簡單時態性陳述「$Ne$」為真時的一個簡單時態性陳述；這個手法無限地重複來分解任何複雜的複合時態。</p>
+<p>但事實上， Lowe 的消除複合時態的方法依然為(3”)造成了一個同樣不良的後退。Lowe 消除在「$FNe$」中的複合時態，是透過將它的第二複合（「$F$」）導出成為在簡單時態性陳述「$Ne$」為真時的一個簡單時態性陳述；這個手法無限地重複來分解任何複雜的複合時態。</p>
 
 <p>因此，比如，讓「$NT$」、「$PT$」和「$FT$」來分別縮寫「現在為真」、「過去為真」和「將為真」，我們將得到：</p>
 
 <table>
-<thead>
-<tr>
-<th style="text-align:right;"> <strong>McTaggart</strong> </th>
-<th>               </th>
-<th style="text-align:left;"> <strong>Lowe</strong>     </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:right;">          $Ne$ </td>
-<td> $\rightarrow$ </td>
-<td style="text-align:left;">   $Ne$         </td>
-</tr>
-<tr>
-<td style="text-align:right;">         $NNe$ </td>
-<td> $\rightarrow$ </td>
-<td style="text-align:left;">   「$Ne$」$NT$   </td>
-</tr>
-<tr>
-<td style="text-align:right;">        $PFNe$ </td>
-<td> $\rightarrow$ </td>
-<td style="text-align:left;">   「『$Ne$』$FT$」$PT$ </td>
-</tr>
-</tbody>
+  <thead>
+    <tr>
+      <th style="text-align: right"><strong>McTaggart</strong></th>
+      <th> </th>
+      <th style="text-align: left"><strong>Lowe</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right">$Ne$</td>
+      <td>$\rightarrow$</td>
+      <td style="text-align: left">$Ne$</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">$NNe$</td>
+      <td>$\rightarrow$</td>
+      <td style="text-align: left">「$Ne$」$NT$</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">$PFNe$</td>
+      <td>$\rightarrow$</td>
+      <td style="text-align: left">「『$Ne$』$FT$」$PT$</td>
+    </tr>
+  </tbody>
 </table>
 
+<p>換句話說， Lowe 將時態的複合性，以簡單性時態的後設語言（meta-language）的層級，改換成一個對象語言（object-language）。以任何語言寫成的簡單時態性陳述的時間性真值條件，由上一層語言的簡單時態性陳述所給予。但是，作為我們的 Mellor 在其他地方觀察的<sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>，這種後設語言的層級產生了一個（就像是它所替換掉的複合時態那個層級的）後退。不相容的性質不是時態，變成<strong>真</strong>與<strong>假</strong>的真值，它的不相容性是(3’)對($Tr$3’)的類比。但是所有像是「$Ne$」的真的時態語句，有時依然是假的($Tr$3”)。這是(3”)的類比；而($Tr$3”)和($Tr$3’)就和(3”)與(3’)一樣地不相容。</p>
 
-<p>換句話說， Lowe 將時態的複合性，以簡單性時態的後設語言（meta-language）的層級，改換成一個對象語言（object-language）。以任何語言寫成的簡單時態性陳述的時間性真值條件，由上一層語言的簡單時態性陳述所給予。但是，作為我們的 Mellor 在其他地方觀察的<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup>，這種後設語言的層級產生了一個（就像是它所替換掉的複合時態那個層級的）後退。不相容的性質不是時態，變成<strong>真</strong>與<strong>假</strong>的真值，它的不相容性是(3&#8217;)對($Tr$3&#8217;)的類比。但是所有像是「$Ne$」的真的時態語句，有時依然是假的($Tr$3&#8221;)。這是(3&#8221;)的類比；而($Tr$3&#8221;)和($Tr$3&#8217;)就和(3&#8221;)與(3&#8217;)一樣地不相容。</p>
-
-<p>對($Tr$3&#8221;)的一個明顯回應，是對(3&#8221;)的老回應的類比：不會有同時又真又假的像是「$Ne$」的時態句，表面的矛盾，當 $Ne$ 為假時，總是可以以當「$Ne$」為真時來化解：i.e. 透過使用後設語言來說它的時間性真值條件是什麼。它是做得到的，但僅當後設語言給予像是「$Ne$」的語句它的B系列真值條件：『「$Ne$」的個例（token）』為真，當且僅當它們與$e$是同時的。一個陳述成這種B系列真實條件的、無時態的語句，只有唯一的真值：一旦為真，總是為真。這個無害的個例反身性類型的無時態的真值條件，事實上可以為所有時態語句所給出<sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup>：這是為什麼要求時態性真值不能導致比無時態事實更多的東西。</p>
+<p>對($Tr$3”)的一個明顯回應，是對(3”)的老回應的類比：不會有同時又真又假的像是「$Ne$」的時態句，表面的矛盾，當 $Ne$ 為假時，總是可以以當「$Ne$」為真時來化解：i.e. 透過使用後設語言來說它的時間性真值條件是什麼。它是做得到的，但僅當後設語言給予像是「$Ne$」的語句它的B系列真值條件：『「$Ne$」的個例（token）』為真，當且僅當它們與$e$是同時的。一個陳述成這種B系列真實條件的、無時態的語句，只有唯一的真值：一旦為真，總是為真。這個無害的個例反身性類型的無時態的真值條件，事實上可以為所有時態語句所給出<sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup>：這是為什麼要求時態性真值不能導致比無時態事實更多的東西。</p>
 
 <p>但是 Lowe 認為只有無時態事實不能說明變化：他接受上面的2。所以他必須給他的時態陳述以<strong>時態性</strong>真值條件：這是為什麼他的後設語言使用像是「$Ne$」$NT$的簡單時態句去說當像是「$Ne$」的語句為真。但是他的後設語言語句將也是同時又真又假，因為，譬如，在「$Ne$」為真時，「$Ne$」$NT$總必須是真的，在「$Ne$」為假時必須為假。</p>
 
 <p>這個後退就像是 McTaggart 的一樣不良，因為它從未達到其語句只有一個真值的時態性後設語言；在那之前，所有低於這個層級的時態句也不會有這樣的東西。只有透過轉換到一個無時態的真值語句可以無矛盾地停止這個後退：這是為何時態性陳述不只可以、卻只能透過純粹的無時態事實來讓它為真。</p>
 
-<h1>3 時間與變化</h1>
+<h1 id="section-4">3 時間與變化</h1>
 
-<h2>3-1 途徑的第二部份說明是失敗的，因為前面的意圖是失敗的</h2>
+<h2 id="section-5">3-1 途徑的第二部份說明是失敗的，因為前面的意圖是失敗的</h2>
 
 <p>Lowe 對變化的說明，利用了<strong>人的時空途徑（route）</strong>。在其第二部份，Lowe 透過將途徑看成時空「知覺」的序列，來讓他們是時態性的。對於 Lowe 而言，知覺不只是B系列時間的一個地點（place），那個時間、地點還是這裡和現在。（「地點」指的是B系列時間的空間性類比）</p>
 
-<p>Lowe 從他的途徑的時態理念中推導出，「去想途徑<strong>是</strong>什麼&hellip;我們必須理解它像是從現在和這裡以外的知覺出發來（「從內部」）經驗世界」－－他將其採取來作為支持他的理念的結果。</p>
+<p>Lowe 從他的途徑的時態理念中推導出，「去想途徑<strong>是</strong>什麼…我們必須理解它像是從現在和這裡以外的知覺出發來（「從內部」）經驗世界」－－他將其採取來作為支持他的理念的結果。</p>
 
 <p>但是，即便我們必須將途徑想成「從內部的」，這也只意味著我們必須想像我們在其他時間應該擁有的不同時態的信念。那些信念仍然可以有純粹無時態的真值條件，因此並未導致時態性事實。我們可以按照時態性的方法來想途徑，想成知覺的序列，不考慮途徑本身是不是這樣的序列。</p>
 
 <p>Lowe 仍然將它們看成這樣的序列，並且認為他們導致了時態性的事實。他對它們的時態性的概念因此依賴於他對 McTaggart 的針對時態性事實的論證的反駁是否成功。因此這個概念失敗了。</p>
 
-<h2>3-2 Lowe 的途徑的概念並沒有說明變化</h2>
+<h2 id="lowe-">3-2 Lowe 的途徑的概念並沒有說明變化</h2>
 
-<p>但是 Lowe 的第一部份對變化的說明依然是成立的，將途徑簡單構思為時空位置的序列。因為 Lowe 將變化的時間性特徵當成座落在時間的「<strong>流動（flux or flow）</strong>&hellip;時間的<strong>不可逃脫性</strong>。」</p>
+<p>但是 Lowe 的第一部份對變化的說明依然是成立的，將途徑簡單構思為時空位置的序列。因為 Lowe 將變化的時間性特徵當成座落在時間的「<strong>流動（flux or flow）</strong>…時間的<strong>不可逃脫性</strong>。」</p>
 
 <p>他以兩個事實，比較了時間與空間的差異：</p>
 
 <ul>
-<li>($T1$) 在所有可能的時空途徑中，一個人可以採取不同的空間性位置的次序，但時間性位置的次序是同樣的</li>
-<li>($T2$) 「待在同一個地方」是有道理的，但是「待在同一個時間」是完全沒道理的</li>
+  <li>($T1$) 在所有可能的時空途徑中，一個人可以採取不同的空間性位置的次序，但時間性位置的次序是同樣的</li>
+  <li>($T2$) 「待在同一個地方」是有道理的，但是「待在同一個時間」是完全沒道理的</li>
 </ul>
-
 
 <p>($T1$)會正確僅當「次序」意味著「時間次序」，並且時間位置是由它們在B系列中的位置所辨識，因此它自然是真的。如果空間位置類比地用他們在這個地方的二維空間次序中定位與辨識，它們的空間類比($S1$)($S2$)也自然會是真的。</p>
 
 <ul>
-<li>($S1$) 在所有可能的時空途徑中，一個人可以採取不同的時間性位置的次序，但空間性位置的次序是同樣的</li>
-<li>($S2$) 「待在單一個時間」是有道理的：因為人是在單一的時間點上有空間性擴充的，我們也可以因此說「待在單一個地方」是沒有道理的</li>
+  <li>($S1$) 在所有可能的時空途徑中，一個人可以採取不同的時間性位置的次序，但空間性位置的次序是同樣的</li>
+  <li>($S2$) 「待在單一個時間」是有道理的：因為人是在單一的時間點上有空間性擴充的，我們也可以因此說「待在單一個地方」是沒有道理的</li>
 </ul>
 
-
-<blockquote><p>($S2$)類比作為不大，只是在顯示比較而已</p></blockquote>
+<blockquote>
+  <p>($S2$)類比作為不大，只是在顯示比較而已</p>
+</blockquote>
 
 <p>簡單來說，「在途徑上的某時間必須於其他的不同時間有所差異」的說法就像是「在途徑上的某地點必須於其他的不同地點有所差異」一樣的簡單無趣。因為後者明顯沒有給予變化空間性，而前者明顯沒有給予它時間性。</p>
 
-<h2>3-3</h2>
+<h2 id="section-6">3-3</h2>
 
 <p>我們有許多比B序列時間更廣的地點可以選擇放入或脫離我們的時空途徑，但不是因為 Lowe 給我們的理由。真正的理由是我們的途徑是連續的，而時間只有一個維度。這意味著，雖然我們可以在某種程度上選擇要活多久，但我們無法在我們的出生與死亡之間脫離途徑；鑒於空間的更大維度性不只給予我們能造訪的地點的數量的極限，也讓我們維持途徑的連續性而繞行在兩個其他地點之間的任何給定地點。這不是變化的時間性特徵，而是使得地點比起在可選的時空途徑中出現的時間能有更多的組合。</p>
 
-<h1>4</h1>
+<h1 id="section-7">4</h1>
 
 <p>簡短而言， Lowe 對為什麼時間是<strong>變化的維度</strong>的解釋的無時態部份失敗了。但是（McTaggart的）無時態說明<strong>可以</strong>由該事實所給予。我們的 Mellor 根據對象在他們的空間部份缺乏時間性類比的事實給過一個說明。（Lowe 承認這個事實，但是沒有給論證就反對我們的反駁）我們的 Le Poidevin 正在發展另外一個可以讓對象有時間性部份的選項：作為因果相關事件的序列的變化理論。必然地類時間因與果的分離便阻礙了作為變化的空間性變動，因為其分離是類空間的事件無法關聯到結果的原因。這個理論的細節和防禦是另一個時間的事：我們這裡只註記了解釋了變化的時間性特徵並更可能為真（逃脫了 McTaggart 的矛盾）的變化的說明的存在。</p>
-<div class="footnotes">
-<hr/>
-<ol>
-<li id="fn:1">
-<p>Poidevin, R. Le, &amp; Mellor, D. H. (1987). Time, Change, and the “Indexical Fallacy.” Mind, New Series, 96(384), 534–538.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
-<li id="fn:2">
-<p>D. H. Mellor, <em>Real Time</em>, Cambridge, 1981, p.96.<a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
-<li id="fn:3">
-<p>Ibid., chaps. 1-2.<a href="#fnref:3" rev="footnote">&#8617;</a></p></li>
-</ol>
-</div>
 
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>Poidevin, R. Le, &amp; Mellor, D. H. (1987). Time, Change, and the “Indexical Fallacy.” Mind, New Series, 96(384), 534–538. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>D. H. Mellor, <em>Real Time</em>, Cambridge, 1981, p.96. <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:3">
+      <p>Ibid., chaps. 1-2. <a href="#fnref:3" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
 ]]></content>
   </entry>
   
@@ -1160,52 +1231,52 @@
     <link href="http://wayneh.tw/blog/2015/04/05/review2/"/>
     <updated>2015-04-05T15:26:17+08:00</updated>
     <id>http://wayneh.tw/blog/2015/04/05/review2</id>
-    <content type="html"><![CDATA[<blockquote><p>這是我碩士論文參考文獻的閱讀摘要<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p></blockquote>
+    <content type="html"><![CDATA[<blockquote>
+  <p>這是我碩士論文參考文獻的閱讀摘要<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup></p>
+</blockquote>
 
-<h1>1</h1>
+<h1 id="section">1</h1>
 
-<p>The structureof McTaggart&rsquo;s argument against the reality of time is, then, as follows:</p>
+<p>The structureof McTaggart’s argument against the reality of time is, then, as follows:</p>
 
 <ol>
-<li>Time essentially involves change.</li>
-<li>Change can only be explained in terms of A-seriesexpressions.</li>
-<li>A-series expressions involve contradiction and so cannot describe reality.</li>
-<li>Therefore, time is unreal.</li>
+  <li>Time essentially involves change.</li>
+  <li>Change can only be explained in terms of A-seriesexpressions.</li>
+  <li>A-series expressions involve contradiction and so cannot describe reality.</li>
+  <li>Therefore, time is unreal.</li>
 </ol>
-
 
 <p>並非所有哲學家都接受 1，有些人認為在不變的世界裡還是可能有時間。許多哲學家挑戰 2 或 3 或兩者。</p>
 
-<p>Mellor <sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> 的有趣觀點是，接受 3 但是反對 2 。他保持了 MaTaggart 展示的<strong>時態</strong>的非實在性，但是反對<strong>時間</strong>的非實在性，因為他認為，解釋變化不需要透過 A 系列。他的立場的另一個有趣特徵是，當拒絕了時態事實（tensed fact）的概念時，他宣稱為了理性地行為，擁有時態<strong>信念</strong>是不可或缺的，否則行為者無法知道<strong>何時</strong>行動是合適的。</p>
+<p>Mellor <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup> 的有趣觀點是，接受 3 但是反對 2 。他保持了 MaTaggart 展示的<strong>時態</strong>的非實在性，但是反對<strong>時間</strong>的非實在性，因為他認為，解釋變化不需要透過 A 系列。他的立場的另一個有趣特徵是，當拒絕了時態事實（tensed fact）的概念時，他宣稱為了理性地行為，擁有時態<strong>信念</strong>是不可或缺的，否則行為者無法知道<strong>何時</strong>行動是合適的。</p>
 
 <p>我的立場是反對3，但是接受2。</p>
 
 <!--more-->
 
-
-<h1>2：McTaggart 如何辯護 3？</h1>
+<h1 id="mctaggart--3">2：McTaggart 如何辯護 3？</h1>
 
 <p>McTaggart 觀察到<strong>過去</strong>、<strong>現在</strong>和<strong>未來</strong>是3個不相容的謂詞。但是，變化意味著，未來的事件會變成現在、現在的事件會變成過去。所以每個事件都會是未來<strong>與</strong>現在<strong>與</strong>過去。</p>
 
 <p>當然我們可以說，一個事件<strong>是</strong>現在、<strong>曾是</strong>未來、<strong>將是</strong>過去。但這只是把矛盾提升到更高級的二階時態。譬如說，說一個事件<strong>曾是未來</strong>，說的就是它是在<strong>過去的未來</strong>，而這個事件依然是在<strong>過去的過去</strong>，不一致依然存在。</p>
 
-<p>Michael Dummett （ M. A. E. Dummett, A Defence of McTaggart&rsquo;s Proof of the Unrealityof Time, reprinted in his Truth and Other Enigmas, London, Duckworth,I978.）的表述，指出了這裡有9個二階時態：</p>
+<p>Michael Dummett （ M. A. E. Dummett, A Defence of McTaggart’s Proof of the Unrealityof Time, reprinted in his Truth and Other Enigmas, London, Duckworth,I978.）的表述，指出了這裡有9個二階時態：</p>
 
-<pre><code>過去              過去
-現在      的     現在
-未來              未來
+<pre><code>過去				過去
+現在		的		現在
+未來				未來
 </code></pre>
 
 <p>但其中的</p>
 
-<pre><code>                    過去
-現在      的     現在
-                    未來
+<pre><code>					過去
+現在		的		現在
+					未來
 </code></pre>
 
 <p>就<strong>等同於</strong>一階時態。所以矛盾依然無法逃脫。</p>
 
-<h1>3</h1>
+<h1 id="section-1">3</h1>
 
 <p>我們更靠近地研究 McTaggart 的推理，嘗試避免內在矛盾的威脅，陳述為事件<strong>曾是</strong>未來、<strong>是</strong>現在、將是<strong>過去</strong>。</p>
 
@@ -1213,37 +1284,39 @@
 
 <p>強調出A系列表述的特色是很有用的，即<strong>索引性（indexicality）</strong>或是<strong>個例反身性（token-reflexiveness）</strong>。「e是現在」當然意味著「e<strong>現在</strong>正在發生」，「現在」就像是「這裡」或「我」這樣的索引詞表述。包含索引詞的語句的真值是脈絡依賴的。因此，「e現在正在發生」的句子的個例的表達為真，若且唯若個例在t時表達，而e在t時發生。</p>
 
-<h1>4 McTaggart 的論證有犯錯嗎？Dummett 認為問題是在實在本性的假設</h1>
+<h1 id="mctaggart-dummett-">4 McTaggart 的論證有犯錯嗎？Dummett 認為問題是在實在本性的假設</h1>
 
 <p>Dummett <strong>似乎</strong>認為對於一個未來事件e來說，說<strong>e將會是</strong>正在發生，或說<strong>在未來</strong>正在發生，都是合法的，因為他似乎認為去說一個不發生在<strong>此處</strong>而發生在<strong>彼處</strong>的事件e，是發生在<strong>彼處的此處</strong>的，是同樣合法的。他並不認為相反詞的使用是<strong>不合法的</strong>，而只認為是<strong>無用</strong>的。</p>
 
 <p>Dummett 的結果是，可以<strong>十足地</strong>支持 McTaggart 論證的 1 到 4 ，他之所以認為 McTaggart 的論證要拓展到對<strong>空間</strong>或<strong>人格</strong>的非實在性方面並沒有危險，是因為他接受，是因為覺得沒有情況能用來聲稱1和2。雖然說是<strong>十足地</strong>支持，但是 Dummet 仍然質疑 McTaggart 對於「實在」的本性的隱含的假設。</p>
 
-<h1>5 McTaggart 的論證有犯錯嗎？</h1>
+<h1 id="mctaggart-">5 McTaggart 的論證有犯錯嗎？</h1>
 
 <p>我認為問題是在他犯了索引性邏輯的錯誤。</p>
 
-<h1>6</h1>
+<h1 id="section-2">6</h1>
 
 <p>那麼我們要怎麼看待 McTaggart 的論證呢？確實，「e是現在」、「e是過去」和「e是未來」，同時說出來時，確實是矛盾的語句。但是如果去聲稱，未來的事情將會變成現在、然後變成過去呢？這單純是一個<strong>錯誤</strong>，嚴格來說，<strong>非融貫</strong>。應該說的是：如果e是一個未來事件，i.e. e<strong>將</strong>發生，那麼它<strong>將</strong>可能表達一個意義為「e是過去」或「e是現在」的陳述。</p>
 
 <p>因此，我同意 McTaggart 論證的1和2的聲稱，但是不同意3和4：但是，我不接受他的2的闡述，這就是說，我不接受變化是<strong>如他所建議的</strong>一般地在A系列中的陳述，因為我不接受變化可以被<strong>未來事件變成過去</strong>所解釋。但在這之前，我想要先提及另外一個對 McTaggart 的論證的近代進階版本的反駁，這個版本是由 Rachard Sorabji 所提出的。</p>
 
-<h1>7</h1>
+<h1 id="section-3">7</h1>
 
-<p>Sorabji <sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup>對此矛盾的回應是，我們可以按照其中的事件是相對於<strong>日期</strong>的過去、現在和未來來區分時間，而不是訴諸<strong>時態</strong>，不去說過去的未來，而是說1987年的未來。這個回應預設了日期可以從A系列的規定性中被獨立地辨識出來。</p>
+<p>Sorabji <sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup>對此矛盾的回應是，我們可以按照其中的事件是相對於<strong>日期</strong>的過去、現在和未來來區分時間，而不是訴諸<strong>時態</strong>，不去說過去的未來，而是說1987年的未來。這個回應預設了日期可以從A系列的規定性中被獨立地辨識出來。</p>
 
 <p>我很懷疑這樣的預設是不是必要的。然而，Mellor 接受了這個。因為他認為事件的先/後關係可以至少是某種<strong>被觀察</strong>的東西（例如，我們觀察運動），和過去、現在、未來的問題是相當獨立的。</p>
 
 <p>然而，即便是要擱置這個議題，Sorabji 的回應還<strong>是</strong>不適當的，給定「e是現在」意味著「e現在在發生」：因為這單純地不是，<strong>永久地（timelessly）</strong>，真的在說「e是發生在1986的現在」——在1987年這樣說單純就是錯的。在1987年說，「e是1986年的<strong>現在的</strong>，或是他發生在1986年的<strong>現在</strong>」，蘊含著「這是現在1986」的當然是錯的的後件。此外，因為同樣的理由，說 e是在1985年的未來或是1987年的過去，當e是一個現在的事件的時候，不會是對的。</p>
 
-<blockquote><p>這邊很怪。和英語時態有關。</p></blockquote>
+<blockquote>
+  <p>這邊很怪。和英語時態有關。</p>
+</blockquote>
 
 <p>如果事件是發生在現在、今天是1986，我們不能說它是1985的未來事件，而是在1985年，可能去表達一個意義是「e將在下一年/1986發生」的真陳述。這個錯誤的發生，是忘記了A系列表述的<strong>不可消除地</strong>索引詞本性，至少當他們被<strong>使用（use）</strong>，相對於被<strong>提及（mention）</strong>：哲學家描寫時間限制於<strong>使用</strong>在同樣脈絡依賴的（原始人性位於其中的）方法來表述——他們同樣無法逃脫他們擁有的時間性知覺，然而他們會被引誘去假定他們可以 <em>sub specie aeternitatis</em> （以永恆者之觀點）的觀點來看事情。</p>
 
 <p>當<strong>我</strong>使用<strong>現在</strong>的表述，除了我可以讓<strong>我</strong>指涉另外一個人以外，我不能再使用它去指涉另一個時間性知覺。因為當我使用<strong>我</strong>的時候，不只是指到我身上，而是受限於我的環境。</p>
 
-<h1>8</h1>
+<h1 id="section-4">8</h1>
 
 <p>將問題回到<strong>變化</strong>的本性。如果不像是 McTaggart 所說的「變化包含在未來的事件變成現在然後變成過去」，那我們怎麼解釋它？我們如何捕捉時間「流動」的概念？</p>
 
@@ -1253,29 +1326,35 @@
 
 <p>但是同樣，相同的時間性知覺可能無法同樣地在不同地點給同一個人所接受，儘管被同一個人接受的時間序列所在的空間次序類似<strong>是</strong>一個開放給人的選擇的事。因此，會不會我們目前還<strong>沒有</strong>捕捉住時間的「不可避免性」？這個反對聽起來是健全的，表示我需要對於空間與時間知覺構想更多不同的相關事實。我們必須清楚表達的理念，是人通過空間的途徑，並不以同樣的方式開放給人通過時間的途徑。</p>
 
-<p>誠然，每個途徑<strong>同時</strong>是一個通過空間的途徑（route）<strong>和</strong>一個通過時間的途徑：途徑只是時空位置的有序序列，（簡化的）形式為$$&lt;(s_1, t_1), (S_2, t_2),&hellip;, (s_n, t_n)>$$。時間空間之間的相關差異，下降到：在所有可能的時空途徑中，當空間位置的次序可能不同時，一個人可能接收到的時間位置的次序將是相同的。（當然，這些途徑可能相異於從它們的（或許，除了第一個以外）空間位置的<strong>全部</strong>來看——這個事實，只片面地反應了與時間的方向性與單維性相較下的空間的各向同性（isotropy）與多維性。）</p>
+<p>誠然，每個途徑<strong>同時</strong>是一個通過空間的途徑（route）<strong>和</strong>一個通過時間的途徑：途徑只是時空位置的有序序列，（簡化的）形式為<script type="math/tex">% &lt;![CDATA[
+<(s_1, t_1), (S_2, t_2),..., (s_n, t_n)> %]]&gt;</script>。時間空間之間的相關差異，下降到：在所有可能的時空途徑中，當空間位置的次序可能不同時，一個人可能接收到的時間位置的次序將是相同的。（當然，這些途徑可能相異於從它們的（或許，除了第一個以外）空間位置的<strong>全部</strong>來看——這個事實，只片面地反應了與時間的方向性與單維性相較下的空間的各向同性（isotropy）與多維性。）</p>
 
-<p>因此，如果$$&lt;(s_1, t_1), (S_2, t_2),&hellip;, (s_n, t_n)>$$對於一個給定的人來說是一個可能途徑，對這個人的其他可能途徑必須是$$&lt;(-, t_1), (-, t_2),&hellip;(-, t_n)>$$，但是不能是$$&lt;(s_1, -), (s_2, -), &hellip;, (s_n, -)>$$。（這個結果的決定性因素是時間的單維性；但並不是完全因為這樣，因為那些途徑被排除在包含<strong>相同的</strong>時間性座標軸的相續的時空位置之中——時間不將是「停滯不前」。我的部份建議是，因此，這是因為我們可以將「待在同一個地方」的概念說清楚，但是無法將「待在同一個時間」的概念說清楚，我們將時間而非空間考慮為變化或流動的維度。）</p>
+<p>因此，如果<script type="math/tex">% &lt;![CDATA[
+<(s_1, t_1), (S_2, t_2),..., (s_n, t_n)> %]]&gt;</script>對於一個給定的人來說是一個可能途徑，對這個人的其他可能途徑必須是<script type="math/tex">% &lt;![CDATA[
+<(-, t_1), (-, t_2),...(-, t_n)> %]]&gt;</script>，但是不能是<script type="math/tex">% &lt;![CDATA[
+<(s_1, -), (s_2, -), ..., (s_n, -)> %]]&gt;</script>。（這個結果的決定性因素是時間的單維性；但並不是完全因為這樣，因為那些途徑被排除在包含<strong>相同的</strong>時間性座標軸的相續的時空位置之中——時間不將是「停滯不前」。我的部份建議是，因此，這是因為我們可以將「待在同一個地方」的概念說清楚，但是無法將「待在同一個時間」的概念說清楚，我們將時間而非空間考慮為變化或流動的維度。）</p>
 
-<h1>9</h1>
+<h1 id="section-5">9</h1>
 
 <p>我將我的「途徑」理解成時空<strong>知覺</strong>的序列，而不是<em>sub specie aeternitatis</em>看來的某物的序列。去思考途徑<strong>是</strong>什麼，因此需要我們的想像力的投射的努力：我們必須把它想成，它會像是從這裡與現在之外的知覺去對世界經驗。也就是說，我們必須在其他時間與地點<strong>正確地</strong>使用「現在」和「這裡」來了解它——這裡的時間與地點我不能再以其他的索引詞表述來進行指涉。但是，相當可議的是，這樣的理解對於像是「現在」和「這裡」的真正<strong>意義</strong>的理解是本質性的（否則，我們如何越過時間空間來溝通呢？），因此無法超越我們。</p>
 
-<h1>10</h1>
+<h1 id="section-6">10</h1>
 
 <p>我所表達的所捕捉到的變化或流動的本性的另外一種理解是：時間是實在的，未來<strong>不是</strong>，或說<strong>還不是</strong>。</p>
-<div class="footnotes">
-<hr/>
-<ol>
-<li id="fn:1">
-<p>Lowe, J. E. (1987). The Indexical Fallacy in McTaggart&rsquo;s Proof of the Unreality of Time. Mind, New Series, 96(381), 62–70.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
-<li id="fn:2">
-<p>D. H. Mellor, Real Time, Cambridge, Cambridge UniversityPress, I98I, p. i i i. <a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
-<li id="fn:3">
-<p>R. Sorabji,Time,Creation and the Continuum, London, Duckworth, I983, p. 68.<a href="#fnref:3" rev="footnote">&#8617;</a></p></li>
-</ol>
-</div>
 
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>Lowe, J. E. (1987). The Indexical Fallacy in McTaggart’s Proof of the Unreality of Time. Mind, New Series, 96(381), 62–70. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>D. H. Mellor, Real Time, Cambridge, Cambridge UniversityPress, I98I, p. i i i.  <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:3">
+      <p>R. Sorabji,Time,Creation and the Continuum, London, Duckworth, I983, p. 68. <a href="#fnref:3" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
 ]]></content>
   </entry>
   
@@ -1284,26 +1363,26 @@
     <link href="http://wayneh.tw/blog/2015/04/05/review1/"/>
     <updated>2015-04-05T15:23:45+08:00</updated>
     <id>http://wayneh.tw/blog/2015/04/05/review1</id>
-    <content type="html"><![CDATA[<blockquote><p>這是我碩士論文參考文獻的閱讀摘要<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p></blockquote>
+    <content type="html"><![CDATA[<blockquote>
+  <p>這是我碩士論文參考文獻的閱讀摘要<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup></p>
+</blockquote>
 
-<h1>1</h1>
+<h1 id="section">1</h1>
 
-<p>時間中的位置，作為向我們  <em>prima&#8217; facie</em> （表面地、初見地）顯現的時間，可區別成兩種，一種是彼此相續，一種是分成「過去、現在、未來」。前者是不變的，後者則是會變動的。</p>
+<p>時間中的位置，作為向我們  <em>prima’ facie</em> （表面地、初見地）顯現的時間，可區別成兩種，一種是彼此相續，一種是分成「過去、現在、未來」。前者是不變的，後者則是會變動的。</p>
 
 <p>也因此，前面那種<strong>區別性</strong>被看成是更客觀、本質性的。我覺得這其實是一種誤解，而且後面這樣的區別性就像前者一樣地<strong>本質</strong>。在某些意義上，後者甚至比前者還更加<strong>基本</strong>。因為後者是時間的本質，我認為時間是非實在的。</p>
 
 <ul>
-<li>A系列：將時間中的位置從遠的過去排列到更近的過去，到現在，到近的未來，再到更遠的未來的系列</li>
-<li>B系列：從先到後的時間位置的系列</li>
+  <li>A系列：將時間中的位置從遠的過去排列到更近的過去，到現在，到近的未來，再到更遠的未來的系列</li>
+  <li>B系列：從先到後的時間位置的系列</li>
 </ul>
-
 
 <p>一個時間中的位置的內容叫作「事件（events）」。單一位置的內容可以合適地稱作「事件的多數（plurality of events）」。時間的位置稱作「時刻（moment）」。</p>
 
 <!--more-->
 
-
-<h1>2</h1>
+<h1 id="section-1">2</h1>
 
 <p>能夠形成 A系列與 B系列會是時間的本質嗎？顯然，除去這兩種級數，我們便從未<strong>觀察（observe）</strong>到時間。我們知覺到、且只能直接知覺到作為現在的時間中的事件；其他的在時間中的事件，透過回憶或是推想、我們想成是實在的，看待成過去（比現在更先的）與未來（比現在更後的）。因此，作為我們所觀察到的時間的事件，形成了 A系列與 B系列。</p>
 
@@ -1311,7 +1390,7 @@
 
 <p>我覺得這是站不住腳的，就如我剛剛說的，（論證目標）我相信 A系列對時間本性來說是本質的，並且若要將時間看待成實在的，其中遭遇到的困難和將 A系列看待成實在的的困難是相同的。</p>
 
-<h1>3</h1>
+<h1 id="section-2">3</h1>
 
 <p>（論證方法）我假定，普遍地來說，時間包含變化。個別的東西，當然可以在任意長度的時間中不變地存在。但當我們問及，我們所謂的時間的不同時刻、時間的確切區間的意義，通過那不變的東西，我們發現我們意指的是，當其餘東西在改變時，那東西是不變的。<strong>沒有東西在改變的宇宙（包含在其中的意識的思想）是沒有時間的宇宙</strong>。</p>
 
@@ -1335,13 +1414,13 @@
 
 <p>因此我們就似乎被迫接受這個結論，所有改變只能是透過在A系列中的事件們的現在，所給予事件們的特徵的改變，無論這個特徵是質還是關係。</p>
 
-<h1>4</h1>
+<h1 id="section-3">4</h1>
 
 <p>如果這個特徵是質，有質的變化的事件就肯定不會是相同的事件。而即使這個特徵是關係，事件也不會是完全相同的（我相信是這樣），X到Y的關係包含了到Y的關係的質的在X之中的存在。我樂意承認，在這些特徵的面向上，事件現實地改變了它的本性，其餘的面向則沒有。這會將A系列的規定性擺在一個於這些事件的特徵中的非常獨特的地位，而在其他理論中，它們會是非常獨特的特徵。</p>
 
 <p>儘管我認為這種想法沒有內在的困難，但是我依然認為這不是我認為最正確的選項。因為我相信，時間是非實在的，被認為會變化的事件，依其在A系列中的位置的面向來看，並不包含任何真實地改變的東西。</p>
 
-<h1>5</h1>
+<h1 id="section-4">5</h1>
 
 <p>B系列無法不做為時間性的存在，因為先、後明確地是有時間規定性（time determination）的。因為沒有 A系列，就沒有時間，那麼就也沒有 B系列。</p>
 
@@ -1351,7 +1430,7 @@
 
 <p>我們看到的是，C系列加上A系列，就可以有時間。我們在C系列上決定一個時間點是現在，一邊是曾經是現在的，一邊是將成為現在的。</p>
 
-<h1>6</h1>
+<h1 id="section-5">6</h1>
 
 <p>A系列和B系列對於時間是同樣本質的，必須區別過去、現在、未來，就如同必須區別先與後。但是兩個系列並非是同樣基本的。A系列的區別性是終極的。我們無法解釋過去、現在、未來意味著什麼。我們可以在某個程度上描述他們，但是無法定義。我們只能透過舉例來展現它們的意義。</p>
 
@@ -1359,7 +1438,7 @@
 
 <p>C系列和A系列一樣是終極的，以時間的單位所構成，構成不變的關係。這個終極的事實對於時間同樣是本質的。</p>
 
-<h1>7</h1>
+<h1 id="section-6">7</h1>
 
 <p>由於A系列的區別性對於時間是本質性的，要是A系列的區別性是非實在的，那麼時間就是非實在的。</p>
 
@@ -1367,23 +1446,23 @@
 
 <p>對於這個理論，有兩個反對是我們必須要來考慮的。</p>
 
-<h1>8</h1>
+<h1 id="section-7">8</h1>
 
 <p>第一個反對是指出，當這些時間系列包含的是不存在的或錯誤地被認為是存在的時候。譬如像是唐吉訶德的冒險，就只有B系列而沒有A系列。</p>
 
 <p>對這個反對我的回答是，時間只屬於存在，如果一個東西在時間之中，它必須存在。一旦一個事物只要是在時間之中，它就在A系列之中；如果是被想像成在時間之中，它就被想像成在A系列之中；如果是被相信成在時間之中，它就被相信成在A系列之中。</p>
 
-<h1>9</h1>
+<h1 id="section-8">9</h1>
 
 <p>第二個反對建立在由 Mr. Bradley 討論過的可能性之上，可能有數個獨立的在實在中的時間系列。對他來說，時間只是表象。根本沒有時間，因此也沒有真正的這些時間系列。但事實上，這裡的假設應該是：這些都是獨立、且同樣真實的時間系列，而在不同的時間序列之間的時間位置，並沒有時間關係。</p>
 
 <p>雖然相信有多個時間系列並沒有什麼困難，也沒有理由去證明它們的不存在。但是由於它們的存在與其他有著實證的東西是不相容的，我們就不應該相信它們的存在。就像我試著表明，A系列對於時間來說是本質性的是更值得相信的。如果多個時間系列的想法，和我的這個理論是不相容的，我們就不應該相信它們的存在。</p>
 
-<h1>10</h1>
+<h1 id="section-9">10</h1>
 
 <p>A系列的各表述是事件的特徵。我們說事件是現在、過去或未來。如果時間的時刻被看成是分離的實體，我們也說它們是現在、過去或未來。特徵必須是關係或者質，但無論是哪個，都包含了矛盾。</p>
 
-<h2>10-1</h2>
+<h2 id="section-10">10-1</h2>
 
 <p>我們首先假定這特徵是一種關係。在這情況下，每個關係只有一個表述可以是一個事件或時刻。其他的表述都是某些外於這個時間系列的東西。因為A系列的關係是變化著的關係，並且時間系列的表述的和其他的關係是不變的。各時刻之間的關係也是如此。如果把時刻看成是和事件在與它的發生區別開來的實體，事件和時刻的關係是不變的。每個事件都是在未來的、現在的與過去的同一個時刻。</p>
 
@@ -1397,7 +1476,7 @@
 
 <p>（反對反駁的解釋）但這樣的解釋，就變成我們用來說明時間的A系列，其實預先包含了時間的概念。也可以說，如果我們必須說明這三個特徵的不相容性，我們就需要第二個A系列，但這也只是把困難往後推了一步，逃離了循環的結果卻成了無限後退的解釋。</p>
 
-<h1>10-2</h1>
+<h1 id="section-11">10-2</h1>
 
 <p>如果A系列是質的系列呢？這樣事件的三個質，未來、現在與過去，有可能從第一個變化成第二個、第二個變化成第三個嗎？</p>
 
@@ -1405,13 +1484,13 @@
 
 <p>但我們不需要深究這個問題。如果A系列的特徵是質，它會遇到和它是關係一樣的困難：它們並不相容但是每個事件都必須有這三個特徵。</p>
 
-<h1>11</h1>
+<h1 id="section-12">11</h1>
 
 <p>我們必須還要考慮一個可能的反對。我們反對時間的基礎，可能可以說是：無法不透過時間來解釋時間。但有沒有可能是因為時間是終極的？</p>
 
 <p>但這說法在此是行不通的。一個理念可以有實體的有效性，即使沒有有效的解釋。但是它不能在應用到實體上時發生矛盾。</p>
 
-<h1>12</h1>
+<h1 id="section-13">12</h1>
 
 <p>如果上述的討論是有效的，我們就有了一個反對時間的基礎。但是我們可能增加令一個考量。時間，如我們所見，座落於A系列。現在，即使我們忽視剛才發現的A系列應用到實在的矛盾，有任何實證的理由告訴我們，為什麼我們應該假定A系列有其現實的有效性？</p>
 
@@ -1419,7 +1498,7 @@
 
 <p>在任何時刻我有某些知覺，我有某些知覺的記憶，也有對於其他知覺的預期。直接知覺是和其他兩者有質的區別的心理狀態。建立在我的知覺自身在我有它時有某種特徵的信念上，取代為在我有對它的記憶或是預期時的其他特徵，這些特徵叫作現在性、過去性和未來性。我們將這些從特徵中取得的理念應用到其他事件上。和我們直接知覺同時的，我們叫它現在，甚至在沒有人有任何時間知覺時也是成立。同樣的方式，與記得的知覺和預期的知覺同時的行為，也是如此被叫作過去與未來。這些信念的區別的源頭，都來自於知覺與知覺的預測或記憶之間的區別。</p>
 
-<h1>12-1</h1>
+<h1 id="section-14">12-1</h1>
 
 <p>這裡看起來有一個循環，因為「在我有它時」就包含了「當它是現在的」的意思。但如果不使用這些字，定義就是錯誤的，因為我有許多發生在不同時候的直接表象，但不能都是現在、除非是相續地。然而這是已經討論過的A系列的基本矛盾，不是我在要在這想要討論的。</p>
 
@@ -1427,7 +1506,7 @@
 
 <p>這是不可能的。因為我們依然在考慮的是時間的現實性。（愛因斯坦之前的哲學家似乎認為時間的相對性會導致時間只存在心理狀態之中，時間只成了一種信念而不具備現實性）</p>
 
-<h1>12-2</h1>
+<h1 id="section-15">12-2</h1>
 
 <p>事件真正經過的現在，因此不能規定成和疑似現在同時的東西。它必須有一個固定為終極事實的持存。這個持存不是和所有疑似現在相同的持存，因為所有的疑似現在不是相同的持存。因此一個事件，可以在我經驗他為現在時是過去，也可以在我經驗他為過去的時候是現在。客觀的現在的持存可長可短。</p>
 
@@ -1437,21 +1516,21 @@
 
 <p>無論時間是否是實在的，所有東西都是在疑似現在中觀察到的，但是沒有一個、即使是觀察本身，可以<em>存有</em>於疑似現在之中。我們並不將經驗因此看成更虛幻的東西，當我們說根本沒有東西在現在，當我們說所有事物經過的都是一些完全不同的現在。</p>
 
-<h1>13</h1>
+<h1 id="section-16">13</h1>
 
 <p>我們的結論是，無論是時間全體、A系列還是B系列都不現實存在。A系列包含了不一致性，也包含了對B系列的反對。存在的只有C系列。</p>
 
-<h1>14</h1>
+<h1 id="section-17">14</h1>
 
 <p>如果是這樣，那隨之而來的就是，我們對作為在時間中的事件的實體的知覺，有著一些真實、也有一些錯誤。無論時間的欺瞞型式，我們必須抓住一些它們的真實關係。如果我們說M和N事件是同時的，我們說他們在時間系列中佔有同一個位置。而在這裡將有一個真理，對於我們知覺為M和N的事件的實體，真實地在系列中佔有一個位置，雖然這個系列不是時間性的。</p>
-<div class="footnotes">
-<hr/>
-<ol>
-<li id="fn:1">
-<p>McTaggart, J. E. (1908). The Unreality of Time. Mind, New Series, 17(68), 457–474.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
-</ol>
-</div>
 
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>McTaggart, J. E. (1908). The Unreality of Time. Mind, New Series, 17(68), 457–474. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
 ]]></content>
   </entry>
   
@@ -1462,26 +1541,24 @@
     <id>http://wayneh.tw/blog/2015/04/04/mctaggart</id>
     <content type="html"><![CDATA[<p><img src="http://wayneh.tw/images/blog/mctaggartstime.jpg" alt="time" /></p>
 
-<p>McTaggart<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>給了一個滿有意思的、但是難懂的論證，這個論證的目標是要告訴我們：時間是非實在的。也就是說，時間不是<strong>真正存在著</strong>。</p>
+<p>McTaggart<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>給了一個滿有意思的、但是難懂的論證，這個論證的目標是要告訴我們：時間是非實在的。也就是說，時間不是<strong>真正存在著</strong>。</p>
 
 <!--more-->
 
-
-<h1>對時間本性的理解必須要能解釋變化</h1>
+<h1 id="section">對時間本性的理解必須要能解釋變化</h1>
 
 <p>時間的<strong>非實在</strong>是反直覺的，我們早已習慣在<strong>真的有時間</strong>的世界觀中活著，我們有知覺，在知覺中它告訴了我們時間的<strong>流動</strong>。時間的流動是滿奧妙的事，原因在於我們從未知覺到純粹的時間，而更像是透過另外一種方式來理解時間：透過理解<strong>變化</strong>來理解時間。</p>
 
 <p>McTaggart 正是這樣認為的，他認為：變化包含在時間的本性裡頭。也就是說，他認為，如果我們說自己弄清楚了時間是什麼，這個所理解的部份至少要能解釋變化才可能是充份的。</p>
 
-<h1>兩種時間序列</h1>
+<h1 id="section-1">兩種時間序列</h1>
 
 <p>McTaggart 為了解釋變化，它引進了一套分析工具，即兩種時間序列：</p>
 
 <ul>
-<li>A序列：將<strong>事件</strong>按照現在、過去、未來來排列</li>
-<li>B序列：將<strong>事件</strong>按照事件的先、後來排列</li>
+  <li>A序列：將<strong>事件</strong>按照現在、過去、未來來排列</li>
+  <li>B序列：將<strong>事件</strong>按照事件的先、後來排列</li>
 </ul>
-
 
 <p>所謂「<strong>事件</strong>」可以想成「在某時發生的某事」。</p>
 
@@ -1489,16 +1566,15 @@
 
 <p>我們可以看到，A系列是會隨著時間變動的。A系列裡面的未來的事件，會隨著時間變成現在的事件、再變成過去的事件。然而B系列是不會變動的，一旦先後關係確定了，無論時間怎麼流動，B系列都是固定的。</p>
 
-<h1>B序列預設了A序列，否則就沒有變化</h1>
+<h1 id="ba">B序列預設了A序列，否則就沒有變化</h1>
 
 <p>McTaggart 認為，變化只能在A序列中解釋清楚。他的想法可以簡化成「如果沒有過去、現在和未來」，那究竟什麼是變化呢？</p>
 
 <p>我們在這裡如果要清楚了解B序列是什麼，可以來考慮C序列：</p>
 
 <ul>
-<li>C序列：將<strong>事件</strong>按照特定順序排放好</li>
+  <li>C序列：將<strong>事件</strong>按照特定順序排放好</li>
 </ul>
-
 
 <p>McTaggart 認為，C序列和B序列是不同的，因為C序列沒有時間性的概念、只有空間性的概念。他認為B序列之所以不同於C序列，就是因為B序列預設了A序列。原因在於，他認為只有A序列才賦予了<strong>變化</strong>的存在。</p>
 
@@ -1508,21 +1584,20 @@
 
 <p>所以，他認為，除去A序列的B序列，並不具備時間性概念，其實就是C序列。B序列之所以不同於C序列，是因為B序列有<strong>變化</strong>、預設了A序列。因此，A序列是更接近時間本質的序列。</p>
 
-<h1>若A序列隱含矛盾，A序列就無法應用在現實上，時間就不是實在的</h1>
+<h1 id="aa">若A序列隱含矛盾，A序列就無法應用在現實上，時間就不是實在的</h1>
 
-<p>去論證A序列的矛盾是 McTaggart 的大絕招，要是他能夠去說明A序列有矛盾，這就意味著A序列不能應用在現實上，又如果必須要靠A序列才能說明時間的本性，那麼唯一的答案是：時間不會是實在的。</p>
+<p>去論證A序列的矛盾是 McTaggart 的大絕招，要是他能夠去說明A序列有矛盾，這就意味著A序列不能應用在現實上，又如果必須要靠A序列才能說明時間的本性，那麼唯一的答案是：時間不會是實在的。 </p>
 
 <p>McTaggart 要如何論證A序列的矛盾？他透過兩個主要的觀察：</p>
 
 <ol>
-<li>一個事件必須是過去、現在或未來的（事件必須有時態），但是要是它是其中一個，它就不能再是另外兩個（時態的不相容性）。</li>
-<li>但是一個事件卻同時又是過去、現在和未來的。</li>
+  <li>一個事件必須是過去、現在或未來的（事件必須有時態），但是要是它是其中一個，它就不能再是另外兩個（時態的不相容性）。</li>
+  <li>但是一個事件卻同時又是過去、現在和未來的。</li>
 </ol>
-
 
 <p>1 成立是非常明顯的，但是 2 就很讓人困惑了。McTaggart 是怎麼論證 2 的呢？</p>
 
-<h1>A序列隱含矛盾，所以時間不是實在的</h1>
+<h1 id="a">A序列隱含矛盾，所以時間不是實在的</h1>
 
 <p>我們來考慮一個像是A序列這樣的序列，在它之中，有一個是<strong>現在</strong>的事件，在現在的事件以前的，都是<strong>過去</strong>的事件，而之後的都是<strong>未來</strong>的事件。</p>
 
@@ -1537,14 +1612,14 @@
 <p>也就是說，A序列本身內含了一個無法理解的矛盾。</p>
 
 <p>因此，時間不是實在的。</p>
-<div class="footnotes">
-<hr/>
-<ol>
-<li id="fn:1">
-<p>McTaggart, J. E. (1908). The Unreality of Time. Mind, New Series, 17(68), 457–474<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
-</ol>
-</div>
 
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>McTaggart, J. E. (1908). The Unreality of Time. Mind, New Series, 17(68), 457–474 <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
 ]]></content>
   </entry>
   
@@ -1553,42 +1628,37 @@
     <link href="http://wayneh.tw/blog/2014/09/11/lucy-being/"/>
     <updated>2014-09-11T16:16:44+08:00</updated>
     <id>http://wayneh.tw/blog/2014/09/11/lucy-being</id>
-    <content type="html"><![CDATA[<p><img src="http://wayneh.tw/images/blog/lucyXphiXsci.jpg" title="lucybanner" ></p>
+    <content type="html"><![CDATA[<p><img src="http://wayneh.tw/images/blog/lucyXphiXsci.jpg" title="lucybanner" /></p>
 
 <p>在 nchild 的主持下，我曾與泛科學的<a href="http://pansci.tw/archives/author/ykliao">廖英凱</a>，於 Bookshow 說書會合講一次「<a href="http://www.accupass.com/go/lucy">科哲露西</a>」，這是 phi10sophy @g0v 的第一場活動。</p>
 
 <p>當天的錄影：</p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/a1gBC-xU0D4" frameborder="0" allowfullscreen></iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/a1gBC-xU0D4" frameborder="0" allowfullscreen=""></iframe>
 
 <p>當天我所使用的簡報：</p>
 
-<iframe src="//slides.com/weihung/--120226/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
+<iframe src="//slides.com/weihung/--120226/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
 
 <p>為了給活動一個引言，我想從 Ian 和 sharon 的一個衝突談起：露西究竟有沒有問出「存有」的問題？</p>
 
 <!--more-->
 
-
-<h1>Ian vs. sharon</h1>
+<h1 id="ian-vs-sharon">Ian vs. sharon</h1>
 
 <p>我們先來看看 <a href="http://blog.roodo.com/ianhoho/archives/30652063.html">Ian Chen 的說法</a>：</p>
 
-<blockquote><p>從摩根費里曼談海豚演化出類聲納的溝通方式，說人類忘了如何存在（being），在我看來就是海德格提出幾千年來對存在的研究都其實只是遺忘存在（being）的意思。[&#8230;]</p><p>我換個方式來說，人的存在（being）是什麼？或是說「人是什麼？」這個問題，很多哲學家甚至科學家嘗試找出答案，比方說，有些哲學家會告訴你，人就是理性的動物，理性就是人的最根本核心的東西，科學家可能會說是細胞，或是更小的原子、分子之類的概念。但是摩根費里曼跟海德格想說的，人花太多的心力去找那個核心的東西，而忽略或誤解了人的存在也就是誤解了being，因為being很可能只是一種如海豚般的方式，為了適應環境而漸漸演化而擁有某種能力。[&#8230;]</p><p>那為什麼要談到我們怎麼理解（being）呢？因為如果這個（being）被理解為某種本質（essence）或實體（entity），露西就不可能進化，因為本質或實體是無法改變的。也由於電影裡的世界觀，我個人認為是用海德格理解存在（being）的方式，也就是將人的存在理解為某種可改變的能力，露西的進化才能成立。</p><footer><strong>Ian Chen</strong> <cite><a href='http://blog.roodo.com/ianhoho/archives/30652063.html'>電影裡的哲學，露西為什麼能進化？最後去了那裡？歐陸哲學來告訴你。</a></cite></footer></blockquote>
-
+<blockquote><p>從摩根費里曼談海豚演化出類聲納的溝通方式，說人類忘了如何存在（being），在我看來就是海德格提出幾千年來對存在的研究都其實只是遺忘存在（being）的意思。[&#8230;]</p><p>我換個方式來說，人的存在（being）是什麼？或是說「人是什麼？」這個問題，很多哲學家甚至科學家嘗試找出答案，比方說，有些哲學家會告訴你，人就是理性的動物，理性就是人的最根本核心的東西，科學家可能會說是細胞，或是更小的原子、分子之類的概念。但是摩根費里曼跟海德格想說的，人花太多的心力去找那個核心的東西，而忽略或誤解了人的存在也就是誤解了being，因為being很可能只是一種如海豚般的方式，為了適應環境而漸漸演化而擁有某種能力。[&#8230;]</p><p>那為什麼要談到我們怎麼理解（being）呢？因為如果這個（being）被理解為某種本質（essence）或實體（entity），露西就不可能進化，因為本質或實體是無法改變的。也由於電影裡的世界觀，我個人認為是用海德格理解存在（being）的方式，也就是將人的存在理解為某種可改變的能力，露西的進化才能成立。</p><footer><strong>Ian Chen</strong> <cite><a href="http://blog.roodo.com/ianhoho/archives/30652063.html">電影裡的哲學，露西為什麼能進化？最後去了那裡？歐陸哲學來告訴你。</a></cite></footer></blockquote>
 
 <p>再來，讓我們看看 <a href="http://myphantomisland.wordpress.com/2014/09/09/lucy%E8%AC%9B%E5%93%B2%E5%AD%B8%EF%BC%9F/">sharon 的說法</a>：</p>
 
-<blockquote><p>[&#8230;]我不覺得Lucy問了存有（being）的問題，從頭到尾都沒有上升到存有的層次，而在「存在」（existence）的層次打轉。哲學麻煩就是很多概念看起來十分相似，通常「存有」（being）處理「使存在可能」的問題，而「存在」（existence）處理「展現」出來的問題。用沙特存有的虛無來舉例，Being是背後不斷讓新事物創生的動力，但我們所有看見的都是Being of something，也就是作為某事物的存有（一個蘋果、杯子或其他），存有每一次的展現都化身為特定的存在被看見，因此講存有的虛無，因為他未曾也不會展現出自己。</p><p>因此海德格才說存在（existence）是exsistase，這個字的意思是「站在自身旁邊」，每一次創生出一個「存在」，這個存在就是站在自己的存有旁邊，而不是裡面或者等於自己的存有。簡單來說，你看到存在的自己永遠不全然是自己的存有，最多也只是相差不遠。[&#8230;]</p><footer><strong>sharonme0627</strong> <cite><a href='http://myphantomisland.wordpress.com/2014/09/09/lucy%E8%AC%9B%E5%93%B2%E5%AD%B8%EF%BC%9F/'>Lucy講哲學？</a></cite></footer></blockquote>
-
+<blockquote><p>[&#8230;]我不覺得Lucy問了存有（being）的問題，從頭到尾都沒有上升到存有的層次，而在「存在」（existence）的層次打轉。哲學麻煩就是很多概念看起來十分相似，通常「存有」（being）處理「使存在可能」的問題，而「存在」（existence）處理「展現」出來的問題。用沙特存有的虛無來舉例，Being是背後不斷讓新事物創生的動力，但我們所有看見的都是Being of something，也就是作為某事物的存有（一個蘋果、杯子或其他），存有每一次的展現都化身為特定的存在被看見，因此講存有的虛無，因為他未曾也不會展現出自己。</p><p>因此海德格才說存在（existence）是exsistase，這個字的意思是「站在自身旁邊」，每一次創生出一個「存在」，這個存在就是站在自己的存有旁邊，而不是裡面或者等於自己的存有。簡單來說，你看到存在的自己永遠不全然是自己的存有，最多也只是相差不遠。[&#8230;]</p><footer><strong>sharonme0627</strong> <cite><a href="http://myphantomisland.wordpress.com/2014/09/09/lucy%E8%AC%9B%E5%93%B2%E5%AD%B8%EF%BC%9F/">Lucy講哲學？</a></cite></footer></blockquote>
 
 <p>但是到底<strong>存在</strong>是什麼？<strong>存有</strong>是什麼？他們的衝突又是什麼？</p>
 
-<h1>存在是什麼？存有是什麼？</h1>
+<h1 id="section">存在是什麼？存有是什麼？</h1>
 
-<p>「存有」這個術語來自歐陸哲學的 &ldquo;Being&rdquo; （德：Sein），我們經常譯作「存有」，而不將它譯作「存在」。這是因為，我們希望將「存在」拿來指另一個更有「在」的意義的字：&#8221;Existence&#8221; 。</p>
+<p>「存有」這個術語來自歐陸哲學的 “Being” （德：Sein），我們經常譯作「存有」，而不將它譯作「存在」。這是因為，我們希望將「存在」拿來指另一個更有「在」的意義的字：”Existence” 。</p>
 
 <p>區分這兩個字的概念是很重要的，但要真的分清楚其實不容易。一下子引自然哲學家、一下子引笛卡爾康德黑格爾、一下子又要引海德格，才能透過哲學史的探索進程，將這兩字的概念釐得像是越來越清晰。</p>
 
@@ -1600,7 +1670,7 @@
 
 <p>你搓搓手，感覺自己的手黏黏的，軟軟的，這是關於你的手的<strong>性質</strong>。在這同時，你可以決定手的形狀，決定握拳、決定張開，你可以有條件地自由地感覺它、改變它的各種性質。這是你的手的<strong>存在</strong>，或說是「<strong>作為你的手的存在</strong>」。</p>
 
-<p>&ldquo;Existence&rdquo; 這個字，在語源中結合了「向外（<em>ex-</em>）」與「放置（<em>sistere</em>）」的意思，它是 &ldquo;exist&rdquo; 的名詞化，保有「來自<strong>某X</strong>」的意義。這個<strong>某X</strong>，我們要是弄對了想法的話，就可以是<strong>存有</strong>。這如 sharon 所說「存有處理『使存在可能』的問題」的意義。</p>
+<p>“Existence” 這個字，在語源中結合了「向外（<em>ex-</em>）」與「放置（<em>sistere</em>）」的意思，它是 “exist” 的名詞化，保有「來自<strong>某X</strong>」的意義。這個<strong>某X</strong>，我們要是弄對了想法的話，就可以是<strong>存有</strong>。這如 sharon 所說「存有處理『使存在可能』的問題」的意義。</p>
 
 <p>我們再接著來理解「存有」是什麼，這需要一點想像力。但無論如何，請不要將它想成「將一切性質剔除掉的事物」，它不是<strong>物自身</strong>。同時，存有也不會是不屬於世界的東西，也就是說，即使手的形狀出自意念或本質，但是<strong>意念</strong>或<strong>本質</strong>並不是手的<strong>存有</strong>。</p>
 
@@ -1610,11 +1680,13 @@
 
 <p>總結來說，<strong>存有</strong>並不是一個概念，也不是在世界中被概念化、空間化以後的東西，就正面來說，<strong>存有</strong>的意義是極空泛的。談存有問題，是哲學中一個深奧的（有意思的）課題。</p>
 
-<h1>《露西》究竟有沒有問出存有問題？</h1>
+<h1 id="section-1">《露西》究竟有沒有問出存有問題？</h1>
 
 <p>我認為<strong>演化</strong>是《露西》的主軸之一，包括內建了一個<strong>演化</strong>的「腦部發展理論」（我在這裡不想去釐清它的意義）：</p>
 
-<blockquote><p>生物在演化中，能使用越來越多的腦。</p></blockquote>
+<blockquote>
+  <p>生物在演化中，能使用越來越多的腦。</p>
+</blockquote>
 
 <p>Ian Chen 敏銳地洞見到演化與存有的關聯，但我們也能明確看到，就他將<strong>人的存有</strong>在不同觀點的考慮下，想成<strong>一個</strong>或<strong>多個</strong>實體的結合、想成用不同方式所理解的對象，也就是將其想成從世界中分離出來的對象而言，他所考慮的依然是<strong>在特定狀態中的存有</strong>，依然包含<strong>一與多</strong>、<strong>客體與世界</strong>在內的<strong>實體</strong>概念的形式，也因此才直接牽涉到關於<strong>理解</strong>的問題。</p>
 
@@ -1647,12 +1719,14 @@
 
 <!--more-->
 
-
 <ul>
-<li><p>【神創論】宇宙中的物質與定律由上帝（一種純精神性的存在）創造與構成。</p></li>
-<li><p>【宇宙物理論】世界由物質按照定律所運作與構成，除物質之外再沒有其他事物，包括上帝。</p></li>
+  <li>
+    <p>【神創論】宇宙中的物質與定律由上帝（一種純精神性的存在）創造與構成。</p>
+  </li>
+  <li>
+    <p>【宇宙物理論】世界由物質按照定律所運作與構成，除物質之外再沒有其他事物，包括上帝。</p>
+  </li>
 </ul>
-
 
 <p>就打擊<strong>偽科學</strong>與<strong>教條主義</strong>的目的來說，我們似乎應該支持無神論者的理想。但當無神論者在取笑【神創論】時，事實上，【宇宙物理論】也沒有比【神創論】更好的證據來表明它的正確性。</p>
 
@@ -1679,12 +1753,13 @@
     <link href="http://wayneh.tw/blog/2014/08/28/philos-handbook/"/>
     <updated>2014-08-28T23:18:56+08:00</updated>
     <id>http://wayneh.tw/blog/2014/08/28/philos-handbook</id>
-    <content type="html"><![CDATA[<blockquote><p>本文為〈消除現代人煩惱的哲學圖鑑〉推荐序</p></blockquote>
+    <content type="html"><![CDATA[<blockquote>
+  <p>本文為〈消除現代人煩惱的哲學圖鑑〉推荐序</p>
+</blockquote>
 
 <p>在渴望思考的時候，你會問自己什麼樣的問題，來讓你的思路展開？你又是如何對自己的提問展開思考，直到有了一個暫時滿足的答案？還是，我們打從開始就放棄了找尋答案的過程，寧願回到安定、缺乏疑惑的舒適生活裡？</p>
 
 <!--more-->
-
 
 <p>在生命中，你是否曾認真對自己提問過、面對過這些問題：「真正的自己是什麼？」、「人生有目的可言嗎？」、「我們該如何相信未知的人事物？」、「只追求快樂，錯了嗎？」、「真正的個性是存在的嗎？」我們或許認為，這都是些沒有正確答案、沒有唯一答案、沒有最終答案的問題，並被一些悲觀主義的、害怕思考的人看成是「對生命有害」的大哉問。</p>
 
@@ -1719,24 +1794,24 @@
     <link href="http://wayneh.tw/blog/2014/08/19/art-of-community/"/>
     <updated>2014-08-19T22:16:53+08:00</updated>
     <id>http://wayneh.tw/blog/2014/08/19/art-of-community</id>
-    <content type="html"><![CDATA[<blockquote><p>原書資訊：</p>
+    <content type="html"><![CDATA[<blockquote>
+  <p>原書資訊：</p>
 
-<ul>
-<li>書名：《社群藝術》（第二版）</li>
-<li>作者：Jono Bacon</li>
-<li>譯者：Jedi &amp; Pluto</li>
-<li>出版日期：2012年12月21日</li>
-</ul>
+  <ul>
+    <li>書名：《社群藝術》（第二版）</li>
+    <li>作者：Jono Bacon</li>
+    <li>譯者：Jedi &amp; Pluto</li>
+    <li>出版日期：2012年12月21日</li>
+  </ul>
 </blockquote>
 
-<h1>一、社群的根本原理</h1>
+<h1 id="section">一、社群的根本原理</h1>
 
 <p>社群經營的核心，是互動、以及在互動中產生的歸屬，他的原理是一種特殊的經濟：<strong>社會經濟</strong>。在社會經濟中的資本是<strong>社會資本</strong>，是互動、尊敬、互信、歸屬和共同相信的價值。其中，沒有<strong>歸屬</strong>，就沒有社群，歸屬是社群經營的一個核心目標。</p>
 
 <p>社會經濟中的程序和技術和一般經濟或許不同，但是基本原則（開放的溝通媒體、工具的易用性）沒有改變。</p>
 
 <!--more-->
-
 
 <p>約翰麥米蘭在《新競爭時代》指出，不管種類為何設計良好的市場都有一些相同特徵：
 * 資訊流通順暢
@@ -1749,7 +1824,7 @@
 
 <p>經濟每天都在改變，因應世界裡影響經濟的刺激而調整。這種運動的運作核心是<strong>溝通</strong>。</p>
 
-<h2>溝通的基礎是故事</h2>
+<h2 id="section-1">溝通的基礎是故事</h2>
 
 <p>Peter Bloch：「社群基本上是彼此互相依賴的人類系統，經由與自己的對話成形。」在社群裡，溝通背後的機制是<strong>故事</strong>。故事是我們維持河流暢通的媒介。如果故事角色是社群裡的人，故事就在自我參照，提供社群一種報導感。不管是正式方式或秘密情報網，唯有出現新聞媒體，社群才會真正像社群。</p>
 
@@ -1757,7 +1832,7 @@
 
 <p>社群的動力在於共同去完成夢想的情懷，並在把握機會、定義信心，讓大家覺得能掌握自己的命運中鼓舞社群、啟發社群、賦予活力。</p>
 
-<h2>社群經理的特質</h2>
+<h2 id="section-2">社群經理的特質</h2>
 
 <p>Bacon 對自己的成果的描述：「我幫助全世界聚集起來的志願者，使他們<strong>能夠</strong>合作，達成對他們而言很有意義的事情。」</p>
 
@@ -1773,48 +1848,47 @@
 
 <p>這些原則，是社群經理該注意的事情，但最重要的是必須誠實地做自己，這樣你將不需擔心信賴、透明與尊敬。</p>
 
-<h1>二、規劃社群</h1>
+<h1 id="section-3">二、規劃社群</h1>
 
-<h2>社群代辦事項清單：</h2>
+<h2 id="section-4">社群代辦事項清單：</h2>
 
 <ol>
-<li>找出能將社群分成團隊的方法</li>
-<li>確保團隊間能夠清晰有效地溝通</li>
-<li>吸引各種領域的貢獻者參與社群，並對我們的目標做出貢獻</li>
-<li>打造有益於大目標的環境</li>
-<li>定義每個團隊的規模，並且幫助團隊成員理解那個規模</li>
-<li>理解我們團隊之間合作的程度與範圍</li>
-<li>鼓勵社群內的多元化與機會，訂立行為準則</li>
+  <li>找出能將社群分成團隊的方法</li>
+  <li>確保團隊間能夠清晰有效地溝通</li>
+  <li>吸引各種領域的貢獻者參與社群，並對我們的目標做出貢獻</li>
+  <li>打造有益於大目標的環境</li>
+  <li>定義每個團隊的規模，並且幫助團隊成員理解那個規模</li>
+  <li>理解我們團隊之間合作的程度與範圍</li>
+  <li>鼓勵社群內的多元化與機會，訂立行為準則</li>
 </ol>
 
-
-<h3>1. 找出能將社群分成團隊的方法</h3>
+<h3 id="section-5">1. 找出能將社群分成團隊的方法</h3>
 
 <p>社群是分散的點點群落，穩固社群要做的事，是以興趣和熱情團結大家，形成一個一個<strong>團隊</strong>（能力單位）。雖然團隊有主要焦點，但是不必堅持那些焦點。</p>
 
-<h3>2. 確保團隊間能夠清晰有效地溝通</h3>
+<h3 id="section-6">2. 確保團隊間能夠清晰有效地溝通</h3>
 
 <p>這個主題是<strong>治理</strong>的一部分，要處理的是社群整體情懷核心的問題，包括：團隊的建構方式標準、行動方式標準、溝通方法標準。</p>
 
-<h3>3. 吸引各種領域的貢獻者參與社群，並對我們的目標做出貢獻</h3>
+<h3 id="section-7">3. 吸引各種領域的貢獻者參與社群，並對我們的目標做出貢獻</h3>
 
 <p>擴充社群有兩個願望：<strong>能力</strong>與<strong>多元化</strong>。多元化的價值遠大過他的功能：不同的技能、文化、觀點、態度、經驗，將可產生更豐富的社群經驗。</p>
 
-<h3>4. 打造有益於大目標的環境</h3>
+<h3 id="section-8">4. 打造有益於大目標的環境</h3>
 
 <p>所有的環境元素都會影響我們的觀點、情感、期待，影響感知，也影響機會。</p>
 
-<h3>5. 定義每個團隊的規模，並且幫助團隊成員理解那個規模</h3>
+<h3 id="section-9">5. 定義每個團隊的規模，並且幫助團隊成員理解那個規模</h3>
 
 <p>團隊是<strong>歸屬</strong>的建材和單位。每一個團隊都是故事來源與傳承、引導來源。</p>
 
-<h3>6. 理解我們團隊之間合作的程度與範圍</h3>
+<h3 id="section-10">6. 理解我們團隊之間合作的程度與範圍</h3>
 
 <p>社群有許多形式，明顯的特徵是：大家為了共有的信仰或興趣以熱情團結起來。理解社群的合作方式，有助於了解想達成的目標和潛力。<strong>合作</strong>與<strong>完成工作的價值</strong>非常重要，必須要提醒社群成員以通過官僚主義和重複性的考驗。</p>
 
 <p><strong>功績主義</strong>是一種可用於某些社群的作法，公平地記錄每一個人的貢獻。成員可根據表現和參與建立自己的名聲。</p>
 
-<h3>7. 鼓勵社群內的多元化與機會並訂立行為準則</h3>
+<h3 id="section-11">7. 鼓勵社群內的多元化與機會並訂立行為準則</h3>
 
 <p>健康環境的核心是尊重、深層多元化、人性化、功績平等。深層多元化不同於表層多元化（膚色、種族、性別等），我們鼓勵的是人格特質、價值觀與態度的多元化。</p>
 
@@ -1823,30 +1897,28 @@
 <p>Ubuntu 行為準則：</p>
 
 <ul>
-<li>要體諒</li>
-<li>要尊重</li>
-<li>要合作</li>
-<li>當不同意時，徵詢他人</li>
-<li>當不確定時，請求協助</li>
-<li>體貼地離去</li>
+  <li>要體諒</li>
+  <li>要尊重</li>
+  <li>要合作</li>
+  <li>當不同意時，徵詢他人</li>
+  <li>當不確定時，請求協助</li>
+  <li>體貼地離去</li>
 </ul>
 
+<h2 id="section-12">設計社群</h2>
 
-<h2>設計社群</h2>
-
-<h3>準備</h3>
+<h3 id="section-13">準備</h3>
 
 <p>開始之前，請用一句詳細的句子或一群單詞，回答下列問題：</p>
 
 <ul>
-<li>宗旨為何？</li>
-<li>機會為何？</li>
-<li>合作領域為何？</li>
-<li>所需技能為何？</li>
+  <li>宗旨為何？</li>
+  <li>機會為何？</li>
+  <li>合作領域為何？</li>
+  <li>所需技能為何？</li>
 </ul>
 
-
-<h3>公開發展</h3>
+<h3 id="section-14">公開發展</h3>
 
 <p>建立社群的時候，透明與公開是最重要的考量。幾乎沒有任何開放志願性社群能在缺乏透明方法與途徑的情況下成功。</p>
 
@@ -1855,30 +1927,28 @@
 <p>Bacon 推薦的方法如下：</p>
 
 <ul>
-<li>建立發展策略文件用的集中區域</li>
-<li>與社群進行公開討論並作決定</li>
-<li>定期更新文件，變動時徵詢普遍社群意見</li>
+  <li>建立發展策略文件用的集中區域</li>
+  <li>與社群進行公開討論並作決定</li>
+  <li>定期更新文件，變動時徵詢普遍社群意見</li>
 </ul>
-
 
 <p>關鍵在於<strong>經常性的溝通與回饋</strong>，並以集中式的文件集合這些溝通與回饋。</p>
 
-<h3>建立策略</h3>
+<h3 id="section-15">建立策略</h3>
 
-<h4>1 建立宗旨</h4>
+<h4 id="section-16">1 建立宗旨</h4>
 
 <p>宗旨以<strong>詳盡簡明</strong>為敘述原則，強調承諾、機會，並定義社群目標。讓社群所有成員同心協力。宗旨不會經常改變。</p>
 
 <p>一個合格的宗旨，必須通過三個測試：</p>
 
 <ul>
-<li>你有沒有辦法在一分鐘內解釋完你的宗旨？</li>
-<li>問問別人對這份宗旨有沒有想法（鼓勵批評）。</li>
-<li>想想：在社群最艱困的時期，這份宗旨能夠激勵你和成員嗎？</li>
+  <li>你有沒有辦法在一分鐘內解釋完你的宗旨？</li>
+  <li>問問別人對這份宗旨有沒有想法（鼓勵批評）。</li>
+  <li>想想：在社群最艱困的時期，這份宗旨能夠激勵你和成員嗎？</li>
 </ul>
 
-
-<h4>2 建立策略規劃</h4>
+<h4 id="section-17">2 建立策略規劃</h4>
 
 <p>策略規劃的目的，在於記錄一段時間內的階段目標及志向，它應該要闡釋目的，以及目的所包含的階段目標（可以是週期、功能、指定日期或是其他指標），也應該陳述要如何衡量進度，以及由誰領導工作。</p>
 
@@ -1887,84 +1957,76 @@
 <p>我們需要定義一些<strong>目的</strong>，這些目的的範圍很大、高階、也是企圖。所有的目的分割成若干<strong>階段目標</strong>，各自包含三樣資訊：</p>
 
 <ul>
-<li><strong>成功條件</strong>描述衡量目標是否成功的方法。</li>
-<li><strong>實作規劃</strong>指示達成階段目標所需進行的工作。</li>
-<li>明確指出<strong>負責人</strong>。<strong>可歸責性</strong>是建立成功社群的重要元素。</li>
+  <li><strong>成功條件</strong>描述衡量目標是否成功的方法。</li>
+  <li><strong>實作規劃</strong>指示達成階段目標所需進行的工作。</li>
+  <li>明確指出<strong>負責人</strong>。<strong>可歸責性</strong>是建立成功社群的重要元素。</li>
 </ul>
-
 
 <p>【範例】</p>
 
-<blockquote><p>目的：建立專案網站。（層次要夠高）
-階段目標1：建立網站內容的架構設計。（所有目的都要有階段目標）</p>
+<blockquote>
+  <p>目的：建立專案網站。（層次要夠高）
+階段目標1：建立網站內容的架構設計。（所有目的都要有階段目標）
+&gt; 成功條件：（必須是可衡量的）
+&gt; 
+&gt; * 記錄著所有網站架構區域的規格文件。
+&gt; * 自社群蒐集而來的提案回饋。
+&gt; 
+&gt; 實作規劃：（合理的細節步驟）
+&gt; 
+&gt; * 與社群保持聯絡，藉此找出網站需求。
+&gt; * 在共筆網頁記錄網站架構。
+&gt; * 以電子郵件將回饋寄給核心社群團隊，並整合回饋。
+&gt; * 提議任何規格變動時，舉行線上會議。
+&gt; * 建立原型。
+&gt; 
+&gt; 負責人：喬納，貝肯。
+階段目標2：……</p>
+</blockquote>
 
-<blockquote><p>成功條件：（必須是可衡量的）</p>
+<h2 id="section-18">完善規劃</h2>
 
-<ul>
-<li>記錄著所有網站架構區域的規格文件。</li>
-<li>自社群蒐集而來的提案回饋。</li>
-</ul>
-
-
-<p>實作規劃：（合理的細節步驟）</p>
-
-<ul>
-<li>與社群保持聯絡，藉此找出網站需求。</li>
-<li>在共筆網頁記錄網站架構。</li>
-<li>以電子郵件將回饋寄給核心社群團隊，並整合回饋。</li>
-<li>提議任何規格變動時，舉行線上會議。</li>
-<li>建立原型。</li>
-</ul>
-
-
-<p>負責人：喬納，貝肯。
-階段目標2：&hellip;&hellip;</p></blockquote></blockquote>
-
-<h2>完善規劃</h2>
-
-<h3>Brain Storming</h3>
+<h3 id="brain-storming">Brain Storming</h3>
 
 <p>合作腦力激盪除了可以揭露新的想法、概念、問題、技術外，也是社群建立透明開放的重要步驟。</p>
 
 <p>優秀的腦力激盪會議有其核心公式：</p>
 
 <ul>
-<li>定義意圖：賦予會議焦點</li>
-<li>組織並邀請參與者：會議時間要充分，但不要冗長</li>
-<li>獲取所需資源：要確定有記錄想法的地方</li>
-<li>定下會議規則：不討論細節、鼓勵參與、指出要避免無建設性的批評</li>
-<li>幫大家放鬆</li>
+  <li>定義意圖：賦予會議焦點</li>
+  <li>組織並邀請參與者：會議時間要充分，但不要冗長</li>
+  <li>獲取所需資源：要確定有記錄想法的地方</li>
+  <li>定下會議規則：不討論細節、鼓勵參與、指出要避免無建設性的批評</li>
+  <li>幫大家放鬆</li>
 </ul>
-
 
 <p>幾個社群經營的技巧：</p>
 
 <ol>
-<li>與成員一同定期質疑會議規範</li>
-<li>創意思考：需要時間與專注，練習質疑周遭任何事情、世界如何運作</li>
-<li>以搞砸精神來開啟開關：適時反轉你想達成的標的</li>
+  <li>與成員一同定期質疑會議規範</li>
+  <li>創意思考：需要時間與專注，練習質疑周遭任何事情、世界如何運作</li>
+  <li>以搞砸精神來開啟開關：適時反轉你想達成的標的</li>
 </ol>
 
-
-<h2>收線</h2>
+<h2 id="section-19">收線</h2>
 
 <p>在最後階段，你有四個非常重要的資產：</p>
 
 <ol>
-<li>待辦事項清單項目：本質概念</li>
-<li>最初的宗旨、機會、合作領域、所需技能</li>
-<li>更完整的宗旨，確定高階的志向（腦力激盪的靈感）</li>
-<li>腦力低盪會議產生的想法</li>
+  <li>待辦事項清單項目：本質概念</li>
+  <li>最初的宗旨、機會、合作領域、所需技能</li>
+  <li>更完整的宗旨，確定高階的志向（腦力激盪的靈感）</li>
+  <li>腦力低盪會議產生的想法</li>
 </ol>
 
-
-<h3>團隊：分割與征服</h3>
+<h3 id="section-20">團隊：分割與征服</h3>
 
 <p>我們可以透過所需技能的清單，去對應到相應的團隊。並只有在現有團隊無法應付需求時，才會組成新團隊。</p>
 
 <p>我們應該要對每個團隊生出宗旨，概述團隊執行的特定工作。這些宗旨將幫助你詳述各團隊意圖，幫助新貢獻者知道該加入哪個團隊。</p>
 
 <p>也因為是在一個目的上合作，團隊都需要和其他團隊合作。我們要找出團隊互動的不同方式，定期觀察團隊合作的方式，努力最佳化最常交會的團隊。</p>
+
 ]]></content>
   </entry>
   
@@ -1985,8 +2047,7 @@
 
 <!-- more -->
 
-
-<h1>什麼是國民數學素養？</h1>
+<h1 id="section">什麼是國民數學素養？</h1>
 
 <p>由於不是所有高中生都應該念大學，甚至，我們更應該設法去完善台灣的技職體系，此時，我們不應將「國民數學素養」理解成「大學先備教育」。</p>
 
@@ -2002,14 +2063,13 @@
 
 <p>在「工具學科論」所懷疑的便是：光靠十二學分的高一高二數學，是無法將必要的數學素養充分交給學生的。</p>
 
-<h1>高三數學「必修改選修」的意義是什麼？</h1>
+<h1 id="section-1">高三數學「必修改選修」的意義是什麼？</h1>
 
 <p>有人會辯稱：課程時數的刪減，並不會使得數學不會做為「工具學科」，除高一、高二的每學期三學分之外，高三也會有「適性選修」的部分，學分數並不會改變。</p>
 
 <p>對所謂「適性選修」，教育部是這樣說明的：</p>
 
-<blockquote><p>未來大學想讀理工農醫的學生，可以選擇額外4至12學分的理科數學；<br/>想讀商管經濟的同學可以上商科數學，加深加廣專業領域；<br/>至於專攻人文藝術的學生，可以只選修4學分的「生活數學」，或上數學補強選修。</p></blockquote>
-
+<blockquote><p>未來大學想讀理工農醫的學生，可以選擇額外4至12學分的理科數學；<br />想讀商管經濟的同學可以上商科數學，加深加廣專業領域；<br />至於專攻人文藝術的學生，可以只選修4學分的「生活數學」，或上數學補強選修。</p></blockquote>
 
 <p>這樣的說法如果要有道理，那就得滿足這個條件：在所有適性選修的課程中，已充分包含必要的國民數學素養。</p>
 
@@ -2019,7 +2079,7 @@
 
 <p>因此，如果「適性選修」必須要為「工具學科論」解套，那就必須滿足上述條件。否則，在量（學分數相同）上進行質（數學素養被教育了嗎）上的辯論，就只是一種詭辯。</p>
 
-<h1>沒有政策評估與具體課綱，就沒有有效承諾</h1>
+<h1 id="section-2">沒有政策評估與具體課綱，就沒有有效承諾</h1>
 
 <p>在這裡我們可以看到「在所有適性選修的課程中，充分地包含了數學教育中必要的數學素養」的滿足與否，事實上涉及了高一高二數學的具體課綱、也涉及了適性選修的全部具體課綱。</p>
 
@@ -2034,6 +2094,7 @@
 <p>對於十二年國教的數學教育困境來說，最重要的，還是要看到明確的政策評估與具體課綱。要讓社會看到十二年國教數學課綱，是如何理解各項數學能力、數學科目與能力的關聯以及考試重點。</p>
 
 <p>不要好高騖遠地大發「適性教育」宏願，妥善地面對台灣社會現狀、制定最合乎家長學生意願、滿足教師程度以及學校資源分配不均問題的教育政策，並進而解決問題、提升教育水平、與產業進行良好銜接，才是政府眼前最該做的事。</p>
+
 ]]></content>
   </entry>
   
@@ -2046,97 +2107,81 @@
 
 <!-- more -->
 
-
-<h1>1. git repo</h1>
-
+<h1 id="git-repo">1. git repo</h1>
 <pre><code>git init
 git clone &lt;repo&gt;
-git config
+git config # 2. git 結構的三個視角
 </code></pre>
 
-<h1>2. git 結構的三個視角</h1>
+<h2 id="section">2-1. 儲藏</h2>
 
-<h2>2-1. 儲藏</h2>
+<h2 id="section-1">2-2. 歷史</h2>
 
-<h2>2-2. 歷史</h2>
+<h2 id="section-2">2-3. 遠端</h2>
 
-<h2>2-3. 遠端</h2>
+<h1 id="git-">3. 儲藏視角下的 git 操作</h1>
 
-<h1>3. 儲藏視角下的 git 操作</h1>
-
-<h2>3-1. 工作區</h2>
-
+<h2 id="section-3">3-1. 工作區</h2>
 <pre><code>git clean
 </code></pre>
 
-<h2>3-2. 準備區</h2>
-
+<h2 id="section-4">3-2. 準備區</h2>
 <pre><code>git add
 git rm
 </code></pre>
 
-<h2>3-3. 提交 repo</h2>
-
+<h2 id="repo">3-3. 提交 repo</h2>
 <pre><code>git commit
 git checkout --
 </code></pre>
 
-<h2>3-4. 查看現狀</h2>
-
+<h2 id="section-5">3-4. 查看現狀</h2>
 <pre><code>git status
 git log
 git diff
 </code></pre>
 
-<h1>4. 歷史視角下的 git 操作</h1>
-
+<h1 id="git--1">4. 歷史視角下的 git 操作</h1>
 <pre><code>git branch
 </code></pre>
 
-<h2>4-1. checkout!</h2>
-
+<h2 id="checkout">4-1. checkout!</h2>
 <pre><code>git checkout
 </code></pre>
 
-<h2>4-2. 合併進來</h2>
-
+<h2 id="section-6">4-2. 合併進來</h2>
 <pre><code>git merge
 </code></pre>
 
-<h2>4-3. 提交 repo 的其他方法</h2>
-
+<h2 id="repo-">4-3. 提交 repo 的其他方法</h2>
 <pre><code>git revert
 git reset
 </code></pre>
 
-<h2>4-4. 改寫歷史</h2>
-
+<h2 id="section-7">4-4. 改寫歷史</h2>
 <pre><code>git rebase
 git commit --amend
 </code></pre>
 
-<h1>5. 遠端視角下的 git 操作</h1>
+<h1 id="git--2">5. 遠端視角下的 git 操作</h1>
 
-<h2>5-1. 設定遠端</h2>
-
+<h2 id="section-8">5-1. 設定遠端</h2>
 <pre><code>git remote
 </code></pre>
 
-<h2>5-2. 接取遠端</h2>
-
+<h2 id="section-9">5-2. 接取遠端</h2>
 <pre><code>git fetch
 git pull
 </code></pre>
 
-<h2>5-3. 推上遠端</h2>
-
+<h2 id="section-10">5-3. 推上遠端</h2>
 <pre><code>git push
 </code></pre>
 
-<h1>6. 參考連結</h1>
+<h1 id="section-11">6. 參考連結</h1>
 
 <ul>
-<li><a href="https://www.atlassian.com/git/">Atlassian git Tutorials</a></li>
+  <li><a href="https://www.atlassian.com/git/">Atlassian git Tutorials</a></li>
 </ul>
 
 ]]></content>
