@@ -136,21 +136,80 @@ Suppose that we are given a series of terms related by a transitive asymmetrical
 
 Then:
 
-(1) the series *cannot* be counted as a process of perpetual qualitative change *unless* $R$ is the relation "earlier than", and the series is therefore a B-series.
+(A) the series *cannot* be counted as a process of perpetual qualitative change *unless* $R$ is the relation "earlier than", and the series is therefore a B-series.
 
-(2) If the relation $R$ is that of "earlier than", and the series is therefore a B-series, the series *can* be counted as a process of perpetual qualitive change.
+(B) If the relation $R$ is that of "earlier than", and the series is therefore a B-series, the series *can* be counted as a process of perpetual qualitive change.
 
-(3) the series *cannot* be counted as a process of perpetual qualitative change unless *each term* of it changes in respect of a certain characteristic.
+(C) the series *cannot* be counted as a process of perpetual qualitative change unless *each term* of it changes in respect of a certain characteristic.
 
-(4) The only characteristics in respect of which the individual terms can change are A-characteristcs (degree of futurity, presentness and pastness).
+(D) The only characteristics in respect of which the individual terms can change are A-characteristcs (degree of futurity, presentness and pastness).
 
-(5) Therefore, unless the terms of a series have A-characteristics and can change in respect of these, the series cannot be a process of qualitative change.
+(E) Therefore, unless the terms of a series have A-characteristics and can change in respect of these, the series cannot be a process of qualitative change.
 
 And therefore, its gernerating relation $R$ cannot be that of "earlier than" and the series cannot be a B-series.
 
 ### 2.2.2. Justification of this account of McTaggart's doctrine
 
+(1) The McTaggart's statement "time involves change." is highly ambiguous. Firstly, it might be referred to qualitative change, or might be referred to change with respect to temporal characteristics. Secondly, even if he were referring to qualitative change, he might or might not mean that there must *always* be qualitative change going on somewhere if temporal characteristics are to apply within the univers. 
 
+He say: "The time-series consists of terms, joined by the relation of earlier and later, which terms are different in their *non-temoral qualities*" The word "non-tempral" is essential for my purpose. 
+
+(2) McTaggart admits and asserts that we should say that a qualitative change takes place if and only if there are qulitatively dissimilar terms related by the relation of "earlier than". 
+
+His objective to Russell's analysis is that, unless the terms had A-characteristics and changed in respect of them, the relation between them could not be that of "earlier than", and the series of qualitatively dissimilar terms could not consitute a process of qualitative change. ((a), (b), (c))
+
+(3) It is true that McTaggart talks of "facts", and not of "events", as changing. But McTaggart was always liable to use the word "fact" loosely, and it is certain that he often used it to mean "event". Moreover, the "facts" which are said to change are facts about the A-characteristics of events.
+
+(4) (311 and 315-317).
+
+One more: McTaggart nowhere asserts, or claims to have proved, that the relation "earlier than" can be *defined* in terms of past, present and future. But afterward, he thought he had shown that "earlier than" can be _defined_ in terms of A-characteristics, whilst the converse dose not hold. This apears to be a much more radical dictrine than any that is stated or augued for in Chap. XXXIII.
+
+### 2.2.3. McTaggart's reasons for his doctrine
+
+(1) (About (A) and (B)) In fact, granted that there could not be succession without _occational_ qualitative change, is it obvious that there could not be succession without _perpetual_ qualitative change?
+
+(2) The essential point which McTaggart has to prove is that a series of qualitatively dissimlilar terms sould not counted as a  process of qualitative change unless _each term_ changed in respect of certain characteristics. McTaggart's argument may be summarised as follows:
+
+1. Suppose, if possible, that there sould be a B-series of terms which had no A-characteristics, and therefore of terms which could not change in respect of A-characteristics.
+2. Then this series could not constitute a process of qualitative change. But, unless there be qualitative change, no temporal characteristics have any application.
+3. Now the relation "earlier than", which relates the terms of a B-series, is a tempral relation.
+4. Therefore the supposition that there could be a B-series of terms which had no A-characteristics must be refected as impossible.
+
+Why B-series of terms which had no A-characteristics could not constitute a process of qualitative change? His argument is as follows:
+
+1. A process of qualitative change could not consist in the annihilation of one event insuch a sereies and the generation of another event in place of it.
+2. A process of qualitative chenge could not consist in one event "merging into" another, so that they have a slice in common.
+3. The only alternative left is that each term in a B-series changes in respect of certain chararteristics: A-characteristics.
+
+There are two questions to be raised about this argumet:
+
+**(1) Are the alternative analyses of qualitative change with McTaggart here proposes exhaustive?**
+
+Russell's theory: There are certain series of successive events, such that the members of any one such series are intimately interconnected by certain spatial, causal, and other relations, which do not interconnect members of any two such series. Each such series is counted as the history of adiffernt thing. Now successive members of one such series may differ in respect of a certain quality. 
+
+"The thing $T$ changes from $q_1$ to $q_2$" is completely analysable into "There is a certain series of successive events so interrelated that it counts as the history of a certain thing $T$; $e_1$ and $e_2$ are two successive adjoined phases in this series; and $e_1$ has $Q$ in the form $q_1$ whilst $e_2$ has $Q$ in the form $q_2$."
+
+McTaggart has two objections. The first is irrelevant; and the second is an _ignoratio elenchi_.
+
+**(2) Is he justified in rejecting the first two of the three alternatives which he considers?**
+
+The basis of his rejection is the principle that, if $X$ _ever_ precedes $Y$ by a certain amount, then it always precedes $Y$ by precisely that amount. This principle is supposed to be incompatible with the view that events are generated and annihilated. 
+
+"The Battle of Hastings precedes the Battle of Waterloo by 749 years." Such phraseology would suggest that the two events are two particulars which (a) somehow _co-exist_ either timelessly or simultaneously, and yet (b) stand timelessly or sempitiernally in a certain _temptoral_ relation of precedence. This must be nonsense.
+
+That events cannot be annihilated or generated would be incompatible with the fact that they _always_ stand in the determinate temporal relation in which they do stand to each other.
+
+### 2.2.4 Restatement of the position
+
+There is a set of terms such that at any moment every A-characteristic belongs to one or other of them, each of them has one and only one A-characteristic, and no two of them have the same A-characteristic. These changes are so adjusted that the _algebraical difference_ between the A-characteristics of any two terms remains constant and independent of the _absolute values_ of their A-characteristcs.
+
+A simple way of stating the theory is as follows. 
+
+Take the sentence "It is now raining." A number of utterances may occur at different times, which are all alike enough in the relevant respects to count as utterances of this sentence. Now any one who utters this sentence seriously on any occasion means to express his belief that an occurrence of rain falling in his neighbourhood is simutaneous with this utterance of his. And so does anyone who hears and understands.
+
+Thus any utterance $U$ of the type-sentence "It is raining now" means "An occurrence of rain in the neighbourhood of the speaker who utters $U$ is simultaneous with this utterence." We may abbreviate this into "An occurrence of rain in spatio-temporally contiguous with the utterance $U$." Different utterances of the same type-setntence necessarily have different meanings (from the speaker and hearer). If the two utterances are successive, it may well be that one expresses a true proposition and the other a false proposition, though both are utterances of the same type-sentence "It is raining now."
+
+Can this theory be accepted? I don't believe it is the meaning of the *speaker*. 
 
 [^1]: Broad, C. D. "Ostensible temporality." The Philosophy of Time: A collection of essays. Macmillan (1968).
 [^2]: Such a good idea.

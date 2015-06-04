@@ -35,13 +35,13 @@ plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
 category_title_prefix: "Category: "
-markdown: rdiscount
+markdown: kramdown
 
-rdiscount:
-  extensions:
-     - autolink
-     - footnotes
-     - smart
+# rdiscount:
+#  extensions:
+#      - autolink
+#      - footnotes
+#      - smart
 
 # markdown: pandoc 
 # pandoc:
