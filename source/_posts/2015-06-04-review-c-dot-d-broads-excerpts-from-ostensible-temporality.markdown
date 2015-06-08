@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Review: C.D. Broad's Excerpts from "Ostensible Temporality""
-date: 2015-05-10 13:20:32 +0800
+title: "Review: Excerpts from Ostensible Temporality"
+date: 2015-06-04 17:03:52 +0800
 comments: true
-categories: time, metaphysics
+categories: 
 ogp_image: 
-published: false
+published: true
 ---
 
 > 這篇文章的內容來自 C. D. Broad "Ostensible Temporality" 一書的節選[^1]。
@@ -209,7 +209,17 @@ Take the sentence "It is now raining." A number of utterances may occur at diffe
 
 Thus any utterance $U$ of the type-sentence "It is raining now" means "An occurrence of rain in the neighbourhood of the speaker who utters $U$ is simultaneous with this utterence." We may abbreviate this into "An occurrence of rain in spatio-temporally contiguous with the utterance $U$." Different utterances of the same type-setntence necessarily have different meanings (from the speaker and hearer). If the two utterances are successive, it may well be that one expresses a true proposition and the other a false proposition, though both are utterances of the same type-sentence "It is raining now."
 
-Can this theory be accepted? I don't believe it is the meaning of the *speaker*. 
+# 3. McTaggart's arguments against the reality of time
+
+(1) When it is said that pastness, presentness, and futurity are incompatible predicated, this is true only in the sense that no one term could have two of them *simutaneously* or *timelessly*. There is no contradiction to be avoid.
+
+(2) Vicious infinite regress: firstly, there is no contradiction.
+
+The temporal copulas "is now", "has been", and "will be" presuppose some form of the Absolute Theory of Time.
+
+McTaggart tacitly assumes that what is meant by a sentence with a *temporal copula* must be completely (and more accurately) expressible by a sentence or combination of sentences in which there is no temporal copula, but only *temporal predicated* and non-temporal copulas. It seems to me that the proper interpretation of the regress is that it disproves the assumption that temporal copulas can be replaced by temporal predicates and non-temporal copulas.
+
+To sum up. I believe that McTaggart's main argument against the reality of Time is a philosophical "howler" of the same kind as the ontological Argument for the existence of God. The fallacy in McTaggart's argument consists in treating absolute becoming as if it were a species of qualitative change, and in trying to replace temporal copulas by non-temporal copulas and temporal adjectives. 
 
 [^1]: Broad, C. D. "Ostensible temporality." The Philosophy of Time: A collection of essays. Macmillan (1968).
 [^2]: Such a good idea.
