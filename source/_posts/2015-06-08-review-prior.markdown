@@ -34,4 +34,6 @@ Augustine's hypotheses: the past and the future, and past and future events, in 
 
 Tense-adverbs are adverbs, not verbs.
 
+We invent new modes of speech in which the subordinate sentences are replaced by noun-phrases and the conjunctions or adverbs by verbs or verb-phrases. What I am suggesting is that what looks like talk about events is really at bottom talk about things, and that what looks like talk about changes in events is really just slightly more complicated talk about changes in things.
+
 
