@@ -36,4 +36,8 @@ Tense-adverbs are adverbs, not verbs.
 
 We invent new modes of speech in which the subordinate sentences are replaced by noun-phrases and the conjunctions or adverbs by verbs or verb-phrases. What I am suggesting is that what looks like talk about events is really at bottom talk about things, and that what looks like talk about changes in events is really just slightly more complicated talk about changes in things.
 
+The flow of time is merely metaphorical, not only because what is meant by it isn't a genuine movement, but further because what is meant by it isn't a genuine movement, but further because what is meant by it isn't a genuine change; but the force of the meta[hor can still be explained--we use the metaphor because what we call the flow of time does fit the above formula.
 
+Gernral facts v.s. Individual facts
+
+There are no *individuum vagum* (vague individuals). But when we describe the making of such statements and the entertaining of such thoughts, we do encounter at least partly general facts to which no wholly individual facts correspond.
