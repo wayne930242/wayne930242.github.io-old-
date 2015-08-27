@@ -1,91 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
 
-<!DOCTYPE HTML>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>McTaggart悖論之後，哲學界發生什麼事？ - 偉恩與咖啡</title>
-	<meta name="author" content="洪偉">
+  <title><![CDATA[Category: 形上學 | 偉恩與咖啡]]></title>
+  <link href="http://wayneh.tw/blog/categories/xing-shang-xue/atom.xml" rel="self"/>
+  <link href="http://wayneh.tw/"/>
+  <updated>2015-08-27T14:44:58+08:00</updated>
+  <id>http://wayneh.tw/</id>
+  <author>
+    <name><![CDATA[洪偉]]></name>
+    <email><![CDATA[wayne930242@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
 
-	
-	<meta name="description" content="本文是我的碩士論文的筆記，讀的是 Loux 的 Metaphysics 1 的第七章。 緒論 本篇介紹 McTaggart 的論證和對此論證的回應，這些構成了近代時間哲學的研究主軸2。 有三種回應 McTaggart 的論證的方法： 一派是「B理論者」，他們認為B系列並沒有預設A系列， &hellip;">
-	
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <entry>
+    <title type="html"><![CDATA[為什麼應該立法禁止燒紙錢？]]></title>
+    <link href="http://wayneh.tw/blog/2015/05/05/burn-new-money/"/>
+    <updated>2015-05-05T20:54:41+08:00</updated>
+    <id>http://wayneh.tw/blog/2015/05/05/burn-new-money</id>
+    <content type="html"><![CDATA[<p>在台灣民俗之中，燒紙錢是最讓我感到荒謬而且盲目的行為。問題不只在於它迷信的東西是沒根據的，而是即使承認了它的迷信，這也是不合理的行為。</p>
 
-	<link href="/atom.xml" rel="alternate" title="偉恩與咖啡" type="application/atom+xml">
-	<link rel="canonical" href="">
-	<link href="/favicon.png" rel="shortcut icon">
-	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-	<script async="true" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-	
-</head>
+<p>要理解這個問題，我們就要先問問：究竟燒紙錢在它迷信上的功能是什麼？在習俗來看，它大概有以下主要功能：</p>
 
+<ol>
+  <li>將紙錢燒給自己在冥界的親人、先人或是朋友，以給他們花用。</li>
+  <li>將紙錢燒給陰曹地府的官員，賄賂他們，希望他們對自己的親人好一點。</li>
+  <li>將紙錢燒給神佛，讓他們可以有錢做自己想做的事（如捐款給 NPO 一樣）。</li>
+  <li>將紙錢燒給某些世俗神（如土地公），賄賂他們，讓他們保佑我們這些有捐款的人。</li>
+</ol>
 
-<body>
-	<header id="header" class="inner"><h1><a href="/">偉恩與咖啡</a></h1>
-<nav id="main-nav"><ul class="main">
-	<li><a href="/about">關於作者</a></li>
-    <li><a href="/links">哲學部落格</a></li>
-	<li><a href="/blog/archives">所有文章</a></li>
-</ul>
-</nav>
-<nav id="mobile-nav">
-	<div class="alignleft menu">
-		<a class="button">Menu</a>
-		<div class="container"><ul class="main">
-	<li><a href="/about">關於作者</a></li>
-    <li><a href="/links">哲學部落格</a></li>
-	<li><a href="/blog/archives">所有文章</a></li>
-</ul>
-</div>
-	</div>
-	<div class="alignright search">
-		<a class="button"></a>
-		<div class="container">
-			<form action="https://www.google.com/search" method="get">
-				<input type="text" name="q" results="0">
-				<input type="hidden" name="q" value="site:wayneh.tw">
-			</form>
-		</div>
-	</div>
-</nav>
-<nav id="sub-nav" class="alignright">
-	<div class="social">
-		
-		<a class="facebook" href="http://www.facebook.com/836018039785211" title="Facebook">Facebook</a>
-		
-		
-		<a class="google" href="https://plus.google.com/+洪偉1017?rel=author" title="Google+">Google+</a>
-		
-		
-		<a class="twitter" href="http://twitter.com/wayne930242" title="Twitter">Twitter</a>
-		
-		
-		<a class="github" href="https://github.com/wayne930242" title="GitHub">GitHub</a>
-		
-    
-		
-		
-		
-		
-		
-		<a class="rss" href="/atom.xml" title="RSS">RSS</a>
-		
-    
-	</div>
-	<form class="search" action="https://www.google.com/search" method="get">
-		<input class="alignright" type="text" name="q" results="0">
-		<input type="hidden" name="q" value="site:wayneh.tw">
-	</form>
-</nav>
+<p>不管是哪一種功能，這種迷信都假定了兩個前提：</p>
 
-</header>
-	
-		
-	
-	<div id="content" class="inner"><article class="post">
-	<h2 class="title">McTaggart悖論之後，哲學界發生什麼事？</h2>
-	<div class="entry-content"><p><img src="/images/blog/review5.png" alt="nature of time" /></p>
+<!--more-->
+
+<ol>
+  <li><strong>貨幣的有價性</strong>：在冥界，至少存在著一種有價值的貨幣，本文將這種貨幣稱作冥幣。</li>
+  <li><strong>兌換的有效性</strong>：透過燒紙錢的儀式，冥紙會透過某種兌換比率變成冥幣。</li>
+</ol>
+
+<p>本文不打算透過科學的觀點去指出「沒有證據指出，將冥紙燃燒成碳能夠發揮它習俗的功能」，而是要說，即使在這兩個前提都成立的情況下，燒紙錢也是完全不合理、甚至毫無道德、違反公德心的事。</p>
+
+<p>為什麼？</p>
+
+<p>我們先思考一件事情，那就是貨幣的有價性從何而來？貨幣本身是沒有價值的，你不可能因為使用貨幣而得到任何效益（用以擦屁股或是當便條紙不是貨幣的價值，而是紙的價值，不能混為一談），貨幣的價值在於：他能夠去交換那些能夠讓你使用的貨品。</p>
+
+<p>這也就意味著，交易的原理在冥間也是成立的，市場以及貨幣機構也是存在的，也就是說，至少會有貨幣市場以及貨品市場存在於冥界之中。</p>
+
+<p>假使如此，當貨幣經年累月地流入冥界後，冥界的景況會是怎樣？</p>
+
+<p>要知道，這些貨幣並不是透過交易、貿易或者生產而來的，而是憑空出現的，這種情況無異於印鈔票。當這樣的情況不斷發生，將造成冥界的貨幣總數持續上升，但是總產品數量和技術卻並未提升，這將使得冥界發生持續性物價上漲，造成通貨膨脹問題。</p>
+
+<p>從這裡看來，燒紙錢不只無益於讓冥間的生活過得更好，反而使得冥界整體生活變得愈來愈艱苦。我們燒去的紙錢將變得愈來愈沒價值，要是冥界的經濟體並未因為人間的自私而毀滅的話，現在我們燒去的紙錢有兩種可能：一、冥紙兌換冥幣的匯率持續上升，使得我們燒去的紙錢在那邊跟廢紙一樣；二、匯率並未改變，使得冥界的惡性通膨愈來愈嚴重。</p>
+
+<p>無論是哪一種情況，我們都應該立刻停止燒紙錢。甚至在這同時，減少無謂的燃燒，也能減輕陽間的環境傷害以及氣候負擔。</p>
+
+<p>這種情況，在考慮個人的權益問題上，不是消極避免可以解決的。因為假如，有人仍然繼續燒紙錢，這將使得我們的祖先以及朋友落入不公平的待遇中。這就是所謂的道德風險。</p>
+
+<p>因此，最好的也是唯一的作法，就是立法對此加以禁止。唯有這樣，才能完全消除道德風險，並使得人間不再繼續危害冥界的經濟體系的平衡。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[McTaggart悖論之後，哲學界發生什麼事？]]></title>
+    <link href="http://wayneh.tw/blog/2015/04/09/review5/"/>
+    <updated>2015-04-09T16:15:25+08:00</updated>
+    <id>http://wayneh.tw/blog/2015/04/09/review5</id>
+    <content type="html"><![CDATA[<p><img src="/images/blog/review5.png" alt="nature of time" /></p>
 
 <blockquote>
   <p>本文是我的碩士論文的筆記，讀的是 Loux 的 <em>Metaphysics</em> <sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> 的第七章。</p>
@@ -482,96 +462,136 @@
     </li>
   </ol>
 </div>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[McTaggart 悖論：你以為的時間不是實在的]]></title>
+    <link href="http://wayneh.tw/blog/2015/04/04/mctaggart/"/>
+    <updated>2015-04-04T19:36:01+08:00</updated>
+    <id>http://wayneh.tw/blog/2015/04/04/mctaggart</id>
+    <content type="html"><![CDATA[<p><img src="/images/blog/mctaggartstime.jpg" alt="time" /></p>
+
+<p>McTaggart<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>給了一個滿有意思的、但是難懂的論證，這個論證的目標是要告訴我們：時間是非實在的。也就是說，時間不是<strong>真正存在著</strong>。</p>
+
+<!--more-->
+
+<h1 id="section">對時間本性的理解必須要能解釋變化</h1>
+
+<p>時間的<strong>非實在</strong>是反直覺的，我們早已習慣在<strong>真的有時間</strong>的世界觀中活著，我們有知覺，在知覺中它告訴了我們時間的<strong>流動</strong>。時間的流動是滿奧妙的事，原因在於我們從未知覺到純粹的時間，而更像是透過另外一種方式來理解時間：透過理解<strong>變化</strong>來理解時間。</p>
+
+<p>McTaggart 正是這樣認為的，他認為：變化包含在時間的本性裡頭。也就是說，他認為，如果我們說自己弄清楚了時間是什麼，這個所理解的部份至少要能解釋變化才可能是充份的。</p>
+
+<h1 id="section-1">兩種時間序列</h1>
+
+<p>McTaggart 為了解釋變化，它引進了一套分析工具，即兩種時間序列：</p>
+
+<ul>
+  <li>A序列：將<strong>事件</strong>按照現在、過去、未來來排列</li>
+  <li>B序列：將<strong>事件</strong>按照事件的先、後來排列</li>
+</ul>
+
+<p>所謂「<strong>事件</strong>」可以想成「在某時發生的某事」。</p>
+
+<p>譬如說，「<a href="http://satoyamacafe.tw/">里山咖啡</a>的店長小花端出了一盤咖哩飯」，可以是現在、過去或未來發生的一件特定的事（A序列），也或者是介於某兩個事件、介於「小花用新鮮原料燉煮咖哩醬汁」和「客人吃得很開心」之間發生的事（B序列）。</p>
+
+<p>我們可以看到，A系列是會隨著時間變動的。A系列裡面的未來的事件，會隨著時間變成現在的事件、再變成過去的事件。然而B系列是不會變動的，一旦先後關係確定了，無論時間怎麼流動，B系列都是固定的。</p>
+
+<h1 id="ba">B序列預設了A序列，否則就沒有變化</h1>
+
+<p>McTaggart 認為，變化只能在A序列中解釋清楚。他的想法可以簡化成「如果沒有過去、現在和未來」，那究竟什麼是變化呢？</p>
+
+<p>我們在這裡如果要清楚了解B序列是什麼，可以來考慮C序列：</p>
+
+<ul>
+  <li>C序列：將<strong>事件</strong>按照特定順序排放好</li>
+</ul>
+
+<p>McTaggart 認為，C序列和B序列是不同的，因為C序列沒有時間性的概念、只有空間性的概念。他認為B序列之所以不同於C序列，就是因為B序列預設了A序列。原因在於，他認為只有A序列才賦予了<strong>變化</strong>的存在。</p>
+
+<p>簡單來說，他認為變化應該要這樣解釋：一個事件本來是未來，然後成為現在，最後變成過去。只有這樣，這個事件才會<strong>始終是一個事件</strong>，不會隨著時間過去而不再是一個事件，而且同時又有變化發生——McTaggart 認為，B序列中的事件必須<strong>始終是一個事件</strong>，意即，它不能<strong>無中生有</strong>，也不能<strong>有成為無</strong>。</p>
+
+<p>為什麼？因為，如果一個事件在B序列中曾經是一個事件，它必定在前一個事件的後面、在後面一個事件的前面，因此它作為一個事件的位置是固定的。同理，事件不可能突然出現，也因為B序列的<strong>不會隨時間改變</strong>這個性質，事件的<strong>有</strong>和<strong>無</strong>也是永久不動的（先後關係一旦固定了，就永遠不會改變），這和A序列不一樣，A系列是隨著時間不斷變動的。</p>
+
+<p>所以，他認為，除去A序列的B序列，並不具備時間性概念，其實就是C序列。B序列之所以不同於C序列，是因為B序列有<strong>變化</strong>、預設了A序列。因此，A序列是更接近時間本質的序列。</p>
+
+<h1 id="aa">若A序列隱含矛盾，A序列就無法應用在現實上，時間就不是實在的</h1>
+
+<p>去論證A序列的矛盾是 McTaggart 的大絕招，要是他能夠去說明A序列有矛盾，這就意味著A序列不能應用在現實上，又如果必須要靠A序列才能說明時間的本性，那麼唯一的答案是：時間不會是實在的。 </p>
+
+<p>McTaggart 要如何論證A序列的矛盾？他透過兩個主要的觀察：</p>
+
+<ol>
+  <li>一個事件必須是過去、現在或未來的（事件必須有時態），但是要是它是其中一個，它就不能再是另外兩個（時態的不相容性）。</li>
+  <li>但是一個事件卻同時又是過去、現在和未來的。</li>
+</ol>
+
+<p>1 成立是非常明顯的，但是 2 就很讓人困惑了。McTaggart 是怎麼論證 2 的呢？</p>
+
+<h1 id="a">A序列隱含矛盾，所以時間不是實在的</h1>
+
+<p>我們來考慮一個像是A序列這樣的序列，在它之中，有一個是<strong>現在</strong>的事件，在現在的事件以前的，都是<strong>過去</strong>的事件，而之後的都是<strong>未來</strong>的事件。</p>
+
+<p>我們想像這些所有事件，我們可以看到，在它們發生以前，都是<strong>未來</strong>的事件；在發生時，都是<strong>現在</strong>的事件；在發生後，都變成了<strong>過去</strong>的事件。</p>
+
+<p>因此，對於任何一個事件來說，就變成「它<strong>是</strong>未來的事件」、「它<strong>是</strong>現在的事件」、「它<strong>是</strong>過去的事件」<strong>都必須成立</strong>。這樣是矛盾的，因為我們知道「未來的」、「現在的」和「過去的」這三個述詞是不相容的。</p>
+
+<p>這裡有一個非常直覺的反擊：事實上，我們應該要說「它<strong>過去是</strong>未來的事件」、「它<strong>現在是</strong>現在的事件」、「它<strong>未來是</strong>過去的事件」，這樣就能避免矛盾。也就是說，我們在述詞上加入時態。</p>
+
+<p>但 McTaggart 說：這就變成必須在解釋時間時先預設了時間的存在。因為，當我們說「它<strong>過去是未來的</strong>事件」的時候，說的不外乎是「它是<strong>過去的未來的</strong>事件」，那代表我們只是後退了、又多引用了一條A序列。因為，時態預設了過去、現在與未來，這麼一來，它的矛盾顯然並未解決（因為在第一次引用A系列的時候問題就並未解決，多引用了一條，問題也只是後退而已）。</p>
+
+<p>也就是說，A序列本身內含了一個無法理解的矛盾。</p>
+
+<p>因此，時間不是實在的。</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>McTaggart, J. E. (1908). The Unreality of Time. Mind, New Series, 17(68), 457–474 <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
 </div>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[無神論是怎樣的信仰？]]></title>
+    <link href="http://wayneh.tw/blog/2014/09/08/agnosticism/"/>
+    <updated>2014-09-08T18:55:06+08:00</updated>
+    <id>http://wayneh.tw/blog/2014/09/08/agnosticism</id>
+    <content type="html"><![CDATA[<p>在形上學的討論中，有一種尋常的誤解，那就是：當一個事物的<strong>存在</strong>缺乏根據，那聲稱它「不存在」更加明智。</p>
 
+<p>這事實上是一個反科學精神的誤解，因為，對於科學來說，它會將「存在」與「不存在」，一視同仁地看成同樣需要確證的認知概念。</p>
 
-<div class="meta">
-	<div class="date">
+<!--more-->
 
+<ul>
+  <li>
+    <p>【神創論】宇宙中的物質與定律由上帝（一種純精神性的存在）創造與構成。</p>
+  </li>
+  <li>
+    <p>【宇宙物理論】世界由物質按照定律所運作與構成，除物質之外再沒有其他事物，包括上帝。</p>
+  </li>
+</ul>
 
+<p>就打擊<strong>偽科學</strong>與<strong>教條主義</strong>的目的來說，我們似乎應該支持無神論者的理想。但當無神論者在取笑【神創論】時，事實上，【宇宙物理論】也沒有比【神創論】更好的證據來表明它的正確性。</p>
 
+<p>因為<strong>純精神性的存在</strong>本質上是拒絕任何感官和探測設備的考察的，因此無論我們用怎樣的方式來展示上帝存在的根基如何薄弱，也因為上帝概念超出一切舉證的範圍，使得祂是無法證實亦無法否證的。</p>
 
-Apr 9th, 2015</div>
-	<div class="tags">
+<p>這樣的說法看起來滿賴皮的。但是無神論事實上處境沒有更優。我們在這裡考慮無神論的兩種典型（其餘的版本都是這兩種典型的混合）：科學主義與虛無主義。前者主張「科學定律才是解釋世界如何存在、為何存在的最好方法」，後者主張「世界如何存在、為何存在是<strong>不可能</strong>解釋的」。</p>
 
+<p>科學主義表面看起來取得了當代在知識上最大的地位，但是它不得不面對「異常現象」的存在（或曾經存在）事實。「異常現象」指的是那些科學理論無法解釋的例外事態，就正面來看，它<strong>修補</strong>了科學理論，或說它<strong>迫使</strong>了科學家去修補科學理論。事實上，【神創論】的解釋寬度確實要比【宇宙物理論】更大。</p>
 
-	<a class='category' href='/blog/categories/zhe-xue/'>哲學</a>, <a class='category' href='/blog/categories/xing-shang-xue/'>形上學</a>, <a class='category' href='/blog/categories/shi-jian-zhe-xue/'>時間哲學</a>
+<p>一個科學主義者在這裡就也必須賴皮，他的回答會像是「科學總會找到方法解釋」、「只是我們現有的科學理論還不夠完善」。</p>
 
+<p>虛無主義者呢？他看似是不敗的，因為確實還不存在一種理論是真正完美且絕對的，而他也同樣不需要提出任何解決方案。但事實上，虛無主義在形上學的處境有一個問題，那就是它必須承認，自己提出的亦是一種關於世界的解釋：無論世界的表象如何可以被理解，但它的存在與運行是混沌的。</p>
 
-</div>
-	
-</div>
-</article>
+<p>在這裡，我們可以發現無神論作為宗教信仰的本質：它同樣必須假定（如他反對的神創論者一般的）無法證實亦無法否證的世界觀。科學主義者假定只有科學（意味著<strong>最嚴格理性的產物</strong>）能夠描述世界，虛無主義則假定沒有任何解釋可以描述世界。</p>
 
-	<div class="share">
-	<div class="addthis_toolbox addthis_default_style ">
-		
-		<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
-		
-		
-		<a class="addthis_button_tweet"></a>
-		
-		
-		<a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
-		
-		
-	</div>
-	
-</div>
+<p>為了同時解決無神論與神創論的困難，我推荐一個折衷的理論叫作<strong>不可知論（Agnosticism）</strong>，這個批判理論主張了：無論世界的終極理論為何，我們是無法知道的。也就是說，不可知論者選擇的是，停止發問<strong>只有神知道答案</strong>的那些問題，並使得世界中的存有可以先不預設存在物的性質。</p>
 
-
-
-<section id="comment">
-    <h2 class="title">Comments</h2>
-    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</div>
-</section>
-</div>
-	<footer id="footer" class="inner">Copyright &copy; 2015
-
-    洪偉
-
-</footer>
-	<script src="/javascripts/slash.js"></script>
-<script src="/javascripts/jquery.fancybox.pack.js"></script>
-<script type="text/javascript">
-(function($){
-	$('.fancybox').fancybox();
-})(jQuery);
-</script> <!-- Delete or comment this line to disable Fancybox -->
-
-
-<script type="text/javascript">
-      var disqus_shortname = 'waynehtw';
-      
-        
-        // var disqus_developer = 1;
-        var disqus_identifier = 'http://wayneh.tw/blog/2015/04/09/review5/';
-        var disqus_url = 'http://wayneh.tw/blog/2015/04/09/review5/';
-        var disqus_script = 'embed.js';
-      
-    (function () {
-      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = '//go.disqus.com/' + disqus_script;
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    }());
-</script>
-
-
-
-	<script type="text/javascript">
-		var _gaq = _gaq || [];
-		_gaq.push(['_setAccount', 'UA-61272067-1']);
-		_gaq.push(['_trackPageview']);
-
-		(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		})();
-	</script>
-
-
-
-</body>
-</html>
+<p>這樣一個形上學理論，不再假定世界的終極理論，而是轉而去懸置世界對於我們的關係，它的好處在於，我們不需要否定其他信仰中的終極存在，而只要轉而去質疑其中極端信徒的誑妄自大，就能對偽科學與教條主義做出攻擊。</p>
+]]></content>
+  </entry>
+  
+</feed>
