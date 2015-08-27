@@ -3,7 +3,7 @@ layout: post
 title: "「科學的哲學」講綱"
 date: 2015-04-30 15:51:29 +0800
 comments: true
-categories: philosophy of science, 
+categories: 科學哲學 哲學
 ogp_image: 
 published: true
 ---

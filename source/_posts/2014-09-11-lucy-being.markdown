@@ -3,7 +3,7 @@ layout: post
 title: "《露西》的哲學探討"
 date: 2014-09-11 16:16:44 +0800
 comments: true
-categories: being, movie
+categories: 電影 哲學 現象學
 
 ---
 

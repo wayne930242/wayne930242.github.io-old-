@@ -4,7 +4,8 @@ layout: post
 title: "Jono Bacon，《社群藝術》觀念摘要"
 date: 2014-08-19 14:16:53 +0000
 comments: true
-categories: note
+categories: 書評
+published: false
 
 ---
 

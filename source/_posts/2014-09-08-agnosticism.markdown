@@ -3,7 +3,7 @@ layout: post
 title: "無神論是怎樣的信仰？"
 date: 2014-09-08 18:55:06 +0800
 comments: true
-categories: metaphysics
+categories: 哲學 形上學
 ---
 
 在形上學的討論中，有一種尋常的誤解，那就是：當一個事物的**存在**缺乏根據，那聲稱它「不存在」更加明智。

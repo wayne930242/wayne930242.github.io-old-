@@ -3,7 +3,7 @@ layout: post
 title: "死刑的報應論與死刑的意義"
 date: 2015-06-13 15:28:29 +0800
 comments: true
-categories: comments
+categories: 評論
 ogp_image: 
 published: true
 ---

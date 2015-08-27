@@ -3,7 +3,7 @@ layout: post
 title: "卡夫卡：在法律前方"
 date: 2015-05-05 20:59:01 +0800
 comments: true
-categories: novel, Franz Kafka, exsistentialism
+categories: 小說 存在主義
 ogp_image: http://wayneh.tw/images/blog/before-the-law.jpg
 published: true
 ---

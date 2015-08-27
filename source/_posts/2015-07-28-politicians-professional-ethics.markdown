@@ -3,10 +3,12 @@ layout: post
 title: "政治人物的職業道德——馮光遠先生，此事不能「到此為止」"
 date: 2015-07-28 15:35:36 +0800
 comments: true
-categories:  comment
+categories:  評論 倫理學 應用倫理學
 ogp_image: http://i.imgur.com/GS2CsdN.png
-published: false
+published: true
 ---
+
+> 本文最早發佈於[UDN鳴人堂沃草烙哲學專欄](http://opinion.udn.com/opinion/story/6685/1086872-%E3%80%90%E6%B2%83%E8%8D%89%E7%83%99%E5%93%B2%E5%AD%B8%E3%80%91%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9%E7%9A%84%E8%81%B7%E6%A5%AD%E9%81%93%E5%BE%B7%E2%80%94%E2%80%94%E9%A6%AE%E5%85%88%E7%94%9F%EF%BC%8C%E6%AD%A4%E4%BA%8B%E4%B8%8D%E8%83%BD%E3%80%8C%E5%88%B0%E6%AD%A4%E7%82%BA%E6%AD%A2%E3%80%8D%EF%BC%8F%E5%81%89%E6%81%A9)，引起了廣大「迴響」。無論如何，我仍然堅信這篇文章的論證是正確的。
 
 最近（27日），馮光遠先生在臉書上談論了他最近遇到的一件事，整件事情讓我從埋頭讀論文的日子中驚醒。
 

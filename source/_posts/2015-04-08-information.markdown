@@ -4,7 +4,7 @@ title: "【活動訊息】歐陸意識哲學讀書會（2015春）@清大"
 date: 2015-04-08 15:20:52 +0800
 comments: true
 categories: phenomenology, study group, Maurice Merleau-Ponty 
-published: true 
+published: false
 ogp_image: http://wayneh.tw/images/blog/maurice-merleau-ponty.jpg 
 ---
 

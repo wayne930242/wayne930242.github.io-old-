@@ -3,7 +3,7 @@ layout: post
 title: "壓垮無力者的教科書——評林火旺《道德：幸福的必要條件》"
 date: 2015-08-15 15:31:45 +0800
 comments: true
-categories:  books
+categories:  書評 哲學
 ogp_image: 
 published: true
 ---

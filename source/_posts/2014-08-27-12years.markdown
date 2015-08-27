@@ -3,10 +3,10 @@ layout: post
 title: "十二年國教能教出國民數學素養嗎？"
 date: 2014-08-11 10:12:24 +0000
 comments: true
-categories: comments
+categories: 評論
 ---
 
-【本文將刊載於[台灣立報](http://www.lihpao.com/)】
+【本文刊載於[台灣立報](http://www.lihpao.com/)】
 
 當十二年國教課綱草案發布以後，引起了數學學術界、教育界的[強烈反彈](http://www.math.ncku.edu.tw/petition/status.php)。
 
