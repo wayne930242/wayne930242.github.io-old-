@@ -3,6 +3,12 @@
   
   
   <url>
+    <loc>http://wayneh.tw/blog/2015/09/11/shu-xiu/</loc>
+    <lastmod>2015-09-11T14:50:17+08:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>http://wayneh.tw/blog/2015/08/27/mei/</loc>
     <lastmod>2015-08-27T14:37:02+08:00</lastmod>
     <priority>0.8</priority>
@@ -89,28 +95,28 @@
   
   <url>
     <loc>http://wayneh.tw/blog/archives/</loc>
-    <lastmod>2015-09-04T16:43:47+08:00</lastmod>
+    <lastmod>2015-09-11T16:52:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://wayneh.tw/</loc>
-    <lastmod>2015-09-04T16:43:47+08:00</lastmod>
+    <lastmod>2015-09-11T16:52:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
     <loc>http://wayneh.tw/about/</loc>
-    <lastmod>2015-09-04T16:43:47+08:00</lastmod>
+    <lastmod>2015-09-11T16:52:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://wayneh.tw/links/</loc>
-    <lastmod>2015-09-04T16:43:47+08:00</lastmod>
+    <lastmod>2015-09-11T16:52:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
