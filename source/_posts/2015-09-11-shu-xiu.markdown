@@ -68,7 +68,7 @@ published: true
 
 這作法的確合諧了討論，又得到了結論，真是了不起。
 
----
+# notes
 
 [^1]: 將束脩看成肉乾的說法其實行之有年，這一部份可以參考[這篇2010 年的文章](http://wangbtnpust.blogspot.tw/2010/04/blog-post_2750.html)所進行的相對完善的文獻整理。
 

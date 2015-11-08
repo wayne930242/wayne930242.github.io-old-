@@ -5,7 +5,7 @@ date: 2015-09-15 19:18:31 +0800
 comments: true
 categories: 數學
 ogp_image: https://upload.wikimedia.org/wikipedia/commons/8/8c/Russell_PM_1%2B1%3D2.png
-published: true
+published: false
 ---
 
 今天在陳鍾誠教授的臉書上，看到他在討論一篇PTT關於「1+1=2」的證明的文章。這篇文章的主旨是這樣的：
