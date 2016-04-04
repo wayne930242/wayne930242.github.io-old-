@@ -5,7 +5,7 @@ date: 2016-03-19 16:59:59 +0800
 comments: true
 categories: 評論 
 ogp_image: http://community.citizenedu.tw/uploads/default/original/1X/77de0f5347d8acc71dd1896b27d79734743a50c2.jpg 
-published: false
+published: true
 ---
 
 ![浪費、公平與階級](http://community.citizenedu.tw/uploads/default/original/1X/77de0f5347d8acc71dd1896b27d79734743a50c2.jpg)
