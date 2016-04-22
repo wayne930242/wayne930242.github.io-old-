@@ -25,6 +25,7 @@ footer: true
 * [David Chiou：花惹法理學](https://wtfjurisprudence.wordpress.com/)
 * [朱家安：哲學哲學雞蛋糕](http://phiphicake.blogspot.com/)
 * [安萍：啊啊哲學](http://aaphi.blogspot.tw/)
+* [許益新：多懷疑吧！哲學](http://crazyskepticism.blogspot.tw/)
 * [楊梓燁：捷學的哲學](http://chit-philosophy.blogspot.tw/)
 * [黃頌竹：幹哲學](http://isaacstn.blogspot.tw/)
 * [張智皓：無法哲學](http://philnoway.blogspot.tw/)
