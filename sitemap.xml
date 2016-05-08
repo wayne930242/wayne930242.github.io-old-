@@ -1,140 +1,161 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>http://wayneh.tw/blog/2016/04/27/shao-zhi-qian/</loc>
-<lastmod>2016-04-27T23:59:00+08:00</lastmod>
-</url>
-<url>
-<loc>http://wayneh.tw/blog/2016/03/19/lang-fei-gong-ping-yu-jie-ji/</loc>
-<lastmod>2016-03-19T16:59:59+08:00</lastmod>
-</url>
-<url>
-<loc>http://wayneh.tw/blog/2016/01/04/5-grade/</loc>
-<lastmod>2016-01-04T14:10:37+08:00</lastmod>
-</url>
-<url>
-<loc>http://wayneh.tw/blog/2015/10/19/gang-men-hu-jia-meng-cun-zai-zhu-yi/</loc>
-<lastmod>2015-10-19T13:35:33+08:00</lastmod>
-</url>
-<url>
-<loc>http://wayneh.tw/blog/2015/09/11/shu-xiu/</loc>
-<lastmod>2015-09-11T14:50:17+08:00</lastmod>
-</url>
-<url>
-<loc>http://wayneh.tw/blog/2015/08/27/mei/</loc>
-<lastmod>2015-08-27T14:37:02+08:00</lastmod>
-</url>
-<url>
-<loc>http://wayneh.tw/blog/2015/08/15/ya-kua-wu-li-zhe-de-jiao-ke-shu/</loc>
-<lastmod>2015-08-15T15:31:45+08:00</lastmod>
-</url>
-<url>
-<loc>http://wayneh.tw/blog/2015/07/28/politicians-professional-ethics/</loc>
-<lastmod>2015-07-28T15:35:36+08:00</lastmod>
-</url>
-<url>
-<loc>http://wayneh.tw/blog/2015/06/13/si-xing-de-yi-yi/</loc>
-<lastmod>2015-06-13T15:28:29+08:00</lastmod>
-</url>
-<url>
-<loc>http://wayneh.tw/blog/2015/05/05/before-the-law/</loc>
-<lastmod>2015-05-05T20:59:01+08:00</lastmod>
-</url>
-<url>
-<loc>http://wayneh.tw/blog/2015/05/05/burn-new-money/</loc>
-<lastmod>2015-05-05T20:54:41+08:00</lastmod>
-</url>
-<url>
-<loc>http://wayneh.tw/blog/2015/04/30/philosophy-of-science/</loc>
-<lastmod>2015-04-30T15:51:29+08:00</lastmod>
-</url>
-<url>
-<loc>http://wayneh.tw/blog/2015/04/14/a-ethic-reflection/</loc>
-<lastmod>2015-04-14T17:23:55+08:00</lastmod>
-</url>
-<url>
-<loc>http://wayneh.tw/blog/2015/04/09/review5/</loc>
-<lastmod>2015-04-09T16:15:25+08:00</lastmod>
-</url>
-<url>
-<loc>http://wayneh.tw/blog/2015/04/04/mctaggart/</loc>
-<lastmod>2015-04-04T19:36:01+08:00</lastmod>
-</url>
-<url>
-<loc>http://wayneh.tw/blog/2014/09/11/lucy-being/</loc>
-<lastmod>2014-09-11T16:16:44+08:00</lastmod>
-</url>
-<url>
-<loc>http://wayneh.tw/blog/2014/09/08/agnosticism/</loc>
-<lastmod>2014-09-08T18:55:06+08:00</lastmod>
-</url>
-<url>
-<loc>http://wayneh.tw/blog/2014/08/28/philos-handbook/</loc>
-<lastmod>2014-08-28T23:18:56+08:00</lastmod>
-</url>
-<url>
-<loc>http://wayneh.tw/blog/2014/08/11/12years/</loc>
-<lastmod>2014-08-11T18:12:24+08:00</lastmod>
-</url>
-<url>
-<loc>http://wayneh.tw/blog/2013/01/03/labor-union/</loc>
-<lastmod>2013-01-03T15:05:35+08:00</lastmod>
-</url>
-<url>
-<loc>http://wayneh.tw/blog/archives/</loc>
-</url>
-<url>
-<loc>http://wayneh.tw/</loc>
-</url>
-<url>
-<loc>http://wayneh.tw/about/</loc>
-</url>
-<url>
-<loc>http://wayneh.tw/links/</loc>
-</url>
-<url>
-<loc>http://wayneh.tw/blog/categories/ping-lun/</loc>
-</url>
-<url>
-<loc>http://wayneh.tw/blog/categories/shu-ping/</loc>
-</url>
-<url>
-<loc>http://wayneh.tw/blog/categories/zhe-xue/</loc>
-</url>
-<url>
-<loc>http://wayneh.tw/blog/categories/xing-shang-xue/</loc>
-</url>
-<url>
-<loc>http://wayneh.tw/blog/categories/dian-ying/</loc>
-</url>
-<url>
-<loc>http://wayneh.tw/blog/categories/xian-xiang-xue/</loc>
-</url>
-<url>
-<loc>http://wayneh.tw/blog/categories/shi-jian-zhe-xue/</loc>
-</url>
-<url>
-<loc>http://wayneh.tw/blog/categories/lun-li-xue/</loc>
-</url>
-<url>
-<loc>http://wayneh.tw/blog/categories/ke-xue-zhe-xue/</loc>
-</url>
-<url>
-<loc>http://wayneh.tw/blog/categories/zong-jiao/</loc>
-</url>
-<url>
-<loc>http://wayneh.tw/blog/categories/xiao-shuo/</loc>
-</url>
-<url>
-<loc>http://wayneh.tw/blog/categories/cun-zai-zhu-yi/</loc>
-</url>
-<url>
-<loc>http://wayneh.tw/blog/categories/ying-yong-lun-li-xue/</loc>
-</url>
-<url>
-<loc>http://wayneh.tw/blog/categories/kao-cha/</loc>
-</url>
-<url>
-<loc>http://wayneh.tw/blog/categories/ping-lun/</loc>
-</url>
+  
+  
+  <url>
+    <loc>http://wayneh.tw/blog/2016/05/08/utilitarianism/</loc>
+    <lastmod>2016-05-08T11:57:20+08:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://wayneh.tw/blog/2016/04/27/shao-zhi-qian/</loc>
+    <lastmod>2016-04-27T23:59:00+08:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://wayneh.tw/blog/2016/03/19/lang-fei-gong-ping-yu-jie-ji/</loc>
+    <lastmod>2016-03-19T16:59:59+08:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://wayneh.tw/blog/2016/01/04/5-grade/</loc>
+    <lastmod>2016-01-04T14:10:37+08:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://wayneh.tw/blog/2015/10/19/gang-men-hu-jia-meng-cun-zai-zhu-yi/</loc>
+    <lastmod>2015-10-19T13:35:33+08:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://wayneh.tw/blog/2015/09/11/shu-xiu/</loc>
+    <lastmod>2015-09-11T14:50:17+08:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://wayneh.tw/blog/2015/08/27/mei/</loc>
+    <lastmod>2015-08-27T14:37:02+08:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://wayneh.tw/blog/2015/08/15/ya-kua-wu-li-zhe-de-jiao-ke-shu/</loc>
+    <lastmod>2015-08-15T15:31:45+08:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://wayneh.tw/blog/2015/07/28/politicians-professional-ethics/</loc>
+    <lastmod>2015-07-28T15:35:36+08:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://wayneh.tw/blog/2015/06/13/si-xing-de-yi-yi/</loc>
+    <lastmod>2015-06-13T15:28:29+08:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://wayneh.tw/blog/2015/05/05/before-the-law/</loc>
+    <lastmod>2015-05-05T20:59:01+08:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://wayneh.tw/blog/2015/05/05/burn-new-money/</loc>
+    <lastmod>2015-05-05T20:54:41+08:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://wayneh.tw/blog/2015/04/30/philosophy-of-science/</loc>
+    <lastmod>2015-04-30T15:51:29+08:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://wayneh.tw/blog/2015/04/14/a-ethic-reflection/</loc>
+    <lastmod>2015-04-14T17:23:55+08:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://wayneh.tw/blog/2015/04/09/review5/</loc>
+    <lastmod>2015-04-09T16:15:25+08:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://wayneh.tw/blog/2015/04/04/mctaggart/</loc>
+    <lastmod>2015-04-04T19:36:01+08:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://wayneh.tw/blog/2014/09/11/lucy-being/</loc>
+    <lastmod>2014-09-11T16:16:44+08:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://wayneh.tw/blog/2014/09/08/agnosticism/</loc>
+    <lastmod>2014-09-08T18:55:06+08:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://wayneh.tw/blog/2014/08/28/philos-handbook/</loc>
+    <lastmod>2014-08-28T23:18:56+08:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://wayneh.tw/blog/2014/08/11/12years/</loc>
+    <lastmod>2014-08-11T18:12:24+08:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://wayneh.tw/blog/2013/01/03/labor-union/</loc>
+    <lastmod>2013-01-03T15:05:35+08:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://wayneh.tw/blog/archives/</loc>
+    <lastmod>2016-05-08T11:59:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://wayneh.tw/</loc>
+    <lastmod>2016-05-08T11:59:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://wayneh.tw/about/</loc>
+    <lastmod>2016-05-08T11:59:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://wayneh.tw/links/</loc>
+    <lastmod>2016-05-08T11:59:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
 </urlset>
