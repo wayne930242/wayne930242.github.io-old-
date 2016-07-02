@@ -9,7 +9,7 @@ published: true
 
 ---
 
-![圖片](http://community.citizenedu.tw/uploads/default/original/1X/c33337b4bed618fbb802cdf9a4566a137f4e1ab8.jpg)
+![圖片](http://pgw.udn.com.tw/gw/photo.php?u=http://uc.udn.com.tw/photo/2016/04/15/99/2041939.jpg&x=0&y=0&sw=0&sh=0&sl=W&fw=1050)
 
 > 本文首次發布於 UDN 鳴人堂沃草烙哲學專欄。
 

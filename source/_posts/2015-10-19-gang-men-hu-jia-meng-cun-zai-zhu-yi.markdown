@@ -8,7 +8,7 @@ ogp_image: http://community.citizenedu.tw/uploads/default/original/1X/29dab7f38e
 published: true
 ---
 
-<img src="http://community.citizenedu.tw/uploads/default/original/1X/29dab7f38e891032c2fafcdb09ae97e9018fd3d9.jpg" width="690" height="414"> 
+<img src="http://pgw.udn.com.tw/gw/photo.php?u=http://uc.udn.com.tw/photo/2015/09/11/1/1300973.jpg&x=0&y=0&sw=0&sh=0&sl=W&fw=1050" width="690" height="414"> 
 
 > 本文首先刊登於「[沃草烙哲學](https://www.facebook.com/citizenedu)」專欄。
 

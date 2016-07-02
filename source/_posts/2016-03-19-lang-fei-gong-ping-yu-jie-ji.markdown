@@ -8,7 +8,7 @@ ogp_image: http://community.citizenedu.tw/uploads/default/original/1X/77de0f5347
 published: true
 ---
 
-![浪費、公平與階級](http://community.citizenedu.tw/uploads/default/original/1X/77de0f5347d8acc71dd1896b27d79734743a50c2.jpg)
+![浪費、公平與階級](http://pgw.udn.com.tw/gw/photo.php?u=http://uc.udn.com.tw/photo/2016/03/18/99/1944667.jpg&x=0&y=0&sw=0&sh=0&sl=W&fw=1050)
 
 > 本文初次刊登於UDN鳴人堂沃草烙哲學專欄
 
