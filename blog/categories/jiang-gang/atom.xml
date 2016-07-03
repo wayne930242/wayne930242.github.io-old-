@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: 講綱 | 偉恩與咖啡]]></title>
+  <link href="http://wayneh.tw/blog/categories/jiang-gang/atom.xml" rel="self"/>
+  <link href="http://wayneh.tw/"/>
+  <updated>2016-07-03T22:56:00+08:00</updated>
+  <id>http://wayneh.tw/</id>
+  <author>
+    <name><![CDATA[洪偉]]></name>
+    <email><![CDATA[wayne930242@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[效益主義演講的投影片]]></title>
+    <link href="http://wayneh.tw/blog/2016/05/08/utilitarianism/"/>
+    <updated>2016-05-08T11:57:20+08:00</updated>
+    <id>http://wayneh.tw/blog/2016/05/08/utilitarianism</id>
+    <content type="html"><![CDATA[<iframe src="//slides.com/weihung/utilitarianism/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+
+<p>這是兩週後演講所使用的投影片。</p>
+]]></content>
+  </entry>
+  
+</feed>
