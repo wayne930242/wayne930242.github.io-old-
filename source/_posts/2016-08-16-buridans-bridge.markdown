@@ -18,9 +18,9 @@ published: false
 
 # 布里丹的 *Sophismata*
 
-這個悖論選自 John Buridan 的 *Sophismata* 。"Sophismata"的字根來自於"sophist"，即古希臘的「辯士」，在中世紀的時候，這有「詭辯家」的負面意含。Sophismata 比起 sophist 不具有負面意義，它的意思類似於「邏輯謎題」，在這本書中，收錄了許多似是而非的「悖論」，並且在後面提供解決的方法。
+這個悖論選自 John Buridan 的 *Sophismata* 。"Sophismata"的字根來自於"sophist"，即古希臘的「辯士」，在中世紀的時候，這有「詭辯家」的負面意含。Sophismata 比起 sophist 不具有負面意義，它的意思類似於「邏輯謎題」，在這本書中，收錄了許多似是而非的「悖論」，並且在後面提供解決的方法。可以想成是給中世紀邏輯學生玩的數獨。
 
-在 *Sophismata* 中，布里丹將這個悖論將這問題拆成三個問題來發問：
+在 *Sophismata* 中，布里丹將這問題拆成三個問題來發問：
 
  1. 蘇格拉底所說的是真的還是假的？
  2. 柏拉圖的承諾是真的還是假的？
