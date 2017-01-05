@@ -5,7 +5,7 @@ date: 2016-12-09 10:48:39 +0800
 comments: true
 categories: 評論
 ogp_image: 
-published: true
+published: false
 ---
 
 在同性婚姻爭論中，於同婚支持方這端出現了兩種不同的意見，這個議題我們可稱之為「支持修民法的**民法派**，與支持建立同性婚姻專法的**專法派**」的爭論。
