@@ -7,7 +7,7 @@ title: 偉恩與咖啡
 subtitle: 一個哲學部落格
 author: 洪偉
 simple_search: https://www.google.com/search
-description: 「偉恩與咖啡」是一個哲學部落格。除了「推廣哲學」，我也會在這裡寫一些關於哲學與文學、與各學科、與社會人生方面的思索。
+description: 我是洪偉，清大哲學碩士、里山咖啡顧問、沃草公民學院專案經理、簡單哲學營講師。如果我夠勤勞，我會將我在其他地方撰寫過的著作都蒐集在這裡。如果我更勤勞，我會隨時更新這個部落格。
 default_ogp_image: http://wayneh.tw/images/facebook.png
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
@@ -77,12 +77,12 @@ default_asides: [asides/googleplus.html, asides/recent_posts.html, asides/github
 # Github repositories
 github_user: wayne930242
 github_repo_count: 0
-github_show_profile_link: true
+github_show_profile_link: false
 github_skip_forks: true
 
 # Twitter
-twitter_user: wayne930242
-twitter_tweet_button: true
+twitter_user: wayne932042
+twitter_tweet_button: false
 
 # Google +1
 google_plus_one: true
@@ -91,7 +91,7 @@ google_plus_one_size: medium
 # Google Plus Profile
 # Hidden: No visible button, just add author information to search results
 googleplus_user: +洪偉1017
-googleplus_hidden: false
+googleplus_hidden: true
 
 # Pinboard
 pinboard_user:
