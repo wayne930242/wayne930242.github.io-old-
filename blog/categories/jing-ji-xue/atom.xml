@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: 經濟學 | Wayneh and Coffee]]></title>
+  <link href="http://wayneh.tw/blog/categories/jing-ji-xue/atom.xml" rel="self"/>
+  <link href="http://wayneh.tw/"/>
+  <updated>2017-03-10T15:14:43+08:00</updated>
+  <id>http://wayneh.tw/</id>
+  <author>
+    <name><![CDATA[洪偉]]></name>
+    <email><![CDATA[wayne930242@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[阿羅不可能定理的證明]]></title>
+    <link href="http://wayneh.tw/blog/2017/03/07/the-proof-of-the-theorem-of-impossibility/"/>
+    <updated>2017-03-07T16:54:16+08:00</updated>
+    <id>http://wayneh.tw/blog/2017/03/07/the-proof-of-the-theorem-of-impossibility</id>
+    <content type="html"><![CDATA[<p>這是 Kenneth Arrow 所提出的一個重要理論，在這篇文章將介紹這個理論的證明方式。這裡的證明整理自<a href="http://www.ssc.wisc.edu/~dquint/econ698/"> Dan Quint 的課堂講義</a>，這個講義的證明引用自 John Geanakoplos 的 “Three Brief Proofs of Arrow’s Impossibility Theorem” (2005)。</p>
+
+<!--more-->
+
+<h1 id="section">基本條件</h1>
+
+<p>我們現在有的：</p>
+
+<ul>
+  <li>至少有三個以上的政策選項。</li>
+</ul>
+
+<blockquote>
+  <p>以有限集合 $\mathbb{A} = \lbrace a, b, …, c \rbrace$ 來表示。</p>
+</blockquote>
+
+<ul>
+  <li>有 $N$ 個人。</li>
+  <li>每個人都對這些政策選項有偏好 $\succsim_i$ ，如果 $i$ 喜歡 $a$ 政策多於 $b$ 政策，我們將這表示為 $a \succsim_i b$。</li>
+</ul>
+
+<blockquote>
+  <p>進而，我們要求每個 $\succsim$ 都具有完備性和傳遞性。也就是說：</p>
+
+  <ul>
+    <li>完備性： $\forall a, b \in \mathbb{A}$ ，要嘛 $ a \succsim b$ ，要嘛 $ b \succsim a$ 。</li>
+    <li>傳遞性： $\forall a, b, c \in \mathbb{A}$ ，如果 $ a \succsim b$ 且 $ b \succsim c$ ，則 $ a \succsim c$ 。</li>
+  </ul>
+</blockquote>
+
+<blockquote>
+  <p>一個備註：為了簡化證明，在不失一般性的條件下，我們假定這些偏好關係都是嚴格的，也就是說，若 $ a \succsim b$ ，那麼就不會 $ b \succsim a$ 。</p>
+</blockquote>
+
+<h1 id="section-1">社會偏好</h1>
+
+<p>如果我們現在有一組偏好： $\lbrace \succsim_1, \succsim_2, …, \succsim_N \rbrace$ 。</p>
+
+<p>我們的目標，就是找到一個決策方式，能夠為任何給定的 $\lbrace \succsim_1, \succsim_2, …, \succsim_N \rbrace$ 決定一個社會偏好 $\succsim^\star$ 。我們將這決策方式叫作「偏好聚合規則（preference aggregation rule）」。為了簡化符號，我們簡稱為「PAR」。</p>
+
+<p>我們希望找到的 PAR ，能夠滿足這些要求：</p>
+
+<ul>
+  <li>只要是 N 個人在考慮這些政策，這個決策方式就能發揮作用。</li>
+  <li>不管這組偏好如何給定，它找到的社會偏好都能決定每個政策選項的支持度（完備性、傳遞性、任意定義域）。</li>
+  <li>這種決策方式能保持共識決的決定，也就是說，如果所有人都覺得 $a$ 優於 $b$ ，那麼它決定出來的偏好也會是 $a$ 優於 $b$ （共識性或弱帕雷托效性）。</li>
+  <li>這個決策方式能夠獨立看待每個選項，也就是說，如果它決定出來的偏好是 $a$ 優於 $b$ ，那麼不管裡面的人如何改變對 $c$ 的偏好，這結果不會改變（無關選項獨立性， IIA ）。</li>
+</ul>
+
+<h1 id="section-2">不可能定理</h1>
+
+<p><strong>目標</strong>：我們將證明，在 PAR 的要求下，會存在一個人，光這個人的偏好就能決定社會偏好。</p>
+
+<h2 id="section-3">策略</h2>
+
+<p>這個證明分成以下步驟：</p>
+
+<ol>
+  <li>證明極端引理（the Extermal Lemma）</li>
+  <li>找出獨裁者</li>
+  <li>證明這是一個獨裁者</li>
+</ol>
+
+<h2 id="section-4">1. 證明極端引理</h2>
+
+<p><strong>極端引理</strong>：對任一個政策 $b$ ，如果所有人都將 $b$ 看成最好的或最糟的，那麼 $\succsim^\star$ 就會將 $b$ 看成最好的或最糟的。</p>
+
+<p><strong>證明</strong>：</p>
+
+<p>假設不是這樣，那麼，在所有人都將 $b$ 看成最好或最糟的情況下，就會存在 $a$ 與 $c$ 使得 $ a \succsim^\star b \succsim^\star c$ 。</p>
+
+<p>進行「配置」：對於每一個人的偏好，如果這個人將 $b$ 看成最高，我們就將 $c$ 移動到第二高。如果這個人將 $b$ 看成最糟，我們就將 $c$ 移動到最高。</p>
+
+<p>這移動不會改變任何人對 $a$ 和 $b$ 之間的偏好關係，根據 IIA ，在配置中 $ a \succsim^\star b $ 依然會成立。</p>
+
+<p>同樣地，這也不會改變任何人對 $b$ 和 $c$ 之間的偏好關係，所以在配置中 $ b \succsim^\star c $ 一樣會成立。</p>
+
+<p>當我們有$ a \succsim^\star b $ 和 $ b \succsim^\star c $ ，我們就有 $ a \succsim^\star c $ （傳遞率）。這樣就和 PAR 的「弱帕雷托效性」矛盾了，因為在配置中，對於每個人來說 $c$ 都要比 $a$ 來得更好。</p>
+
+<p>因此，根據歸謬法，我們就證明了<strong>極端引理</strong>。</p>
+
+<h2 id="section-5">2. 找出獨裁者</h2>
+
+<ol>
+  <li>隨機選一個政策 $b$ 。假定我們有一個 PAR 。</li>
+  <li>給定一組偏好，在這組偏好中，所有人都把 $b$ 看成最低的。</li>
+  <li>現在，我們來進行 $N$ 個步驟的再配置：首先，將選民 $1$ 的 $b$ 移動為最高政策；再來，將選民 $2$ 的 $b$ 移動到最高政策。一直到，所有選民 $i$ 的 $b$ 都成為最高。</li>
+  <li>在步驟中，至少會有一個人，當他將 $b$ 移動到最高前（我們將此時的這組偏好取名為「配置 I」）， $\succsim^\star$ 將 $b$ 看成最低，但在將 $b$ 移動到最高後（我們將此時的這組偏好取名為「配置 II」）， $\succsim^\star$ 將 $b$ 看成最高。</li>
+  <li>我們將第一個這個人叫作 $Bob$ 。</li>
+</ol>
+
+<h2 id="section-6">3. 證明他是獨裁者</h2>
+
+<p>要證明 $Bob$ 是獨裁者，我們需要兩個步驟：</p>
+
+<ol>
+  <li>對任何不是 b 的兩政策來說，單單 $Bob$ 的偏好就會決定它們在 $\succsim^\star$ 中的偏好關係。</li>
+  <li>$Bob$ 可以決定 b 和任一個偏好之間的社會偏好關係。</li>
+</ol>
+
+<h3 id="bob--a--c-">$Bob$ 可以決定任何兩個 $a$ 和 $c$ 的社會偏好關係</h3>
+
+<p><strong>證明</strong>：</p>
+
+<p>任意給定不是 $b$ 的兩個政策， $a$ 和 $c$ ，並且 $a \succsim_{Bob} c$ 。</p>
+
+<p>我們將符合這個條件的所有人的偏好關係的配置稱作「配置 IV」。</p>
+
+<p>從「配置 IV」，我們來製作像這樣的「配置 III」：</p>
+
+<ul>
+  <li>將 $Bob$ 的偏好中的 $a$ 移動到最高，將 $b$ 移動到次高。</li>
+  <li>將 $1$ 到 $Bob$ 之間的所有人的 $b$ 移動到最高。</li>
+  <li>將 $Bob + 1$ 到 $N$ 之間的所有人的 $b$ 移動到最低。</li>
+</ul>
+
+<p>我們有這樣的事實：</p>
+
+<ol>
+  <li>從「配置 IV」到「配置 III」，我們沒有改變所有人 $a$ 和 $c$ 的偏好關係。因此，根據 IIA ，這兩個配置對 $a$ 和 $c$ 的社會偏好關係是一樣的。</li>
+  <li>在「配置 III」中， $a \succsim^\star c$ （待證明）。</li>
+</ol>
+
+<blockquote>
+  <p>上述 2 可以如此證明：</p>
+
+  <p>(1) 在「配置 I 」中，社會偏好將 $b$ 看成最低，因此將 $a$ 看得比 $b$ 來得高。</p>
+
+  <p>我們並沒有更動「配置 I」與「配置 III」之間的 $a$ 和 $b$ 的關係。</p>
+
+  <p>因此，根據 IIA ，在「配置 III」中， $a \succsim^\star b$ 。</p>
+
+  <p>(2) 在「配置 II」中，社會偏好將 $b$ 看成最高，因此將 $b$ 看得比 $c$ 來得高。</p>
+
+  <p>我們並沒有更動「配置 I」與「配置 III」之間的 $a$ 和 $b$ 的關係。</p>
+
+  <p>因此，根據 IIA ，在「配置 III」中， $b \succsim^\star c$ 。</p>
+
+  <p>(3) 根據傳遞律，在「配置 III」中， $a \succsim^\star c$ 。</p>
+</blockquote>
+
+<p>因此，在「配置 IV」中， $a \succsim^\star c$ 。</p>
+
+<p>由於， $a$ 和 $c$ 是隨便給定的，所以我們就證明了我們想證明的事。</p>
+
+<h3 id="bob--a--b-">$Bob$ 可以決定任何 $a$ 和 $b$ 之間的偏好關係</h3>
+
+<p><strong>證明</strong>：</p>
+
+<p>我們任意找一個不是 $b$ 的政策 $a$ 。我們再隨便挑一個不是 $b$ 也不是 $b$ 的政策 $c$ ，重複我們上面所作的，找出另一個獨裁者 $Someone$ 。</p>
+
+<p>如果 $someone$ 就是 $Bob$ ，那麼我們這個證明就完成了。我們現在因此就要來證明 $someone$ 其實就是 $Bob$ 。</p>
+
+<p>首先我們假設 $someone$ 不是 $Bob$ 。那麼根據上述證明，他可以決定 $a$ 和 $b$ 之間的社會偏好。</p>
+
+<p>如果是這樣，那麼，當 $Bob$ 從「配置 I」改變到「配置 II」時，就會發現矛盾。因為 $someone$ 這時已經決定 $a$ 和 $b$ 之間的社會偏好關係了。</p>
+
+<p>所以， $someone$ 就是 $Bob$ 。</p>
+
+<hr />
+
+<p>到這裡，我們完成了「不可能定理」的全部證明。</p>
+]]></content>
+  </entry>
+  
+</feed>
