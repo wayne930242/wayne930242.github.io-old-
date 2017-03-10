@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 經濟學 | Wayneh and Coffee]]></title>
   <link href="http://wayneh.tw/blog/categories/jing-ji-xue/atom.xml" rel="self"/>
   <link href="http://wayneh.tw/"/>
-  <updated>2017-03-10T17:39:31+08:00</updated>
+  <updated>2017-03-10T17:55:49+08:00</updated>
   <id>http://wayneh.tw/</id>
   <author>
     <name><![CDATA[洪偉]]></name>
@@ -69,7 +69,7 @@
 
 <h1 id="section-2">不可能定理</h1>
 
-<p><strong>目標</strong>：我們將證明，在 PAR 的要求下，會存在一個人，光這個人的偏好就能決定社會偏好。</p>
+<p><strong>目標</strong>：我們將證明，給定任一個 PAR ，都會存在一個獨裁者，不管其他人的偏好如何，光這個人的偏好就能決定社會偏好。</p>
 
 <h2 id="section-3">策略</h2>
 
@@ -152,7 +152,7 @@
 
   <p>(2) 在「配置 II」中，社會偏好將 $b$ 看成最高，因此將 $b$ 看得比 $c$ 來得高。</p>
 
-  <p>我們並沒有更動「配置 I」與「配置 III」之間的 $a$ 和 $b$ 的關係。</p>
+  <p>我們並沒有更動「配置 I」與「配置 III」之間的 $b$ 和 $c$ 的關係。</p>
 
   <p>因此，根據 IIA ，在「配置 III」中， $b \succsim^\star c$ 。</p>
 
