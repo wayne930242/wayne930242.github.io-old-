@@ -151,7 +151,7 @@ MathJax.Hub.Config({
 
 <h1 id="section-1">社會偏好</h1>
 
-<p>如果我們現在有一組偏好： $\lbrace \succsim_1, \succsim_2, …, \succsim_N \rbrace$ 。</p>
+<p>如果我們現在有一組偏好配置： $\lbrace \succsim_1, \succsim_2, …, \succsim_N \rbrace$ 。</p>
 
 <p>我們的目標，就是找到一個決策方式，能夠為任何給定的 $\lbrace \succsim_1, \succsim_2, …, \succsim_N \rbrace$ 決定一個社會偏好 $\succsim^\star$ 。我們將這決策方式叫作「偏好聚合規則（preference aggregation rule）」。為了簡化符號，我們簡稱為「PAR」。</p>
 
@@ -186,11 +186,11 @@ MathJax.Hub.Config({
 
 <p>假設不是這樣，那麼，在所有人都將 $b$ 看成最好或最糟的情況下，就會存在 $a$ 與 $c$ 使得 $ a \succsim^\star b \succsim^\star c$ 。</p>
 
-<p>進行「配置」：對於每一個人的偏好，如果這個人將 $b$ 看成最高，我們就將 $c$ 移動到第二高。如果這個人將 $b$ 看成最糟，我們就將 $c$ 移動到最高。</p>
+<p>進行「再配置」：對於每一個人的偏好，如果這個人將 $b$ 看成最高，我們就將 $c$ 移動到第二高。如果這個人將 $b$ 看成最糟，我們就將 $c$ 移動到最高。</p>
 
-<p>這移動不會改變任何人對 $a$ 和 $b$ 之間的偏好關係，根據 IIA ，在配置中 $ a \succsim^\star b $ 依然會成立。</p>
+<p>這移動不會改變任何人對 $a$ 和 $b$ 之間的偏好關係，根據 IIA ，在再配置中 $ a \succsim^\star b $ 依然會成立。</p>
 
-<p>同樣地，這也不會改變任何人對 $b$ 和 $c$ 之間的偏好關係，所以在配置中 $ b \succsim^\star c $ 一樣會成立。</p>
+<p>同樣地，這也不會改變任何人對 $b$ 和 $c$ 之間的偏好關係，所以在再配置中 $ b \succsim^\star c $ 一樣會成立。</p>
 
 <p>當我們有$ a \succsim^\star b $ 和 $ b \succsim^\star c $ ，我們就有 $ a \succsim^\star c $ （傳遞率）。這樣就和 PAR 的「弱帕雷托效性」矛盾了，因為在配置中，對於每個人來說 $c$ 都要比 $a$ 來得更好。</p>
 
