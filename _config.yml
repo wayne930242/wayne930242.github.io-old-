@@ -3,11 +3,11 @@
 # ----------------------- #
 
 url: http://wayneh.tw
-title: 偉恩與咖啡
-subtitle: 一個哲學部落格
+title: Wayneh and Coffee
+subtitle: 「偉恩與咖啡」哲學部落格
 author: 洪偉
 simple_search: https://www.google.com/search
-description: 我是洪偉，清大哲學碩士、里山咖啡顧問、沃草公民學院專案經理、簡單哲學營講師。如果我夠勤勞，我會將我在其他地方撰寫過的著作都蒐集在這裡。如果我更勤勞，我會隨時更新這個部落格。
+description: 我是洪偉，清大哲學碩士、里山咖啡顧問、沃草公民學院專案經理、簡單哲學營講師。我將我在其他地方撰寫過的著作都蒐集在這裡。
 default_ogp_image: http://wayneh.tw/images/facebook.png
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
@@ -54,7 +54,7 @@ highlighter: pygments # default python pygments have been replaced by pygments.r
 
 paginate: 10          # Posts per page on the blog index
 paginate_path: "posts/:num"  # Directory base for pagination URLs eg. /posts/2/
-recent_posts: 5       # Posts in the sidebar Recent Posts section
+recent_posts: 7       # Posts in the sidebar Recent Posts section
 excerpt_link: "Read on &rarr;"  # "Continue reading" link text at the bottom of excerpted articles
 excerpt_separator: "<!--more-->"
 
