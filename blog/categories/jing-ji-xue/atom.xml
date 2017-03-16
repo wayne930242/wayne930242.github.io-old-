@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 經濟學 | Wayneh and Coffee]]></title>
   <link href="http://wayneh.tw/blog/categories/jing-ji-xue/atom.xml" rel="self"/>
   <link href="http://wayneh.tw/"/>
-  <updated>2017-03-10T17:55:49+08:00</updated>
+  <updated>2017-03-16T11:58:41+08:00</updated>
   <id>http://wayneh.tw/</id>
   <author>
     <name><![CDATA[洪偉]]></name>
@@ -95,7 +95,7 @@
 
 <p>同樣地，這也不會改變任何人對 $b$ 和 $c$ 之間的偏好關係，所以在再配置中 $ b \succsim^\star c $ 一樣會成立。</p>
 
-<p>當我們有$ a \succsim^\star b $ 和 $ b \succsim^\star c $ ，我們就有 $ a \succsim^\star c $ （傳遞率）。這樣就和 PAR 的「弱帕雷托效性」矛盾了，因為在配置中，對於每個人來說 $c$ 都要比 $a$ 來得更好。</p>
+<p>當我們有$ a \succsim^\star b $ 和 $ b \succsim^\star c $ ，我們就有 $ a \succsim^\star c $ （傳遞率）。這樣就和 PAR 的「弱帕雷托效性」矛盾了，因為在再配置中，對於每個人來說 $c$ 都要比 $a$ 來得更好。</p>
 
 <p>因此，根據歸謬法，我們就證明了<strong>極端引理</strong>。</p>
 
@@ -105,7 +105,7 @@
   <li>隨機選一個政策 $b$ 。假定我們有一個 PAR 。</li>
   <li>給定一組偏好，在這組偏好中，所有人都把 $b$ 看成最低的。</li>
   <li>現在，我們來進行 $N$ 個步驟的再配置：首先，將選民 $1$ 的 $b$ 移動為最高政策；再來，將選民 $2$ 的 $b$ 移動到最高政策。一直到，所有選民 $i$ 的 $b$ 都成為最高。</li>
-  <li>在步驟中，至少會有一個人，當他將 $b$ 移動到最高前（我們將此時的這組偏好取名為「配置 I」）， $\succsim^\star$ 將 $b$ 看成最低，但在將 $b$ 移動到最高後（我們將此時的這組偏好取名為「配置 II」）， $\succsim^\star$ 將 $b$ 看成最高。</li>
+  <li>在步驟中，根據極端引理，至少會有一個人，當他將 $b$ 移動到最高前（我們將此時的這組偏好取名為「配置 I」）， $\succsim^\star$ 將 $b$ 看成最低，但在將 $b$ 移動到最高後（我們將此時的這組偏好取名為「配置 II」）， $\succsim^\star$ 將 $b$ 看成最高。</li>
   <li>我們將第一個這個人叫作 $Bob$ 。</li>
 </ol>
 
@@ -124,7 +124,7 @@
 
 <p>任意給定不是 $b$ 的兩個政策， $a$ 和 $c$ ，並且 $a \succsim_{Bob} c$ 。</p>
 
-<p>我們將符合這個條件的所有人的偏好關係的配置稱作「配置 IV」。</p>
+<p>我們任意選一組滿足這條件的偏好關係，將它稱作「配置 IV」。</p>
 
 <p>從「配置 IV」，我們來製作像這樣的「配置 III」：</p>
 
@@ -152,7 +152,7 @@
 
   <p>(2) 在「配置 II」中，社會偏好將 $b$ 看成最高，因此將 $b$ 看得比 $c$ 來得高。</p>
 
-  <p>我們並沒有更動「配置 I」與「配置 III」之間的 $b$ 和 $c$ 的關係。</p>
+  <p>我們並沒有更動「配置 II」與「配置 III」之間的 $b$ 和 $c$ 的關係。</p>
 
   <p>因此，根據 IIA ，在「配置 III」中， $b \succsim^\star c$ 。</p>
 
