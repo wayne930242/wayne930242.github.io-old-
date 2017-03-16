@@ -4,7 +4,7 @@
   <title><![CDATA[Wayneh and Coffee]]></title>
   <link href="http://wayneh.tw/atom.xml" rel="self"/>
   <link href="http://wayneh.tw/"/>
-  <updated>2017-03-16T11:58:41+08:00</updated>
+  <updated>2017-03-16T14:12:09+08:00</updated>
   <id>http://wayneh.tw/</id>
   <author>
     <name><![CDATA[洪偉]]></name>
@@ -167,7 +167,7 @@
 
 <p><strong>證明</strong>：</p>
 
-<p>我們任意找一個不是 $b$ 的政策 $a$ 。我們再隨便挑一個不是 $b$ 也不是 $b$ 的政策 $c$ ，重複我們上面所作的，找出另一個獨裁者 $someone$ 。</p>
+<p>我們任意找一個不是 $b$ 的政策 $a$ 。我們再隨便挑一個不是 $b$ 也不是 $a$ 的政策 $c$ ，重複我們上面所作的，找出另一個獨裁者 $someone$ 。</p>
 
 <p>如果 $someone$ 就是 $Bob$ ，那麼我們這個證明就完成了。我們現在因此就要來證明 $someone$ 其實就是 $Bob$ 。</p>
 
