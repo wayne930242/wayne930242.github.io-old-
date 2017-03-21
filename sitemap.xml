@@ -3,6 +3,12 @@
   
   
   <url>
+    <loc>http://wayneh.tw/blog/2017/03/21/always-on-the-side-of-the-egg/</loc>
+    <lastmod>2017-03-21T18:31:10+08:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>http://wayneh.tw/blog/2017/03/07/the-proof-of-the-theorem-of-impossibility/</loc>
     <lastmod>2017-03-07T16:54:16+08:00</lastmod>
     <priority>0.8</priority>
@@ -179,35 +185,35 @@
   
   <url>
     <loc>http://wayneh.tw/blog/archives/</loc>
-    <lastmod>2017-03-16T14:12:09+08:00</lastmod>
+    <lastmod>2017-03-21T18:33:46+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://wayneh.tw/</loc>
-    <lastmod>2017-03-16T14:12:09+08:00</lastmod>
+    <lastmod>2017-03-21T18:33:46+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
     <loc>http://wayneh.tw/blog/categories/</loc>
-    <lastmod>2017-03-16T14:12:09+08:00</lastmod>
+    <lastmod>2017-03-21T18:33:46+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://wayneh.tw/about/</loc>
-    <lastmod>2017-03-16T14:12:09+08:00</lastmod>
+    <lastmod>2017-03-21T18:33:46+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://wayneh.tw/links/</loc>
-    <lastmod>2017-03-16T14:12:09+08:00</lastmod>
+    <lastmod>2017-03-21T18:33:46+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
