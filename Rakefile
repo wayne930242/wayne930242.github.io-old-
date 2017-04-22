@@ -118,6 +118,7 @@ task :new_post, :title do |t, args|
     post.puts "ogp_image: "
     post.puts "published: false"
     post.puts "---"
+    post.puts "<!--more-->"
   end
 end
 
