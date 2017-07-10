@@ -14,7 +14,7 @@ default_ogp_image: http://wayneh.tw/images/facebook.png
 
 keywords: 哲學, philosophy
 avatar: /images/portrait.jpg
-author_bio: 一個看來不務正業的哲學普及者。
+author_bio: 一個看來不務正業的哲學普及者。</br></br><a href="http://wayneh.tw/about/index.html">[了解更多]</a>
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
