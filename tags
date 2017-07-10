@@ -1,0 +1,5 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+ask	/home/wayneh/blog/Rakefile	/^def ask(message, valid_options)$/;"	f	language:Ruby
+blog_url	/home/wayneh/blog/Rakefile	/^def blog_url(user, project)$/;"	f	language:Ruby
+get_stdin	/home/wayneh/blog/Rakefile	/^def get_stdin(message)$/;"	f	language:Ruby
+ok_failed	/home/wayneh/blog/Rakefile	/^def ok_failed(condition)$/;"	f	language:Ruby

@@ -1,39 +1,52 @@
-
-	<meta property="og:description" content="{{ description | strip_html | condense_spaces | truncate:150 }}" />
-	<meta property="og:url" content="{{ canonical }}" />
-	<meta property="og:image" content="{% if page.ogp_image %}{{ page.ogp_image }}{% else %}{{ site.default_ogp_image }}{% endif %}" />
-	<meta property="og:author" content="{{ site.author }}" />
-	<meta property="og:site_name" content="{{ site.title }}" />
-	<meta property="og:locale" content="{{ site.facebook_locale }}" />
-	<meta property="og:type" content="website" />
-	<meta property="fb:app_id" content="{{ site.facebook_app_id }}" />
-	<meta property="fb:profile_id" content="wayne930242" />
-
-        <meta property="twitter:card" content="{% if page.twitter_card.type %}{{ page.twitter_card.type}}{% else %}summary{% endif %}" />
-	<meta property="twitter:site" content="@wayne930242" />
-	<meta property="twitter:url" content="{% if canonical %}{{ canonical }}{% else %}{{ site.url }}{% endif %}" />
-	<meta property="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
-	<meta property="twitter:description" content="{{ description | strip_html | condense_spaces | truncate:200 }}" />
-	<meta property="twitter:image:src" content="{% if page.ogp_image %}{{ page.ogp_image }}{% else %}{{ site.default_ogp_image }}{% endif %}" />
-
-
 <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 
-<!-- mathjax config similar to math.stackexchange -->
+<!-- MathJax -->
 <script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  jax: ["input/TeX", "output/HTML-CSS"],
-  tex2jax: {
-    inlineMath: [ ['$', '$'] ],
-    displayMath: [ ['$$', '$$']],
-    processEscapes: true,
-    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-  },
-  messageStyle: "none",
-  "HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] }
-});
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
 </script>
-<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript"
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<meta property="og:title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}" />
+<meta property="og:description" content="{{ description | strip_html | condense_spaces | truncate:150 }}" />
+<meta property="og:url" content="{{ canonical }}" />
+<meta property="og:image" content="{% if page.ogp_image %}{{ page.ogp_image }}{% else %}{{ site.default_ogp_image }}{% endif %}" />
+<meta property="og:author" content="{{ site.author }}" />
+<meta property="og:site_name" content="{{ site.title }}" />
+<meta property="og:locale" content="{{ site.facebook_locale }}" />
+<meta property="og:type" content="website" />
+<meta property="fb:app_id" content="{{ site.facebook_app_id }}" />
+<meta property="fb:profile_id" content="wayne930242" />
+ 
+ <meta property="twitter:card" content="{% if page.twitter_card.type %}{{ page.twitter_card.type}}{% else %}summary{% endif %}" />
+ <meta property="twitter:site" content="@wayne930242" />
+ <meta property="twitter:url" content="{% if canonical %}{{ canonical }}{% else %}{{ site.url }}{% endif %}" />
+ <meta property="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+ <meta property="twitter:description" content="{{ description | strip_html | condense_spaces | truncate:200 }}" />
+ <meta property="twitter:image:src" content="{% if page.ogp_image %}{{ page.ogp_image }}{% else %}{{ site.default_ogp_image }}{% endif %}" />

@@ -4,11 +4,17 @@
 
 url: http://wayneh.tw
 title: Wayneh and Coffee
-subtitle: 洪偉的部落格
+subtitle: A Philosophy Blog
 author: 洪偉
 simple_search: https://www.google.com/search
-description: 洪偉將他的文章都蒐集在這。
+description: 洪偉將文章都蒐集在這。
 default_ogp_image: http://wayneh.tw/images/facebook.png
+
+# HPSTR Properties
+
+keywords: 哲學, philosophy
+avatar: /images/portrait.jpg
+author_bio: 一個看來不務正業的哲學普及者。
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
