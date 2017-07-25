@@ -3,7 +3,7 @@ layout: post
 title: "克蘇魯神話形上學：大宇宙如何嚇瘋我們？"
 date: 2017-06-05 19:00:00 +0800
 comments: true
-categories: 評論
+categories: 形上學 
 ogp_image: 
 published: true 
 ---

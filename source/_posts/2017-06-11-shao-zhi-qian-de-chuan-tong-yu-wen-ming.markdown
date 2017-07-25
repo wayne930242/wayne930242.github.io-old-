@@ -3,7 +3,7 @@ layout: post
 title: "燒紙錢的傳統與文明：民俗的進化"
 date: 2017-04-03 19:00:00 +0800
 comments: true
-categories: 評論
+categories: 評論 宗教 政治
 ogp_image: 
 published: true 
 ---

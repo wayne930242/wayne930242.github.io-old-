@@ -3,7 +3,7 @@ layout: post
 title: "燒紙錢與中二病"
 date: 2016-04-27 23:59:00 +0800
 comments: true
-categories: 評論, 宗教
+categories: 評論 宗教
 ogp_image: http://i.imgur.com/NVQD9dT.png
 published: true
 

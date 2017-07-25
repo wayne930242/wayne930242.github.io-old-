@@ -3,7 +3,7 @@ layout: post
 title: "McTaggart悖論之後，哲學界發生什麼事？"
 date: 2015-04-09 16:15:25 +0800
 comments: true
-categories: 哲學 時間哲學 形上學
+categories: 時間哲學 形上學
 published: true
 ogp_image: http://wayneh.tw/images/blog/review5.png
 ---

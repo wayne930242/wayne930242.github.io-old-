@@ -3,7 +3,7 @@ layout: post
 title: "一部實用哲學的問題觀光導覽"
 date: 2014-08-28 23:18:56 +0800
 comments: true
-categories: 書評 哲學
+categories: 書評
 
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "McTaggart 悖論：你以為的時間不是實在的"
 date: 2015-04-04 19:36:01 +0800
 comments: true
-categories: 哲學 時間哲學 形上學
+categories: 時間哲學 形上學
 ogp_image: http://wayneh.tw/images/blog/mctaggartstime.jpg
 
 ---

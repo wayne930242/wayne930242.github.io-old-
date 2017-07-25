@@ -3,7 +3,7 @@ layout: post
 title: "為什麼應該立法禁止燒紙錢？"
 date: 2015-05-05 20:54:41 +0800
 comments: true
-categories: 宗教 哲學 形上學
+categories: 形上學
 ogp_image: 
 published: true 
 ---

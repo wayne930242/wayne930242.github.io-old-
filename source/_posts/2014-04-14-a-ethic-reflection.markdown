@@ -3,7 +3,7 @@ layout: post
 title: "對「弱弱相殘」的一個倫理學反思"
 date: 2015-04-14 17:23:55 +0800
 comments: true
-categories: 倫理學 哲學
+categories: 倫理學 評論
 published: true
 ogp_image: http://wayneh.tw/images/blog/ethics1.jpg
 ---

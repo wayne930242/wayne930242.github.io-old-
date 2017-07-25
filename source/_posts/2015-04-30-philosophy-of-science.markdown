@@ -5,7 +5,7 @@ date: 2015-04-30 15:51:29 +0800
 comments: true
 categories: 科學哲學 哲學
 ogp_image: 
-published: true
+published: false
 ---
 
 > 這是我 2015 年5月6日在[文藻哲學社](https://www.facebook.com/wenzao.philosophy.club)講課時使用的課綱。我選擇的題目是「科學的哲學」：
