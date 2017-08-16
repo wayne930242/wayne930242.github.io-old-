@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://wayneh.tw/blog/2017/08/16/kuhn-vs-covey/</loc>
+<lastmod>2017-08-16T11:14:53+08:00</lastmod>
+</url>
+<url>
 <loc>http://wayneh.tw/blog/2017/06/05/ke-su-lu-shen-hua-xing-shang-xue/</loc>
 <lastmod>2017-06-05T19:00:00+08:00</lastmod>
 </url>
@@ -216,12 +220,6 @@
 <loc>http://wayneh.tw/blog/categories/fan-yi/</loc>
 </url>
 <url>
-<loc>http://wayneh.tw/posts/2/</loc>
-</url>
-<url>
-<loc>http://wayneh.tw/posts/3/</loc>
-</url>
-<url>
-<loc>http://wayneh.tw/posts/4/</loc>
+<loc>http://wayneh.tw/blog/categories/ke-xue-zhe-xue/</loc>
 </url>
 </urlset>
