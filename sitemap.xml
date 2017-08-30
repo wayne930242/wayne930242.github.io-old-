@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://wayneh.tw/blog/2017/08/30/argument-from-analogy/</loc>
+<lastmod>2017-08-30T19:10:00+08:00</lastmod>
+</url>
+<url>
 <loc>http://wayneh.tw/blog/2017/08/16/kuhn-vs-covey/</loc>
 <lastmod>2017-08-16T11:14:53+08:00</lastmod>
 </url>
@@ -221,5 +225,11 @@
 </url>
 <url>
 <loc>http://wayneh.tw/blog/categories/ke-xue-zhe-xue/</loc>
+</url>
+<url>
+<loc>http://wayneh.tw/blog/categories/duan-ping/</loc>
+</url>
+<url>
+<loc>http://wayneh.tw/blog/categories/sui-bi/</loc>
 </url>
 </urlset>
