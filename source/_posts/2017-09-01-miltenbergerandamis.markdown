@@ -11,7 +11,7 @@ image.creditlink:
 image.background: 
 external_url: 
 ogp_image: 
-published: true
+published: false
 ---
 
 這篇短評想釐清米田堡血型與阿美族運動能力的證成問題。
