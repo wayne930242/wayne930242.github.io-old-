@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 短評 | Wayneh and Coffee]]></title>
   <link href="http://wayneh.tw/blog/categories/duan-ping/atom.xml" rel="self"/>
   <link href="http://wayneh.tw/"/>
-  <updated>2017-09-05T10:50:11+08:00</updated>
+  <updated>2017-09-10T11:50:20+08:00</updated>
   <id>http://wayneh.tw/</id>
   <author>
     <name><![CDATA[洪偉]]></name>
@@ -12,6 +12,51 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[談談 Sarahah 與其資安問題]]></title>
+    <link href="http://wayneh.tw/blog/2017/09/10/sarahah-an-wen-ti/"/>
+    <updated>2017-09-10T11:33:19+08:00</updated>
+    <id>http://wayneh.tw/blog/2017/09/10/sarahah-an-wen-ti</id>
+    <content type="html"><![CDATA[<p>雖然大概只有在罕見的情況下這會讓你真的遇到麻煩，但還是可以稍微想想關於 Sarahah 的資安問題。當然我不是資安專家，這只是我的一些資訊整理。</p>
+
+<!--more-->
+
+<p>Sarahah 是一個匿名信箱的應用。註冊 Sarahah 的用戶可取得一個能讓他人（不管寄信者是否登入 Sarahah）匿名寄信給自己的網址，並在 APP 上查閱這些訊息。這像是匿名悄悄話的設計很快地竄紅起來。</p>
+
+<p>但 Sarahah 真的有那麼<strong>匿名</strong>嗎？</p>
+
+<h1 id="sarahah-">Sarahah 會上傳你的全部聯絡人資料</h1>
+
+<p>8 月 28 日，資安顧問公司 Bishop Fox 的分析員 Zach Julian <a href="https://www.bishopfox.com/blog/2017/08/hot-new-anonymous-chat-app-hijacks-millions-contact-data/">指出</a>，一旦你允許 Sarahah 取得你的聯絡人資料， Sarahah 就會在未經用戶允許，也未告知利用方式的情況下，上傳用戶所有的電話簿和電子郵件地址。</p>
+
+<p>它怎麼取得你的聯絡人資料的？不管是 Android （6+ 以後）還是 iPhone 手機，基本上都有這樣的保護機制：除非你另外手動允許 APP 存取你的聯絡人資料，否則 APP 是無法將這些資料帶走。所以，基本上它還是會問你「是否允許 Sarahah 存取你的聯絡人資料」。如果你沒有「啊幹你要存取這幹嘛」的一絲懷疑，你就可能因為習慣而允許它的要求。</p>
+
+<p>Julian 的發現不只是一個謠言， Sarahah 的創辦人 Tawfiq 承認了這個機制，<a href="https://twitter.com/ZainAlabdin878/status/901812205741629444">並回應</a>：這是為了將來要開發的新功能（「找到你的朋友」、「真心悄悄話」之類的）做準備，並且他擔保，目前並未儲存任何一個這樣上傳的資料，他也承認這好像不太好，因此承諾會在下一個更新版將這上傳的動作移除。</p>
+
+<h1 id="sarahah--1">Sarahah 可能會揭露你的身份</h1>
+
+<p>除了這資安問題外， Tawfiq 也在<a href="http://indiatoday.intoday.in/technology/story/sarahah-can-reveal-your-identity-if-required-says-app-creator-tawfiq/1/1027926.html"> indiatoday 的一次訪談</a>中承認，如果有必要，他們會揭露使用者的身份（包括登入的寄件者）。</p>
+
+<p>這意思是說，在 Sarahah 網站上的「Sarahah 不會在登入寄件者未同意的情況下對收件者揭露他們的身份（Sarahah won’t disclose the identity of the logged-in senders to users except with their consent.）」的政策，具有例外狀況。</p>
+
+<p>之所以 Tawfiq 會承認這一點，卻是為了因應在美國出現的「<a href="https://nakedsecurity.sophos.com/2017/08/11/latest-viral-sensation-app-sarahah-raises-concerns-about-cyberbullying/"> Sarahah 網路霸凌現象</a>」，社會發現，有些人因收到海量的、持續的惡意攻擊言論而不堪其擾或深受折磨。</p>
+
+<p>或許你會說「心臟不夠大就不要玩 Sarahah 啦」，這或許也是好建議，但無論如何，產品製作者似乎有責任盡其所能去保護使用者的安危。這是兩回事。</p>
+
+<h1 id="section">最後</h1>
+
+<p>順帶一提， Sarahah 並非點對點加密（End-to-End Encryption）通訊軟體[^1]。點對點加密下，寄件者寄出的東西，只有他和收件者兩個人看得懂，其他人拿到都是亂七八糟的密碼。因為解碼方式很複雜，不怕這些東西在「中間」（像和你使用同一個無線網路的人）被擷取。</p>
+
+<p>我目前還不認為「任何人都不應該玩 Sarahah」，但是這似乎是一個不錯的機會，讓我們從這一個例子來想想關於科技與社會的議題，並且對資安多一些警惕和思考。</p>
+
+<p>每當有人要「要求存取」的時候，多想一下「它要幹嘛？」總沒什麼壞處。</p>
+
+<h1 id="notes">Notes</h1>
+
+<p>^1: 關於通訊軟體的安全性問題，可以參考<a href="https://www.amnesty.org/en/latest/news/2016/10/snapchat-skype-among-apps-not-protecting-users-privacy/">國際特赦組織的報告</a>。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[類比論證]]></title>
