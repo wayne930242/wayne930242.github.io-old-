@@ -4,7 +4,7 @@
   <title><![CDATA[Wayneh and Coffee]]></title>
   <link href="http://wayneh.tw/atom.xml" rel="self"/>
   <link href="http://wayneh.tw/"/>
-  <updated>2017-09-10T12:09:18+08:00</updated>
+  <updated>2017-09-10T12:12:25+08:00</updated>
   <id>http://wayneh.tw/</id>
   <author>
     <name><![CDATA[洪偉]]></name>
@@ -34,7 +34,7 @@
 
 <p>Julian 的發現不只是一個謠言， Sarahah 的創辦人 Tawfiq 承認了這個機制，<a href="https://twitter.com/ZainAlabdin878/status/901812205741629444">並回應</a>：這是為了將來要開發的新功能（「找到你的朋友」、「真心悄悄話」之類的）做準備，並且他擔保，目前並未儲存任何一個這樣上傳的資料，他也承認這好像不太好，因此承諾會在下一個更新版將這上傳的動作移除。</p>
 
-<h1 id="sarahah--1">Sarahah 可能會揭露你的身份</h1>
+<h1 id="sarahah--1">Sarahah 可能會揭露寄件者的身份</h1>
 
 <p>除了這資安問題外， Tawfiq 也在<a href="http://indiatoday.intoday.in/technology/story/sarahah-can-reveal-your-identity-if-required-says-app-creator-tawfiq/1/1027926.html"> indiatoday 的一次訪談</a>中承認，如果有必要，他們會揭露使用者的身份（包括登入的寄件者）。</p>
 
@@ -43,6 +43,8 @@
 <p>之所以 Tawfiq 會承認這一點，卻是為了因應在美國出現的「<a href="https://nakedsecurity.sophos.com/2017/08/11/latest-viral-sensation-app-sarahah-raises-concerns-about-cyberbullying/"> Sarahah 網路霸凌現象</a>」，社會發現，有些人因收到海量的、持續的惡意攻擊言論而不堪其擾或深受折磨。</p>
 
 <p>這問題並不只是擔憂，<a href="http://www.dailymail.co.uk/news/article-4524112/Schools-urgent-warning-dangerous-app.html">在今年 5 月</a>，有一起 15 歲青少年自殺事件就被認為是與匿名回饋軟體 Sayat.me 有所關聯。</p>
+
+<p>但是，由於非登入者依然能寄匿名信給使用者，這樣的防範機制是否真能有用就很令人懷疑了。</p>
 
 <h1 id="section">最後</h1>
 
