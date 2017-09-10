@@ -4,7 +4,7 @@
   <title><![CDATA[Wayneh and Coffee]]></title>
   <link href="http://wayneh.tw/atom.xml" rel="self"/>
   <link href="http://wayneh.tw/"/>
-  <updated>2017-09-10T12:21:14+08:00</updated>
+  <updated>2017-09-10T12:21:55+08:00</updated>
   <id>http://wayneh.tw/</id>
   <author>
     <name><![CDATA[洪偉]]></name>
@@ -30,7 +30,7 @@
 
 <p>8 月 28 日，資安顧問公司 Bishop Fox 的分析員 Zach Julian <a href="https://www.bishopfox.com/blog/2017/08/hot-new-anonymous-chat-app-hijacks-millions-contact-data/">指出</a>，一旦你允許 Sarahah 取得你的聯絡人資料， Sarahah 就會在未經用戶允許，也未告知利用方式的情況下，上傳用戶所有的電話簿和電子郵件地址。</p>
 
-<p>它怎麼取得你的聯絡人資料的？不管是 Android （6+）還是 iPhone 手機，基本上都有這樣的保護機制：除非你另外手動允許 APP 存取你的聯絡人資料，否則 APP 是無法將這些資料帶走。所以，基本上它還是會問你「是否允許 Sarahah 存取你的聯絡人資料」。如果你沒有「啊幹你要存取這幹嘛」的一絲懷疑，你就可能因為習慣而允許它的要求。</p>
+<p>它怎麼取得你的聯絡人資料的？不管是 Android （6+）還是 iPhone 手機，基本上都有這樣的保護機制：除非你另外手動允許 APP 存取你的聯絡人資料，否則 APP 無法將這些資料帶走。所以，基本上它還是會問你「是否允許 Sarahah 存取你的聯絡人資料」。如果你沒有「啊幹你要存取這幹嘛」的一絲懷疑，你就可能因為習慣而允許它的要求。</p>
 
 <p>Julian 的發現不只是一個謠言， Sarahah 的創辦人 Tawfiq 承認了這個機制，<a href="https://twitter.com/ZainAlabdin878/status/901812205741629444">並回應</a>：這是為了將來要開發的新功能（「找到你的朋友」、「真心悄悄話」之類的）做準備，並且他擔保，目前並未儲存任何一個這樣上傳的資料，他也承認這好像不太好，因此承諾會在下一個更新版將這上傳的動作移除。</p>
 
