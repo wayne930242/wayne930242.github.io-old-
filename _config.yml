@@ -14,7 +14,7 @@ default_ogp_image: http://wayneh.tw/images/facebook.png
 
 keywords: 哲學, philosophy
 avatar: /images/portrait.jpg
-author_bio: 一個看來不務正業的哲學普及者。</br></br><a href="http://wayneh.tw/about/index.html">[了解更多]</a>
+author_bio: 哲學研究者、推廣普及者、TRPG 玩家。</br></br><a href="http://wayneh.tw/about/index.html">[了解更多]</a>
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -122,7 +122,7 @@ facebook_app_id: 836018039785211
 facebook_locale: zh_TW
 facebook_page: https://www.facebook.com/wayne930242
 facebook_user: 836018039785211
-default_ogp_image: http://wayneh.tw/images/facebook.png
+default_ogp_image: http://wayneh.tw/images/facebook1.png
 
 # 
 front_page_categories: [mood] # A list of categories for the front page
