@@ -39,7 +39,7 @@ published: true
 
 **B1. 定義 1.1** 構成序列（formation sequences）
 
-若公式序列 $\left\{ \phi_1, \phi_2, \cdots , \phi_n \right\}$ 被稱作公式 $\phi$ 的構成序列，那：$\phi_n = \phi$ [^4]，並且對於每個 $k \le n$，恰有以下之一被滿足：
+若公式序列 $\\{  \phi_1, \phi_2, \cdots , \phi_n \\}$ 被稱作公式 $\phi$ 的構成序列，那：$\phi_n = \phi$ [^4]，並且對於每個 $k \le n$，恰有以下之一被滿足：
 
 1. $\phi_k$ 是原子語句。
 2. 存在 $j<k$，使得 $\phi_k = \lnot \phi_j$
@@ -180,8 +180,8 @@ Note: $\psi^*$ 被稱作 $\psi$ 的對偶， $*$ 是一個函數，將公式中�
 
 [^4]: 我以 $=$ 表示公式的同一關係，一種等同關係（equivalance relation）。
 
-[^5]: 在布林代數下，我們將對公式 $\phi$ 的分派以賦值函數加以定義。賦值函數是將公式 $\phi$ 對應到 $\left\{0, 1\right\}$ 的函數 $v$ ，遞迴地以 $\phi$ 之直接子公式的函數值來定義公式的函數值，直到作為直接子公式的原子語句的真值被 $v$ 初始且任意地給定。我們將這稱作一個布林賦值（Boolean valuation）。如果存在賦值函數使得 $\phi$ 對應到 $1$ ，則我們說 $\phi$ 是可滿足的。
+[^5]: 在布林代數下，我們將對公式 $\phi$ 的分派以賦值函數加以定義。賦值函數是將公式 $\phi$ 對應到 $\\{ 0, 1 \\}$ 的函數 $v$ ，遞迴地以 $\phi$ 之直接子公式的函數值來定義公式的函數值，直到作為直接子公式的原子語句的真值被 $v$ 初始且任意地給定。我們將這稱作一個布林賦值（Boolean valuation）。如果存在賦值函數使得 $\phi$ 對應到 $1$ ，則我們說 $\phi$ 是可滿足的。
 
-[^6]: $\Gamma, \lnot\phi \models \psi$ 為 $\Gamma\cup\left\{\lnot\phi\right\} \models \psi$ 的標準簡寫。同樣地，如果 $\Delta$ 是另一個公式集合，我們用 $\Gamma, \lnot\Delta \models \psi$ 簡寫 $\Gamma\cup\ \Delta \models \psi$ 。
+[^6]: $\Gamma, \lnot\phi \models \psi$ 為 $\Gamma\cup \\{ \lnot\phi \\} \models \psi$ 的標準簡寫。同樣地，如果 $\Delta$ 是另一個公式集合，我們用 $\Gamma, \lnot\Delta \models \psi$ 簡寫 $\Gamma\cup \Delta \models \psi$ 。
 
 [^7]: 更嚴謹的定義會是：$\phi$ 邏輯等同於 $\psi$ ，然而並不難看出邏輯等同是一個等同關係。
