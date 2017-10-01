@@ -174,7 +174,7 @@ $$(\phi\leftrightarrow\psi)\models\theta(\phi)\leftrightarrow\theta(\psi/\phi)$$
 
 [^1]: 又稱真值函數子/運算子（truth-functors/operators）。
 
-[^2]: 在波蘭記號系統中，(F2)與(F3)會如此改寫：(P2)如果 $\phi$ 是一個公式，那 $N\phi$ 也是。(P3)如果 $\phi$ 和 $\psi$ 都是公式，那 $(A\phi\psi)$（$\lor$）、$(K\phi\psi)$（$\land$）、$(C\phi\psi)$（$\to$）、$(E\phi\psi)$ （$/leftrightarrow$）也是。
+[^2]: 在波蘭記號系統中，(F2)與(F3)會如此改寫：(P2)如果 $\phi$ 是一個公式，那 $N\phi$ 也是。(P3)如果 $\phi$ 和 $\psi$ 都是公式，那 $(A\phi\psi)$（$\lor$）、$(K\phi\psi)$（$\land$）、$(C\phi\psi)$（$\to$）、$(E\phi\psi)$ （$\leftrightarrow$）也是。
 
 [^3]: 我們通常把 $\top$ 和 $\bot$ 作為額外的主要符號。但在這裡，它們是作為語句字母被加進來， $\top$ 定義為「在真值表上總是為真的語句」，而 $\bot$ 定義為「在真值表上總是為假的語句」。
 
