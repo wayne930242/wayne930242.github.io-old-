@@ -148,7 +148,7 @@ $\Gamma\models$、$\Gamma \models \phi$ 與 $\models \phi$ 都是一個語義序
 
 若 $\Gamma \models \phi$ ，則，對於所有原子語句 $P$ 和公式 $\psi$，$\Gamma (\psi/P) \models \phi (\psi/P)$ 。 
 
-Note: $\Gamma(\psi/P)$ 意味著將 $\Gamma$ 中每個公式中出現的所有 $P$ 置換為 $\psi$ ， $\phi(\psi/P)$ 意味著將 $\phi$ 中出現的所有 $P$ 置換為 $\psi$ 。
+符號說明：$\Gamma(\psi/P)$ 意味著將 $\Gamma$ 中每個公式中出現的所有 $P$ 置換為 $\psi$ ， $\phi(\psi/P)$ 意味著將 $\phi$ 中出現的所有 $P$ 置換為 $\psi$ 。
 
 **E3. 定理 1.4-I** 全等定理（Congruence Theorem）
 
@@ -164,9 +164,9 @@ $$(\phi\leftrightarrow\psi)\models\theta(\phi)\leftrightarrow\theta(\psi/\phi)$$
 
 若 $\phi \models \psi$ ，則 $\psi^* \models \phi^*$ 。
 
-Note: $\psi^* $ 被稱作 $\psi $ 的對偶， $* $ 是一個函數，將公式中所有的 $\lor$ 換成 $\land$ ，並將所有的 $\land$ 換成 $\lor$ ，如此有 $\phi^* = *(\phi)$ 。
+符號說明：$\psi^* $ 被稱作 $\psi $ 的對偶， $* $ 是一個函數，將公式中所有的 $\lor$ 換成 $\land$ ，並將所有的 $\land$ 換成 $\lor$ ，如此有 $\phi^* = *(\phi)$ 。
 
-**引理**：
+**E.6 定理 1.5 的引理**：
 
 對於任意的 $\phi$ ，假定 $\phi$ 只由原子語句 $P_1, P_2, \cdots P_n$ 所構成，則 $\phi^*$ 與 $\lnot\phi(\lnot P_1/P_1 , \cdots , \lnot P_n/P_n)$ 是邏輯等同的。
 
@@ -174,7 +174,7 @@ Note: $\psi^* $ 被稱作 $\psi $ 的對偶， $* $ 是一個函數，將公式�
 
 [^1]: 又稱真值函數子/運算子（truth-functors/operators）。
 
-[^2]: 在波蘭記號系統中，(F2)與(F3)會如此改寫：(P2)如果 $\phi$ 是一個公式，那 $N\phi$ 也是。(P3)如果 $\phi$ 和 $\psi$ 都是公式，那 $(A\phi\psi)$、$(K\phi\psi)$、$(A\phi\psi)$、$(C\phi\psi)$ 也是。
+[^2]: 在波蘭記號系統中，(F2)與(F3)會如此改寫：(P2)如果 $\phi$ 是一個公式，那 $N\phi$ 也是。(P3)如果 $\phi$ 和 $\psi$ 都是公式，那 $(A\phi\psi)$（$\lor$）、$(K\phi\psi)$（$\land$）、$(C\phi\psi)$（$\to$）、$(E\phi\psi)$ （$/leftrightarrow$）也是。
 
 [^3]: 我們通常把 $\top$ 和 $\bot$ 作為額外的主要符號。但在這裡，它們是作為語句字母被加進來， $\top$ 定義為「在真值表上總是為真的語句」，而 $\bot$ 定義為「在真值表上總是為假的語句」。
 
