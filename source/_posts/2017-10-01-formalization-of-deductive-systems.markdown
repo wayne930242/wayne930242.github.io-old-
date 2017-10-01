@@ -39,7 +39,7 @@ published: true
 
 **B1. 定義 1.1** 構成序列（formation sequences）
 
-若公式序列 $\\{  \phi_1, \phi_2, \cdots , \phi_n \\}$ 被稱作公式 $\phi$ 的構成序列，那：$\phi_n = \phi$ [^4]，並且對於每個 $k \le n$，恰有以下之一被滿足：
+若公式序列 $\\{  \phi_1, \phi_2, \cdots , \phi_n \\}$ 被稱作公式 $\phi$ 的構成序列，那：$\phi_n = \phi$ ，[^4]並且對於每個 $k \le n$，恰有以下之一被滿足：
 
 1. $\phi_k$ 是原子語句。
 2. 存在 $j<k$，使得 $\phi_k = \lnot \phi_j$
@@ -116,7 +116,7 @@ published: true
 
 (2) 承上，如果 $\Gamma$ 是空集合，我們就說， $\phi$ 是一個語義學定理，或說，$\phi$ 是一個恆真句（tautology），符號寫作：$\models \phi$。
 
-**D3.** 顯然，$\Gamma \models \phi$，若且唯若 $\Gamma, \lnot\phi \models$[^6]。
+**D3.** 顯然，$\Gamma \models \phi$，若且唯若 $\Gamma, \lnot\phi \models$。[^6]
 
 **D4. 定義 1.10** 語義序列（semantic sequents）
 
@@ -132,7 +132,7 @@ $\Gamma\models$、$\Gamma \models \phi$ 與 $\models \phi$ 都是一個語義序
 
 |定理名|定理描述|
 |---|---|
-|擴充定理（Extension Theorem）|若 $\Gamma \models \phi$，則 $\Gamma , \Delta \models \phi$|
+|擴充定理（Extension Theorem）|若 $\Gamma \models \phi$，則 $\Gamma , \Delta \models \phi$。|
 |重複定理（Repeition Theorem）|若 $\phi \in \Gamma$ 則 $\Gamma \models \phi$ 。|
 |減切定理（Cut Theorem）|若 $\Gamma \models \phi$ 且 $\Gamma , \phi \models \psi$，則 $\Gamma \models \psi$ 。|
 |遞移定理（Transitivity Theorem）|若 $\phi\models\psi$ ，且 $\psi\models\theta$ ，則 $\phi\models\theta$。|
@@ -164,7 +164,7 @@ $$(\phi\leftrightarrow\psi)\models\theta(\phi)\leftrightarrow\theta(\psi/\phi)$$
 
 若 $\phi \models \psi$ ，則 $\psi^* \models \phi^*$ 。
 
-Note: $\psi^*$ 被稱作 $\psi$ 的對偶， $*$ 是一個函數，將公式中所有的 $\lor$ 換成 $\land$ ，並將所有的 $\land$ 換成 $\lor$ ，如此有 $\phi^* = *(\phi)$ 。
+Note: $\psi^* $ 被稱作 $\psi $ 的對偶， $* $ 是一個函數，將公式中所有的 $\lor$ 換成 $\land$ ，並將所有的 $\land$ 換成 $\lor$ ，如此有 $\phi^* = *(\phi)$ 。
 
 **引理**：
 
