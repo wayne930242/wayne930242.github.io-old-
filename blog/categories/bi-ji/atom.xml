@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 筆記 | Wayneh and Coffee]]></title>
   <link href="http://wayneh.tw/blog/categories/bi-ji/atom.xml" rel="self"/>
   <link href="http://wayneh.tw/"/>
-  <updated>2017-10-01T18:55:39+08:00</updated>
+  <updated>2017-10-01T19:02:53+08:00</updated>
   <id>http://wayneh.tw/</id>
   <author>
     <name><![CDATA[洪偉]]></name>
@@ -138,7 +138,7 @@
 
 <p>(2) 承上，如果 $\Gamma$ 是空集合，我們就說， $\phi$ 是一個語義學定理，或說，$\phi$ 是一個恆真句（tautology），符號寫作：$\models \phi$。</p>
 
-<p><strong>D3.</strong> 顯然，$\Gamma \models \phi$，若且唯若 $\Gamma, \lnot\phi \models$<sup id="fnref:6"><a href="#fn:6" class="footnote">6</a></sup>。</p>
+<p><strong>D3.</strong> 顯然，$\Gamma \models \phi$，若且唯若 $\Gamma, \lnot\phi \models$。<sup id="fnref:6"><a href="#fn:6" class="footnote">6</a></sup></p>
 
 <p><strong>D4. 定義 1.10</strong> 語義序列（semantic sequents）</p>
 
@@ -162,7 +162,7 @@
   <tbody>
     <tr>
       <td>擴充定理（Extension Theorem）</td>
-      <td>若 $\Gamma \models \phi$，則 $\Gamma , \Delta \models \phi$</td>
+      <td>若 $\Gamma \models \phi$，則 $\Gamma , \Delta \models \phi$。</td>
     </tr>
     <tr>
       <td>重複定理（Repeition Theorem）</td>
@@ -227,7 +227,7 @@
 
 <p>若 $\phi \models \psi$ ，則 $\psi^* \models \phi^*$ 。</p>
 
-<p>Note: $\psi^<em>$ 被稱作 $\psi$ 的對偶， $</em>$ 是一個函數，將公式中所有的 $\lor$ 換成 $\land$ ，並將所有的 $\land$ 換成 $\lor$ ，如此有 $\phi^* = *(\phi)$ 。</p>
+<p>Note: $\psi^* $ 被稱作 $\psi $ 的對偶， $* $ 是一個函數，將公式中所有的 $\lor$ 換成 $\land$ ，並將所有的 $\land$ 換成 $\lor$ ，如此有 $\phi^* = *(\phi)$ 。</p>
 
 <p><strong>引理</strong>：</p>
 
