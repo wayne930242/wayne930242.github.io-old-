@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 筆記 | Wayneh and Coffee]]></title>
   <link href="http://wayneh.tw/blog/categories/bi-ji/atom.xml" rel="self"/>
   <link href="http://wayneh.tw/"/>
-  <updated>2017-10-01T19:06:06+08:00</updated>
+  <updated>2017-10-01T19:11:50+08:00</updated>
   <id>http://wayneh.tw/</id>
   <author>
     <name><![CDATA[洪偉]]></name>
@@ -211,7 +211,7 @@
 
 <p>若 $\Gamma \models \phi$ ，則，對於所有原子語句 $P$ 和公式 $\psi$，$\Gamma (\psi/P) \models \phi (\psi/P)$ 。</p>
 
-<p>Note: $\Gamma(\psi/P)$ 意味著將 $\Gamma$ 中每個公式中出現的所有 $P$ 置換為 $\psi$ ， $\phi(\psi/P)$ 意味著將 $\phi$ 中出現的所有 $P$ 置換為 $\psi$ 。</p>
+<p>符號說明：$\Gamma(\psi/P)$ 意味著將 $\Gamma$ 中每個公式中出現的所有 $P$ 置換為 $\psi$ ， $\phi(\psi/P)$ 意味著將 $\phi$ 中出現的所有 $P$ 置換為 $\psi$ 。</p>
 
 <p><strong>E3. 定理 1.4-I</strong> 全等定理（Congruence Theorem）</p>
 
@@ -227,9 +227,9 @@
 
 <p>若 $\phi \models \psi$ ，則 $\psi^* \models \phi^*$ 。</p>
 
-<p>Note: $\psi^* $ 被稱作 $\psi $ 的對偶， $* $ 是一個函數，將公式中所有的 $\lor$ 換成 $\land$ ，並將所有的 $\land$ 換成 $\lor$ ，如此有 $\phi^* = *(\phi)$ 。</p>
+<p>符號說明：$\psi^* $ 被稱作 $\psi $ 的對偶， $* $ 是一個函數，將公式中所有的 $\lor$ 換成 $\land$ ，並將所有的 $\land$ 換成 $\lor$ ，如此有 $\phi^* = *(\phi)$ 。</p>
 
-<p><strong>引理</strong>：</p>
+<p><strong>E.6 定理 1.5 的引理</strong>：</p>
 
 <p>對於任意的 $\phi$ ，假定 $\phi$ 只由原子語句 $P_1, P_2, \cdots P_n$ 所構成，則 $\phi^*$ 與 $\lnot\phi(\lnot P_1/P_1 , \cdots , \lnot P_n/P_n)$ 是邏輯等同的。</p>
 
@@ -241,7 +241,7 @@
       <p>又稱真值函數子/運算子（truth-functors/operators）。&nbsp;<a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
     </li>
     <li id="fn:2">
-      <p>在波蘭記號系統中，(F2)與(F3)會如此改寫：(P2)如果 $\phi$ 是一個公式，那 $N\phi$ 也是。(P3)如果 $\phi$ 和 $\psi$ 都是公式，那 $(A\phi\psi)$、$(K\phi\psi)$、$(A\phi\psi)$、$(C\phi\psi)$ 也是。&nbsp;<a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+      <p>在波蘭記號系統中，(F2)與(F3)會如此改寫：(P2)如果 $\phi$ 是一個公式，那 $N\phi$ 也是。(P3)如果 $\phi$ 和 $\psi$ 都是公式，那 $(A\phi\psi)$（$\lor$）、$(K\phi\psi)$（$\land$）、$(C\phi\psi)$（$\to$）、$(E\phi\psi)$ （$/leftrightarrow$）也是。&nbsp;<a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
     </li>
     <li id="fn:3">
       <p>我們通常把 $\top$ 和 $\bot$ 作為額外的主要符號。但在這裡，它們是作為語句字母被加進來， $\top$ 定義為「在真值表上總是為真的語句」，而 $\bot$ 定義為「在真值表上總是為假的語句」。&nbsp;<a href="#fnref:3" class="reversefootnote">&#8617;</a></p>
