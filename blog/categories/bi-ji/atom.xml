@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 筆記 | Wayneh and Coffee]]></title>
   <link href="http://wayneh.tw/blog/categories/bi-ji/atom.xml" rel="self"/>
   <link href="http://wayneh.tw/"/>
-  <updated>2017-10-01T19:13:30+08:00</updated>
+  <updated>2017-10-01T19:22:09+08:00</updated>
   <id>http://wayneh.tw/</id>
   <author>
     <name><![CDATA[洪偉]]></name>
@@ -86,7 +86,7 @@
 
 <ol>
   <li>該連接符的出現在 $\psi$ 中；</li>
-  <li>對於所有 $\psi$ 的直接子集合 $\theta$ ，該連接符的出現不在 $\theta$ 中。</li>
+  <li>對於所有 $\psi$ 的直接子公式 $\theta$ ，該連接符的出現不在 $\theta$ 中。</li>
 </ol>
 
 <p><strong>B6. 定理 1.1</strong> 唯一可讀性定理（分解的唯一性定理）</p>
