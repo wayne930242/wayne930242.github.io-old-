@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 筆記 | Wayneh and Coffee]]></title>
   <link href="http://wayneh.tw/blog/categories/bi-ji/atom.xml" rel="self"/>
   <link href="http://wayneh.tw/"/>
-  <updated>2017-10-01T18:42:39+08:00</updated>
+  <updated>2017-10-01T18:46:16+08:00</updated>
   <id>http://wayneh.tw/</id>
   <author>
     <name><![CDATA[洪偉]]></name>
@@ -49,7 +49,7 @@
 
 <p><strong>B1. 定義 1.1</strong> 構成序列（formation sequences）</p>
 
-<p>若公式序列 $\left{ \phi_1, \phi_2, \cdots , \phi_n \right}$ 被稱作公式 $\phi$ 的構成序列，那：$\phi_n = \phi$ <sup id="fnref:4"><a href="#fn:4" class="footnote">4</a></sup>，並且對於每個 $k \le n$，恰有以下之一被滿足：</p>
+<p>若公式序列 $\left{  \phi_1, \phi_2, \cdots , \phi_n \right}$ 被稱作公式 $\phi$ 的構成序列，那：$\phi_n = \phi$ <sup id="fnref:4"><a href="#fn:4" class="footnote">4</a></sup>，並且對於每個 $k \le n$，恰有以下之一被滿足：</p>
 
 <ol>
   <li>$\phi_k$ 是原子語句。</li>
