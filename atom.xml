@@ -4,7 +4,7 @@
   <title><![CDATA[Wayneh and Coffee]]></title>
   <link href="http://wayneh.tw/atom.xml" rel="self"/>
   <link href="http://wayneh.tw/"/>
-  <updated>2017-09-18T12:29:17+08:00</updated>
+  <updated>2017-10-01T18:32:43+08:00</updated>
   <id>http://wayneh.tw/</id>
   <author>
     <name><![CDATA[洪偉]]></name>
@@ -12,6 +12,256 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[形式語言與基本語義學]]></title>
+    <link href="http://wayneh.tw/blog/2017/10/01/formalization-of-deductive-systems/"/>
+    <updated>2017-10-01T12:52:55+08:00</updated>
+    <id>http://wayneh.tw/blog/2017/10/01/formalization-of-deductive-systems</id>
+    <content type="html"><![CDATA[<blockquote>
+  <p>本文為演繹邏輯系統之形式化第一章的課堂筆記。</p>
+</blockquote>
+
+<h1 id="a--mathcallmathbfk-">A.  $\mathcal{L}_\mathbf{K}$ 的建構</h1>
+
+<p>我們首先建構關於命題邏輯的一個形式語言，$\mathcal{L}_\mathbf{K}$。</p>
+
+<!--more-->
+
+<p><strong>A1.</strong> $\mathcal{L}_\mathbf{K}$ 由以下字母所構成：</p>
+
+<ul>
+  <li>(A1) 語句字母（sentence letters）：$P$、$Q$、$R$、$S$、$T$、$P_1$、$P_2$、 …</li>
+  <li>(A2) 連接符（connectives）<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>：$\lnot$、$\lor$、$\land$、$\to$、$\leftrightarrow$<sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup></li>
+  <li>(A3) 輔助字母：$($、$)$</li>
+</ul>
+
+<p><strong>A2.</strong> $\mathcal{L}_\mathbf{K}$ 蒐集所有的公式（well-formed fomula, <em>wff</em>），構成規則（fomation rules）如下：</p>
+
+<ul>
+  <li>(F1) 每個語句字母都是一個公式。（原子語句）</li>
+  <li>(F2) 如果 $\phi$ 是一個公式，那 $\lnot \phi$ 也是。</li>
+  <li>(F3) 如果 $\phi$ 和 $\psi$ 都是公式，那 $(\phi \lor \psi)$、$(\phi \land \psi)$、$(\phi \to \psi)$、$(\phi \leftrightarrow \psi)$ 也是。</li>
+  <li>(F4) 除此之外，沒有其他公式。<sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup></li>
+</ul>
+
+<h1 id="b-mathcallmathbfk-">B. $\mathcal{L}_\mathbf{K}$ 的基本語法學</h1>
+
+<p><strong>B1. 定義 1.1</strong> 構成序列（formation sequences）</p>
+
+<p>若公式序列 $\left{ \phi_1, \phi_2, \cdots , \phi_n \right}$ 被稱作公式 $\phi$ 的構成序列，那：$\phi_n = \phi$ <sup id="fnref:4"><a href="#fn:4" class="footnote">4</a></sup>，並且對於每個 $k \le n$，恰有以下之一被滿足：</p>
+
+<ol>
+  <li>$\phi_k$ 是原子語句。</li>
+  <li>存在 $j&lt;k$，使得 $\phi_k = \lnot \phi_j$</li>
+  <li>存在 $i, j&lt;k$，使得 $\phi_k = (\phi_i \lor \phi_j)$ 或 $\phi_k = (\phi_i \land \phi_j)$ 或 $\phi_k = (\phi_i \to \phi_j)$ 或 $\phi_k = (\phi_i \leftrightarrow \phi_j)$。</li>
+</ol>
+
+<p><strong>B2. 定義 1.2</strong> 子公式（subformula）</p>
+
+<p>若公式 $\psi$ 被稱作公式 $\phi$ 的一個子公式，則有以下之一被滿足：</p>
+
+<ol>
+  <li>$\psi=\phi$</li>
+  <li>$\phi=\lnot\psi_i$ 並且 $\psi$ 是 $\psi_i$ 的一個子公式。</li>
+  <li>$\phi$ 符合以下形式之一： $(\psi_i \lor \psi_j)$、$(\psi_i \land \psi_j)$、$(\psi_i \to \psi_j)$、$(\psi_i \leftrightarrow \psi_j)$，其中 $\psi$ 是 $\psi_i$ 或 $\psi_j$ 的一個子公式。</li>
+</ol>
+
+<p><strong>B3. 定義 1.3</strong> 直接子公式（immediate subformula）</p>
+
+<p>若公式 $\psi$ 被稱作公式 $\phi$ 的一個直接子公式，則有以下之一被滿足：</p>
+
+<ol>
+  <li>$\phi=\lnot\psi$ 。</li>
+  <li>$\phi$ 符合以下形式之一： $(\psi_i \lor \psi_j)$、$(\psi_i \land \psi_j)$、$(\psi_i \to \psi_j)$、$(\psi_i \leftrightarrow \psi_j)$，其中 $\psi = \psi_i$ 或 $\psi = \psi_j$ 。</li>
+</ol>
+
+<p><strong>B4. 定義 1.4</strong> 公式的主要連接符（main connective）</p>
+
+<p>如果一個連接符連接了 $\phi$ 的直接子公式，我們就稱此連接符為 $\phi$ 的主要連接符。</p>
+
+<p><strong>B5. 定義 1.5</strong> 連接符的出現的範圍（the <em>scope</em> of an occurrence of a connective）</p>
+
+<p>給定一個公式 $\phi$ ，一個連接符的出現的範圍為 $\phi$ 的一個子公式 $\psi$ ，滿足：</p>
+
+<ol>
+  <li>該連接符的出現在 $\psi$ 中；</li>
+  <li>對於所有 $\psi$ 的直接子集合 $\theta$ ，該連接符的出現不在 $\theta$ 中。</li>
+</ol>
+
+<p><strong>B6. 定理 1.1</strong> 唯一可讀性定理（分解的唯一性定理）</p>
+
+<p>如果 $\phi$ 是 $\mathcal{L}$ 的一個公式，以下之一恰好成立：</p>
+
+<ol>
+  <li>$\phi$ 是原子語句；</li>
+  <li>存在唯一的 $\psi$ ，使得 $\phi = \lnot\psi$；</li>
+  <li>存在唯一的 $\theta, \psi$ ，使得 $\phi = \theta \land \psi$；</li>
+  <li>存在唯一的 $\theta, \psi$ ，使得 $\phi = \theta \lor \psi$；</li>
+  <li>存在唯一的 $\theta, \psi$ ，使得 $\phi = \theta \to \psi$；</li>
+  <li>存在唯一的 $\theta, \psi$ ，使得 $\phi = \theta \leftrightarrow \psi$。</li>
+</ol>
+
+<p><strong>[證明方法]</strong> 先定義公式長度的度量方法（一個從公式對應到自然數的函數），並以數學歸納法證明，對於任何長度的公式這性質都成立。</p>
+
+<h1 id="c-mathcallmathbfk-">C. $\mathcal{L}_\mathbf{K}$ 的基本語義學</h1>
+
+<p><strong>C1.</strong> 古典語義學採取以下三個假設（古典假設）：</p>
+
+<ol>
+  <li><strong>二值原則（the principle of bivalence）</strong>：公式的真值只有兩種，真或假。</li>
+  <li><strong>真值函數性原則（the principle of truth-functionality）</strong>：連接詞必須是真值函數（又稱為布林函數， Boolean function）。</li>
+  <li><strong>擴充性原則（the principle of extensionality）</strong>：任何公式的真值只能由包含其中的原子語句之真值與連接詞決定。</li>
+</ol>
+
+<p><strong>C2. 定義 1.6</strong> 結構（structure）</p>
+
+<p>我們可以對語句字母進行真值分派，每一個這樣的分派稱作一個結構。我們以 $\mathscr{M}$、$\mathscr{N}$、$\mathscr{A}$、$\mathscr{B}$ 加以表示。<sup id="fnref:5"><a href="#fn:5" class="footnote">5</a></sup></p>
+
+<p>注意：結構不見得分派每一個語句字母的真假值。</p>
+
+<p><strong>C3. 定義 1.7</strong> 在結構中被定義</p>
+
+<p>一個公式 $\phi$ 的真值如果在 $\mathscr{M}$ 中被決定，我們就說， $\phi$ 在 $\mathscr{M}$ 中被定義。</p>
+
+<p>如果 $\phi$ 被 $\mathscr{M}$ 決定為真，我們就說， $\phi$ 在 $\mathscr{M}$ 中為真。如果決定為假，我們就說， $\phi$ 在 $\mathscr{M}$ 中為假。</p>
+
+<h1 id="d-">D. 語義地：不一致、蘊含與反例</h1>
+
+<p><strong>D1. 定義 1.8</strong> 語義地不一致</p>
+
+<p>對於一個公式集合 $\Gamma$ ，如果不存在任何結構使得 $\Gamma$ 的所有公式被定義且為真，我們就說， $\Gamma$ 是語義地不一致的（semantically inconsistent），符號寫作 $\Gamma\models$ 。否則就說， $\Gamma$ 是語義地一致的。</p>
+
+<p><strong>D2. 定義 1.9</strong> 語義蘊含關係</p>
+
+<p>(1) 如果不存在任何結構，使得公式 $\phi$ 為假且使得公式集合 $\Gamma$ 中的所有公式為真，我們就說， $\Gamma$ 語義地蘊含 $\phi$ ，符號寫作：$\Gamma \models \phi$。</p>
+
+<p>(2) 承上，如果 $\Gamma$ 是空集合，我們就說， $\phi$ 是一個語義學定理，或說，$\phi$ 是一個恆真句（tautology），符號寫作：$\models \phi$。</p>
+
+<p><strong>D3.</strong> 顯然，$\Gamma \models \phi$，若且唯若 $\Gamma, \lnot\phi \models$<sup id="fnref:6"><a href="#fn:6" class="footnote">6</a></sup>。</p>
+
+<p><strong>D4. 定義 1.10</strong> 語義序列（semantic sequents）</p>
+
+<p>$\Gamma\models$、$\Gamma \models \phi$ 與 $\models \phi$ 都是一個語義序列。</p>
+
+<p><strong>D5. 定義 1.11</strong> 反例</p>
+
+<p>說 $\mathscr{M}$ 是序列 $\Gamma \models \phi$ 的一個反例，若且唯若， $\Gamma$ 中的每個公式在 $\mathscr{M}$ 中為真，並且 $\phi$ 在 $\mathscr{M}$ 為假。</p>
+
+<h1 id="e-">E. 語義學的一些一般定理</h1>
+
+<p><strong>E1. 定理 1.2</strong> 語義蘊含的諸性質</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>定理名</th>
+      <th>定理描述</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>擴充定理（Extension Theorem）</td>
+      <td>若 $\Gamma \models \phi$，則 $\Gamma , \Delta \models \phi$</td>
+    </tr>
+    <tr>
+      <td>重複定理（Repeition Theorem）</td>
+      <td>若 $\phi \in \Gamma$ 則 $\Gamma \models \phi$ 。</td>
+    </tr>
+    <tr>
+      <td>減切定理（Cut Theorem）</td>
+      <td>若 $\Gamma \models \phi$ 且 $\Gamma , \phi \models \psi$，則 $\Gamma \models \psi$ 。</td>
+    </tr>
+    <tr>
+      <td>遞移定理（Transitivity Theorem）</td>
+      <td>若 $\phi\models\psi$ ，且 $\psi\models\theta$ ，則 $\phi\models\theta$。</td>
+    </tr>
+    <tr>
+      <td>否定定理（Negation Theorem）</td>
+      <td>$\Gamma\models\lnot\phi$，若且唯若 $\Gamma, \phi\models$。</td>
+    </tr>
+    <tr>
+      <td>連言定理（Conjunction Theorem）</td>
+      <td>$\Gamma\models\phi$ 且 $\Gamma\models\psi$，若且唯若 $\Gamma\models(\phi\land\psi)$。</td>
+    </tr>
+    <tr>
+      <td>選言定理（Disjunction Theorem）</td>
+      <td>$\Gamma, \phi\models\theta$ 且 $\Gamma, \psi\models\theta$，若且唯若 $\Gamma, (\phi\lor\psi)\models\theta$。</td>
+    </tr>
+    <tr>
+      <td>導衍定理（Implication Theorem）</td>
+      <td>若 $\Gamma , \phi \models \psi$ ，則 $\Gamma\models(\phi\to\psi)$ 。</td>
+    </tr>
+    <tr>
+      <td>等同定理（Equivalence Theorem）</td>
+      <td>$\Gamma , \phi \models \psi$ 且 $\Gamma , \psi \models \phi$ ，若且唯若 $\Gamma \models (\phi \leftrightarrow \psi)$。若 $\Gamma$ 為空集合，我們稱 $\phi$ 和 $\psi$ 是邏輯等同的（logically equivalent）。<sup id="fnref:7"><a href="#fn:7" class="footnote">7</a></sup></td>
+    </tr>
+    <tr>
+      <td>分離定理（Detachment Theorem）</td>
+      <td>$(\phi\to\psi), \phi\models\psi$。</td>
+    </tr>
+    <tr>
+      <td>窮舉論證（Argument by Cases）</td>
+      <td>若 $\Gamma, \phi \models \psi$ 且 $\Gamma, \lnot \phi\models\psi$ ，則 $\Gamma \models \psi$。</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>E2. 定理 1.3</strong> 置換定理（substitution theorem）</p>
+
+<p>若 $\Gamma \models \phi$ ，則，對於所有原子語句 $P$ 和公式 $\psi$，$\Gamma (\psi/P) \models \phi (\psi/P)$ 。</p>
+
+<p>Note: $\Gamma(\psi/P)$ 意味著將 $\Gamma$ 中每個公式中出現的所有 $P$ 置換為 $\psi$ ， $\phi(\psi/P)$ 意味著將 $\phi$ 中出現的所有 $P$ 置換為 $\psi$ 。</p>
+
+<p><strong>E3. 定理 1.4-I</strong> 全等定理（Congruence Theorem）</p>
+
+<p>對任一個公式 $\theta$ ，</p>
+
+<script type="math/tex; mode=display">(\phi\leftrightarrow\psi)\models\theta(\phi)\leftrightarrow\theta(\psi/\phi)</script>
+
+<p><strong>E4. 定理 1.4-II</strong> 全等定理</p>
+
+<p>若 $\phi$ 和 $\psi$ 是邏輯等同的，並且 $\Gamma(\phi)\models\theta(\phi)$ ，則 $\Gamma(\psi/\phi)\models\theta(\psi/\phi)$。</p>
+
+<p><strong>E5. 定理 1.5</strong> 對偶定理（duality theorem）</p>
+
+<p>若 $\phi \models \psi$ ，則 $\psi^* \models \phi^*$ 。</p>
+
+<p>Note: $\psi^<em>$ 被稱作 $\psi$ 的對偶， $</em>$ 是一個函數，將公式中所有的 $\lor$ 換成 $\land$ ，並將所有的 $\land$ 換成 $\lor$ ，如此有 $\phi^* = *(\phi)$ 。</p>
+
+<p><strong>引理</strong>：</p>
+
+<p>對於任意的 $\phi$ ，假定 $\phi$ 只由原子語句 $P_1, P_2, \cdots P_n$ 所構成，則 $\phi^*$ 與 $\lnot\phi(\lnot P_1/P_1 , \cdots , \lnot P_n/P_n)$ 是邏輯等同的。</p>
+
+<h1 id="notes">NOTES</h1>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>又稱真值函數子/運算子（truth-functors/operators）。&nbsp;<a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>在波蘭記號系統中，(F2)與(F3)會如此改寫：(P2)如果 $\phi$ 是一個公式，那 $N\phi$ 也是。(P3)如果 $\phi$ 和 $\psi$ 都是公式，那 $(A\phi\psi)$、$(K\phi\psi)$、$(A\phi\psi)$、$(C\phi\psi)$ 也是。&nbsp;<a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:3">
+      <p>我們通常把 $\top$ 和 $\bot$ 作為額外的主要符號。但在這裡，它們是作為語句字母被加進來， $\top$ 定義為「在真值表上總是為真的語句」，而 $\bot$ 定義為「在真值表上總是為假的語句」。&nbsp;<a href="#fnref:3" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:4">
+      <p>我以 $=$ 表示公式的同一關係，一種等同關係（equivalance relation）。&nbsp;<a href="#fnref:4" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:5">
+      <p>在布林代數下，我們將對公式 $\phi$ 的分派以賦值函數加以定義。賦值函數是將公式 $\phi$ 對應到 $\left{0, 1\right}$ 的函數 $v$ ，遞迴地以 $\phi$ 之直接子公式的函數值來定義公式的函數值，直到作為直接子公式的原子語句的真值被 $v$ 初始且任意地給定。我們將這稱作一個布林賦值（Boolean valuation）。如果存在賦值函數使得 $\phi$ 對應到 $1$ ，則我們說 $\phi$ 是可滿足的。&nbsp;<a href="#fnref:5" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:6">
+      <p>$\Gamma, \lnot\phi \models \psi$ 為 $\Gamma\cup\left{\lnot\phi\right} \models \psi$ 的標準簡寫。同樣地，如果 $\Delta$ 是另一個公式集合，我們用 $\Gamma, \lnot\Delta \models \psi$ 簡寫 $\Gamma\cup\ \Delta \models \psi$ 。&nbsp;<a href="#fnref:6" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:7">
+      <p>更嚴謹的定義會是：$\phi$ 邏輯等同於 $\psi$ ，然而並不難看出邏輯等同是一個等同關係。&nbsp;<a href="#fnref:7" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[談談 Sarahah 的資安與社會問題]]></title>
@@ -2151,152 +2401,6 @@
 
   </li>
 </ul>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[浪費、公平與階級：談「48級分上台大」這回事]]></title>
-    <link href="http://wayneh.tw/blog/2016/03/19/lang-fei-gong-ping-yu-jie-ji/"/>
-    <updated>2016-03-19T16:59:59+08:00</updated>
-    <id>http://wayneh.tw/blog/2016/03/19/lang-fei-gong-ping-yu-jie-ji</id>
-    <content type="html"><![CDATA[<p><img src="http://pgw.udn.com.tw/gw/photo.php?u=http://uc.udn.com.tw/photo/2016/03/18/99/1944667.jpg&amp;x=0&amp;y=0&amp;sw=0&amp;sh=0&amp;sl=W&amp;fw=1050" alt="浪費、公平與階級" /></p>
-
-<blockquote>
-  <p>本文初次刊登於UDN鳴人堂沃草烙哲學專欄</p>
-</blockquote>
-
-<p>透過繁星計畫，一位學生以48級分上了台大，結果引起社會上巨大的批評。許多人認為，連48級分的人都可以上台大，顯示了繁星計畫很有問題。或許是因為「48級分」和「台大」在刻板印象上的巨大落差，這樣的批評很容易讓人在直覺上被說服。</p>
-
-<p>當然，即便我們承認繁星計畫並不完美，也可能有問題和瑕疵，但我們是否能主張：因為48級分的學生可以上台大，而顯示了繁星計畫是有問題的？</p>
-
-<p>我認為這種說法其實包含了許多混淆與矛盾，這也是我這篇文章所要批判的主題。</p>
-
-<!--more-->
-
-<h1 id="section">浪費</h1>
-
-<p>在我接觸的批評聲浪中，最主流的意見似乎是：</p>
-
-<blockquote>
-  <p><strong>浪費說</strong>
-48分上台大有問題，是因為台大的教育資源許多都來自中央撥款，讓這位學生取得這樣的資源是「浪費納稅人」的錢。</p>
-</blockquote>
-
-<p>這種主流思想出現的範圍相當廣泛，即使這個意見的出處最多只能追溯到幾個網路身份外，並沒有什麼明顯的代表論述，但「浪費說」依然值得討論。除了因為它很主流外，它也很符合一種尋常直覺（「我出的錢，不可以浪費！」），可以讓人不經太多思考，就能調節「48級分」與「台大」兩印象放在一起的認知失調問題，讓人簡單得到結論：我們不應該讓48級分的人上台大。</p>
-
-<p>我認為「浪費說」是很混淆的思想，不過在攻擊它之前，我想先盡可能挖出它的合理基礎。首先我們要問，何謂「浪費」？或更清楚地問，怎樣算是「社會浪費了錢在某件事情上」？</p>
-
-<blockquote>
-  <ul>
-    <li>如果公家把錢花在無用的計畫上（例如研發永動機），我們會說「我們浪費了這筆錢，因為肯定不會有成果」。</li>
-    <li>如果公家把錢投資在效果很差的方案上（例如把可以用來買超級電腦的一百萬拿去買了一隻純金企鵝放在台中），我們會說，「我們浪費了這筆錢，因為本來可以拿來做更有意義的事」。</li>
-  </ul>
-</blockquote>
-
-<p>以上面兩個例子來說，「浪費」的意思應該是：</p>
-
-<blockquote>
-  <p>我們將資源投入在那，要比不投入在那要好。</p>
-</blockquote>
-
-<p>按照這個意思，若我們認為讓48級分的人讀台大是浪費，但不認為目前讀台大的那些學生讀台大是浪費，我們的意思就是：</p>
-
-<blockquote>
-  <p>與其把資源投入給這個學生，不如把資源投入給那些學生。</p>
-</blockquote>
-
-<p>這也就是說，「浪費說」的支持者有責任說明：</p>
-
-<blockquote>
-  <p>在什麼情況下，比起其他學生，這學生（以下叫他小明好了）可以享用我們投入給台大的資源算是浪費？</p>
-</blockquote>
-
-<p>我想了幾種可能的說明：</p>
-
-<blockquote>
-  <p>（A）不受教：小明教不會，可能是因為程度跟不上，所以這些資源的投入無法達到教育效果；
-（B）怠惰或濫用：小明在求學過程中，將資源擺放在那裡，並不使用它（不去上課）、或是濫用它（在電腦教室打電動），但我們投資的金錢是一樣多的；
-（C）侵佔他人權益：小明使用的教育資源，排擠了其他學生（包括因為小明而沒考上台大的學生或是台大原有的學生）使用的權益。</p>
-</blockquote>
-
-<p>（A）和（B）訴諸「小明的學習能力或意願不足」，主張在這種情況下讓小明上台大是浪費。但如果仔細想想，會發現「48級分」其實不是學習能力與意願的指標，而是學習成果的指標。那麼，作為學習成果的「48級分」，真的能夠反應學習能力與意願嗎？</p>
-
-<p>浪費說的支持者或許必須這樣主張：「哪是這樣，我們從48級分的分數，就可以看出他的學習能力與意願不足了，如果他的學習能力與意願都很高，還會考48級分嗎？」</p>
-
-<p>這個推論聽起來很順，可惜的是，浪費說的支持者不能這樣主張，因為這是自相矛盾的：</p>
-
-<ol>
-  <li>如果我們只要看一個人的學習成果，就可以知道他的學習能力與意願有多高，這表示學習資源的多寡並不會影響學習成果；</li>
-  <li>如果學習資源的多寡並不會影響學習成果，那麼就不會有任何人浪費台大學習資源的問題，因此浪費說就無法成立；</li>
-  <li>這也就是說，浪費說與「學習成果可代表學習能力與意願」兩種思想是無法同時成立的。</li>
-</ol>
-
-<p>這個推論說明了：如果要同時主張浪費說與「48級分代表學習能力不足」，他會是自相矛盾的。</p>
-
-<h1 id="section-1">公平</h1>
-
-<p>因此，對於浪費說的支持者來說，唯一可能成立的論點只有（C）：：讓小明入學，會排擠其他學生使用教育資源的權益。</p>
-
-<p>當我們說「權益被排擠」，通常意思是說，某些利益被一些人佔走了，造成另一些人無法享有他該有的利益。這裡的排擠問題，關係到的就是公不公平的問題。</p>
-
-<p>在這種意義下，支持（C）的人幾乎等於是在說：</p>
-
-<blockquote>
-  <p>學生應該從公平競爭中勝出，以取得公家教育資源。而造成48級分就能上台大的繁星計畫，並不是公平競爭。</p>
-</blockquote>
-
-<p>然而，為何繁星計畫不是公平競爭呢？值得注意的是，你不能說「繁星計畫讓48級分的人也能上台大，所以不是公平競爭」，因為這樣明顯是做出了循環論證。</p>
-
-<p>要討論怎樣算是公平競爭，我們得考量兩種不同的公平概念。認為繁星計畫不公平的人，大多會主張</p>
-
-<blockquote>
-  <p><strong>競爭的公平概念</strong>
-在升大學這件事上，所有人用同樣用大考競爭才是最公平的，甚至唯一公平的。</p>
-</blockquote>
-
-<p>不過，就如同你可能知道的，繁星計畫背後有另外一種思維：教育資源有城鄉落差，這使得看似人人平等的公平競爭並不公平，對於無法取得更好的教育資源的偏鄉學生來說不公平，因此：</p>
-
-<blockquote>
-  <p><strong>階級的公平概念</strong>
-我們應該開放教育資源取得不易的地區其他種類的升學管道，來消弭城鄉差距造成的不公平。</p>
-</blockquote>
-
-<p>在這裡的兩種公平概念，分別支持了兩種不同的對大考的意見：</p>
-
-<ul>
-  <li>大考才是最公平的競爭方式；</li>
-  <li>大考不是真正公平的競爭方式。</li>
-</ul>
-
-<h1 id="section-2">階級</h1>
-
-<p>階級問題，是對浪費說思想的最基進批判。明智的浪費說支持者可以嘗試挑戰這個問題，但是幾乎無法迴避它。</p>
-
-<p>教育資源所形成的階級，往往來自於某種體制所造成的循環，在這樣的循環中，教育階級不斷被強化。停滯的階級流動使得一些有發展潛力的、需要更多教育資源的學生，無法依照他的努力得到更好的或平等的教育資源。</p>
-
-<p>以台灣現狀來說，會造上以上狀況的原因主要可能有：</p>
-
-<ol>
-  <li>一個受過更好教育的人，往往擁有更多的資源能夠使他的後代獲得好的教育，而這些人大多都不會選擇住在偏鄉；</li>
-  <li>補習班的存在，正在強化「投資」與「學習成果」之間的因果性，而投資需要錢，這更加有利於社經地位較高的人士的後代；</li>
-  <li>考試作為競賽，使得我沒辦法自己表現得好就跨過門檻：我得要比其他人表現得<strong>更好</strong>。這形成了賽局均衡：在人們被迫不斷投入資源以跨過門檻的同時，也造成了門檻升得更高，並回過頭來逼迫人投入更多資源；</li>
-  <li>在中央資源分配或大學分佈上，偏鄉人士往往得到較少的教育資源。</li>
-</ol>
-
-<p>這種階級困境，往往是社會主義者不希望看到的，甚至只有最極端的自由主義者願意將這看成是完全合理的。我們總希望能消弭階級差異，至少，必須讓階級有更多流動的可能性，以讓社會更安定、更適合所有人居住。</p>
-
-<p>在我們面前的議題上，覺得「48分上台大是不公平」的人－－一個「競爭的公平概念」的擁護者－－至少必須回應這些問題：</p>
-
-<ol>
-  <li>如果你主張，教育資源只能透過競爭的公平概念來獲得，那麼你是否反對教育階級流動，並認為教育資本被有錢人壟斷也沒關係的？如果不是，那你如何逃脫這個難題？</li>
-  <li>若你不反對階級的公平概念，你主張的是「繁星計畫無法達到妥適的分配」，那你得說明這跟48級分事件有什麼關係，並且或許也得要說明「如果繁星計畫在實務上有問題，為什麼大考就沒有？」才不會自打嘴巴。</li>
-</ol>
-
-<p>值得一提的是，你無法單單以「城鄉並非是全部的教育階級的指標」來主張繁星計畫是不公平的，因為這樣等於是在主張「如果社會無法做到完全的公平，那就應該保持完全的不公平才公平」。</p>
-
-<p>我期待能看到有道理的公共論述，為我們闡明，為何當繁星計畫選出來的學生與大考制度選出來的學生有落差的時候，大考制度更需要優先被考量，或是應該被看成更重要的標準。</p>
-
-<p>如果不是這樣，那，還要批評它什麼呢？還要檢討「48級分」什麼呢？</p>
 ]]></content>
   </entry>
   
