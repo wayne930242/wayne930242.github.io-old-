@@ -168,7 +168,7 @@
 
 <h1 id="a--mathcallmathbfk-">A.  $\mathcal{L}_\mathbf{K}$ 的建構</h1>
 
-<p><strong>A1.</strong> $\mathcal{L}_\mathbf{K}$ 由以下字母所構成：</p>
+<p><strong>A1. $\mathcal{L}_\mathbf{K}$ 由以下字母所構成：</strong></p>
 
 <ul>
   <li>(A1) 語句字母（sentence letters）：$P$、$Q$、$R$、$S$、$T$、$P_1$、$P_2$、 …</li>
@@ -176,7 +176,7 @@
   <li>(A3) 輔助符號：$($、$)$</li>
 </ul>
 
-<p><strong>A2.</strong> $\mathcal{L}_\mathbf{K}$ 蒐集所有的句式（well-formed formula, <em>wff</em>），構成規則（formation rules）如下：</p>
+<p><strong>A2. $\mathcal{L}_\mathbf{K}$ 蒐集所有的句式（well-formed formula, <em>wff</em>），構成規則（formation rules）如下：</strong></p>
 
 <ul>
   <li>(F1) 每個語句字母都是一個句式。（原子語句）</li>
@@ -187,7 +187,7 @@
 
 <h1 id="b-mathcallmathbfk-">B. $\mathcal{L}_\mathbf{K}$ 的基本語法學</h1>
 
-<p><strong>B1. 定義 1.1</strong> 構成序列（formation sequences）</p>
+<p><strong>B1. 定義 1.1：構成序列（formation sequences）</strong></p>
 
 <p>若句式序列 $\{  \phi_1, \phi_2, \cdots , \phi_n \}$ 被稱作句式 $\phi$ 的構成序列，那：$\phi_n = \phi$ ，<sup id="fnref:4"><a href="#fn:4" class="footnote">4</a></sup>並且對於每個 $k \le n$，恰有以下之一被滿足：</p>
 
@@ -197,7 +197,7 @@
   <li>存在 $i, j&lt;k$，使得 $\phi_k = (\phi_i \lor \phi_j)$ 或 $\phi_k = (\phi_i \land \phi_j)$ 或 $\phi_k = (\phi_i \to \phi_j)$ 或 $\phi_k = (\phi_i \leftrightarrow \phi_j)$。</li>
 </ol>
 
-<p><strong>B2. 定義 1.2</strong> 子句式（subformula）</p>
+<p><strong>B2. 定義 1.2：子句式（subformula）</strong></p>
 
 <p>若句式 $\psi$ 被稱作句式 $\phi$ 的一個子句式，則有以下之一被滿足：</p>
 
@@ -207,7 +207,7 @@
   <li>$\phi$ 符合以下形式之一： $(\psi_i \lor \psi_j)$、$(\psi_i \land \psi_j)$、$(\psi_i \to \psi_j)$、$(\psi_i \leftrightarrow \psi_j)$，其中 $\psi$ 是 $\psi_i$ 或 $\psi_j$ 的一個子句式。</li>
 </ol>
 
-<p><strong>B3. 定義 1.3</strong> 直接子句式（immediate subformula）</p>
+<p><strong>B3. 定義 1.3：直接子句式（immediate subformula）</strong></p>
 
 <p>若句式 $\psi$ 被稱作句式 $\phi$ 的一個直接子句式，則有以下之一被滿足：</p>
 
@@ -216,11 +216,11 @@
   <li>$\phi$ 符合以下形式之一： $(\psi_i \lor \psi_j)$、$(\psi_i \land \psi_j)$、$(\psi_i \to \psi_j)$、$(\psi_i \leftrightarrow \psi_j)$，其中 $\psi = \psi_i$ 或 $\psi = \psi_j$ 。</li>
 </ol>
 
-<p><strong>B4. 定義 1.4</strong> 句式的主要連接符（main connective）</p>
+<p><strong>B4. 定義 1.4：句式的主要連接符（main connective）</strong></p>
 
 <p>如果一個連接符連接了 $\phi$ 的直接子句式，我們就稱此連接符為 $\phi$ 的主要連接符。</p>
 
-<p><strong>B5. 定義 1.5</strong> 連接符的出現的範圍（the <em>scope</em> of an occurrence of a connective）</p>
+<p><strong>B5. 定義 1.5：連接符的出現的範圍（the <em>scope</em> of an occurrence of a connective）</strong></p>
 
 <p>給定一個句式 $\phi$ ，一個連接符的出現的範圍為 $\phi$ 的一個子句式 $\psi$ ，滿足：</p>
 
@@ -229,7 +229,7 @@
   <li>對於所有 $\psi$ 的直接子句式 $\theta$ ，該連接符的出現不在 $\theta$ 中。</li>
 </ol>
 
-<p><strong>B6. 定理 1.1</strong> 唯一可讀性定理（分解的唯一性定理）</p>
+<p><strong>B6. 定理 1.1：唯一可讀性定理（分解的唯一性定理）</strong></p>
 
 <p>如果 $\phi$ 是 $\mathcal{L}$ 的一個句式，以下之一恰好成立：</p>
 
@@ -246,7 +246,9 @@
 
 <h1 id="c-mathcallmathbfk-">C. $\mathcal{L}_\mathbf{K}$ 的基本語義學</h1>
 
-<p><strong>C1.</strong> 古典語義學採取以下三個假設（古典假設）：</p>
+<p><strong>C1. 古典假設</strong></p>
+
+<p>古典語義學採取以下三個假設：</p>
 
 <ol>
   <li><strong>二值原則（the principle of bivalence）</strong>：句式的真值只有兩種，真或假。</li>
@@ -254,13 +256,13 @@
   <li><strong>擴充性原則（the principle of extensionality）</strong>：任何句式的真值只能由包含其中的原子語句之真值與連接詞決定。</li>
 </ol>
 
-<p><strong>C2. 定義 1.6</strong> 結構（structure）</p>
+<p><strong>C2. 定義 1.6：結構（structure）</strong></p>
 
 <p>我們可以對語句字母進行真值分派，每一個這樣的分派稱作一個結構。我們以 $\mathscr{M}$、$\mathscr{N}$、$\mathscr{A}$、$\mathscr{B}$ 加以表示。<sup id="fnref:5"><a href="#fn:5" class="footnote">5</a></sup></p>
 
 <p>注意：結構不見得分派每一個語句字母的真假值。</p>
 
-<p><strong>C3. 定義 1.7</strong> 在結構中被定義</p>
+<p><strong>C3. 定義 1.7：在結構中被定義</strong></p>
 
 <p>一個句式 $\phi$ 的真值如果在 $\mathscr{M}$ 中被決定，我們就說， $\phi$ 在 $\mathscr{M}$ 中被定義。</p>
 
@@ -268,11 +270,11 @@
 
 <h1 id="d-">D. 語義地：不一致、蘊含與反例</h1>
 
-<p><strong>D1. 定義 1.8</strong> 語義地不一致</p>
+<p><strong>D1. 定義 1.8：語義地不一致</strong></p>
 
 <p>對於一個句式集合 $\Gamma$ ，如果不存在任何結構使得 $\Gamma$ 的所有句式被定義且為真，我們就說， $\Gamma$ 是語義地不一致的（semantically inconsistent），符號寫作 $\Gamma\models$ 。否則就說， $\Gamma$ 是語義地一致的。</p>
 
-<p><strong>D2. 定義 1.9</strong> 語義蘊含關係</p>
+<p><strong>D2. 定義 1.9：語義蘊含關係</strong></p>
 
 <p>(1) 如果不存在任何結構，使得句式 $\phi$ 為假且使得句式集合 $\Gamma$ 中的所有句式為真，我們就說， $\Gamma$ 語義地蘊含 $\phi$ ，符號寫作：$\Gamma \models \phi$。</p>
 
@@ -280,17 +282,17 @@
 
 <p><strong>D3.</strong> 顯然，$\Gamma \models \phi$，若且唯若 $\Gamma, \lnot\phi \models$。<sup id="fnref:6"><a href="#fn:6" class="footnote">6</a></sup></p>
 
-<p><strong>D4. 定義 1.10</strong> 語義序列（semantic sequents）</p>
+<p><strong>D4. 定義 1.10：語義序列（semantic sequents）</strong></p>
 
 <p>$\Gamma\models$、$\Gamma \models \phi$ 與 $\models \phi$ 都是一個語義序列。</p>
 
-<p><strong>D5. 定義 1.11</strong> 反例</p>
+<p><strong>D5. 定義 1.11：反例</strong></p>
 
 <p>說 $\mathscr{M}$ 是序列 $\Gamma \models \phi$ 的一個反例，若且唯若， $\Gamma$ 中的每個句式在 $\mathscr{M}$ 中為真，並且 $\phi$ 在 $\mathscr{M}$ 為假。</p>
 
-<h1 id="e-">E. 語義學的一些一般定理</h1>
+<h1 id="e-">E. 語義學的諸一般定理</h1>
 
-<p><strong>E1. 定理 1.2</strong> 語義蘊含的諸性質</p>
+<p><strong>E1. 定理 1.2：語義蘊含的諸性質</strong></p>
 
 <table>
   <thead>
@@ -347,29 +349,29 @@
   </tbody>
 </table>
 
-<p><strong>E2. 定理 1.3</strong> 置換定理（substitution theorem）</p>
+<p><strong>E2. 定理 1.3：置換定理（substitution theorem）</strong></p>
 
 <p>若 $\Gamma \models \phi$ ，則，對於所有原子語句 $P$ 和句式 $\psi$，$\Gamma (\psi/P) \models \phi (\psi/P)$ 。</p>
 
 <p>符號說明：$\Gamma(\psi/P)$ 意味著將 $\Gamma$ 中每個句式中出現的所有 $P$ 置換為 $\psi$ ， $\phi(\psi/P)$ 意味著將 $\phi$ 中出現的所有 $P$ 置換為 $\psi$ 。</p>
 
-<p><strong>E3. 定理 1.4-I</strong> 全等定理（Congruence Theorem）</p>
+<p><strong>E3. 定理 1.4-I：全等定理（Congruence Theorem）</strong></p>
 
 <p>對任一個句式 $\theta$ ，</p>
 
 <script type="math/tex; mode=display">(\phi\leftrightarrow\psi)\models\theta(\phi)\leftrightarrow\theta(\psi/\phi)</script>
 
-<p><strong>E4. 定理 1.4-II</strong> 全等定理</p>
+<p><strong>E4. 定理 1.4-II：全等定理 II</strong></p>
 
 <p>若 $\phi$ 和 $\psi$ 是邏輯等同的，並且 $\Gamma(\phi)\models\theta(\phi)$ ，則 $\Gamma(\psi/\phi)\models\theta(\psi/\phi)$。</p>
 
-<p><strong>E5. 定理 1.5</strong> 對偶定理（duality theorem）</p>
+<p><strong>E5. 定理 1.5：對偶定理（duality theorem）</strong></p>
 
 <p>若 $\phi \models \psi$ ，則 $\psi^* \models \phi^*$ 。</p>
 
 <p>符號說明：$\psi^* $ 被稱作 $\psi $ 的對偶， $* $ 是一個函數，將句式中所有的 $\lor$ 換成 $\land$ ，並將所有的 $\land$ 換成 $\lor$ ，如此有 $\phi^* = *(\phi)$ 。</p>
 
-<p><strong>E.6 定理 1.5 的引理</strong>：</p>
+<p><strong>E.6 定理 1.5 的引理</strong></p>
 
 <p>對於任意的 $\phi$ ，假定 $\phi$ 只由原子語句 $P_1, P_2, \cdots P_n$ 所構成，則 $\phi^*$ 與 $\lnot\phi(\lnot P_1/P_1 , \cdots , \lnot P_n/P_n)$ 是邏輯等同的。</p>
 
