@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 邏輯學 | Wayneh and Coffee]]></title>
   <link href="http://wayneh.tw/blog/categories/luo-ji-xue/atom.xml" rel="self"/>
   <link href="http://wayneh.tw/"/>
-  <updated>2017-10-02T10:41:35+08:00</updated>
+  <updated>2017-10-02T13:53:16+08:00</updated>
   <id>http://wayneh.tw/</id>
   <author>
     <name><![CDATA[洪偉]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[形式語言與基本語義學]]></title>
+    <title type="html"><![CDATA[一、形式語言與基本語義學]]></title>
     <link href="http://wayneh.tw/blog/2017/10/01/formalization-of-deductive-systems/"/>
     <updated>2017-10-01T12:52:55+08:00</updated>
     <id>http://wayneh.tw/blog/2017/10/01/formalization-of-deductive-systems</id>
@@ -110,8 +110,8 @@
 
 <ol>
   <li><strong>二值原則（the principle of bivalence）</strong>：句式的真值只有兩種，真或假。</li>
-  <li><strong>真值函數性原則（the principle of truth-functionality）</strong>：連接詞必須是真值函數（又稱為布林函數， Boolean function）。</li>
-  <li><strong>擴充性原則（the principle of extensionality）</strong>：任何句式的真值只能由包含其中的原子語句之真值與連接詞決定。</li>
+  <li><strong>真值函數性原則（the principle of truth-functionality）</strong>：連接符必須是真值函數（又稱為布林函數， Boolean function）。</li>
+  <li><strong>擴充性原則（the principle of extensionality）</strong>：任何句式的真值只能由包含其中的原子語句之真值與連接符決定。</li>
 </ol>
 
 <p><strong>C2. 定義 1.6：結構（structure）</strong></p>
