@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 筆記 | Wayneh and Coffee]]></title>
   <link href="http://wayneh.tw/blog/categories/bi-ji/atom.xml" rel="self"/>
   <link href="http://wayneh.tw/"/>
-  <updated>2017-10-01T19:22:09+08:00</updated>
+  <updated>2017-10-02T10:36:20+08:00</updated>
   <id>http://wayneh.tw/</id>
   <author>
     <name><![CDATA[洪偉]]></name>
@@ -22,34 +22,32 @@
   <p>本文為演繹邏輯系統之形式化第一章的課堂筆記。</p>
 </blockquote>
 
-<h1 id="a--mathcallmathbfk-">A.  $\mathcal{L}_\mathbf{K}$ 的建構</h1>
-
-<p>我們首先建構關於命題邏輯的一個形式語言，$\mathcal{L}_\mathbf{K}$。</p>
-
 <!--more-->
+
+<h1 id="a--mathcallmathbfk-">A.  $\mathcal{L}_\mathbf{K}$ 的建構</h1>
 
 <p><strong>A1.</strong> $\mathcal{L}_\mathbf{K}$ 由以下字母所構成：</p>
 
 <ul>
   <li>(A1) 語句字母（sentence letters）：$P$、$Q$、$R$、$S$、$T$、$P_1$、$P_2$、 …</li>
   <li>(A2) 連接符（connectives）<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>：$\lnot$、$\lor$、$\land$、$\to$、$\leftrightarrow$<sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup></li>
-  <li>(A3) 輔助字母：$($、$)$</li>
+  <li>(A3) 輔助符號：$($、$)$</li>
 </ul>
 
-<p><strong>A2.</strong> $\mathcal{L}_\mathbf{K}$ 蒐集所有的公式（well-formed fomula, <em>wff</em>），構成規則（fomation rules）如下：</p>
+<p><strong>A2.</strong> $\mathcal{L}_\mathbf{K}$ 蒐集所有的句式（well-formed formula, <em>wff</em>），構成規則（formation rules）如下：</p>
 
 <ul>
-  <li>(F1) 每個語句字母都是一個公式。（原子語句）</li>
-  <li>(F2) 如果 $\phi$ 是一個公式，那 $\lnot \phi$ 也是。</li>
-  <li>(F3) 如果 $\phi$ 和 $\psi$ 都是公式，那 $(\phi \lor \psi)$、$(\phi \land \psi)$、$(\phi \to \psi)$、$(\phi \leftrightarrow \psi)$ 也是。</li>
-  <li>(F4) 除此之外，沒有其他公式。<sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup></li>
+  <li>(F1) 每個語句字母都是一個句式。（原子語句）</li>
+  <li>(F2) 如果 $\phi$ 是一個句式，那 $\lnot \phi$ 也是。</li>
+  <li>(F3) 如果 $\phi$ 和 $\psi$ 都是句式，那 $(\phi \lor \psi)$、$(\phi \land \psi)$、$(\phi \to \psi)$、$(\phi \leftrightarrow \psi)$ 也是。</li>
+  <li>(F4) 除此之外，沒有其他句式。<sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup></li>
 </ul>
 
 <h1 id="b-mathcallmathbfk-">B. $\mathcal{L}_\mathbf{K}$ 的基本語法學</h1>
 
 <p><strong>B1. 定義 1.1</strong> 構成序列（formation sequences）</p>
 
-<p>若公式序列 $\{  \phi_1, \phi_2, \cdots , \phi_n \}$ 被稱作公式 $\phi$ 的構成序列，那：$\phi_n = \phi$ ，<sup id="fnref:4"><a href="#fn:4" class="footnote">4</a></sup>並且對於每個 $k \le n$，恰有以下之一被滿足：</p>
+<p>若句式序列 $\{  \phi_1, \phi_2, \cdots , \phi_n \}$ 被稱作句式 $\phi$ 的構成序列，那：$\phi_n = \phi$ ，<sup id="fnref:4"><a href="#fn:4" class="footnote">4</a></sup>並且對於每個 $k \le n$，恰有以下之一被滿足：</p>
 
 <ol>
   <li>$\phi_k$ 是原子語句。</li>
@@ -57,41 +55,41 @@
   <li>存在 $i, j&lt;k$，使得 $\phi_k = (\phi_i \lor \phi_j)$ 或 $\phi_k = (\phi_i \land \phi_j)$ 或 $\phi_k = (\phi_i \to \phi_j)$ 或 $\phi_k = (\phi_i \leftrightarrow \phi_j)$。</li>
 </ol>
 
-<p><strong>B2. 定義 1.2</strong> 子公式（subformula）</p>
+<p><strong>B2. 定義 1.2</strong> 子句式（subformula）</p>
 
-<p>若公式 $\psi$ 被稱作公式 $\phi$ 的一個子公式，則有以下之一被滿足：</p>
+<p>若句式 $\psi$ 被稱作句式 $\phi$ 的一個子句式，則有以下之一被滿足：</p>
 
 <ol>
   <li>$\psi=\phi$</li>
-  <li>$\phi=\lnot\psi_i$ 並且 $\psi$ 是 $\psi_i$ 的一個子公式。</li>
-  <li>$\phi$ 符合以下形式之一： $(\psi_i \lor \psi_j)$、$(\psi_i \land \psi_j)$、$(\psi_i \to \psi_j)$、$(\psi_i \leftrightarrow \psi_j)$，其中 $\psi$ 是 $\psi_i$ 或 $\psi_j$ 的一個子公式。</li>
+  <li>$\phi=\lnot\psi_i$ 並且 $\psi$ 是 $\psi_i$ 的一個子句式。</li>
+  <li>$\phi$ 符合以下形式之一： $(\psi_i \lor \psi_j)$、$(\psi_i \land \psi_j)$、$(\psi_i \to \psi_j)$、$(\psi_i \leftrightarrow \psi_j)$，其中 $\psi$ 是 $\psi_i$ 或 $\psi_j$ 的一個子句式。</li>
 </ol>
 
-<p><strong>B3. 定義 1.3</strong> 直接子公式（immediate subformula）</p>
+<p><strong>B3. 定義 1.3</strong> 直接子句式（immediate subformula）</p>
 
-<p>若公式 $\psi$ 被稱作公式 $\phi$ 的一個直接子公式，則有以下之一被滿足：</p>
+<p>若句式 $\psi$ 被稱作句式 $\phi$ 的一個直接子句式，則有以下之一被滿足：</p>
 
 <ol>
   <li>$\phi=\lnot\psi$ 。</li>
   <li>$\phi$ 符合以下形式之一： $(\psi_i \lor \psi_j)$、$(\psi_i \land \psi_j)$、$(\psi_i \to \psi_j)$、$(\psi_i \leftrightarrow \psi_j)$，其中 $\psi = \psi_i$ 或 $\psi = \psi_j$ 。</li>
 </ol>
 
-<p><strong>B4. 定義 1.4</strong> 公式的主要連接符（main connective）</p>
+<p><strong>B4. 定義 1.4</strong> 句式的主要連接符（main connective）</p>
 
-<p>如果一個連接符連接了 $\phi$ 的直接子公式，我們就稱此連接符為 $\phi$ 的主要連接符。</p>
+<p>如果一個連接符連接了 $\phi$ 的直接子句式，我們就稱此連接符為 $\phi$ 的主要連接符。</p>
 
 <p><strong>B5. 定義 1.5</strong> 連接符的出現的範圍（the <em>scope</em> of an occurrence of a connective）</p>
 
-<p>給定一個公式 $\phi$ ，一個連接符的出現的範圍為 $\phi$ 的一個子公式 $\psi$ ，滿足：</p>
+<p>給定一個句式 $\phi$ ，一個連接符的出現的範圍為 $\phi$ 的一個子句式 $\psi$ ，滿足：</p>
 
 <ol>
   <li>該連接符的出現在 $\psi$ 中；</li>
-  <li>對於所有 $\psi$ 的直接子公式 $\theta$ ，該連接符的出現不在 $\theta$ 中。</li>
+  <li>對於所有 $\psi$ 的直接子句式 $\theta$ ，該連接符的出現不在 $\theta$ 中。</li>
 </ol>
 
 <p><strong>B6. 定理 1.1</strong> 唯一可讀性定理（分解的唯一性定理）</p>
 
-<p>如果 $\phi$ 是 $\mathcal{L}$ 的一個公式，以下之一恰好成立：</p>
+<p>如果 $\phi$ 是 $\mathcal{L}$ 的一個句式，以下之一恰好成立：</p>
 
 <ol>
   <li>$\phi$ 是原子語句；</li>
@@ -102,16 +100,16 @@
   <li>存在唯一的 $\theta, \psi$ ，使得 $\phi = \theta \leftrightarrow \psi$。</li>
 </ol>
 
-<p><strong>[證明方法]</strong> 先定義公式長度的度量方法（一個從公式對應到自然數的函數），並以數學歸納法證明，對於任何長度的公式這性質都成立。</p>
+<p><strong>[證明方法]</strong> 先定義句式長度的度量方法（一個從句式對應到自然數的函數），並以數學歸納法證明，對於任何長度的句式這性質都成立。</p>
 
 <h1 id="c-mathcallmathbfk-">C. $\mathcal{L}_\mathbf{K}$ 的基本語義學</h1>
 
 <p><strong>C1.</strong> 古典語義學採取以下三個假設（古典假設）：</p>
 
 <ol>
-  <li><strong>二值原則（the principle of bivalence）</strong>：公式的真值只有兩種，真或假。</li>
+  <li><strong>二值原則（the principle of bivalence）</strong>：句式的真值只有兩種，真或假。</li>
   <li><strong>真值函數性原則（the principle of truth-functionality）</strong>：連接詞必須是真值函數（又稱為布林函數， Boolean function）。</li>
-  <li><strong>擴充性原則（the principle of extensionality）</strong>：任何公式的真值只能由包含其中的原子語句之真值與連接詞決定。</li>
+  <li><strong>擴充性原則（the principle of extensionality）</strong>：任何句式的真值只能由包含其中的原子語句之真值與連接詞決定。</li>
 </ol>
 
 <p><strong>C2. 定義 1.6</strong> 結構（structure）</p>
@@ -122,7 +120,7 @@
 
 <p><strong>C3. 定義 1.7</strong> 在結構中被定義</p>
 
-<p>一個公式 $\phi$ 的真值如果在 $\mathscr{M}$ 中被決定，我們就說， $\phi$ 在 $\mathscr{M}$ 中被定義。</p>
+<p>一個句式 $\phi$ 的真值如果在 $\mathscr{M}$ 中被決定，我們就說， $\phi$ 在 $\mathscr{M}$ 中被定義。</p>
 
 <p>如果 $\phi$ 被 $\mathscr{M}$ 決定為真，我們就說， $\phi$ 在 $\mathscr{M}$ 中為真。如果決定為假，我們就說， $\phi$ 在 $\mathscr{M}$ 中為假。</p>
 
@@ -130,11 +128,11 @@
 
 <p><strong>D1. 定義 1.8</strong> 語義地不一致</p>
 
-<p>對於一個公式集合 $\Gamma$ ，如果不存在任何結構使得 $\Gamma$ 的所有公式被定義且為真，我們就說， $\Gamma$ 是語義地不一致的（semantically inconsistent），符號寫作 $\Gamma\models$ 。否則就說， $\Gamma$ 是語義地一致的。</p>
+<p>對於一個句式集合 $\Gamma$ ，如果不存在任何結構使得 $\Gamma$ 的所有句式被定義且為真，我們就說， $\Gamma$ 是語義地不一致的（semantically inconsistent），符號寫作 $\Gamma\models$ 。否則就說， $\Gamma$ 是語義地一致的。</p>
 
 <p><strong>D2. 定義 1.9</strong> 語義蘊含關係</p>
 
-<p>(1) 如果不存在任何結構，使得公式 $\phi$ 為假且使得公式集合 $\Gamma$ 中的所有公式為真，我們就說， $\Gamma$ 語義地蘊含 $\phi$ ，符號寫作：$\Gamma \models \phi$。</p>
+<p>(1) 如果不存在任何結構，使得句式 $\phi$ 為假且使得句式集合 $\Gamma$ 中的所有句式為真，我們就說， $\Gamma$ 語義地蘊含 $\phi$ ，符號寫作：$\Gamma \models \phi$。</p>
 
 <p>(2) 承上，如果 $\Gamma$ 是空集合，我們就說， $\phi$ 是一個語義學定理，或說，$\phi$ 是一個恆真句（tautology），符號寫作：$\models \phi$。</p>
 
@@ -146,7 +144,7 @@
 
 <p><strong>D5. 定義 1.11</strong> 反例</p>
 
-<p>說 $\mathscr{M}$ 是序列 $\Gamma \models \phi$ 的一個反例，若且唯若， $\Gamma$ 中的每個公式在 $\mathscr{M}$ 中為真，並且 $\phi$ 在 $\mathscr{M}$ 為假。</p>
+<p>說 $\mathscr{M}$ 是序列 $\Gamma \models \phi$ 的一個反例，若且唯若， $\Gamma$ 中的每個句式在 $\mathscr{M}$ 中為真，並且 $\phi$ 在 $\mathscr{M}$ 為假。</p>
 
 <h1 id="e-">E. 語義學的一些一般定理</h1>
 
@@ -209,13 +207,13 @@
 
 <p><strong>E2. 定理 1.3</strong> 置換定理（substitution theorem）</p>
 
-<p>若 $\Gamma \models \phi$ ，則，對於所有原子語句 $P$ 和公式 $\psi$，$\Gamma (\psi/P) \models \phi (\psi/P)$ 。</p>
+<p>若 $\Gamma \models \phi$ ，則，對於所有原子語句 $P$ 和句式 $\psi$，$\Gamma (\psi/P) \models \phi (\psi/P)$ 。</p>
 
-<p>符號說明：$\Gamma(\psi/P)$ 意味著將 $\Gamma$ 中每個公式中出現的所有 $P$ 置換為 $\psi$ ， $\phi(\psi/P)$ 意味著將 $\phi$ 中出現的所有 $P$ 置換為 $\psi$ 。</p>
+<p>符號說明：$\Gamma(\psi/P)$ 意味著將 $\Gamma$ 中每個句式中出現的所有 $P$ 置換為 $\psi$ ， $\phi(\psi/P)$ 意味著將 $\phi$ 中出現的所有 $P$ 置換為 $\psi$ 。</p>
 
 <p><strong>E3. 定理 1.4-I</strong> 全等定理（Congruence Theorem）</p>
 
-<p>對任一個公式 $\theta$ ，</p>
+<p>對任一個句式 $\theta$ ，</p>
 
 <script type="math/tex; mode=display">(\phi\leftrightarrow\psi)\models\theta(\phi)\leftrightarrow\theta(\psi/\phi)</script>
 
@@ -227,7 +225,7 @@
 
 <p>若 $\phi \models \psi$ ，則 $\psi^* \models \phi^*$ 。</p>
 
-<p>符號說明：$\psi^* $ 被稱作 $\psi $ 的對偶， $* $ 是一個函數，將公式中所有的 $\lor$ 換成 $\land$ ，並將所有的 $\land$ 換成 $\lor$ ，如此有 $\phi^* = *(\phi)$ 。</p>
+<p>符號說明：$\psi^* $ 被稱作 $\psi $ 的對偶， $* $ 是一個函數，將句式中所有的 $\lor$ 換成 $\land$ ，並將所有的 $\land$ 換成 $\lor$ ，如此有 $\phi^* = *(\phi)$ 。</p>
 
 <p><strong>E.6 定理 1.5 的引理</strong>：</p>
 
@@ -241,19 +239,19 @@
       <p>又稱真值函數子/運算子（truth-functors/operators）。&nbsp;<a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
     </li>
     <li id="fn:2">
-      <p>在波蘭記號系統中，(F2)與(F3)會如此改寫：(P2)如果 $\phi$ 是一個公式，那 $N\phi$ 也是。(P3)如果 $\phi$ 和 $\psi$ 都是公式，那 $(A\phi\psi)$（$\lor$）、$(K\phi\psi)$（$\land$）、$(C\phi\psi)$（$\to$）、$(E\phi\psi)$ （$\leftrightarrow$）也是。&nbsp;<a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+      <p>在波蘭記號系統中，(F2)與(F3)會如此改寫：(P2)如果 $\phi$ 是一個句式，那 $N\phi$ 也是。(P3)如果 $\phi$ 和 $\psi$ 都是句式，那 $(A\phi\psi)$（$\lor$）、$(K\phi\psi)$（$\land$）、$(C\phi\psi)$（$\to$）、$(E\phi\psi)$ （$\leftrightarrow$）也是。&nbsp;<a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
     </li>
     <li id="fn:3">
       <p>我們通常把 $\top$ 和 $\bot$ 作為額外的主要符號。但在這裡，它們是作為語句字母被加進來， $\top$ 定義為「在真值表上總是為真的語句」，而 $\bot$ 定義為「在真值表上總是為假的語句」。&nbsp;<a href="#fnref:3" class="reversefootnote">&#8617;</a></p>
     </li>
     <li id="fn:4">
-      <p>我以 $=$ 表示公式的同一關係，一種等同關係（equivalance relation）。&nbsp;<a href="#fnref:4" class="reversefootnote">&#8617;</a></p>
+      <p>我以 $=$ 表示句式的同一關係，一種等同關係（equivalance relation）。&nbsp;<a href="#fnref:4" class="reversefootnote">&#8617;</a></p>
     </li>
     <li id="fn:5">
-      <p>在布林代數下，我們將對公式 $\phi$ 的分派以賦值函數加以定義。賦值函數是將公式 $\phi$ 對應到 $\{ 0, 1 \}$ 的函數 $v$ ，遞迴地以 $\phi$ 之直接子公式的函數值來定義公式的函數值，直到作為直接子公式的原子語句的真值被 $v$ 初始且任意地給定。我們將這稱作一個布林賦值（Boolean valuation）。如果存在賦值函數使得 $\phi$ 對應到 $1$ ，則我們說 $\phi$ 是可滿足的。&nbsp;<a href="#fnref:5" class="reversefootnote">&#8617;</a></p>
+      <p>在布林代數下，我們將對句式 $\phi$ 的分派以賦值函數加以定義。賦值函數是將句式 $\phi$ 對應到 $\{ 0, 1 \}$ 的函數 $v$ ，遞迴地以 $\phi$ 之直接子句式的函數值來定義句式的函數值，直到作為直接子句式的原子語句的真值被 $v$ 初始且任意地給定。我們將這稱作一個布林賦值（Boolean valuation）。如果存在賦值函數使得 $\phi$ 對應到 $1$ ，則我們說 $\phi$ 是可滿足的。&nbsp;<a href="#fnref:5" class="reversefootnote">&#8617;</a></p>
     </li>
     <li id="fn:6">
-      <p>$\Gamma, \lnot\phi \models \psi$ 為 $\Gamma\cup \{ \lnot\phi \} \models \psi$ 的標準簡寫。同樣地，如果 $\Delta$ 是另一個公式集合，我們用 $\Gamma, \lnot\Delta \models \psi$ 簡寫 $\Gamma\cup \Delta \models \psi$ 。&nbsp;<a href="#fnref:6" class="reversefootnote">&#8617;</a></p>
+      <p>$\Gamma, \lnot\phi \models \psi$ 為 $\Gamma\cup \{ \lnot\phi \} \models \psi$ 的標準簡寫。同樣地，如果 $\Delta$ 是另一個句式集合，我們用 $\Gamma, \lnot\Delta \models \psi$ 簡寫 $\Gamma\cup \Delta \models \psi$ 。&nbsp;<a href="#fnref:6" class="reversefootnote">&#8617;</a></p>
     </li>
     <li id="fn:7">
       <p>更嚴謹的定義會是：$\phi$ 邏輯等同於 $\psi$ ，然而並不難看出邏輯等同是一個等同關係。&nbsp;<a href="#fnref:7" class="reversefootnote">&#8617;</a></p>
