@@ -4,7 +4,7 @@
   <title><![CDATA[Wayneh and Coffee]]></title>
   <link href="http://wayneh.tw/atom.xml" rel="self"/>
   <link href="http://wayneh.tw/"/>
-  <updated>2017-10-06T14:35:50+08:00</updated>
+  <updated>2017-10-06T16:23:37+08:00</updated>
   <id>http://wayneh.tw/</id>
   <author>
     <name><![CDATA[洪偉]]></name>
@@ -62,7 +62,7 @@
 
 <p>狀況一、 $v$ 的所有函數值皆為 $F$ 。則可以 $(P_1 \land \lnot P_1)$ 表達 $v$ 。</p>
 
-<p>狀況二、 有 $k$ 個結構（$k \le 2^n$）使得 $v$ 的函數值為 $T$ ，假設這些結構為 $\{ \mathscr{M}<em>{r_1}, \mathscr{M}</em>{r_2}, \cdots \mathscr{M}_{r_k} \}$ 。</p>
+<p>狀況二、 有 $k$ 個結構（$k \le 2^n$）使得 $v$ 的函數值為 $T$ ，假設這些結構為 $\{ \mathscr{M}_ {r_ 1}, \mathscr{M}_ {r_ 2}, \cdots \mathscr{M}_ {r_ k} \}$ 。</p>
 
 <p>對於每一個 $\mathscr{M}_{r_k}$ （$j \le k$），我們可以建立一個這樣的 $\phi_j$：</p>
 
