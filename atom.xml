@@ -4,7 +4,7 @@
   <title><![CDATA[Wayneh and Coffee]]></title>
   <link href="http://wayneh.tw/atom.xml" rel="self"/>
   <link href="http://wayneh.tw/"/>
-  <updated>2017-10-02T15:19:20+08:00</updated>
+  <updated>2017-10-06T13:09:07+08:00</updated>
   <id>http://wayneh.tw/</id>
   <author>
     <name><![CDATA[洪偉]]></name>
@@ -12,6 +12,178 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[二、命題邏輯的諸語義學後設理論]]></title>
+    <link href="http://wayneh.tw/blog/2017/10/02/some-semantic-meta-theorems-for-propositional-logic/"/>
+    <updated>2017-10-02T10:26:41+08:00</updated>
+    <id>http://wayneh.tw/blog/2017/10/02/some-semantic-meta-theorems-for-propositional-logic</id>
+    <content type="html"><![CDATA[<blockquote>
+  <p>本文為演繹邏輯系統之形式化第二章的課堂筆記。</p>
+</blockquote>
+
+<!--more-->
+
+<h1 id="a--mathcallmathbfk-">A. 真值函數： $\mathcal{L}_\mathbf{K}$ 的表達適足性與函數完備理論</h1>
+
+<p><strong>A1. 真值函數</strong></p>
+
+<p>真值函數是從 n-陣列的（n 元的）真值集合 $\{T, F\}^n$ 對應到單一真值集合 $\{T, F\}$ 的函數。</p>
+
+<p>在 $\mathcal{L}<em>\mathbf{K}$ 中有五個（1-陣列）連接符，亦即，有五個真值函數可以在此語言中直接表述。理論上來說，由於句式可不限使用連接符以及原子語句， $\mathcal{L}</em>\mathbf{K}$ 中可以有無限多個 n-陣列的真值函數。</p>
+
+<p><strong>A2. 定義 2.1：表達適足性（experssive adequacy）</strong></p>
+
+<ol>
+  <li>對於一個給定真值函數 $v$ ，如果能只用一個連接符集合 $\Delta$ 中的連接符和原子語句來組成句式表達該函數，我們就說， $\Delta$ 適足表達 $v$ 。</li>
+  <li>如果一個連接符集合 $\Delta$ 能適足表達在 $\mathcal{L}$ 語言中的每一個真值函數，則我們說 $\Delta$ 是在 $\mathcal{L}$ 中表達地適足簡化的（<em>expressively adequate simpliciter</em> ，或函數地完備的，<em>functionally complete</em>）。</li>
+</ol>
+
+<p><strong>A3. 定義 2.2：連接符的可定義性</strong></p>
+
+<ol>
+  <li>一個連接了 n 個句式的連接符 $\oplus$ 在一個語言中稱作是可定義的，若且唯若，存在一個包含單一 $\oplus$ 的句式，使得一個 n-陣列的真值函數可以被這個句式所表達。</li>
+  <li>一個連接符 $\oplus$ 在一個特殊連接符的集合 $\Delta$ 的語項中是可定義的，若且唯若 $\oplus$ 所表達的真值函數可以由只包含 $\Delta$ 中的連接詞的句式所表達。</li>
+</ol>
+
+<p><strong>A4. 性質 2.1</strong></p>
+
+<p>$\{ \lnot , \land , \lor \}$ 適足表達每個二元的真值函數。</p>
+
+<p><strong>A5. 定理 2.1：函數的完備性定理</strong></p>
+
+<p>$\{ \lnot , \land , \lor \}$ 是函數地完備的。</p>
+
+<p><em>Proof.</em></p>
+
+<p>對於任意的 n-陣列的真值函數 $v$ ，假設 $v$ 定義在 $\{P_1, P_2, \cdots P_n \} 上。</p>
+
+<p>考慮兩種不同的狀況來建立句式：</p>
+
+<p>狀況一、 $v$ 的所有函數值皆為 $F$ 。則可以 $(P_1 \land \lnot P_1)$ 表達 $v$ 。</p>
+
+<p>狀況二、 有 $k$ 個結構（$k \le 2^n$）使得 $v$ 的函數值為 $T$ ，假設這些結構為 $\{ \mathscr{M}<em>{r_1}, \mathscr{M}</em>{r_2}, \cdots \mathscr{M}_{r_k} \}$ 。</p>
+
+<p>對於每一個 $\mathscr{M}_{r_k}$ （$j \le k$），我們可以建立一個這樣的 $\phi_j$：</p>
+
+<script type="math/tex; mode=display">\phi_j: (\pi_1 \land \pi_2 \land \cdots \land \pi_n)</script>
+
+<p>在這，對於每個 $i$ （ $1 \le i \le n$ ）：若 $P_i$ 在 $\mathscr{M}_i$ 中為 $T$ ，則 $\pi_i = P_i$ ；否則， $\pi_i = \lnot P_i$ 。</p>
+
+<p>我們所建構的可表達 $v$ 的句式為：</p>
+
+<p><script type="math/tex">\phi: \bigvee_{1 \le j \le k} \phi_j</script><sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup></p>
+
+<p><strong>A6. 性質 2.2</strong></p>
+
+<p>$\mathcal{L}_\mathbf{K}$ 的五個連接符的集合是函數地完備的。</p>
+
+<h1 id="b-dnfcnf">B. 選言標準形式（DNF）與連言標準形式（CNF）</h1>
+
+<p><strong>B1. 定義 2.3：類原子句式</strong></p>
+
+<p>一個句式被稱作類原子的（quasi-atomic），若且唯若它包含單一的語句字母以及最多一個否定符（$\lnot$）。</p>
+
+<p><strong>B2. 定義 2.4：DNF 與 CNF</strong></p>
+
+<ol>
+  <li>一個語句如果是選言標準形式的（in DNF, in disjunctive normal form），若且唯若它是準原子句式的連言的選言。</li>
+  <li>一個語句如果是連言標準形式的（in CNF, in conjunctive normal form），若且唯若它是準原子句式的選言的連言。</li>
+</ol>
+
+<p><strong>B3. 定理 2.2</strong></p>
+
+<ol>
+  <li>對於 $\mathcal{L}_\mathbf{K}$ 的任何句式 $\phi$ ，存在一個選言標準形式的句式 $\phi^D$ 與 $\phi$ 邏輯地等同。</li>
+  <li>對於 $\mathcal{L}_\mathbf{K}$ 的任何句式 $\phi$ ，存在一個連言標準形式的句式 $\phi^C$ 與 $\phi$ 邏輯地等同。</li>
+</ol>
+
+<p><em>Proof.</em></p>
+
+<p>$\phi^D$ 的存在由 <strong>A5</strong> 和 <strong>A6</strong> 可證明。 $\phi^C$ 可從此結論以替代定理、笛．摩根律和分配律加以證明。</p>
+
+<h1 id="c-">C. 插式定理</h1>
+
+<p><strong>C1. 定理 2.3：插式定理（interpolation theorem）</strong></p>
+
+<p>若 $\phi \models \psi$ ，則存在句式 $\theta(P)$ （$P$ 同時出現在 $\phi$ 與 $\psi$ 中）使得 $\phi \models \theta$ 且 $\theta \models \psi$ 。此處的 $\theta$ 稱作插式（interpolant）。</p>
+
+<p>若不存在同時出現在 $\phi$ 與 $\psi$ 中的 $P$ ，則要嘛 $\phi \models$ ，要嘛 $\models \psi$ 。</p>
+
+<p><em>Proof.</em></p>
+
+<p>可以證明，對於每個出現在 $\phi$ 但不出現在 $\psi$ 的 $P_i (\in \{ P_1 , P_2 , \cdots , P_n \} )$ ，都有：</p>
+
+<ol>
+  <li>$\phi(P_i) \models \phi (\top/P_i) \lor \phi (\bot/P_i)$</li>
+  <li>$\phi (\top/P_i) \lor \phi (\bot/P_i) \models \psi$</li>
+</ol>
+
+<p>對於每個 $i \le n$ ，我們定義：</p>
+
+<ol>
+  <li>$\theta_{P_1} = \phi (\top/P_1) \lor \phi (\bot/P_1)$</li>
+  <li>$\theta_{P_i} = \theta_{P_{i-1}} (\top/P_i) \lor \theta_{P_{i-1}} (\bot/P_i)$ 。</li>
+</ol>
+
+<p>$\theta_{P_n}$ 就差不多是我們要找的 $\theta$ ，只需要將 $\theta_{P_n}$ 裡面的 $\top$ 和 $\bot$ 分別用恆真或矛盾的句式來替代。</p>
+
+<h1 id="d-">D. 命題邏輯的緊緻性</h1>
+
+<p><strong>D1. 定義 2.5：可滿足性</strong></p>
+
+<p>一個句式集合 $\Gamma$ 是可滿足的（satisfiable），若且唯若，存在一個結構使得所有在 $\Gamma$ 中的句式都為真。</p>
+
+<p><strong>D2. 定理 2.4：緊緻性定理（Compactness Theorem）</strong></p>
+
+<p>$\mathcal{L}_\mathbf{K}$ 中的句式集合 $\Theta$ 是可滿足的，若且唯若，每個 $\Theta$ 的有限子集 $\Gamma$ 都是可滿足的。</p>
+
+<p><em>Proof.</em></p>
+
+<p>唯一需要我們證明的方向是 $(\Leftarrow)$ 。</p>
+
+<p>給定任何一個可滿足的有限句式集合 $\Gamma$ 。由於 $\mathcal{L}<em>\mathbf{K}$ 是良序的，我們可令 $\mathcal{L}</em>\mathbf{K}$ 的所有句式為 $\phi_1, \phi_2, \cdots \phi_n, \cdots$ 。</p>
+
+<p>我們遞迴地定義這樣一個序列：</p>
+
+<script type="math/tex; mode=display">\Delta_0 = \Gamma</script>
+
+<script type="math/tex; mode=display">\Delta_{n+1} = \begin{cases} \Delta_n \cup \\{ \phi_{n+1}\\} 如果這是可滿足的； \\ \Delta_n \cup \\{ \lnot \phi_{n+1} \\} 否則。 \end{cases}</script>
+
+<p>令 $\Delta = \bigcup_n \Delta_n$ 。</p>
+
+<p>可以看出：</p>
+
+<ol>
+  <li>$\Gamma \subset \Delta$ 。</li>
+  <li>對於每一個句式 $\phi$ ，要嘛 $\phi \in \Delta$ ，要嘛 $\lnot \phi \in \Delta$ 。</li>
+  <li>$\Delta$ 的每一個有限子集都是可滿足的。</li>
+</ol>
+
+<p>我們定義一個真值賦值函數 $v$ ：$v(P) = 1 ，若且唯若 P \in \Delta$ ，對於每一個原子句式 $P$ 。</p>
+
+<p>可以數學歸納法證明： $v(\phi)=1，若且唯若 \phi \in \Delta$。</p>
+
+<p>也就是說， $\Delta$ 是可被 $v$ 滿足的。</p>
+
+<p><strong>D3. 系理：緊緻性理論的變體</strong></p>
+
+<ol>
+  <li>若 $\Gamma \models \phi$ ，則存在一個 $\Gamma$ 的有限子集 $\Gamma’$ 使得 $\Gamma’ \models \phi$ 。</li>
+  <li>若 $\Gamma \models$ ，則存在一個 $\Gamma$ 的有限子集 $\Gamma’$ 使得 $\Gamma’ \models$ 。</li>
+</ol>
+
+<h1 id="notes">Notes</h1>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>可以看出，此處的 $\phi$ 是選言標準形式的。&nbsp;<a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[一、形式語言與基本語義學]]></title>
@@ -2300,107 +2472,6 @@
     <content type="html"><![CDATA[<iframe src="//slides.com/weihung/utilitarianism/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
 
 <p>這是兩週後演講所使用的投影片。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[燒紙錢與中二病]]></title>
-    <link href="http://wayneh.tw/blog/2016/04/27/shao-zhi-qian/"/>
-    <updated>2016-04-27T23:59:00+08:00</updated>
-    <id>http://wayneh.tw/blog/2016/04/27/shao-zhi-qian</id>
-    <content type="html"><![CDATA[<p><img src="http://pgw.udn.com.tw/gw/photo.php?u=http://uc.udn.com.tw/photo/2016/04/15/99/2041939.jpg&amp;x=0&amp;y=0&amp;sw=0&amp;sh=0&amp;sl=W&amp;fw=1050" alt="圖片" /></p>
-
-<blockquote>
-  <p>本文首次發布於 UDN 鳴人堂沃草烙哲學專欄。</p>
-</blockquote>
-
-<p>最近泛科學小編在粉絲頁上<a href="https://www.facebook.com/PanSci/photos/a.155962291134790.37539.114408138623539/1080624978668512/">評論</a>「燒紙錢」習俗，除了環保上的顧慮，他也指出「沒有證據指出燒紙錢能增加老祖宗的收入」。小編的意見引起許多人批評，認為他不尊重傳統，但其實我曾經寫過更極端的想法，認為<a href="http://wayneh.tw/blog/2015/05/05/burn-new-money/">不僅「有證據能說明燒紙錢不能增加祖先的收入」，甚至「有證據說明燒紙錢對整個陰間金融體系有害」</a>，因此我認為：</p>
-
-<blockquote>
-  <p>『最好的也是唯一的作法，就是立法對此加以禁止。唯有這樣，才能完全消除道德風險，並使得人間不再繼續危害冥界的經濟體系的平衡。』</p>
-</blockquote>
-
-<p>上述說法當然只是個誇張的反諷，因為即使文章裡的推論都有道理，我們也不該支持政府為了可能不存在的冥界金融體系，去立法限制人民燒紙錢的自由。不過，我另外還收到一些反對意見，著重於指責我不尊重他人的習俗，或強調習俗不一定要那麼「有道理」。</p>
-
-<p>看來，對那些真心將燒紙錢看作重要儀式的人，我的觀點相當尖銳。</p>
-
-<p>在這篇文章中，我將論述我真正的核心觀點：習俗儀式的存在，必須以一定的合理性為自己進行辯護、修正與保存。光作為「習俗」，並不能豁免於合理性的問題。</p>
-
-<!--more-->
-
-<h1 id="section">民俗信仰的中二病特色</h1>
-
-<p>在《中二病也想談戀愛》這部動漫作品裡，女主角小鳥遊六花是一名中二病少女。小鳥遊六花將自己設定為「邪王真眼的擁有者」，並將這樣的設定，放入她的生活以及對自己的認同裡：她戴上眼罩，隨事件念著自己設計的台詞並扮演自創的動作。</p>
-
-<p>中二病，整體來說類似「活在自己（帥氣的）世界中」的態度，將幻想的世界觀，實踐於生活之中。這部動漫試圖展現：事實上，中二病並不是真正的病，中二病「患者」其實知道自己選擇的生活方式是什麼，也知道世界「真實上」是什麼。</p>
-
-<p>在這部作品中，有一段劇情將這部作品的深度後推了不只一點點：小鳥遊因為一些理由回到了老家，壓抑了中二病，表現成「正常」的樣子。在這過程中，她有一次去幫父親「掃墓」。按照老家的習俗，生者會將淨水灑在往生者的墓碑上。她母親在這時對她說了這樣一句話：「突然從頭上倒下去的話，爸爸會覺得冷的哦。」</p>
-
-<p><img src="http://i.imgur.com/NVQD9dT.png" alt="中二病" /></p>
-
-<p>這段台詞，在我看來，指出了民間信仰具有的「中二病特色」。如同中二病少女希望能活在帥氣的世界一樣，所謂「正常人」似乎也需要一套關於生活世界的「幻想設定」，包括使得生者的生活與逝者的生活可以有所聯繫。</p>
-
-<p>因此，生者設定的「逝者的生活」，往往是生者生活的重製，加上適度的神祕元素，在生者與死者世界間建立自然科學無法解釋的關係，也因此有著無法完全攤開的面貌及刻意營造的不現實性。</p>
-
-<p>民間信仰一方面知道這些不現實性，一方面對此抱持不可違抗的信念。人們如此選擇了自己需要的生死世界觀，對此世界抱持特定情感。</p>
-
-<p>我們沒有任何理由去反對這樣信仰。指出它的中二病特色，也並不是在嘲笑它或輕蔑它（就如同我們並不見得把有中二病的動漫角色當成嘲笑的對象），只是在指出：正是因為這樣的特色，民俗信仰的世界觀會隨著時代而演進，隨著人們的需求而破壞與建立。</p>
-
-<p>我們有很多理由去尊重民間信仰，但當以它而來的習俗，妨礙到了它自身提倡的信仰，或影響到了真實世界中他人的處境與共同生活場域時，就是另外一回事了。</p>
-
-<h1 id="section-1">習俗：信仰的藝術</h1>
-
-<p>美好的、莊嚴的習俗，能讓我們感動地懷念逝者、崇拜神明、尊重人以外的世界。社會透過各習俗單位，如廟宇、如道士、如殯葬業者、如爸媽，將習俗環節串接起來，並一個個接上了民俗信仰式的設定。</p>
-
-<p>創造習俗的人，從生死觀、宗教觀、原始情感作為素材，以藝術家的才能賦予了習俗的藝術性，使得感受者能進一步在語言、符號與身體的引導下，進入關於神秘生死世界的信仰觀念。</p>
-
-<p>我們的信仰與習俗本性，是如此社會建構的，但並非是無意義的、不該尊重的。這裡頭包含了人們豐富且樸實的情感，包含了世界的終極意義，包含了世界之於人們的神秘感，給予人們崇敬、謙遜與安寧。然而，這並不代表民俗信仰的一切藝術形式，儀式還是塑像，都不可以被挑剔。</p>
-
-<p>特別是這些習俗正在不合理地擴充它的內容的時候，又特別是這些習俗正在與一些真實世界的價值起衝突的時候。</p>
-
-<p>例如，以無視生態科學的方式動物放生，其實與「不殺生」的精神衝突了；用不人道的方式餵養豬公，與「盡可能不傷害動物」的理念衝突了；在夜晚放鞭炮擾人生活，與「尊重他人的睡眠與健康」的真實世界的人際法則衝突了。</p>
-
-<p>這種種挑戰者來自真實世界，比起民間習俗的信念來說，它更加符合人們活在真實世界上所抱持的理念與共識。因此當挑戰者嚴厲而有道理地揭露了習俗的問題時，信仰有理由去反省或辯護來自於歷史的習俗，是否有修正的必要。</p>
-
-<p>這是一種人文主義的態度：我們重視我們自己的信仰，但我們更重視與他人、與世界的共存共生關係。</p>
-
-<h1 id="section-2">習俗的修正與保存</h1>
-
-<p>我之所以認為燒紙錢糟糕，主要根據兩個理由，第一個是人們經常詬病的環保問題，第二個則是：它其實是不必要的，而它衍生的信仰正在掩蓋它的這種不必要。事實上，我們並不需要燒紙錢的習俗，也不需要它所衍生的有問題的逝者世界觀念。</p>
-
-<p>我們無法放棄燒紙錢，因為我們相信「燒紙錢可以為老祖宗增添收入」。然而這個說法背後預設了幾個「世界設定」：</p>
-
-<ol>
-  <li>火是必要的媒介。</li>
-  <li>死者需要錢。</li>
-</ol>
-
-<p>對此，我們可以分別給予挑戰：</p>
-
-<ol>
-  <li>
-    <p>火是神祕的，古人看到東西消失在火之中，認為火可以將東西帶去另外的世界，這真是合理不過的事。但我們現在知道，之所以東西消失了，只是他們氧化而成為溫室氣體。那麼新的信仰，就需要去進一步構思，那麼火究竟是如何作為媒介的。科學在這裡是第一個挑戰者。</p>
-  </li>
-  <li>
-    <p>民俗信仰如果簡單宣稱「死者需要錢」，我所質疑的就是，「需要錢」真的是一個簡單的宣稱嗎？「需要錢」的背後，你需要的是一整個貨幣經濟體系。如果民俗信仰退讓，認為重點並非是在需要錢，而是需要某種在燒紙錢時會懷抱的「心意」。那我的質疑會是，你既然也承認燒紙錢不必要，那何不想點別的？</p>
-  </li>
-</ol>
-
-<p>不過事實上，我們只要認真關注這個習俗背後的基本信念，就知道不燒紙錢根本就沒什麼－－我們實際需要的是對往生者的追憶，而不是塞錢給往生者。我們可以想像兩種尊敬先祖與神佛的信仰，但其中一種是不燒紙錢的，這完全無損於我們的信仰與我們對世界的情感。</p>
-
-<p>批判燒紙錢這件事會造成「冥界經濟通貨膨脹問題」，要揭露與追問的無非是：「冥界的貨幣體系？我們真的需要這個嗎？」</p>
-
-<hr />
-
-<ul>
-  <li>作者為<a href="http://wayneh.tw/">偉恩與咖啡</a>哲學部落客，清大哲學所碩士生。</li>
-  <li>本文寫作期間感謝沃草烙哲學社群的建議和協助。</li>
-  <li>公民學院交誼廳：http://community.citizenedu.tw/</li>
-  <li>
-    <p>沃草公民學院粉絲專頁：https://www.facebook.com/citizenedu</p>
-
-  </li>
-</ul>
 ]]></content>
   </entry>
   
