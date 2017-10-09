@@ -9,11 +9,11 @@ footer: true
 
 <img id="portrait" src="/images/portrait.jpg" alt="portrait" />
 
-我是洪偉，清大哲學碩士、台大哲學碩士生。興趣領域包含形上學、邏輯學等。
+我是洪偉，清大哲學碩士、台大哲學博士生。
 
-現任[里山咖啡](http://satoyamacafe.tw/)哲學老闆、沃草公民學院專案經理、[烙哲學召集人](http://community.citizenedu.tw/)之一、簡單哲學營講師、[01哲學](http://philosophy.hk01.com/)專欄寫手、哲普工作者。
+我是[里山咖啡](http://satoyamacafe.tw/)哲學老闆、沃草公民學院專案經理、[烙哲學召集人](http://community.citizenedu.tw/)之一、簡單哲學營講師、[01哲學](http://philosophy.hk01.com/)專欄寫手、哲普工作者。
 
-同時我是[TRPG 里山社](http://trpgtw.blogspot.tw/)的一位遊戲主持人、玩家與推廣者，無限期召募團員中。
+同時我是[TRPG 里山社](http://trpgtw.blogspot.tw/)的一位遊戲主持人、玩家與推廣者。
 
 除了一些自己隨手寫下的文章外，我還會將我在其他地方撰寫過的著作都蒐集在這裡。
 

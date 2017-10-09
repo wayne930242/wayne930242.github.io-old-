@@ -4,7 +4,7 @@ title: "一、形式語言與基本語義學"
 description: 演繹邏輯系統之形式化第一章的課堂筆記。
 date: 2017-10-01 12:52:55 +0800
 comments: true
-categories: 筆記 邏輯學
+categories: 筆記 邏輯學 演繹邏輯系統之形式化
 image.feature: 
 image.credit: 
 image.creditlink: 

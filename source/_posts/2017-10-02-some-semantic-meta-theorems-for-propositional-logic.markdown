@@ -4,7 +4,7 @@ title: "二、命題邏輯的諸語義學後設理論"
 description: 本文為演繹邏輯系統之形式化第二章的課堂筆記。
 date: 2017-10-02 10:26:41 +0800
 comments: true
-categories: 筆記 邏輯學
+categories: 筆記 邏輯學 演繹邏輯系統之形式化
 image.feature: 
 image.credit: 
 image.creditlink: 
@@ -24,7 +24,7 @@ published: true
 
 真值函數是從 n-陣列的（n 元的）真值集合 $\\{T, F\\}^n$ 對應到單一真值集合 $\\{T, F\\}$ 的函數。
 
-在 $\mathcal{L}_ \mathbf{K}$ 中有五個（1-陣列）連接符，亦即，有五個真值函數可以在此語言中直接表述。理論上來說，由於句式可不限使用連接符以及原子語句， $\mathcal{L}_\mathbf{K}$ 中可以有無限多個 n-陣列的真值函數。
+在 $\mathcal{L}_ \mathbf{K}$ 中有五個連接符，亦即，有五個真值函數（四個 1-陣列，一個 0-陣列）可以在此語言中直接表述。理論上來說，由於句式可不限使用連接符以及原子語句， $\mathcal{L}_\mathbf{K}$ 中可以有無限多個 n-陣列的真值函數。
 
 **A2. 定義 2.1：表達適足性（experssive adequacy）**
 
@@ -46,13 +46,13 @@ $\\{ \lnot , \land , \lor \\}$ 是函數地完備的。
 
 *Proof.*
 
-對於任意的 n-陣列的真值函數 $v$ ，假設 $v$ 定義在 $\\{P_1, P_2, \cdots P_n \\} 上。
+對於任意的 n-陣列的真值函數 $v$ ，假設 $v$ 定義在 $\\{P_ 1, P_ 2, \cdots P_ n \\}$ 上。
 
 考慮兩種不同的狀況來建立句式：
 
 狀況一、 $v$ 的所有函數值皆為 $F$ 。則可以 $(P_1 \land \lnot P_1)$ 表達 $v$ 。
 
-狀況二、 有 $k$ 個結構（$k \le 2^n$）使得 $v$ 的函數值為 $T$ ，假設這些結構為 $\\{ \mathscr{M}_{r_1}, \mathscr{M}_{r_2}, \cdots \mathscr{M}_{r_k} \\}$ 。
+狀況二、 有 $k$ 個結構（$k \le 2^n$）使得 $v$ 的函數值為 $T$ ，假設這些結構為 $\\{ \mathscr{M}_ {r_ 1}, \mathscr{M}_ {r_ 2}, \cdots \mathscr{M}_ {r_ k} \\}$ 。
 
 對於每一個 $\mathscr{M}_{r_k}$ （$j \le k$），我們可以建立一個這樣的 $\phi_j$：
 
@@ -150,6 +150,32 @@ $$\Delta_{n+1} = \begin{cases} \Delta_n \cup \\{ \phi_{n+1}\\} 如果這是可�
 
 1. 若 $\Gamma \models \phi$ ，則存在一個 $\Gamma$ 的有限子集 $\Gamma'$ 使得 $\Gamma' \models \phi$ 。
 2. 若 $\Gamma \models$ ，則存在一個 $\Gamma$ 的有限子集 $\Gamma'$ 使得 $\Gamma' \models$ 。
+
+# E. $\mathcal{L}_ \mathbf{K}$ 的可決定性
+
+**E1. 定義 2.6：有效程序（effective procedure）**
+
+一個有效程序，意指符合以下兩個條件的機制：
+
+1. 由精確規程構成的有限集合，這些規程只具有有限長度，解釋如何機械地按照它執行程序。
+2. 沒有隨機的裝置，或任何這樣的裝置在實踐上是只能估計的。
+
+**E2. 定義 2.7：決定程序（decision procedure）**
+
+一個決定程序，意指我們能在有限步驟中應用該程序決定結果的一個有效程序。
+
+**E3. 定義 2.8：可決定性（decidability）**
+
+一個表達的集合 $\Gamma$ 是可決定的，若且唯若存在一個有效程序，給定一個 $\phi$ ，能決定是否 $\phi \in \Gamma$ 。
+
+**E4. 定理 2.5**
+
+1. $\mathcal{L}_ \mathbf{K}$-序列的集合是可決定的；尤其， $\mathcal{L}_ \mathbf{K}$ 的拓樸的集合是可決定的。
+2. 對於一個 $\mathcal{L}_ \mathbf{K}$ 的句式的有限集合 $\Gamma$ ， $\Gamma$ 的拓樸結果（tautological consequence）是可決定的。
+
+*Proof.*
+
+真值表法就是一個能決定句式的語義值的決定程序。
 
 # Notes
 
