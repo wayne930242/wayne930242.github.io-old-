@@ -1,0 +1,468 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+
+<head>
+
+
+<meta charset="utf-8">
+<meta http-equiv="cleartype" content="on">
+
+<title>三、形式系統的建構：概述 - Wayneh and Coffee</title>
+<meta name="author" content="洪偉">
+
+
+
+
+<meta name="description" content="本文為演繹邏輯系統之形式化第三章的課堂筆記。">
+
+<meta name="keywords" content="演繹邏輯系統之形式化 筆記 邏輯學 哲學, philosophy">
+
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Twitter Cards -->
+
+  
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content"">
+  
+  <meta name="twitter:title" content="三、形式系統的建構：概述">
+  <meta name="twitter:description" content="本文為演繹邏輯系統之形式化第三章的課堂筆記。">
+  <meta name="twitter:creator" content="@wayne932042">
+
+
+<link rel="canonical" href="http://wayneh.tw/blog/2017/10/06/the-construction-of-formal-systems">
+<link href="/favicon.png" rel="icon">
+<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="/atom.xml" rel="alternate" title="Wayneh and Coffee" type="application/atom+xml">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+<script>Modernizr || document.write('<script src="/javascripts/vendor/modernizr-2.6.2.custom.min.js"><\/script>') </script>
+
+
+
+<!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+<!-- MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript"
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<meta property="og:title" content="三、形式系統的建構：概述 - Wayneh and Coffee" />
+<meta property="og:description" content="本文為演繹邏輯系統之形式化第三章的課堂筆記。" />
+<meta property="og:url" content="http://wayneh.tw/blog/2017/10/06/the-construction-of-formal-systems" />
+<meta property="og:image" content="http://wayneh.tw/images/facebook1.png" />
+<meta property="og:author" content="洪偉" />
+<meta property="og:site_name" content="Wayneh and Coffee" />
+<meta property="og:locale" content="zh_TW" />
+<meta property="og:type" content="article" />
+<meta property="fb:app_id" content="836018039785211" />
+<meta property="fb:profile_id" content="wayne930242" />
+ 
+ <meta property="twitter:card" content="summary" />
+ <meta property="twitter:site" content="@wayne930242" />
+ <meta property="twitter:url" content="http://wayneh.tw/blog/2017/10/06/the-construction-of-formal-systems" />
+ <meta property="twitter:title" content="三、形式系統的建構：概述" />
+ <meta property="twitter:description" content="本文為演繹邏輯系統之形式化第三章的課堂筆記。" />
+ <meta property="twitter:image:src" content="http://wayneh.tw/images/facebook1.png" />
+
+
+</head>
+
+<body id="post" >
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
+	<button class="dl-trigger">Open Menu</button>
+	<ul class="dl-menu">
+		<li><a href="/">Home</a></li>
+		<li>
+			<a href="#">About</a>
+			<ul class="dl-submenu">
+				<li>
+					<img src="/images/portrait.jpg" alt="洪偉 photo" class="author-photo">
+					<h4>洪偉</h4>
+					<p>哲學研究者、推廣普及者、TRPG 玩家。</br></br><a href="http://wayneh.tw/about/index.html">[了解更多]</a></p>
+				</li>
+				
+				<li>
+					<a href="mailto:wayne930242@gmail.com"><i class="fa fa-envelope"></i> Email</a>
+				</li>
+				<li>
+					<a href="https://twitter.com/wayne932042"><i class="fa fa-twitter"></i> Twitter</a>
+				</li>
+				<li>
+					<a href="https://plus.google.com/+洪偉1017"><i class="fa fa-google-plus"></i> Google+</a>
+				</li>
+				<li>
+					<a href="https://github.com/wayne930242"><i class="fa fa-github"></i> GitHub</a>
+				</li>
+				
+			</ul><!-- /.dl-submenu -->
+		</li>
+		<li>
+			<a href="#">Posts</a>
+			<ul class="dl-submenu">
+				<li><a href="/posts/">All Posts</a></li>
+				<li><a href="/categories/">All Categories</a></li>
+			</ul>
+		</li>
+		
+	</ul><!-- /.dl-menu -->
+</nav><!-- /.dl-menuwrapper -->
+
+
+
+
+<div id="main" role="main">
+  <article class="hentry">
+    <header class="header-title">
+      <div class="header-title-wrap">
+        
+          <h1 class="entry-title"><a href="/blog/2017/10/06/the-construction-of-formal-systems/" rel="bookmark" title="三、形式系統的建構：概述">三、形式系統的建構：概述</a></h1>
+        
+        <h2>October 06, 2017</h2>
+      </div><!-- /.header-title-wrap -->
+    </header>
+    <div class="entry-content">
+      <blockquote>
+  <p>本文為演繹邏輯系統之形式化第三章的課堂筆記。</p>
+</blockquote>
+
+<!--more-->
+
+<h1 id="a-">A. 公理、假設、變換規則與推導</h1>
+
+<p><strong>A1. 定義 3.1：推導</strong></p>
+
+<p>$\mathcal{T}$ 是一個形式系統，包含句式的構成規則、一個公理集合 $\mathcal{A} (\mathcal{T})$ （可以是空集合）與一些推理規則 $R(\mathcal{T})$ （又稱「變換規則」）。</p>
+
+<p>令 $\Gamma$ 是 $\mathcal{T}$ 的句式的集合。如果我們說語句序列 $\{ \alpha _ 1, \cdots , \alpha _ n \}$ 是的 $\alpha _ n$ 從 $\Gamma$ 在 $\mathcal{T}$ 中的推導，意思是，對於每個 $i(1 \le i \le n)$ 都滿足以下之一：</p>
+
+<ol>
+  <li>$\alpha$ 屬於 $\mathcal{A}$ 。</li>
+  <li>$\alpha \in \Gamma$ （$\alpha$ 是假設）。</li>
+  <li>$\alpha _ i$ 是 $\alpha _ c$ 與 $\alpha _ d$ （或單單 $\alpha _ c$）（$c, d &lt; i$）的直接 ($R$)-結果。</li>
+</ol>
+
+<p>我們將這寫作 $\Gamma \vdash _ {\mathcal{T}} \phi$ 。</p>
+
+<p><strong>A2. 定義 3.2：推導樹（derication-tree）</strong></p>
+
+<p>一個 $\phi$ 的從 $\Gamma$ 在 $\mathcal{T}$ 中的推導被稱作一個 $\phi$ 的推導樹，意思是它符合以下條件：</p>
+
+<ol>
+  <li>這圖是一個 2 元樹（$2$-ary tree<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>），其中每個節點都是一個句式。</li>
+  <li>這樹將 $\phi$ 當作它的根的句式；</li>
+  <li>樹的每個葉的句式要嘛屬於 $\mathcal{A}$ 要嘛屬於 $\Gamma$ ；</li>
+  <li>除了葉外，所有節點的句式都是父節點的句式的直接 ($R$)-結果。</li>
+</ol>
+
+<p><strong>A3. 定義 3.3：語法序列</strong></p>
+
+<ol>
+  <li>如果 $\Gamma \vdash _ {\mathcal{T}} \phi$ ，我們就說 $\phi$ 是從 $\Gamma$ 可推導的；或說 $\phi$ 是 $\Gamma$ 在 $\mathcal{T}$ 的一個（語法）結果；或說 $\Gamma$ 語法地導衍（syntactically entails） $\phi$ 。</li>
+  <li>如果 $\Gamma$ 是空集合且 $\Gamma \vdash _ {\mathcal{T}} \phi$ ，我們就說 $\phi$ 是 $\mathcal{T}$ 的一個定理，寫作 $\vdash _ {\mathcal{T}} \phi$。</li>
+</ol>
+
+<p><strong>A4. 定義 3.4：推導的幂級（the degree of a derivation）</strong></p>
+
+<p>$\phi$ 的推導的冪級，寫作 $d(\phi)$ 是一個從句式對應到自然數的函數，定義為：</p>
+
+<script type="math/tex; mode=display">\begin{cases} d(\phi) = 1 ，若 \phi 是公理或假設 \\ d(\phi) = d(\psi) +1 ，若 \phi 是 \psi 的直接結果 \\ d(\phi) = 1 + max(d(\psi), d(\theta))，若 \phi 是 \psi 與 \theta 的直接結果 \end{cases}</script>
+
+<h1 id="b-">B. 形式系統的基本語法性質：結構規則、推論規則與一致性</h1>
+
+<p><strong>B1. 定義 3.5：語法的一致性</strong></p>
+
+<ol>
+  <li>一個形式系統 $\mathcal{T}$ 是（推導地、語法地）一致的，若且唯若不存在一個句式 $\phi$ ，使得 $\vdash _ \mathcal{T} \phi$ 並且 $\vdash _ \mathcal{T} \lnot \phi$ ，寫作 $\mathcal{T} \nvdash$ 。否則， $\mathcal{T}$ 是不一致的，寫作 $\mathcal{T} \vdash$ 。</li>
+  <li>如果對於所有句式 $\phi$ ，都不會是 $\vdash _ {\mathcal{T}} \lnot\phi$ ，那麼我們就說， $\mathcal{T}$ 是絕對一致的（absolutely consistent）。</li>
+</ol>
+
+<p><strong>B2. 性質 3.1（需要 <em>MP</em> 規則）</strong></p>
+
+<ol>
+  <li>$\Gamma \vdash \phi$ ，若且唯若 $\Gamma, \lnot \phi, \vdash$。</li>
+  <li>$\Gamma \vdash \lnot \phi$ ，若且唯若 $\Gamma, \phi, \vdash$。</li>
+  <li>若 $\mathcal{T}$ 是不一致的，那麼對於所有 $\phi, \psi$ ， $\vdash _ {\mathcal{T}} (\lnot \phi \to (\phi \to \psi))$ 。</li>
+</ol>
+
+<h1 id="c-">C. 形式系統的健全性</h1>
+
+<p><strong>C1. 定義 3.6：系統的健全性（soundness）</strong></p>
+
+<p>系統 $\mathcal{T}$ 是健全的，若且唯若，若 $\Gamma \vdash _ {\mathcal{T}} \phi$ ，則 $\Gamma \models \phi$ 。</p>
+
+<p><strong>C2. 定義 3.7：擴充與子系統（subsystem）</strong></p>
+
+<p>系統 $\mathcal{T ^ +}$ 是系統 $\mathcal {T}$ 的擴充，若且唯若 $R(\mathcal{T}) \subset R(\mathcal{T ^ +})$ 且 $\mathcal{A} (\mathcal{T}) \subset \mathcal{A} (\mathcal{T ^ +})$ 。這時，我們說 $\mathcal {T}$ 是 $\mathcal {T ^ +}$ 的子系統。</p>
+
+<p><strong>註記</strong>：若要證明 $\mathcal{T}$ 是健全的，我們只需要證明它是一個健全系統的子系統。</p>
+
+<h1 id="d-">D. 形式系統的完備性</h1>
+
+<p><strong>D1. 定義 3.8：系統的完備性（completeness）</strong></p>
+
+<p>系統 $\mathcal{T}$ 是完備的，若且唯若，若 $\Gamma \models \phi$ ，則  $\Gamma \vdash _ {\mathcal{T}} \phi$。</p>
+
+<p><strong>D2. 定義 3.9：最大一致集合（maxically consitent）</strong></p>
+
+<p>一個語句集合 $\Gamma$ 是在 $\mathcal{T}$ 最大一致的，若且唯若 $\Gamma$ 在 $\mathcal{T}$ 是一致的，並且對於每個在 $\mathcal{T}$ 一致的集合 $\Delta (\supset \Gamma)$ ，$\Delta = \Gamma$ 。</p>
+
+<p><strong>D3. 性質 3.2</strong></p>
+
+<p>若 $\Gamma$ 是最大一致的語句集合，則：</p>
+
+<ol>
+  <li>對於所有 $\Delta \subset \Gamma$ ，若 $\Delta \vdash \phi$ ，則 $\phi \in \Gamma$ 。也就是說， $\Gamma$ 是推導封閉的（closed under derivability）。</li>
+  <li>對於所有 $\phi$ ，要嘛 $\phi \in \Gamma$ ，要嘛 $\lnot \phi \in \Gamma$ 。</li>
+</ol>
+
+<p><strong>D4. 引理 3.1</strong></p>
+
+<p>令 $\mathcal{T}$ 是健全的形式系統。如果存在一個結構使得 $\Gamma$ 的所有句式都為真，那麼 $\Gamma$ 在 $\mathcal{T}$ 中是一致的。</p>
+
+<p><strong>D5. 引理 3.2：擴充引理</strong></p>
+
+<p>對於一個一致的句式集合 $\Gamma$ ，存在一個 $\Gamma ^ * (\supset \Gamma)$ 並且 $\Gamma ^ *$ 是最大一致的。</p>
+
+<p><em>Proof.</em></p>
+
+<p>任何語言的句式都是良序的，我們可令語言內的所有句式為 $\phi _ 1 , \phi _ 2 , \cdots , \phi _n , \cdots$ 。</p>
+
+<p>定義 $\Gamma _ n$ ：</p>
+
+<ol>
+  <li>$\Gamma _ 0 = \Gamma$</li>
+  <li>$n &gt; 0$: $\Gamma _ n = \begin{cases} \Gamma _ {n-1} \cup \{\phi _ n \} ，若這是一個一致集合； \ \Gamma _ {n-1} ，其他情況。\end{cases}$</li>
+</ol>
+
+<p>令 $\Gamma ^ * = \bigcup _ {n \ge 0} \Gamma _ n$ 。</p>
+
+<p>令 $\Delta$ 是任意一個一致的集合，使得 $\Gamma ^ * \subset \Delta$ 。</p>
+
+<p>假設存在一個 $m$ 使得 $\phi _ m \in \Delta$ 且 $\phi _ m \notin \Gamma ^ *$ 。則 $\phi _ m \notin \Gamma _ m$，亦即 $\Gamma _ m \cup \{ \phi _m \}$ 是不一致的，則 $\Delta$ 是不一致的。因此，不存在這樣的 $m$ 。</p>
+
+<p>因此 $\Gamma ^*$ 是最大一致的，並且顯然 $\Gamma \subset \Gamma ^ *$ 。</p>
+
+<p><strong>D6. 引理 3.3：結構存在引理</strong></p>
+
+<p>若 $\Gamma \nvdash$ ，則 $\Gamma \nvDash$ 。</p>
+
+<p><em>Proof.</em></p>
+
+<p>令 $\Gamma ^ *$ 是 $\Gamma$ 的最大一致的擴充，建構方式如 D5 的證明。</p>
+
+<p>我們定義賦值函數 $v$ ：</p>
+
+<p>對於任何原子語句 $P$ ，$v(P) = 1$，若且唯若 $P \in \Gamma _ n$ 。可以數學歸納法證明， $v(\phi)=1$ ，若且唯若， $\phi \in \Gamma ^ *$ ，亦即， $\Gamma ^ * \nvDash$ ，因此 $\Gamma \nvDash$ 。</p>
+
+<p><strong>D7. 系理 3.1</strong></p>
+
+<p>$\Gamma \nvdash \phi$ ，若且唯若存在一個結構 $\mathscr{M}$ 使得每個 $\Gamma$ 中的句式在 $\mathscr{M}$ 中為真， $\phi$ 在 $\mathscr{M}$ 中為假，亦即， $\Gamma \nvDash \phi$ 。</p>
+
+<p><em>Proof.</em></p>
+
+<p>$\Gamma \nvdash \phi$ ，若且唯若 $\Gamma \cup \{ \lnot \phi \} \nvdash$ ，若且唯若 $\Gamma \cup \{ \lnot \phi \} \nvDash$ ，若且唯若， 存在一個結構 $\mathscr{M}$ 使得每個 $\Gamma \cup \{ \lnot \phi \}$ 中的句式在 $\mathscr{M}$ 中為真。</p>
+
+<p><strong>D8. 定理 3.1：完備性定理</strong></p>
+
+<p>若 $\Gamma \vDash \phi$ ，則 $\Gamma \vdash \phi$ 。</p>
+
+<p><em>Proof.</em></p>
+
+<p>定理 3.1 等價於系理 3.1 。</p>
+
+<p><strong>D9. 引理</strong></p>
+
+<ol>
+  <li>對於每個語句字母 $P_i$ ，若 $\Gamma, P_i \vdash _ {\mathcal{T}}$ ， $\Gamma, \lnot P_i \vdash _ {\mathcal{T}}$ ，則 $\Gamma \vdash _ {\mathcal{T}}$ 。</li>
+  <li>$P_1, \cdots , P_k$ 是在語句 $\phi$ 中出現的每個語句字母，令 $\pm P$ 代表類原子句式，則要嘛 $\phi, \pm P_1, \cdots , \pm P_k \vdash _ {\mathcal{T}}$ ，要嘛 $\pm P_1, \cdots , \pm P_k \vdash _ {\mathcal{T}} \phi$ 。</li>
+</ol>
+
+<p><em>Proof. of (1)</em></p>
+
+<p>若 $\Gamma \nvdash _ {\mathcal{T}}$ 。</p>
+
+<p>假設存在 $P$ 使得 $\Gamma, P \vdash _ {\mathcal{T}}$ 且 $\Gamma, \lnot P \vdash _ {\mathcal{T}}$ 。則 $\Gamma \vdash _ {\mathcal{T}} \lnot P$ 且 $\Gamma \vdash _ {\mathcal{T}} P$ （根據健全性定理與完備性定理）。矛盾。</p>
+
+<p>因此對於所有 $P$ ， $\Gamma, P \nvdash _ {\mathcal{T}}$ 或 $\Gamma, \lnot P \nvdash _ {\mathcal{T}}$ 。</p>
+
+<p><em>Proof. of (2)</em></p>
+
+<p>令 $v$ 是一個賦值函數，使得 $\phi, \pm P_1, \cdots \pm P_k$ 的函數值都為真。由於語義的真值函數性， $\phi$ 的真值被唯一決定。</p>
+
+<p>若 $v(\phi) = 1$ ，則 $\pm P_1, \cdots , \pm P_k \vDash \phi$ ，則根據完備性定理， $\pm P_1, \cdots , \pm P_k \vdash \phi$ 。</p>
+
+<p>若 $v(\phi) = 0$ ，則 $\phi, \pm P_1, \cdots , \pm P_k \vDash$ ，則根據引理 3.3， $\phi, \pm P_1, \cdots , \pm P_k \vdash \phi$ 。</p>
+
+<p><strong>D10. 定理 3.2：（語法的）緊緻性定理</strong></p>
+
+<p>若 $\Gamma \vdash$ ，則存在有限集合 $\Gamma ^ * \subset \Gamma$ ，使得 $\Gamma ^ * \vdash$ 。</p>
+
+<h1 id="e-e-post-1921">E. 純語法的完備性（E. Post (1921)）</h1>
+
+<p><strong>E1. 定義 3.10： Post 的完備性定義</strong></p>
+
+<ol>
+  <li>一個系統 $\mathcal{T}$ 被稱作是完備的，那麼，對於每一個 $\phi$ ，要嘛 $\vdash \phi$，要嘛 $\{ \phi \} \cup \mathcal{A} (\mathcal{T}) \vdash$ 。</li>
+  <li>一個系統 $\mathcal{T}$ 被稱作是絕對完備的，那麼，對於每一個 $\phi$ ，要嘛 $\vdash \phi$，要嘛存在一個 $\psi$ 使得 $\{ \phi \} \cup \mathcal{A} (\mathcal{T}) \vdash \lnot \psi$ 。</li>
+  <li>一個系統 $\mathcal{T}$ 被稱作是在給定變換 $\mathcal{R} (\mathcal{T})$ 的考慮下是完備的，那麼，對於每一個 $\phi$ ，要嘛 $\vdash \phi$，要嘛 $\{ \phi \} \cup \mathcal{A} (\mathcal{T}) \vdash$ 。</li>
+</ol>
+
+<p><strong>E2. 定義 3.11：可決定性</strong></p>
+
+<ol>
+  <li>$\mathcal{L}$ 的語句 $\phi$ 在 $\mathcal{T}$ 中是可決定的，若且唯若， $\vdash _ {\mathcal{T}} \phi$ 或 $\vdash _ {\mathcal{T}} \lnot \phi$ ；否則， $\phi$ 是不可決定的。</li>
+  <li>若 $\mathcal{L}$ 的語句集合 $\Gamma$ 中的所有語句在 $\mathcal{T}$ 中都是可決定的，我們就說， $\Gamma$ 是可決定的；否則 $\Gamma$ 是不可決定的。</li>
+</ol>
+
+<h1 id="f-gdel-">F. Gödel 的不完備性定理</h1>
+
+<p><strong>F1. 定理 3.3：Gödel 的第一不完備性定理</strong></p>
+
+<p>對於任何一個一致的形式系統 $\mathcal{T}$ ，都存在 $\mathcal{T}$ 的語句 $\phi$ 使得 $\phi$ 是不可決定的。</p>
+
+<p><strong>F2. 定理 3.4：Gödel 的第二不完備性定理</strong></p>
+
+<p>沒有系統足以證明它自己的一致性。</p>
+
+<p><strong>F3. 定理 3.5： Church 的理論</strong></p>
+
+<p>一階述詞邏輯是不可決定的。</p>
+
+<h1 id="notes">Notes</h1>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>這意謂著這是有向的、有根的、由節點與有向線段構成的樹的圖形。&nbsp;<a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+      <footer class="entry-meta">
+        <span class="entry-tags"><a href="/categories/#演繹邏輯系統之形式化" title="Pages tagged 演繹邏輯系統之形式化" class="tag">演繹邏輯系統之形式化</a><a href="/categories/#筆記" title="Pages tagged 筆記" class="tag">筆記</a><a href="/categories/#邏輯學" title="Pages tagged 邏輯學" class="tag">邏輯學</a></span>
+        <span><a href="/blog/2017/10/06/the-construction-of-formal-systems/" rel="bookmark" title="三、形式系統的建構：概述">三、形式系統的建構：概述</a> was published on <span class="entry-date date published updated"><time datetime="2017-10-06T14:28:40+08:00">October 06, 2017</time></span></span>
+        
+        <span class="author vcard"><span class="fn"><a href="" title="About 洪偉">洪偉</a></span></span>
+        
+      </footer>
+    </div><!-- /.entry-content -->
+    
+      <div class="read-more">
+        
+          <div class="read-more-header">
+            <a href="/blog/2017/10/02/some-semantic-meta-theorems-for-propositional-logic/" class="btn">Read More</a>
+          </div><!-- /.read-more-header -->
+          <div class="read-more-content">
+            <h3><a href="/blog/2017/10/02/some-semantic-meta-theorems-for-propositional-logic/" title="二、命題邏輯的諸語義學後設理論">二、命題邏輯的諸語義學後設理論</a></h3>
+            <p>本文為演繹邏輯系統之形式化第二章的課堂筆記。 <a href="/blog/2017/10/02/some-semantic-meta-theorems-for-propositional-logic/"> Continue reading</a></p>
+          </div><!-- /.read-more-content -->
+        
+        <div class="read-more-list">
+          
+            <div class="list-item">
+              <h4><a href="/blog/2017/10/01/formalization-of-deductive-systems/" title="一、形式語言與基本語義學">一、形式語言與基本語義學</a></h4>
+              <span>Published on October 01, 2017</span>
+            </div><!-- /.list-item -->
+          
+            <div class="list-item">
+              <h4><a href="/blog/2017/09/10/sarahah-an-wen-ti/" title="談談 Sarahah 的資安與社會問題">談談 Sarahah 的資安與社會問題</a></h4>
+              <span>Published on September 10, 2017</span>
+            </div><!-- /.list-item -->
+          
+        </div><!-- /.read-more-list -->
+      </div><!-- /.read-more -->
+    
+    <section id="disqus_thread"></section><!-- /#disqus_thread -->
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2017 洪偉. Powered by <a href="http://octopress.org">Octopress</a> using the <a href="https://github.com/jez/hpstr-theme/">HPSTR Theme for Octopress</a>.</span>
+
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+
+	        
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/javascripts/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="/javascripts/octopress.js" type="text/javascript"></script>
+<script src="/javascripts/scripts.min.js"></script>
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-61272067-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+
+
+<script type="text/javascript">
+      var disqus_shortname = 'waynehtw';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://wayneh.tw/blog/2017/10/06/the-construction-of-formal-systems/';
+        var disqus_url = 'http://wayneh.tw/blog/2017/10/06/the-construction-of-formal-systems/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+	        
+
+</body>
+</html>

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://wayneh.tw/blog/2017/10/06/the-construction-of-formal-systems/</loc>
+<lastmod>2017-10-06T14:28:40+08:00</lastmod>
+</url>
+<url>
 <loc>http://wayneh.tw/blog/2017/10/02/some-semantic-meta-theorems-for-propositional-logic/</loc>
 <lastmod>2017-10-02T10:26:41+08:00</lastmod>
 </url>
