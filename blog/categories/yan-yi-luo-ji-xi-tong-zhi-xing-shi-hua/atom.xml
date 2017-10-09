@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 演繹邏輯系統之形式化 | Wayneh and Coffee]]></title>
   <link href="http://wayneh.tw/blog/categories/yan-yi-luo-ji-xi-tong-zhi-xing-shi-hua/atom.xml" rel="self"/>
   <link href="http://wayneh.tw/"/>
-  <updated>2017-10-09T10:47:43+08:00</updated>
+  <updated>2017-10-09T10:54:01+08:00</updated>
   <id>http://wayneh.tw/</id>
   <author>
     <name><![CDATA[洪偉]]></name>
@@ -188,7 +188,7 @@
 
 <p>若 $v(\phi) = 1$ ，則 $\pm P_1, \cdots , \pm P_k \vDash \phi$ ，則根據完備性定理， $\pm P_1, \cdots , \pm P_k \vdash \phi$ 。</p>
 
-<p>若 $v(\phi) = 0$ ，則 $\phi, \pm P_1, \cdots , \pm P_k \vDash$ ，則根據引理 3.3， $\phi, \pm P_1, \cdots , \pm P_k \vdash \phi$ 。</p>
+<p>若 $v(\phi) = 0$ ，則 $\phi, \pm P_1, \cdots , \pm P_k \vDash$ ，則根據引理 3.3， $\phi, \pm P_1, \cdots , \pm P_k \vdash$ 。</p>
 
 <p><strong>D10. 定理 3.2：（語法的）緊緻性定理</strong></p>
 
