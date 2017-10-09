@@ -4,7 +4,7 @@
   <title><![CDATA[Wayneh and Coffee]]></title>
   <link href="http://wayneh.tw/atom.xml" rel="self"/>
   <link href="http://wayneh.tw/"/>
-  <updated>2017-10-09T10:54:01+08:00</updated>
+  <updated>2017-10-09T10:56:32+08:00</updated>
   <id>http://wayneh.tw/</id>
   <author>
     <name><![CDATA[洪偉]]></name>
@@ -87,6 +87,13 @@
 
 <p>系統 $\mathcal{T}$ 是健全的，若且唯若，若 $\Gamma \vdash _ {\mathcal{T}} \phi$ ，則 $\Gamma \models \phi$ 。</p>
 
+<p>這等價於：</p>
+
+<ol>
+  <li>$\vdash _ {\mathcal{T}} \phi$ ，則 $\models \phi$ 。</li>
+  <li>$\Gamma \vdash _ {\mathcal{T}}$ ，則 $\Gamma \models$ 。</li>
+</ol>
+
 <p><strong>C2. 定義 3.7：擴充與子系統（subsystem）</strong></p>
 
 <p>系統 $\mathcal{T ^ +}$ 是系統 $\mathcal {T}$ 的擴充，若且唯若 $R(\mathcal{T}) \subset R(\mathcal{T ^ +})$ 且 $\mathcal{A} (\mathcal{T}) \subset \mathcal{A} (\mathcal{T ^ +})$ 。這時，我們說 $\mathcal {T}$ 是 $\mathcal {T ^ +}$ 的子系統。</p>
@@ -98,6 +105,13 @@
 <p><strong>D1. 定義 3.8：系統的完備性（completeness）</strong></p>
 
 <p>系統 $\mathcal{T}$ 是完備的，若且唯若，若 $\Gamma \models \phi$ ，則  $\Gamma \vdash _ {\mathcal{T}} \phi$。</p>
+
+<p>這等價於：</p>
+
+<ol>
+  <li>若 $\models \phi$ ，則  $\vdash _ {\mathcal{T}} \phi$ 。</li>
+  <li>若 $\Gamma \models$ ，則  $\Gamma \vdash _ {\mathcal{T}}$ 。</li>
+</ol>
 
 <p><strong>D2. 定義 3.9：最大一致集合（maxically consitent）</strong></p>
 
