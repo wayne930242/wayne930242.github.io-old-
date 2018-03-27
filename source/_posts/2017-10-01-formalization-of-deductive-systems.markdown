@@ -11,7 +11,7 @@ image.creditlink:
 image.background: 
 external_url: 
 ogp_image: 
-published: true
+published: false
 ---
 
 > 本文為演繹邏輯系統之形式化第一章的課堂筆記。
